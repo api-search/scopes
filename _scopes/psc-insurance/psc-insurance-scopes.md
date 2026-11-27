@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Psc Insurance Scopes
+name: PSC Insurance Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'PSC Insurance publishes 14 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the PSC Insurance API on a user''s behalf.

@@ -538,7 +538,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cisco Xdr Scopes
+name: Cisco XDR Scopes
 name_suffix: OAuth Scopes
 note: Three different views of the same authorization surface, and they do not agree. The specs declare 41 oauth2 scopes. The RFC 8414 authorization-server metadata at visibility.amp.cisco.com/.well-known/oauth-authorization-server advertises 32. And the operation descriptions inside the IROH specs require 36 finer-grained scope strings that appear in NEITHER list - things like response/trigger:write, webhook/management:read and private-intel/incident:write. Those hierarchical scopes are what actually gates an operation, so they are captured separately below. An API Client created from the coarse list alone will get 403s.
 overview: 'Cisco XDR publishes 41 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cisco XDR API on a user''s behalf.

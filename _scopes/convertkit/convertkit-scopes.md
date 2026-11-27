@@ -100,7 +100,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Convertkit Scopes
+name: Kit Scopes
 name_suffix: OAuth Scopes
 note: Kit publishes NO scopes/permissions reference page. This artifact reconciles the only two machine-readable sources that exist, and they DISAGREE — recorded rather than reconciled away.
 overview: 'Kit publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Kit API on a user''s behalf.

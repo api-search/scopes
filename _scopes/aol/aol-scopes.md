@@ -21,7 +21,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Aol Scopes
+name: AOL Scopes
 name_suffix: OAuth Scopes
 note: Upgraded from derived (three scopes read out of this repo's OpenAPI) to probed against AOL's own OpenID Connect discovery document, which advertises a fourth scope, `openid2`, that the spec omits. AOL publishes no separate scope / permissions reference page; `scopes_supported` in the discovery document is the authoritative published list.
 overview: 'AOL publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the AOL API on a user''s behalf.

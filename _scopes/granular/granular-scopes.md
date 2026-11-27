@@ -39,7 +39,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Granular Scopes
+name: Granular (Corteva Agriscience) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Granular (Corteva Agriscience) publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Granular (Corteva Agriscience) API on a user''s behalf.

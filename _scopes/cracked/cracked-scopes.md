@@ -105,7 +105,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cracked Scopes
+name: Cracked API Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Cracked API publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cracked API API on a user''s behalf.
@@ -174,7 +174,7 @@ tags:
 - Lead Generation
 - AI Models
 - Developer Tools
-- Leadgen
+- LeadGen
 - SEO
 - social-media-data
 - E-Commerce

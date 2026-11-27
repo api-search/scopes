@@ -32,7 +32,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Avis Budget Scopes
+name: Avis Budget Group Scopes
 name_suffix: OAuth Scopes
 note: No scopes exist. The OpenAPI declares an empty `scopes` map on the clientCredentials flow, and the Getting Started page documents the token exchange without any scope parameter; authorization is per approved Client Application, not per scope. The Okta tenant named in the API's WWW-Authenticate realm advertises only Okta's own platform scopes (okta.users.read etc.), which are not ABG API scopes and are not recorded here.
 overview: 'Avis Budget Group uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

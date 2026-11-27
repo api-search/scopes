@@ -216,12 +216,6 @@ api_specs:
   slug: corestack-guardrails-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/corestack/openapi/corestack-guardrails-api-openapi.yml
-- filename: corestack-identity-api-openapi.yml
-  format: yaml
-  label: CoreStack Identity API
-  slug: corestack-identity-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/corestack/openapi/corestack-identity-api-openapi.yml
 - filename: corestack-jira-service-management-api-openapi.yml
   format: yaml
   label: CoreStack Jira Service Management API
@@ -573,7 +567,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Corestack Scopes
+name: CoreStack Scopes
 name_suffix: OAuth Scopes
 note: 'CoreStack''s 838-operation REST contract declares NO oauth2 security scheme — it is key-and-token only, and authorization is role-based rather than scope-based, so there is no REST scope surface to derive. The only OAuth surface on the estate is the one the unified MCP server stood up, and it advertises exactly three OIDC-standard scopes. Those scopes carry identity, not capability: what a caller may actually do is decided entirely by their CoreStack RBAC role, not by the token''s scope.'
 overview: 'CoreStack publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CoreStack API on a user''s behalf.

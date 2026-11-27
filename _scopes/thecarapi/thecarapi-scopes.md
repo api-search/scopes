@@ -73,7 +73,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Thecarapi Scopes
+name: TheCarApi Scopes
 name_suffix: OAuth Scopes
 note: TheCarApi publishes a real, named scope reference, but the scopes are attached to an API key rather than issued through an OAuth2 authorization flow. There are no oauth2 securitySchemes in the OpenAPI and no authorization/token endpoints. Scopes are granted per endpoint by the operator; a request to a route the key does not cover returns 403.
 overview: 'TheCarApi publishes 10 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TheCarApi API on a user''s behalf.

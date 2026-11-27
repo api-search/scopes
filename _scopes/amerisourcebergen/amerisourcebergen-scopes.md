@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Amerisourcebergen Scopes
+name: AmerisourceBergen Scopes
 name_suffix: OAuth Scopes
 note: Probed, not derived from an OpenAPI — Cencora publishes no machine-readable contract. These are the scopes the SAP XSUAA authorization server behind api.cencora.com advertises in its OIDC discovery document. They are the standard OIDC identity scopes plus SAP's roles/user_attributes claims; they are NOT Cencora business scopes. Any API-level scope (order, inventory, returns, DSCSA/EPCIS) would live inside the gated developer portal and requires authenticated introspection to enumerate. No Cencora scope reference page is published anywhere on www.cencora.com.
 overview: 'AmerisourceBergen publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the AmerisourceBergen API on a user''s behalf.

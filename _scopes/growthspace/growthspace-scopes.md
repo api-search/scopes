@@ -43,7 +43,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Growthspace Scopes
+name: GrowthSpace Scopes
 name_suffix: OAuth Scopes
 note: The Growthspace Public API scope catalogue is served anonymously (HTTP 200, application/json) by the Public API Management microservice at GET /admin/scopes. The scope names, labels, descriptions and READ/WRITE access class below are copied verbatim from that response on 2026-08-22. Growthspace publishes no developer portal or scopes reference page, so this live endpoint is the only public source for them.
 overview: 'GrowthSpace publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the GrowthSpace API on a user''s behalf.

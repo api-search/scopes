@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Agentsmyth Scopes
+name: AgentSmyth Scopes
 name_suffix: OAuth Scopes
 note: Read from the provider's live OIDC discovery document, not from an OpenAPI - no OpenAPI is published. These are the only scopes the authorization server advertises. They are the standard OIDC identity set; no resource- or product-specific scopes (no read/write, no per-agent scopes) are published, so an agent cannot request least-privilege access to a named capability. If finer-grained scopes exist they are not in the public metadata.
 overview: 'AgentSmyth publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AgentSmyth API on a user''s behalf.

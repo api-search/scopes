@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Anu Scopes
+name: Australian National University Scopes
 name_suffix: OAuth Scopes
 note: 'ANU exposes NO scoped authorization on any institution-operated API surface. This file records that absence with the probes that established it, rather than being omitted — an absent scopes file reads as "not looked at", and this was looked at. The AQN API is a single-key, single-operation service: one static x-api-key grants the one GET it offers, with no scope parameter, no consent screen and no partial grant. The legacy QRNG endpoint and the OAI-PMH endpoint are unauthenticated. The only OAuth2 token endpoint anywhere on an ANU host is the LTI 1.3 platform token endpoint inside Moodle (https://wattlecourses.anu.edu.au/mod/lti/token.php), which issues tokens against IMS Global LTI Advantage service scopes to registered LTI tools — not to outside developers, and not through any public client-registration path.'
 overview: 'Australian National University uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

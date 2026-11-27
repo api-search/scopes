@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Keepface Scopes
+name: KeepFace Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'KeepFace publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the KeepFace API on a user''s behalf.

@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Metabind Ai Scopes
+name: metabind-ai Scopes
 name_suffix: OAuth Scopes
 note: No OAuth scopes documented; security scheme is bearer token without scopes.
 overview: 'metabind-ai uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

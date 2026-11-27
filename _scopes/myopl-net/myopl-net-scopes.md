@@ -15,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Myopl Net Scopes
+name: myopl-net Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'myopl-net publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the myopl-net API on a user''s behalf.

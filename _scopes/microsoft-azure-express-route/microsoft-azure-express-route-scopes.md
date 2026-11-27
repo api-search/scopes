@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
-  format: yaml
-  label: Azure ExpressRoute Circuits API
-  slug: microsoft-azure-express-route-expressroute-circuits-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-express-route/openapi/microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
-- filename: microsoft-azure-express-route-operations-api-openapi.yml
-  format: yaml
-  label: Azure ExpressRoute Operations API
-  slug: microsoft-azure-express-route-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-express-route/openapi/microsoft-azure-express-route-operations-api-openapi.yml
 - filename: microsoft-azure-express-route-bgpservicecommunities-api-openapi.yml
   format: yaml
   label: Azure ExpressRoute Bgp Service Communities API
@@ -180,6 +168,12 @@ api_specs:
   slug: microsoft-azure-express-route-serviceendpointpolicydefinitions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-express-route/openapi/microsoft-azure-express-route-serviceendpointpolicydefinitions-api-openapi.yml
+- filename: microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
+  format: yaml
+  label: Azure ExpressRoute ExpressRoute Circuits API
+  slug: microsoft-azure-express-route-expressroute-circuits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-express-route/openapi/microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -189,7 +183,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Azure Express Route Scopes
+name: Azure ExpressRoute Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure ExpressRoute publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure ExpressRoute API on a user''s behalf.

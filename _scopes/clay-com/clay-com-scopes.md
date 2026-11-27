@@ -24,6 +24,18 @@ api_specs:
   slug: clay-com-tables-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clay-com/openapi/clay-com-tables-api-openapi.yml
+- filename: clay-com-credits-api-openapi.yml
+  format: yaml
+  label: Clay Credits API
+  slug: clay-com-credits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-credits-api-openapi.yml
+- filename: clay-com-workflowsruns-api-openapi.yml
+  format: yaml
+  label: Clay Workflows Runs API
+  slug: clay-com-workflowsruns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-workflowsruns-api-openapi.yml
 authorization_urls:
 - https://app.clay.com/oauth/authorize
 description: ''
@@ -35,7 +47,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Clay Com Scopes
+name: Clay Scopes
 name_suffix: OAuth Scopes
 note: Clay's OpenAPI declares NO oauth2 security scheme — the Public API is api-key only (`clay-api-key` header), so derive-oauth-scopes.py correctly found nothing in the spec. But Clay does run a real OAuth 2.0 authorization server, published as RFC 8414 metadata at https://api.clay.com/.well-known/oauth-authorization-server, and it is what gates the `clay` CLI and the remote MCP server at https://api.clay.com/v3/mcp. The scope surface below is read verbatim from that metadata document, not inferred.
 overview: 'Clay publishes 1 OAuth 2.0 scope via the authorizationCode, deviceCode, and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Clay API on a user''s behalf.

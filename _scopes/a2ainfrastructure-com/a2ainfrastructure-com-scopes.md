@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: A2Ainfrastructure Com Scopes
+name: A2A Infrastructure Scopes
 name_suffix: OAuth Scopes
 note: No OAuth2 scopes documented.
 overview: 'A2A Infrastructure uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

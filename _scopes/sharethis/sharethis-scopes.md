@@ -43,7 +43,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Sharethis Scopes
+name: ShareThis Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI document declares no oauth2 securityScheme, so derive-oauth-scopes.py correctly found nothing to derive from the spec. The scope surface here belongs to the MCP server instead, and was read directly from its live RFC 8414 / RFC 9728 discovery documents rather than from the contract.
 overview: 'ShareThis publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the ShareThis API on a user''s behalf.

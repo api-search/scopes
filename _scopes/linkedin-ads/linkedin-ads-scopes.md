@@ -39,7 +39,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Linkedin Ads Scopes
+name: LinkedIn Marketing API Scopes
 name_suffix: OAuth Scopes
 note: LinkedIn publishes no single canonical scope reference page. Scopes are granted per product and are shown on the Auth tab of your own app in the Developer Portal, so the authoritative list is per-application. The scopes below are only those evidenced either by the repository OpenAPI or by a named LinkedIn documentation page; there are more scopes across Lead Sync, Conversions, Community Management, Events and Company Intelligence that LinkedIn discloses only to approved partners. A member must consent to the whole requested set — individual scopes cannot be selected — and changing an app's scopes forces re-authentication.
 overview: 'LinkedIn Marketing API publishes 13 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the LinkedIn Marketing API API on a user''s behalf.

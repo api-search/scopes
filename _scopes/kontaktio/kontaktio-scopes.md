@@ -188,7 +188,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Kontaktio Scopes
+name: Kontakt.io Scopes
 name_suffix: OAuth Scopes
 note: 'No OpenAPI in this repo declares an oauth2 securityScheme — the specs declare http/bearer and apiKey only — so derive-oauth-scopes.py correctly found nothing. The OAuth surface is documented in prose instead: the Entity Management Integration API authenticates with the OAuth2 client-credentials grant against a per-tenant Keycloak realm. Kontakt.io publishes NO API permission scopes; the scope string in the documented token request is the standard OIDC set, and API authorization is carried by a Keycloak CLIENT ROLE (integration-api) rather than by scopes. Recorded as searched from the docs so a later derived pass cannot overwrite it.'
 overview: 'Kontakt.io publishes 4 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Kontakt.io API on a user''s behalf.

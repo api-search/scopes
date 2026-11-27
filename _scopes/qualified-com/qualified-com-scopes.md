@@ -79,7 +79,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Qualified Com Scopes
+name: Qualified Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Qualified publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Qualified API on a user''s behalf.

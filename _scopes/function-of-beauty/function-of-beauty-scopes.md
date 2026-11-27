@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Function Of Beauty Scopes
+name: Function of Beauty Scopes
 name_suffix: OAuth Scopes
 note: Scopes advertised by the Shopify Customer Account API OpenID Connect discovery document served on the Function of Beauty domain (scopes_supported). Captured verbatim; descriptions are from Shopify's Customer Account API documentation.
 overview: 'Function of Beauty publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Function of Beauty API on a user''s behalf.

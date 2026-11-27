@@ -109,7 +109,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Itsbaba Com Scopes
+name: itsbaba-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'itsbaba-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

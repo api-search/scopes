@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Meals In Minutes Mim Scopes
+name: Meals In Minutes, MIM Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Meals In Minutes, MIM publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Meals In Minutes, MIM API on a user''s behalf.

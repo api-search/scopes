@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Sursatech Com Scopes
+name: SursaTech Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SursaTech publishes 4 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SursaTech API on a user''s behalf.

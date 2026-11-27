@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Tu Delft Scopes
+name: Delft University of Technology Scopes
 name_suffix: OAuth Scopes
 note: TU Delft publishes no authorization scope vocabulary for any surface it operates. The only public institutional API, 4TU.ResearchData, authorizes with an opaque personal bearer token that carries no scope claims; there is no OAuth 2.0 authorization server, no OIDC discovery document, and no consent screen enumerating permissions. This file records the absence deliberately rather than leaving the slot empty — an empty scopes/ directory reads as "not checked", and this was checked.
 overview: 'Delft University of Technology uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

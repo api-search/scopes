@@ -51,7 +51,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Debounce Scopes
+name: DeBounce Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'DeBounce publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the DeBounce API on a user''s behalf.

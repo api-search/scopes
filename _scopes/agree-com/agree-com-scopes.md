@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Agree Com Scopes
+name: Agree.com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Agree.com publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Agree.com API on a user''s behalf.

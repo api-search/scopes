@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Dijin Co Scopes
+name: Dijin Scopes
 name_suffix: OAuth Scopes
 note: 'Dijin documents two scope vocabularies: the "8 canonical scopes" on the MCP reference / developers page (memory.summary ...), and the connector guide catalogue with a .read suffix (memory.summary.read ...). Recorded both verbatim; llms-full.txt states "external AI clients are read-only — memory.write stays internal".'
 overview: 'Dijin publishes 13 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Dijin API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Den Archi Scopes
+name: Den Scopes
 name_suffix: OAuth Scopes
 note: scopes_supported read from the OAuth authorization-server metadata (HTTP 200). The docs publish no scope reference page.
 overview: 'Den publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Den API on a user''s behalf.

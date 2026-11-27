@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Brandai Scopes
+name: Brand.ai Scopes
 name_suffix: OAuth Scopes
 note: 'Derived from Brand.ai''s own live RFC 8414 authorization server metadata, not from an OpenAPI (Brand.ai publishes none) and not from documentation (Brand.ai publishes no developer docs). The `scopes_supported` array is the provider''s own published claim about its authorization surface. Descriptions below are NOT provider-supplied — Brand.ai publishes no scope reference page — so each carries an explicit description_source so a reader can tell the scope STRING (provider-published) from the gloss (ours, read against Brand.ai''s own product vocabulary on brand.ai/product/ and brand.ai/brand-os/). The scope names map cleanly onto the marketed Brand OS / Brand Studio objects: Brands, Brand Rules (the "machine-readable rules" of Brand Foundation), Brand Check, Artifacts and Projects.'
 overview: 'Brand.ai publishes 13 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Brand.ai API on a user''s behalf.

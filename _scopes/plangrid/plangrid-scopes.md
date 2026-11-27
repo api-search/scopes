@@ -40,7 +40,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Plangrid Scopes
+name: PlanGrid Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'PlanGrid publishes 2 OAuth 2.0 scopes via the authorizationCode and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the PlanGrid API on a user''s behalf.

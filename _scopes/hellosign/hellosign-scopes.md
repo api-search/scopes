@@ -85,7 +85,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Hellosign Scopes
+name: Dropbox Sign (HelloSign) Scopes
 name_suffix: OAuth Scopes
 note: 'Dropbox Sign OAuth 2.0 scopes. The OpenAPI spec models the OAuth token only as an http bearer scheme (no flows/scope map), so scopes are captured here from the OAuth guide. Scopes are split by billing model: "app-owner charged" vs "user charged".'
 overview: 'Dropbox Sign (HelloSign) publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Dropbox Sign (HelloSign) API on a user''s behalf.

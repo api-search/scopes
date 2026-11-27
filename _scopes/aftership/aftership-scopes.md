@@ -211,7 +211,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Aftership Scopes
+name: AfterShip Scopes
 name_suffix: OAuth Scopes
 note: Scopes are published as an OAuth reference page, not inside any OpenAPI securityScheme — every AfterShip spec declares only the as-api-key apiKey scheme. The list below is transcribed verbatim from the AfterShip Tracking API "Available Scopes" page; operationIds are matched from openapi/aftership-tracking-api-openapi.yml.
 overview: 'AfterShip publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AfterShip API on a user''s behalf.

@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Coldsnap Scopes
+name: ColdSnap Scopes
 name_suffix: OAuth Scopes
 note: Scopes were read from the live OpenID Connect / RFC 8414 discovery documents served at the ColdSnap origin, not from an OpenAPI oauth2 securityScheme - ColdSnap publishes no OpenAPI.
 overview: 'ColdSnap publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ColdSnap API on a user''s behalf.

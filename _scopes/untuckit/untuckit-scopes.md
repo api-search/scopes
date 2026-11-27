@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Untuckit Scopes
+name: UNTUCKit Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'UNTUCKit publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the UNTUCKit API on a user''s behalf.

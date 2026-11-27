@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: University Of Sussex Scopes
+name: University of Sussex Scopes
 name_suffix: OAuth Scopes
 note: These are the standard OpenID Connect scopes exposed by the org authorization server. They are not a Sussex-authored API permission model, and no institution-operated resource API publishes its own scopes. Access is gated to enrolled applications and to holders of @sussex.ac.uk credentials; there is no public developer registration.
 overview: 'University of Sussex publishes 7 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of Sussex API on a user''s behalf.

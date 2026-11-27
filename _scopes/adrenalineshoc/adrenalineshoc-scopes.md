@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Adrenalineshoc Scopes
+name: Adrenaline Shoc Scopes
 name_suffix: OAuth Scopes
 note: No OpenAPI exists, so derive-oauth-scopes.py found nothing. These scopes are read verbatim from the scopes_supported array of the live OIDC/OAuth discovery documents served on this company's hosts by Shopify Customer Accounts. The scope strings are the provider's; the descriptions are ours.
 overview: 'Adrenaline Shoc publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Adrenaline Shoc API on a user''s behalf.

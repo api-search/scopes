@@ -69,7 +69,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Gojiberry Ai Scopes
+name: Gojiberry AI Scopes
 name_suffix: OAuth Scopes
 note: The External REST API at ext.gojiberry.ai has NO OAuth surface — it is a bearer API key (JWT) only, so derive-oauth-scopes.py finds zero oauth2 securitySchemes in the OpenAPI. The OAuth scopes recorded here belong to the hosted MCP server at mcp.gojiberry.ai, which publishes RFC 8414 authorization server metadata and RFC 9728 protected resource metadata anonymously. Gojiberry publishes no human-readable scope reference page; these values are read verbatim from the machine-readable metadata.
 overview: 'Gojiberry AI publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Gojiberry AI API on a user''s behalf.

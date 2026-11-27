@@ -104,7 +104,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Bvnk Scopes
+name: BVNK Scopes
 name_suffix: OAuth Scopes
 note: Scopes are published anonymously by the BVNK Keycloak realm "bvnk" via OIDC discovery on both the production (auth.layer1.com) and sandbox (auth.sandbox.layer1.com) issuers. The Layer1 Digital Asset OpenAPI declares an oauth2 clientCredentials scheme with an empty scopes map, so the per-operation scopes below were recovered from operation security[] requirements in that spec and from the discovery document. One spec entry is an unresolved build placeholder (${exports.read-scope:exports:view}) and is recorded as a defect rather than a scope.
 overview: 'BVNK publishes 156 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BVNK API on a user''s behalf.

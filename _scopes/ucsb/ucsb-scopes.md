@@ -337,7 +337,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ucsb Scopes
+name: University of California, Santa Barbara Scopes
 name_suffix: OAuth Scopes
 note: UCSB has NO OAuth scopes. Its authorization model is a three-tier ACCESS CLASSIFICATION applied per API and published in the portal's own API directory table, plus per-application entitlement to API products at the gateway. That classification is the real, institution- authored authorization vocabulary here, so it is recorded as the scope model rather than leaving the artifact empty or inventing OAuth scopes that do not exist. The tier strings are UCSB's, read verbatim from the /apis/all table on 2026-08-30; the descriptions are ours.
 overview: 'University of California, Santa Barbara publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of California, Santa Barbara API on a user''s behalf.

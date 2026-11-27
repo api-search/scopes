@@ -45,7 +45,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Onpay Scopes
+name: OnPay Scopes
 name_suffix: OAuth Scopes
 note: 'OnPay''s OAuth 2.0 "scopes" are not permission strings — they are the platform''s six USER ROLES, and the description on each in the OpenAPI is the numeric `access_type` code that the token response returns (Owner=1, Approver=2, Controller=3, Manager=4, Accountant=5, Employee=6). There is no read/write split, no resource-scoped grant, and no published scopes reference page: a partner receives whatever the authorizing user''s role allows. The operation counts below are derived from the per-operation security[] requirements across all 58 operations.'
 overview: 'OnPay publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the OnPay API on a user''s behalf.
@@ -112,7 +112,7 @@ tags:
 - Payroll
 - Human Resources
 - Employee Benefits
-- payroll-tax
+- Payroll Tax
 - Small Business
 - Workforce Management
 - Fintech

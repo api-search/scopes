@@ -248,7 +248,7 @@ tags:
 - Remittances
 - Latin America
 - Emerging Markets
-- money-services-business
+- Money Services Business
 - OAuth
 - Authentication
 token_bound: false

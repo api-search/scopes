@@ -87,7 +87,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Brightspace Scopes
+name: D2L Brightspace Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'D2L Brightspace publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the D2L Brightspace API on a user''s behalf.

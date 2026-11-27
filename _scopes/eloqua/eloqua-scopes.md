@@ -959,7 +959,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Eloqua Scopes
+name: Oracle Eloqua Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Oracle Eloqua publishes 1 OAuth 2.0 scope via the authorizationCode, implicit, and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Oracle Eloqua API on a user''s behalf.

@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Easywebinar Scopes
+name: EasyWebinar Scopes
 name_suffix: OAuth Scopes
 note: EasyWebinar publishes no scopes / permissions reference page. Every scope below is read verbatim from scopes_supported in the live discovery document. There is no OpenAPI to derive operation-level scope requirements from, so the mapping of scope to capability is unknown and deliberately left unstated rather than guessed.
 overview: 'EasyWebinar publishes 4 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the EasyWebinar API on a user''s behalf.

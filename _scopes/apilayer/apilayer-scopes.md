@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Apilayer Scopes
+name: APILayer Scopes
 name_suffix: OAuth Scopes
 note: APILayer publishes no scopes reference page. This list is read verbatim from the OAuth authorization server metadata and the MCP protected-resource descriptor, which are the only places APILayer states its scopes. Scopes apply ONLY to the hosted MCP server; the REST product APIs use an unscoped account-wide access_key.
 overview: 'APILayer publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the APILayer API on a user''s behalf.

@@ -202,7 +202,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: 7Signalsolutions Scopes
+name: 7SIGNAL Scopes
 name_suffix: OAuth Scopes
 note: 'The REST gateway''s OpenAPI declares an oauth2 clientCredentials scheme whose scopes map is empty; only three of the 215 operations carry an explicit `read` scope requirement, and the remaining 211 declare `oauth2: []`. The published scope vocabulary lives on the MCP surface instead, in the RFC 9728 protected-resource document. 7SIGNAL''s auth docs show a token response carrying `"scope": "read:resources write:resources"` as an illustrative example, not an enumerated reference, so those two strings are NOT recorded here as real scopes.'
 overview: '7SIGNAL publishes 10 OAuth 2.0 scopes via the clientCredentials and authorization_code flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the 7SIGNAL API on a user''s behalf.

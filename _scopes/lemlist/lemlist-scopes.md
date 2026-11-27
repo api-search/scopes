@@ -135,7 +135,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Lemlist Scopes
+name: lemlist Scopes
 name_suffix: OAuth Scopes
 note: The lemlist OpenAPI declares only basicAuth, so no scopes are derivable from the spec. These scopes come from the RFC 8414 authorization-server metadata lemlist serves anonymously, which is what the MCP server and the CLI authorize against. lemlist publishes no prose scopes reference page; descriptions below are the resource + access-level the scope name states, not provider copy.
 overview: 'lemlist publishes 14 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the lemlist API on a user''s behalf.

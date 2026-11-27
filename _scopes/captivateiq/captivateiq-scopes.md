@@ -104,7 +104,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Captivateiq Scopes
+name: CaptivateIQ Scopes
 name_suffix: OAuth Scopes
 note: 'These scopes were read from CaptivateIQ''s own RFC 8414 authorization-server metadata document (HTTP 200, application/json), NOT from the OpenAPI and NOT from the docs. The public developer reference documents only static token auth ("Authorization: Token <value>") and never mentions OAuth, so there is no scopes/permissions reference page to enrich this from — the OAuth surface is served but undocumented. The server advertises exactly one scope, `read`, which means the OAuth path as published is read-only and cannot authorize any of the write operations (create/update/delete/batch/import) in the ciq/v1 OpenAPI; those require a static API token. Do not infer additional scopes: the metadata document names one.'
 overview: 'CaptivateIQ publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the CaptivateIQ API on a user''s behalf.

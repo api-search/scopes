@@ -50,7 +50,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Bank Of Us Scopes
+name: Bank of us Scopes
 name_suffix: OAuth Scopes
 note: The shared DSB CDS banking OpenAPI declares no oauth2 securityScheme (the CDR Security Profile lives outside the spec), so these scopes are derived from the per-operation x-scopes extension in the spec, which mirrors the CDR banking authorisation-scopes registry. Scopes apply ONLY to the authenticated consumer-data endpoints; the public Product Reference Data endpoints require no scope.
 overview: 'Bank of us publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bank of us API on a user''s behalf.

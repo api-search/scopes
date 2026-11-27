@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: M Gemi Scopes
+name: M.Gemi Scopes
 name_suffix: OAuth Scopes
 note: Scopes are advertised by the Shopify Customer Account OIDC/RFC 8414 discovery documents served on M.Gemi's own store host for M.Gemi's shop tenant. M.Gemi publishes no scope reference page of its own; these are the values the server itself declares in scopes_supported.
 overview: 'M.Gemi publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the M.Gemi API on a user''s behalf.

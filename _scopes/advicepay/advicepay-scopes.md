@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Advicepay Scopes
+name: AdvicePay Scopes
 name_suffix: OAuth Scopes
 note: AdvicePay publishes no OpenAPI, so derive-oauth-scopes.py has no spec to read; this file was written from the published OAuth documentation instead. AdvicePay operates OAuth 2.0 but has not (yet) decomposed access into granular scopes — the docs state plainly that "Currently, only 'all' is supported" for the scope parameter on the authorization request. Authorization is therefore all-or-nothing at the token level and is narrowed instead by the role of the authorizing user (admin / advisor / account owner) and by the plan. This is an honest record of a single coarse scope, not a gap in our reading.
 overview: 'AdvicePay publishes 1 OAuth 2.0 scope via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AdvicePay API on a user''s behalf.

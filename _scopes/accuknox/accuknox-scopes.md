@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Accuknox Scopes
+name: AccuKnox Scopes
 name_suffix: OAuth Scopes
 note: AccuKnox documents a real OAuth 2.0 authorization-code surface but publishes NO scope vocabulary. Its OAuth page states that access is governed by role-based authentication on the AccuKnox user profile, not by scopes on the token, and no scopes appear in any authorization request example. scope_count is therefore an honest zero, and NO `OAuthScopes` pointer is wired into apis.yml — a pointer of that name against a document containing no scopes would assert a surface AccuKnox does not publish.
 overview: 'AccuKnox uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

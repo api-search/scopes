@@ -87,7 +87,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Canopy Scopes
+name: Canopy Connect Scopes
 name_suffix: OAuth Scopes
 note: These scopes govern Canopy Connect Apps - third-party integrations acting on another Team's behalf with a Bearer access token. They do NOT apply to HTTP Basic calls against your own Team, which are unscoped. The scopes are documented only on the Apps "Making API Requests" page; the published OpenAPI declares no oauth2 securityScheme at all, so no operation in the spec carries a scope requirement. The operation mapping below is transcribed from the provider's own scope table and joined to operationIds in openapi/canopy-openapi.json.
 overview: 'Canopy Connect publishes 12 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Canopy Connect API on a user''s behalf.

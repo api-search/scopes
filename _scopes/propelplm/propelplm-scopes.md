@@ -95,7 +95,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Propelplm Scopes
+name: Propel Software (Propel PLM) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Propel Software (Propel PLM) publishes 4 OAuth 2.0 scopes via the implicit and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Propel Software (Propel PLM) API on a user''s behalf.

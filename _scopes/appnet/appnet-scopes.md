@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Appnet Scopes
+name: App.net Scopes
 name_suffix: OAuth Scopes
 note: Scopes apply only to user tokens (not app tokens) and are requested on the initial access-token request. The granted scopes are returned on each response via the X-OAuth-Scopes header. The `basic` scope is always granted on creation of a user token.
 overview: 'App.net publishes 9 OAuth 2.0 scopes via the authorizationCode, implicit, and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the App.net API on a user''s behalf.

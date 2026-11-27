@@ -1,47 +1,11 @@
 ---
 api_specs:
-- filename: microsoft-azure-synapse-analytics-azureadonlyauthentications-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics AzureADOnlyAuthentications API
-  slug: microsoft-azure-synapse-analytics-azureadonlyauthentications-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-azureadonlyauthentications-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-bigdatapools-api-openapi.yml
   format: yaml
   label: Azure Synapse Analytics BigDataPools API
   slug: microsoft-azure-synapse-analytics-bigdatapools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-bigdatapools-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-credential-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics Credential API
-  slug: microsoft-azure-synapse-analytics-credential-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-credential-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-dataflow-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics DataFlow API
-  slug: microsoft-azure-synapse-analytics-dataflow-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-dataflow-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-dataflowdebugsession-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics DataFlowDebugSession API
-  slug: microsoft-azure-synapse-analytics-dataflowdebugsession-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-dataflowdebugsession-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-dataset-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics Dataset API
-  slug: microsoft-azure-synapse-analytics-dataset-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-dataset-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics IntegrationRuntimes API
-  slug: microsoft-azure-synapse-analytics-integrationruntimes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-ipfirewallrules-api-openapi.yml
   format: yaml
   label: Azure Synapse Analytics IpFirewallRules API
@@ -54,15 +18,339 @@ api_specs:
   slug: microsoft-azure-synapse-analytics-keys-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-keys-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics PrivateLinkHubs API
+  slug: microsoft-azure-synapse-analytics-privatelinkhubs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspaces-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Workspaces API
+  slug: microsoft-azure-synapse-analytics-workspaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspaces-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-databases-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Databases API
+  slug: microsoft-azure-synapse-analytics-databases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-databases-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-databasevulnerabilityassesmentrulebaselines-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Database Vulnerability Assesment Rule Baselines API
+  slug: microsoft-azure-synapse-analytics-databasevulnerabilityassesmentrulebaselines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-databasevulnerabilityassesmentrulebaselines-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-integrationruntime-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Integration Runtime API
+  slug: microsoft-azure-synapse-analytics-integrationruntime-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-integrationruntime-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-libraries-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Libraries API
+  slug: microsoft-azure-synapse-analytics-libraries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-libraries-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-operations-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Operations API
+  slug: microsoft-azure-synapse-analytics-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-operations-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-privatelinkhubprivatelinkresources-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Private Link Hub Private Link Resources API
+  slug: microsoft-azure-synapse-analytics-privatelinkhubprivatelinkresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-privatelinkhubprivatelinkresources-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-privatelinkresources-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Private Link Resources API
+  slug: microsoft-azure-synapse-analytics-privatelinkresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-privatelinkresources-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-recoverablesqlpools-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Recoverable Sql Pools API
+  slug: microsoft-azure-synapse-analytics-recoverablesqlpools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-recoverablesqlpools-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-restorabledroppedsqlpools-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Restorable Dropped Sql Pools API
+  slug: microsoft-azure-synapse-analytics-restorabledroppedsqlpools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-restorabledroppedsqlpools-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sensitivitylabels-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Sensitivity Labels API
+  slug: microsoft-azure-synapse-analytics-sensitivitylabels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sensitivitylabels-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-backup-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, Backup API
+  slug: microsoft-azure-synapse-analytics-sqlpools-backup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-backup-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-blobauditing-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, BlobAuditing API
+  slug: microsoft-azure-synapse-analytics-sqlpools-blobauditing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-blobauditing-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-connectionpolicies-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, ConnectionPolicies API
+  slug: microsoft-azure-synapse-analytics-sqlpools-connectionpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-connectionpolicies-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-databasevulnerabilityassesmentrulebaselines-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, DatabaseVulnerabilityAssesmentRuleBaselines API
+  slug: microsoft-azure-synapse-analytics-sqlpools-databasevulnerabilityassesmentrulebaselines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-databasevulnerabilityassesmentrulebaselines-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-datamaskingpolicies-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, DataMaskingPolicies API
+  slug: microsoft-azure-synapse-analytics-sqlpools-datamaskingpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-datamaskingpolicies-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-datamaskingrules-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, DataMaskingRules API
+  slug: microsoft-azure-synapse-analytics-sqlpools-datamaskingrules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-datamaskingrules-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-geobackuppolicies-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, GeoBackupPolicies API
+  slug: microsoft-azure-synapse-analytics-sqlpools-geobackuppolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-geobackuppolicies-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-maintenancewindowoptions-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, MaintenanceWindowOptions API
+  slug: microsoft-azure-synapse-analytics-sqlpools-maintenancewindowoptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-maintenancewindowoptions-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-maintenancewindows-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, MaintenanceWindows API
+  slug: microsoft-azure-synapse-analytics-sqlpools-maintenancewindows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-maintenancewindows-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-operations-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, Operations API
+  slug: microsoft-azure-synapse-analytics-sqlpools-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-operations-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-replicationlinks-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, ReplicationLinks API
+  slug: microsoft-azure-synapse-analytics-sqlpools-replicationlinks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-replicationlinks-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-restorepoints-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, RestorePoints API
+  slug: microsoft-azure-synapse-analytics-sqlpools-restorepoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-restorepoints-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-schemas-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, Schemas API
+  slug: microsoft-azure-synapse-analytics-sqlpools-schemas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-schemas-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-securityalertpolicies-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, SecurityAlertPolicies API
+  slug: microsoft-azure-synapse-analytics-sqlpools-securityalertpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-securityalertpolicies-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-sensitivitylabels-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, SensitivityLabels API
+  slug: microsoft-azure-synapse-analytics-sqlpools-sensitivitylabels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-sensitivitylabels-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-sqlpoolcolumns-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, SqlPoolColumns API
+  slug: microsoft-azure-synapse-analytics-sqlpools-sqlpoolcolumns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-sqlpoolcolumns-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-sqlpoolschemas-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, SqlPoolSchemas API
+  slug: microsoft-azure-synapse-analytics-sqlpools-sqlpoolschemas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-sqlpoolschemas-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-sqlpooltables-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, SqlPoolTables API
+  slug: microsoft-azure-synapse-analytics-sqlpools-sqlpooltables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-sqlpooltables-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-sqlpooluseractivities-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, SqlPoolUserActivities API
+  slug: microsoft-azure-synapse-analytics-sqlpools-sqlpooluseractivities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-sqlpooluseractivities-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-sqlpoolvulnerabilityassesmentrulebaselines-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, SqlPoolVulnerabilityAssesmentRuleBaselines API
+  slug: microsoft-azure-synapse-analytics-sqlpools-sqlpoolvulnerabilityassesmentrulebaselines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-sqlpoolvulnerabilityassesmentrulebaselines-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-sqlpoolvulnerabilityassessmentscans-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Sql Pools,Sql Pool Vulnerability Assessment Scans API
+  slug: microsoft-azure-synapse-analytics-sqlpools-sqlpoolvulnerabilityassessmentscans-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-sqlpoolvulnerabilityassessmentscans-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-tables-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, Tables API
+  slug: microsoft-azure-synapse-analytics-sqlpools-tables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-tables-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-transparentdataencryption-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, TransparentDataEncryption API
+  slug: microsoft-azure-synapse-analytics-sqlpools-transparentdataencryption-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-transparentdataencryption-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-usages-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, Usages API
+  slug: microsoft-azure-synapse-analytics-sqlpools-usages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-usages-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-vulnerabilityassessments-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, VulnerabilityAssessments API
+  slug: microsoft-azure-synapse-analytics-sqlpools-vulnerabilityassessments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-vulnerabilityassessments-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-vulnerabilityassessmentscansexecute-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, VulnerabilityAssessmentScansExecute API
+  slug: microsoft-azure-synapse-analytics-sqlpools-vulnerabilityassessmentscansexecute-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-vulnerabilityassessmentscansexecute-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-vulnerabilityassessmentscansexport-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, VulnerabilityAssessmentScansExport API
+  slug: microsoft-azure-synapse-analytics-sqlpools-vulnerabilityassessmentscansexport-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-vulnerabilityassessmentscansexport-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-workloadclassifiers-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, WorkloadClassifiers API
+  slug: microsoft-azure-synapse-analytics-sqlpools-workloadclassifiers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-workloadclassifiers-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-sqlpools-workloadgroups-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics SqlPools, WorkloadGroups API
+  slug: microsoft-azure-synapse-analytics-sqlpools-workloadgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpools-workloadgroups-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Subscriptions API
+  slug: microsoft-azure-synapse-analytics-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-subscriptions-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Workspace Managed Sql Server API
+  slug: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspacemanagedsqlserver-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-blobauditing-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics WorkspaceManagedSqlServer, BlobAuditing API
+  slug: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-blobauditing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspacemanagedsqlserver-blobauditing-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-dedicatedsqlminimaltlssettings-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics WorkspaceManagedSqlServer, DedicatedSQLminimalTlsSettings API
+  slug: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-dedicatedsqlminimaltlssettings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspacemanagedsqlserver-dedicatedsqlminimaltlssettings-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-securityalertpolicies-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics WorkspaceManagedSqlServer, SecurityAlertPolicies API
+  slug: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-securityalertpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspacemanagedsqlserver-securityalertpolicies-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-serverencryptionprotector-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics WorkspaceManagedSqlServer, ServerEncryptionProtector API
+  slug: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-serverencryptionprotector-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspacemanagedsqlserver-serverencryptionprotector-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-servervulnerabilityassessments-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics WorkspaceManagedSqlServer, ServerVulnerabilityAssessments API
+  slug: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-servervulnerabilityassessments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspacemanagedsqlserver-servervulnerabilityassessments-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-sqlusages-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics WorkspaceManagedSqlServer, sqlUsages API
+  slug: microsoft-azure-synapse-analytics-workspacemanagedsqlserver-sqlusages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspacemanagedsqlserver-sqlusages-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-azureadonlyauthentications-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Azure AD Only Authentications API
+  slug: microsoft-azure-synapse-analytics-azureadonlyauthentications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-azureadonlyauthentications-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-credential-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Credential API
+  slug: microsoft-azure-synapse-analytics-credential-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-credential-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-dataflow-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Data Flow API
+  slug: microsoft-azure-synapse-analytics-dataflow-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-dataflow-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-dataflowdebugsession-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Data Flow Debug Session API
+  slug: microsoft-azure-synapse-analytics-dataflowdebugsession-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-dataflowdebugsession-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-dataset-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Dataset API
+  slug: microsoft-azure-synapse-analytics-dataset-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-dataset-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-kqlscripts-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics KqlScripts API
+  label: Azure Synapse Analytics Kql Scripts API
   slug: microsoft-azure-synapse-analytics-kqlscripts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-kqlscripts-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-kustopools-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics KustoPools API
+  label: Azure Synapse Analytics Kusto Pools API
   slug: microsoft-azure-synapse-analytics-kustopools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-kustopools-api-openapi.yml
@@ -74,19 +362,19 @@ api_specs:
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-library-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-linkconnection-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics LinkConnection API
+  label: Azure Synapse Analytics Link Connection API
   slug: microsoft-azure-synapse-analytics-linkconnection-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-linkconnection-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-linkedservice-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics LinkedService API
+  label: Azure Synapse Analytics Linked Service API
   slug: microsoft-azure-synapse-analytics-linkedservice-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-linkedservice-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-managedprivateendpoints-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics ManagedPrivateEndpoints API
+  label: Azure Synapse Analytics Managed Private Endpoints API
   slug: microsoft-azure-synapse-analytics-managedprivateendpoints-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-managedprivateendpoints-api-openapi.yml
@@ -108,57 +396,39 @@ api_specs:
   slug: microsoft-azure-synapse-analytics-pipeline-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-pipeline-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics PrivateLinkHubs API
-  slug: microsoft-azure-synapse-analytics-privatelinkhubs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-sparkbatch-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics SparkBatch API
+  label: Azure Synapse Analytics Spark Batch API
   slug: microsoft-azure-synapse-analytics-sparkbatch-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sparkbatch-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-sparkconfiguration-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics SparkConfiguration API
+  label: Azure Synapse Analytics Spark Configuration API
   slug: microsoft-azure-synapse-analytics-sparkconfiguration-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sparkconfiguration-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-sparkjobdefinition-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics SparkJobDefinition API
+  label: Azure Synapse Analytics Spark Job Definition API
   slug: microsoft-azure-synapse-analytics-sparkjobdefinition-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sparkjobdefinition-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-sparksession-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics SparkSession API
+  label: Azure Synapse Analytics Spark Session API
   slug: microsoft-azure-synapse-analytics-sparksession-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sparksession-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics SqlPoolRestorePoints API
-  slug: microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics SqlPoolTransparentDataEncryption API
-  slug: microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-sqlscript-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics SqlScript API
+  label: Azure Synapse Analytics Sql Script API
   slug: microsoft-azure-synapse-analytics-sqlscript-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-sqlscript-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-synapselink-api-openapi.yml
   format: yaml
-  label: Azure Synapse Analytics SynapseLink API
+  label: Azure Synapse Analytics Synapse Link API
   slug: microsoft-azure-synapse-analytics-synapselink-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-synapselink-api-openapi.yml
@@ -168,30 +438,18 @@ api_specs:
   slug: microsoft-azure-synapse-analytics-trigger-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-trigger-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-workspaceaadadmins-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics WorkspaceAadAdmins API
-  slug: microsoft-azure-synapse-analytics-workspaceaadadmins-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspaceaadadmins-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-workspacemanagedidentity-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics WorkspaceManagedIdentity API
-  slug: microsoft-azure-synapse-analytics-workspacemanagedidentity-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspacemanagedidentity-api-openapi.yml
-- filename: microsoft-azure-synapse-analytics-workspaces-api-openapi.yml
-  format: yaml
-  label: Azure Synapse Analytics Workspaces API
-  slug: microsoft-azure-synapse-analytics-workspaces-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-workspaces-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-git-integration-api-openapi.yml
   format: yaml
   label: Azure Synapse Analytics Git Integration API
   slug: microsoft-azure-synapse-analytics-git-integration-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-git-integration-api-openapi.yml
+- filename: microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml
+  format: yaml
+  label: Azure Synapse Analytics Integration Runtimes API
+  slug: microsoft-azure-synapse-analytics-integrationruntimes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/openapi/microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml
 - filename: microsoft-azure-synapse-analytics-private-endpoint-connections-api-openapi.yml
   format: yaml
   label: Azure Synapse Analytics Private Endpoint Connections API
@@ -219,7 +477,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Azure Synapse Analytics Scopes
+name: Azure Synapse Analytics Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure Synapse Analytics publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Synapse Analytics API on a user''s behalf.
@@ -233,152 +491,177 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-access-control-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-azureadonlyauthentications-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-azure-ad-only-auth-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-bigdatapools-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-credential-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-credential-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-data-flow-debug-session-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-dataflow-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-data-flow-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-dataflowdebugsession-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-dataset-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-dataset-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-firewall-rules-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-git-integration-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-git-integration-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-integration-runtimes-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-ipfirewallrules-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-keys-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-keys-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-kql-script-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-kqlscripts-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-kusto-pools-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-kustopools-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-library-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-library-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-link-connection-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-linkconnection-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-linked-service-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-linkedservice-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-managed-private-endpoints-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-managedprivateendpoints-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-monitoring-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-monitoring-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-notebook-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-notebook-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-pipeline-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-pipeline-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-private-endpoint-connections-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-private-endpoint-connections-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-private-link-hubs-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-spark-configuration-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-role-assignments-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-spark-job-definition-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-sparkbatch-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-spark-job-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-sparkconfiguration-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-spark-pools-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-sparkjobdefinition-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-sql-pools-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-sparksession-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-sql-script-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-sql-pools-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-synapse-link-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-trigger-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api-openapi.yml
 - flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-synapse-analytics-workspace-openapi.yml
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-sqlscript-api-openapi.yml
+- flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-synapselink-api-openapi.yml
+- flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-trigger-api-openapi.yml
+- flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-workspaceaadadmins-api-openapi.yml
+- flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-workspacemanagedidentity-api-openapi.yml
+- flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/_superseded/microsoft-azure-synapse-analytics-workspaces-api-openapi.yml
 scope_count: 1
 scope_names:
 - user_impersonation
@@ -391,16 +674,20 @@ slug: microsoft-azure-synapse-analytics-scopes
 source_filename: microsoft-azure-synapse-analytics-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-synapse-analytics-access-control-openapi.yml, openapi/azure-synapse-analytics-azure-ad-only-auth-openapi.yml,\n  openapi/azure-synapse-analytics-credential-openapi.yml, openapi/azure-synapse-analytics-data-flow-debug-session-openapi.yml,\n  openapi/azure-synapse-analytics-data-flow-openapi.yml, openapi/azure-synapse-analytics-dataset-openapi.yml,\n  openapi/azure-synapse-analytics-firewall-rules-openapi.yml, openapi/azure-synapse-analytics-git-integration-openapi.yml,\n  openapi/azure-synapse-analytics-integration-runtimes-openapi.yml, openapi/azure-synapse-analytics-keys-openapi.yml,\n  openapi/azure-synapse-analytics-kql-script-openapi.yml, openapi/azure-synapse-analytics-kusto-pools-openapi.yml,\n  openapi/azure-synapse-analytics-library-openapi.yml, openapi/azure-synapse-analytics-link-connection-openapi.yml,\n  openapi/azure-synapse-analytics-linked-service-openapi.yml, openapi/azure-synapse-analytics-managed-private-endpoints-openapi.yml,\n\
-  \  openapi/azure-synapse-analytics-monitoring-openapi.yml, openapi/azure-synapse-analytics-notebook-openapi.yml,\n  openapi/azure-synapse-analytics-pipeline-openapi.yml, openapi/azure-synapse-analytics-private-endpoint-connections-openapi.yml,\n  openapi/azure-synapse-analytics-private-link-hubs-openapi.yml, openapi/azure-synapse-analytics-spark-configuration-openapi.yml,\n  openapi/azure-synapse-analytics-spark-job-definition-openapi.yml, openapi/azure-synapse-analytics-spark-job-openapi.yml,\n  openapi/azure-synapse-analytics-spark-pools-openapi.yml, openapi/azure-synapse-analytics-sql-pools-openapi.yml,\n  openapi/azure-synapse-analytics-sql-script-openapi.yml, openapi/azure-synapse-analytics-synapse-link-openapi.yml,\n  openapi/azure-synapse-analytics-trigger-openapi.yml, openapi/azure-synapse-analytics-workspace-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-access-control-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
-  - name: azure_auth\n  source: openapi/azure-synapse-analytics-azure-ad-only-auth-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-credential-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-data-flow-debug-session-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-data-flow-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-dataset-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
-  - name: azure_auth\n  source: openapi/azure-synapse-analytics-firewall-rules-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-git-integration-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-integration-runtimes-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-keys-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-kql-script-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n-\
-  \ name: azure_auth\n  source: openapi/azure-synapse-analytics-kusto-pools-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-library-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-link-connection-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-linked-service-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-managed-private-endpoints-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
-  - name: azure_auth\n  source: openapi/azure-synapse-analytics-monitoring-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-notebook-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-pipeline-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-private-endpoint-connections-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-private-link-hubs-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
-  - name: azure_auth\n  source: openapi/azure-synapse-analytics-spark-configuration-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-spark-job-definition-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-spark-job-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-spark-pools-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-sql-pools-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
-  - name: azure_auth\n  source: openapi/azure-synapse-analytics-sql-script-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-synapse-link-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-trigger-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/azure-synapse-analytics-workspace-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/azure-synapse-analytics-access-control-openapi.yml\n  - openapi/azure-synapse-analytics-azure-ad-only-auth-openapi.yml\n\
-  \  - openapi/azure-synapse-analytics-credential-openapi.yml\n  - openapi/azure-synapse-analytics-data-flow-debug-session-openapi.yml\n  - openapi/azure-synapse-analytics-data-flow-openapi.yml\n  - openapi/azure-synapse-analytics-dataset-openapi.yml\n  - openapi/azure-synapse-analytics-firewall-rules-openapi.yml\n  - openapi/azure-synapse-analytics-git-integration-openapi.yml\n  - openapi/azure-synapse-analytics-integration-runtimes-openapi.yml\n  - openapi/azure-synapse-analytics-keys-openapi.yml\n  - openapi/azure-synapse-analytics-kql-script-openapi.yml\n  - openapi/azure-synapse-analytics-kusto-pools-openapi.yml\n  - openapi/azure-synapse-analytics-library-openapi.yml\n  - openapi/azure-synapse-analytics-link-connection-openapi.yml\n  - openapi/azure-synapse-analytics-linked-service-openapi.yml\n  - openapi/azure-synapse-analytics-managed-private-endpoints-openapi.yml\n  - openapi/azure-synapse-analytics-monitoring-openapi.yml\n  - openapi/azure-synapse-analytics-notebook-openapi.yml\n\
-  \  - openapi/azure-synapse-analytics-pipeline-openapi.yml\n  - openapi/azure-synapse-analytics-private-endpoint-connections-openapi.yml\n  - openapi/azure-synapse-analytics-private-link-hubs-openapi.yml\n  - openapi/azure-synapse-analytics-spark-configuration-openapi.yml\n  - openapi/azure-synapse-analytics-spark-job-definition-openapi.yml\n  - openapi/azure-synapse-analytics-spark-job-openapi.yml\n  - openapi/azure-synapse-analytics-spark-pools-openapi.yml\n  - openapi/azure-synapse-analytics-sql-pools-openapi.yml\n  - openapi/azure-synapse-analytics-sql-script-openapi.yml\n  - openapi/azure-synapse-analytics-synapse-link-openapi.yml\n  - openapi/azure-synapse-analytics-trigger-openapi.yml\n  - openapi/azure-synapse-analytics-workspace-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/_superseded/microsoft-azure-synapse-analytics-azureadonlyauthentications-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-bigdatapools-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-credential-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-dataflow-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-dataflowdebugsession-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-dataset-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-git-integration-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-ipfirewallrules-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-keys-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-kqlscripts-api-openapi.yml,\n\
+  \  openapi/_superseded/microsoft-azure-synapse-analytics-kustopools-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-library-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-linkconnection-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-linkedservice-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-managedprivateendpoints-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-monitoring-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-notebook-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-pipeline-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-private-endpoint-connections-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-role-assignments-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-sparkbatch-api-openapi.yml,\n\
+  \  openapi/_superseded/microsoft-azure-synapse-analytics-sparkconfiguration-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-sparkjobdefinition-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-sparksession-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-sql-pools-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-sqlscript-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-synapselink-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-trigger-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-workspaceaadadmins-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-synapse-analytics-workspacemanagedidentity-api-openapi.yml, openapi/_superseded/microsoft-azure-synapse-analytics-workspaces-api-openapi.yml\n\
+  schemes:\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-azureadonlyauthentications-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-bigdatapools-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-credential-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-dataflow-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-dataflowdebugsession-api-openapi.yml\n\
+  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-dataset-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-git-integration-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-ipfirewallrules-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
+  - name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-keys-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-kqlscripts-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-kustopools-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-library-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-linkconnection-api-openapi.yml\n\
+  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-linkedservice-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-managedprivateendpoints-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-monitoring-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-notebook-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
+  - name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-pipeline-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-private-endpoint-connections-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-role-assignments-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-sparkbatch-api-openapi.yml\n\
+  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-sparkconfiguration-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-sparkjobdefinition-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-sparksession-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-sql-pools-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
+  - name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-sqlscript-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-synapselink-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-trigger-api-openapi.yml\n\
+  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-workspaceaadadmins-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-workspacemanagedidentity-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-synapse-analytics-workspaces-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/_superseded/microsoft-azure-synapse-analytics-azureadonlyauthentications-api-openapi.yml\n\
+  \  - openapi/_superseded/microsoft-azure-synapse-analytics-bigdatapools-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-credential-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-dataflow-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-dataflowdebugsession-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-dataset-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-git-integration-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-integrationruntimes-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-ipfirewallrules-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-keys-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-kqlscripts-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-kustopools-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-library-api-openapi.yml\n\
+  \  - openapi/_superseded/microsoft-azure-synapse-analytics-linkconnection-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-linkedservice-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-managedprivateendpoints-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-monitoring-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-notebook-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-pipeline-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-private-endpoint-connections-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-privatelinkhubs-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-role-assignments-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-sparkbatch-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-sparkconfiguration-api-openapi.yml\n\
+  \  - openapi/_superseded/microsoft-azure-synapse-analytics-sparkjobdefinition-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-sparksession-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-sql-pools-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-sqlscript-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-synapselink-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-trigger-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-workspaceaadadmins-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-workspacemanagedidentity-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-synapse-analytics-workspaces-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-synapse-analytics/scopes/microsoft-azure-synapse-analytics-scopes.yml
 summary_line: 1 scope · implicit
 tags:

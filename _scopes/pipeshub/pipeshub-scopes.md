@@ -316,7 +316,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Pipeshub Scopes
+name: PipesHub Scopes
 name_suffix: OAuth Scopes
 note: Docs scope table merged over the contract-derived list. Personal access tokens default to the instance MCP_SCOPES set; GET /api/v1/personal-access-tokens/scopes lists grantable scopes.
 overview: 'PipesHub publishes 43 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the PipesHub API on a user''s behalf.

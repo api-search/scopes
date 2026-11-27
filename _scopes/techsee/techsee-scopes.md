@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Techsee Scopes
+name: TechSee Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'TechSee publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the TechSee API on a user''s behalf.

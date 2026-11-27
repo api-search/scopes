@@ -447,7 +447,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Co Operative Bank Scopes
+name: The Co-operative Bank Scopes
 name_suffix: OAuth Scopes
 note: The bank's authorization server advertises only openid/offline_access/offline in its OIDC discovery document; the accounts/payments/fundsconfirmation scopes are the OBIE Read/Write 3.1 standard scopes that gate the corresponding consent + resource endpoints and are documented as OBIE standard, not verified in the discovery document.
 overview: 'The Co-operative Bank publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the The Co-operative Bank API on a user''s behalf.

@@ -26,7 +26,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Who Scopes
+name: World Health Organization (WHO) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'World Health Organization (WHO) publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the World Health Organization (WHO) API on a user''s behalf.

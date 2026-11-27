@@ -6,12 +6,6 @@ api_specs:
   slug: microsoft-azure-load-balancer-load-balancers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-load-balancer/openapi/microsoft-azure-load-balancer-load-balancers-api-openapi.yml
-- filename: microsoft-azure-load-balancer-operations-api-openapi.yml
-  format: yaml
-  label: Azure Load Balancer Operations API
-  slug: microsoft-azure-load-balancer-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-load-balancer/openapi/microsoft-azure-load-balancer-operations-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -21,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Azure Load Balancer Scopes
+name: Azure Load Balancer Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure Load Balancer publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Load Balancer API on a user''s behalf.

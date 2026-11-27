@@ -163,7 +163,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Vaquill Ai Scopes
+name: Vaquill AI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Vaquill AI publishes 38 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Vaquill AI API on a user''s behalf.

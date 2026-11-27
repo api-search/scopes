@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Gridpoint Scopes
+name: GridPoint Scopes
 name_suffix: OAuth Scopes
 note: GridPoint publishes no scopes or permissions reference page and no OpenAPI with oauth2 securitySchemes, so nothing could be derived from a contract. Every scope below is taken verbatim from scopes_supported in the anonymous OIDC discovery document GridPoint's own ORY Hydra authorization server serves. Unusually, GridPoint models authorization as ROLE_* scopes rather than resource verbs (read:sites / write:devices), so the list reveals the tenancy model — GridPoint staff, customer, partner, and machine roles — but not which API resources each role can reach. Descriptions below restate the role name and the audience it names; they are NOT quoted from GridPoint documentation, because none exists. No scope-to-operation mapping is publicly determinable.
 overview: 'GridPoint publishes 16 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the GridPoint API on a user''s behalf.

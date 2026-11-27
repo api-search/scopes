@@ -157,7 +157,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Ev Energy Scopes
+name: ev.energy Scopes
 name_suffix: OAuth Scopes
 note: 'Scopes read verbatim from components.securitySchemes.oauth2.flows.clientCredentials.scopes in the published OpenAPI. The developer portal documents the OAuth flows but publishes NO scope reference page, so 26 of the 35 scopes ship with an empty description string in the spec and are recorded here as description_published: false rather than being given an invented meaning. The authorizationCode flow declares an empty scopes object in the spec even though the authentication page describes per-user consent to named scopes — the two flows are not consistently described. Scopes are assigned by ev.energy when it provisions the OAuth application; there is no self-service scope selection.'
 overview: 'ev.energy publishes 35 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ev.energy API on a user''s behalf.

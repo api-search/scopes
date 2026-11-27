@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Beaconsai Scopes
+name: Beacons.ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Beacons.ai publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Beacons.ai API on a user''s behalf.
@@ -34,7 +34,7 @@ summary_line: 1 scope
 tags:
 - Company
 - Creator Economy
-- Link in Bio
+- Link-in-bio
 - Creator Website Builder
 - Creator Storefront
 - Media Kit

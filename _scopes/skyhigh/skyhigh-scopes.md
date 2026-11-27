@@ -15,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Skyhigh Scopes
+name: Skyhigh Security Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Skyhigh Security publishes 3 OAuth 2.0 scopes via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Skyhigh Security API on a user''s behalf.

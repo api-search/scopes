@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cboe Scopes
+name: Cboe Global Markets Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Cboe Global Markets publishes 42 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cboe Global Markets API on a user''s behalf.

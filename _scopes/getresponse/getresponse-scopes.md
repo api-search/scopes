@@ -305,7 +305,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Getresponse Scopes
+name: GetResponse Scopes
 name_suffix: OAuth Scopes
 note: 'GetResponse''s OAuth 2.0 surface has exactly ONE scope — "all", described in the provider-published spec as "all data access" — and it is the same across every flow. There is no read/write split, no per-resource scope and no permissions reference page to search: the authentication docs describe the flows but never enumerate scopes, because there is only the one. This matters for delegated agent access: an OAuth token issued to an agent has full read AND write authority over the entire account, including sending newsletters and deleting contacts. Least privilege is not expressible on this API. The derived pass emitted the same oauth2 scheme 49 times, once per tag-split spec file; it is consolidated here to the single provider-level scheme it actually is.'
 overview: 'GetResponse publishes 1 OAuth 2.0 scope via the implicit, authorizationCode, and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the GetResponse API on a user''s behalf.

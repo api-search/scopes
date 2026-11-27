@@ -91,7 +91,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Fillo So Scopes
+name: Fillo Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Fillo publishes 17 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Fillo API on a user''s behalf.
@@ -186,7 +186,7 @@ tags:
 - Form Builder
 - Developer Tools
 - Embeddable Widgets
-- Webhooks
+- Webhook
 - Validation
 - File Uploads
 - SDK

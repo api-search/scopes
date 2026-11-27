@@ -32,7 +32,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Rubiconnect Scopes
+name: RubiConnect Scopes
 name_suffix: OAuth Scopes
 note: The REST OpenAPI declares only apiKey + http bearer security schemes (no oauth2 block), so no scopes are derivable from the spec. OAuth 2.0 is used by the hosted MCP server and is described only in the served authorization-server metadata, which advertises a single scope.
 overview: 'RubiConnect publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the RubiConnect API on a user''s behalf.

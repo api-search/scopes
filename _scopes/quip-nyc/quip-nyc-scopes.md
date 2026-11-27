@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Quip Nyc Scopes
+name: Quip NYC Scopes
 name_suffix: OAuth Scopes
 note: No OpenAPI exists, so derive-oauth-scopes.py has nothing to read. These scopes are taken verbatim from the scopes_supported array of the live OIDC / RFC 8414 discovery documents served on quip's own host by Shopify Customer Accounts. The scope strings are the provider's; the descriptions are ours.
 overview: 'Quip NYC publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Quip NYC API on a user''s behalf.

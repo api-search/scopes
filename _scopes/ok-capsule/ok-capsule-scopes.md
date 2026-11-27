@@ -262,7 +262,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Ok Capsule Scopes
+name: OK Capsule Scopes
 name_suffix: OAuth Scopes
 note: These scopes govern the MCP server (https://storefront.okcapsule.app/mcp), not the REST Core API V2. The REST API declares a single bearerAuth (http/JWT) securityScheme with no oauth2 flows and therefore has no scope surface; its permissions are role-based and managed in the client portal. The scope list here is read verbatim from the RFC 8414 discovery document (scopes_supported) and cross-checked against the provider's own scope table at https://okcapsule.com/mcp/developers. The provider states the discovery document is authoritative and that "scopes may be added or split", so clients should read it at runtime.
 overview: 'OK Capsule publishes 16 OAuth 2.0 scopes via the authorization_code and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the OK Capsule API on a user''s behalf.

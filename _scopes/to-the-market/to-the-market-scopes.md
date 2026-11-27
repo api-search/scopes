@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: To The Market Scopes
+name: TO THE MARKET Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'TO THE MARKET publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the TO THE MARKET API on a user''s behalf.

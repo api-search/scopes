@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Billgo Scopes
+name: BillGO Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'BillGO publishes 8 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BillGO API on a user''s behalf.

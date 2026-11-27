@@ -344,7 +344,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Mongodb Scopes
+name: MongoDB Scopes
 name_suffix: OAuth Scopes
 note: MongoDB Atlas Service Accounts use the OAuth 2.0 client_credentials flow without scopes; permissions are governed by Atlas roles assigned to the service account (https://www.mongodb.com/docs/atlas/api/api-authentication/).
 overview: 'MongoDB publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the MongoDB API on a user''s behalf.

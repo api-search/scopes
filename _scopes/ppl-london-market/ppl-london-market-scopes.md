@@ -89,7 +89,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ppl London Market Scopes
+name: PPL Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'PPL publishes 1 OAuth 2.0 scope via the authorizationCode, onBehalfOf, and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the PPL API on a user''s behalf.

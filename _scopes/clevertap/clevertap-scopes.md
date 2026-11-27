@@ -34,7 +34,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Clevertap Scopes
+name: CleverTap Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CleverTap publishes 4 OAuth 2.0 scopes via the authorizationCode and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the CleverTap API on a user''s behalf.

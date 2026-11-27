@@ -91,7 +91,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Citation Co Scopes
+name: Citation Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Citation publishes 13 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Citation API on a user''s behalf.

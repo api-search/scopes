@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Zbiotics Scopes
+name: ZBiotics Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ZBiotics publishes 4 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ZBiotics API on a user''s behalf.

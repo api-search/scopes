@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Dilohost Es Scopes
+name: Dilohost Scopes
 name_suffix: OAuth Scopes
 note: Single scope documented in the MCP server reference and in the documented protected-resource metadata (scopes_supported). Authorization is otherwise role-based (owner vs team member), see https://dilohost.es/docs/cuenta/equipo.
 overview: 'Dilohost publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Dilohost API on a user''s behalf.

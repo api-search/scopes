@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Airpr Scopes
+name: AirPR Scopes
 name_suffix: OAuth Scopes
 note: 'These are the scopes the Onclusive developer-portal authorization server actually advertises in its OIDC discovery document. They are the four standard OpenID Connect scopes and nothing more — Onclusive has defined no custom resource-server scopes on this user pool, or has not exposed them in discovery. NOT derived from an OpenAPI: Onclusive publishes none. No API-permission or scope reference page exists on any public Onclusive URL, so there is no richer `docs:` to point at.'
 overview: 'AirPR publishes 4 OAuth 2.0 scopes via the authorizationCode and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AirPR API on a user''s behalf.

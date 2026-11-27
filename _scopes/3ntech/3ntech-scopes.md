@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: 3Ntech Scopes
+name: 3N TECH Scopes
 name_suffix: OAuth Scopes
 note: Read from scopes_supported in the OpenID Connect discovery document the storefront serves. There is no OpenAPI in this repo to derive from, and 3N TECH publishes no scope reference page of its own — these are the Shopify Customer Account scopes advertised under 3N's host.
 overview: '3N TECH publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the 3N TECH API on a user''s behalf.

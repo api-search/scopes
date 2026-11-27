@@ -82,7 +82,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Digi Key Scopes
+name: Digi-Key Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Digi-Key publishes 1 OAuth 2.0 scope via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Digi-Key API on a user''s behalf.

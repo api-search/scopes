@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Nycu Scopes
+name: National Yang Ming Chiao Tung University Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'National Yang Ming Chiao Tung University publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the National Yang Ming Chiao Tung University API on a user''s behalf.

@@ -24,12 +24,6 @@ api_specs:
   slug: linkedin-ad-accounts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-accounts-api-openapi.yml
-- filename: linkedin-ad-targeting-entities-api-openapi.yml
-  format: yaml
-  label: LinkedIn Ad Targeting Entities API
-  slug: linkedin-ad-targeting-entities-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-targeting-entities-api-openapi.yml
 - filename: linkedin-advertiser-transparency-api-openapi.yml
   format: yaml
   label: LinkedIn Advertiser Transparency API
@@ -414,6 +408,12 @@ api_specs:
   slug: linkedin-ad-creatives-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-creatives-api-openapi.yml
+- filename: linkedin-ad-targeting-entities-api-openapi.yml
+  format: yaml
+  label: LinkedIn Ad Targeting Entities API
+  slug: linkedin-ad-targeting-entities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-targeting-entities-api-openapi.yml
 authorization_urls:
 - https://www.linkedin.com/oauth/v2/authorization
 description: ''
@@ -424,7 +424,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Linkedin Scopes
+name: LinkedIn Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'LinkedIn publishes 7 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the LinkedIn API on a user''s behalf.

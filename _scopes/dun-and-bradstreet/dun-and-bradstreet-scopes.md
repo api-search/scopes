@@ -58,7 +58,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Dun And Bradstreet Scopes
+name: Dun & Bradstreet Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Dun & Bradstreet publishes 6 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Dun & Bradstreet API on a user''s behalf.

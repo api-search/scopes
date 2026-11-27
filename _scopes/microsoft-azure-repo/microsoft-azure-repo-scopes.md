@@ -63,7 +63,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Azure Repo Scopes
+name: Azure Repos Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure Repos publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Repos API on a user''s behalf.
@@ -82,7 +82,63 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://app.vssps.visualstudio.com/oauth2/token
   name: oauth2
-  source: openapi/azure-repo-git-api-openapi.yml
+  source: openapi/microsoft-azure-repo-commits-api-openapi.yml
+- description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code scope for read operations and vso.code_write for write operations.
+  flows:
+  - authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-azure-repo-items-api-openapi.yml
+- description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code scope for read operations and vso.code_write for write operations.
+  flows:
+  - authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
+- description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code scope for read operations and vso.code_write for write operations.
+  flows:
+  - authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml
+- description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code scope for read operations and vso.code_write for write operations.
+  flows:
+  - authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-azure-repo-pull-requests-api-openapi.yml
+- description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code scope for read operations and vso.code_write for write operations.
+  flows:
+  - authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-azure-repo-pushes-api-openapi.yml
+- description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code scope for read operations and vso.code_write for write operations.
+  flows:
+  - authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-azure-repo-refs-api-openapi.yml
+- description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code scope for read operations and vso.code_write for write operations.
+  flows:
+  - authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-azure-repo-repositories-api-openapi.yml
+- description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code scope for read operations and vso.code_write for write operations.
+  flows:
+  - authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-azure-repo-stats-api-openapi.yml
 scope_count: 3
 scope_names:
 - vso.code
@@ -105,8 +161,13 @@ slug: microsoft-azure-repo-scopes
 source_filename: microsoft-azure-repo-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-repo-git-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/azure-repo-git-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write for write operations.\nscopes:\n- scope: vso.code\n  description: Read source code and metadata about commits, changesets, branches, and other\n    version control artifacts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/azure-repo-git-api-openapi.yml\n- scope: vso.code_manage\n  description: Read, create, manage, and delete repositories and branches\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/azure-repo-git-api-openapi.yml\n- scope: vso.code_write\n  description: Read,\
-  \ create, and manage pull requests and code\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/azure-repo-git-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-azure-repo-commits-api-openapi.yml, openapi/microsoft-azure-repo-items-api-openapi.yml,\n  openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml, openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml,\n  openapi/microsoft-azure-repo-pull-requests-api-openapi.yml, openapi/microsoft-azure-repo-pushes-api-openapi.yml,\n  openapi/microsoft-azure-repo-refs-api-openapi.yml, openapi/microsoft-azure-repo-repositories-api-openapi.yml,\n  openapi/microsoft-azure-repo-stats-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-azure-repo-commits-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write\
+  \ for write operations.\n- name: oauth2\n  source: openapi/microsoft-azure-repo-items-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write for write operations.\n- name: oauth2\n  source: openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write for write operations.\n- name: oauth2\n  source: openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml\n  flows:\n  -\
+  \ flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write for write operations.\n- name: oauth2\n  source: openapi/microsoft-azure-repo-pull-requests-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write for write operations.\n- name: oauth2\n  source: openapi/microsoft-azure-repo-pushes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n\
+  \  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write for write operations.\n- name: oauth2\n  source: openapi/microsoft-azure-repo-refs-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write for write operations.\n- name: oauth2\n  source: openapi/microsoft-azure-repo-repositories-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write\
+  \ for write operations.\n- name: oauth2\n  source: openapi/microsoft-azure-repo-stats-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write for write operations.\nscopes:\n- scope: vso.code\n  description: Read source code and metadata about commits, changesets, branches, and other\n    version control artifacts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-azure-repo-commits-api-openapi.yml\n  - openapi/microsoft-azure-repo-items-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-requests-api-openapi.yml\n  - openapi/microsoft-azure-repo-pushes-api-openapi.yml\n\
+  \  - openapi/microsoft-azure-repo-refs-api-openapi.yml\n  - openapi/microsoft-azure-repo-repositories-api-openapi.yml\n  - openapi/microsoft-azure-repo-stats-api-openapi.yml\n- scope: vso.code_manage\n  description: Read, create, manage, and delete repositories and branches\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-azure-repo-commits-api-openapi.yml\n  - openapi/microsoft-azure-repo-items-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-requests-api-openapi.yml\n  - openapi/microsoft-azure-repo-pushes-api-openapi.yml\n  - openapi/microsoft-azure-repo-refs-api-openapi.yml\n  - openapi/microsoft-azure-repo-repositories-api-openapi.yml\n  - openapi/microsoft-azure-repo-stats-api-openapi.yml\n- scope: vso.code_write\n  description: Read, create, and manage pull requests and code\n  flows:\n  - authorizationCode\n  sources:\n\
+  \  - openapi/microsoft-azure-repo-commits-api-openapi.yml\n  - openapi/microsoft-azure-repo-items-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-requests-api-openapi.yml\n  - openapi/microsoft-azure-repo-pushes-api-openapi.yml\n  - openapi/microsoft-azure-repo-refs-api-openapi.yml\n  - openapi/microsoft-azure-repo-repositories-api-openapi.yml\n  - openapi/microsoft-azure-repo-stats-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-repo/scopes/microsoft-azure-repo-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:

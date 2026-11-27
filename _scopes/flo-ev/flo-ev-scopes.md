@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Flo Ev Scopes
+name: FLO Scopes
 name_suffix: OAuth Scopes
 note: FLO defines no OAuth scopes of its own. Every scope below is advertised by a platform FLO hosts under a flo.com name - Shopify Customer Accounts on store.flo.com and Salesforce Experience Cloud on network.flo.com - and is recorded because it is the only real, machine-readable authorization surface in FLO's estate. None of these scopes grants access to charging sessions, station telemetry, roaming (OCPI) or demand response (OpenADR); those remain partner-mediated with no published authorization model.
 overview: 'FLO publishes 38 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the FLO API on a user''s behalf.

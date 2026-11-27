@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ami Paris Scopes
+name: AMI Paris Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AMI Paris publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the AMI Paris API on a user''s behalf.

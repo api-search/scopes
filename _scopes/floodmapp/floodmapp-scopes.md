@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Floodmapp Scopes
+name: FloodMapp Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'FloodMapp publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the FloodMapp API on a user''s behalf.

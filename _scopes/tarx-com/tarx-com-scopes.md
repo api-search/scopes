@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Tarx Com Scopes
+name: TARXAN Scopes
 name_suffix: OAuth Scopes
 note: The scope names come verbatim from the provider's RFC 8414 / RFC 9728 metadata. No scopes reference page was found on docs.tarx.com or howdy.tarx.com, so descriptions are recorded only where a provider document states the meaning; the rest are null rather than guessed. ai-plugin.json requests scope "user" for the ChatGPT connector.
 overview: 'TARXAN publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TARXAN API on a user''s behalf.

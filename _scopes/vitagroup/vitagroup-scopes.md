@@ -163,7 +163,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Vitagroup Scopes
+name: vitagroup Scopes
 name_suffix: OAuth Scopes
 note: derive-oauth-scopes.py returned zero scopes because none of vitagroup's published OpenAPI documents declare an oauth2 securityScheme — the enterprise spec declares only http/bearer. OAuth 2.0 IS documented, but EHRbase does not model authorization as a scope catalogue. It reads a single role value out of the JWT's realm_access.roles or scope claim and maps it to one of two authorization levels. The role NAMES are operator-configurable, so what is recorded below is the vendor default and the claim path, not a fixed scope vocabulary.
 overview: 'vitagroup uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

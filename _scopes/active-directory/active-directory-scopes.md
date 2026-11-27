@@ -12,12 +12,6 @@ api_specs:
   slug: active-directory-applications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/active-directory/openapi/active-directory-applications-api-openapi.yml
-- filename: active-directory-groups-api-openapi.yml
-  format: yaml
-  label: Microsoft Active Directory Groups API
-  slug: active-directory-groups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/active-directory/openapi/active-directory-groups-api-openapi.yml
 - filename: active-directory-members-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Members API
@@ -48,6 +42,12 @@ api_specs:
   slug: microsoft-active-directory-directory-roles-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/active-directory/openapi/active-directory-directory-roles-api-openapi.yml
+- filename: active-directory-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Active Directory Groups API
+  slug: active-directory-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-groups-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize
 description: ''
@@ -58,7 +58,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Active Directory Scopes
+name: Microsoft Active Directory Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Microsoft Active Directory publishes 11 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Active Directory API on a user''s behalf.

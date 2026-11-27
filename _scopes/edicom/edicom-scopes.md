@@ -42,7 +42,7 @@ tags:
 - B2B Integration
 - iPaaS
 - VAT Reporting
-- PEPPOL
+- Peppol
 token_bound: false
 token_urls: []
 ---

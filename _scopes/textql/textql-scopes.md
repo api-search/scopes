@@ -235,7 +235,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Textql Scopes
+name: TextQL Scopes
 name_suffix: OAuth Scopes
 note: Read verbatim from TextQL's live OAuth 2.1 authorization-server metadata document, not derived from an OpenAPI securityScheme — the published OpenAPIs declare only bearer/apiKey schemes and carry no oauth2 flows, so derive-oauth-scopes.py found nothing. The scope list below is what the provider actually advertises at the discovery endpoint. Scope DESCRIPTIONS are not published; the resource each scope governs is stated from the matching platform surface and is marked as inferred where it is not spelled out in the docs.
 overview: 'TextQL publishes 34 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TextQL API on a user''s behalf.

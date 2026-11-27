@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Brewdog Scopes
+name: BrewDog Scopes
 name_suffix: OAuth Scopes
 note: BrewDog publishes no OpenAPI, so these scopes were not derived from oauth2 securitySchemes. They are the scopes_supported array of the OIDC discovery document BrewDog serves from its own origin for its Shopify Customer Account identity provider. No provider-published scope reference page was found.
 overview: 'BrewDog publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BrewDog API on a user''s behalf.

@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Crowdmade Scopes
+name: CrowdMade Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CrowdMade publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CrowdMade API on a user''s behalf.

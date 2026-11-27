@@ -6,12 +6,6 @@ api_specs:
   slug: microsoft-playwright-accountquotas-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-playwright/openapi/microsoft-playwright-accountquotas-api-openapi.yml
-- filename: microsoft-playwright-accounts-api-openapi.yml
-  format: yaml
-  label: Microsoft Playwright Accounts API
-  slug: microsoft-playwright-accounts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-playwright/openapi/microsoft-playwright-accounts-api-openapi.yml
 - filename: microsoft-playwright-operations-api-openapi.yml
   format: yaml
   label: Microsoft Playwright Operations API
@@ -24,6 +18,12 @@ api_specs:
   slug: microsoft-playwright-quotas-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-playwright/openapi/microsoft-playwright-quotas-api-openapi.yml
+- filename: microsoft-playwright-accounts-api-openapi.yml
+  format: yaml
+  label: Microsoft Playwright Accounts API
+  slug: microsoft-playwright-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-playwright/openapi/microsoft-playwright-accounts-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

@@ -7,7 +7,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Goomp Inc Kalendar Ai Scopes
+name: Goomp Inc, Kalendar AI Scopes
 name_suffix: OAuth Scopes
 note: These are the only OAuth scopes this company publishes anywhere. They come verbatim from the `auth.scope` field ("read write") of the live ChatGPT plugin manifest on its own API host. There is no scopes/permissions reference page and no OpenAPI oauth2 securityScheme to derive a richer set from, so the descriptions below are the coarse, literal meaning of the two tokens — nothing further is claimed.
 overview: 'Goomp Inc, Kalendar AI publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Goomp Inc, Kalendar AI API on a user''s behalf.

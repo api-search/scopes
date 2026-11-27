@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Mutual Of America Life Insurance Scopes
+name: Mutual of America Life Insurance Company Scopes
 name_suffix: OAuth Scopes
 note: 'Read verbatim from `scopes_supported` in the two discovery documents saved under well-known/. IMPORTANT READING NOTE: the OpenID Connect document advertises the standard OIDC scope set and nothing bespoke — Mutual of America has defined no product scopes of its own, because it ships no public API. The RFC 8414 document additionally advertises the full `okta.*` management scope set; those are the identity vendor''s platform-administration scopes present on every Okta org authorization server, NOT scopes Mutual of America authored or exposes to third parties. They are recorded here for completeness and marked `vendor_platform: true` so they are never mistaken for a Mutual of America API surface.'
 overview: 'Mutual of America Life Insurance Company publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Mutual of America Life Insurance Company API on a user''s behalf.

@@ -289,7 +289,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Customer Io Scopes
+name: Customer.io Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Customer.io publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Customer.io API on a user''s behalf.

@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: eden-ai-ai-detection-api-openapi.yml
-  format: yaml
-  label: Eden AI Ai Detection API
-  slug: eden-ai-ai-detection-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-ai-detection-api-openapi.yml
-- filename: eden-ai-anonymization-api-openapi.yml
-  format: yaml
-  label: Eden AI Anonymization API
-  slug: eden-ai-anonymization-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-anonymization-api-openapi.yml
 - filename: eden-ai-anonymization-async-api-openapi.yml
   format: yaml
   label: Eden AI Anonymization Async API
@@ -342,12 +330,6 @@ api_specs:
   slug: eden-ai-prompt-optimization-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-prompt-optimization-api-openapi.yml
-- filename: eden-ai-question-answer-api-openapi.yml
-  format: yaml
-  label: Eden AI Question Answer API
-  slug: eden-ai-question-answer-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-question-answer-api-openapi.yml
 - filename: eden-ai-question-answer-async-api-openapi.yml
   format: yaml
   label: Eden AI Question Answer Async API
@@ -474,6 +456,30 @@ api_specs:
   slug: eden-ai-videos-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-videos-api-openapi.yml
+- filename: eden-ai-ai-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Ai Detection API
+  slug: eden-ai-ai-detection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-ai-detection-api-openapi.yml
+- filename: eden-ai-anonymization-api-openapi.yml
+  format: yaml
+  label: Eden AI Anonymization API
+  slug: eden-ai-anonymization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-anonymization-api-openapi.yml
+- filename: eden-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Eden AI Chat Completions API
+  slug: eden-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-chat-completions-api-openapi.yml
+- filename: eden-ai-question-answer-api-openapi.yml
+  format: yaml
+  label: Eden AI Question Answer API
+  slug: eden-ai-question-answer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-question-answer-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.edenai.co/docs/v3/organization/management-api
@@ -481,7 +487,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Eden Ai Scopes
+name: Eden AI Scopes
 name_suffix: OAuth Scopes
 note: These are NOT OAuth 2.0 scopes — Eden AI publishes no oauth2 securityScheme and serves no authorization-server metadata. They are explicit scopes carried by a management key (mgmt-eden-...) and checked per management endpoint, documented by Eden AI in the Management API reference and repeated in the operation descriptions of openapi/_original/eden-ai-organization-management-openapi.json. Recorded here because the scope surface is real and machine-relevant even though the grant mechanism is key issuance rather than an authorization flow.
 overview: 'Eden AI publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Eden AI API on a user''s behalf.

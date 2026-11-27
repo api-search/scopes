@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-to-do-linkedresources-api-openapi.yml
-  format: yaml
-  label: Microsoft to Do LinkedResources API
-  slug: microsoft-to-do-linkedresources-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-linkedresources-api-openapi.yml
-- filename: microsoft-to-do-tasklists-api-openapi.yml
-  format: yaml
-  label: Microsoft to Do TaskLists API
-  slug: microsoft-to-do-tasklists-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-tasklists-api-openapi.yml
-- filename: microsoft-to-do-tasks-api-openapi.yml
-  format: yaml
-  label: Microsoft to Do Tasks API
-  slug: microsoft-to-do-tasks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-tasks-api-openapi.yml
 - filename: microsoft-to-do-me-todo-api-openapi.yml
   format: yaml
   label: Microsoft To Do Me.todo API
@@ -30,12 +12,6 @@ api_specs:
   slug: microsoft-to-do-users-todo-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-users-todo-api-openapi.yml
-- filename: microsoft-to-do-checklist-items-api-openapi.yml
-  format: yaml
-  label: Microsoft To Do Checklist Items API
-  slug: microsoft-to-do-checklist-items-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-checklist-items-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://learn.microsoft.com/en-us/graph/permissions-reference

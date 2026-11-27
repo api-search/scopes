@@ -117,7 +117,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Usecommune Scopes
+name: Commune Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Commune publishes 14 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Commune API on a user''s behalf.

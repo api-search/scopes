@@ -237,7 +237,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Iab Tech Lab Scopes
+name: IAB Tech Lab Scopes
 name_suffix: OAuth Scopes
 note: 'The OpenDirect 1.5.1 securityDefinitions is explicitly illustrative (''Example of one of OAuth 2.0 authorization flow''): the one scope, https://opendirect.example.com/scope/example, is a placeholder. OpenDirect leaves the OAuth authorization server and scopes to each implementing seller, so no real scope catalog exists to search for; the seller-agent reference implementation uses static API keys with buyer/operator roles instead (authentication/).'
 overview: 'IAB Tech Lab publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the IAB Tech Lab API on a user''s behalf.

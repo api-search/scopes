@@ -54,12 +54,6 @@ api_specs:
   slug: dnsofmoney-com-founding-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dnsofmoney-com/openapi/dnsofmoney-com-founding-api-openapi.yml
-- filename: dnsofmoney-com-health-api-openapi.yml
-  format: yaml
-  label: dnsofmoney-com Health API
-  slug: dnsofmoney-com-health-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/dnsofmoney-com/openapi/dnsofmoney-com-health-api-openapi.yml
 - filename: dnsofmoney-com-identity-api-openapi.yml
   format: yaml
   label: dnsofmoney-com Identity API
@@ -78,12 +72,6 @@ api_specs:
   slug: dnsofmoney-com-mcp-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dnsofmoney-com/openapi/dnsofmoney-com-mcp-api-openapi.yml
-- filename: dnsofmoney-com-nft-api-openapi.yml
-  format: yaml
-  label: dnsofmoney-com Nft API
-  slug: dnsofmoney-com-nft-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/dnsofmoney-com/openapi/dnsofmoney-com-nft-api-openapi.yml
 - filename: dnsofmoney-com-onramp-api-openapi.yml
   format: yaml
   label: dnsofmoney-com Onramp API
@@ -132,6 +120,18 @@ api_specs:
   slug: dnsofmoney-com-xapp-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dnsofmoney-com/openapi/dnsofmoney-com-xapp-api-openapi.yml
+- filename: dnsofmoney-com-oauth-api-openapi.yml
+  format: yaml
+  label: DNS://Money OAuth API
+  slug: dnsofmoney-com-oauth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dnsofmoney-com/openapi/dnsofmoney-com-oauth-api-openapi.yml
+- filename: dnsofmoney-com-system-api-openapi.yml
+  format: yaml
+  label: DNS://Money System API
+  slug: dnsofmoney-com-system-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dnsofmoney-com/openapi/dnsofmoney-com-system-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -139,14 +139,14 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Dnsofmoney Com Scopes
+name: DNS://Money Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'dnsofmoney-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'DNS://Money uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: dnsofmoney-com
+provider_name: DNS://Money
 provider_slug: dnsofmoney-com
 schemes: []
 scope_count: 0

@@ -247,7 +247,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Domscan Scopes
+name: DomScan Scopes
 name_suffix: OAuth Scopes
 note: 'The REST API authenticates with API keys (no OAuth scopes in the OpenAPI). OAuth 2.0 is used for the MCP endpoint: authorization-code flow with PKCE S256, dynamic client registration, public clients (token_endpoint_auth_methods_supported: none). One scope is published.'
 overview: 'DomScan publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the DomScan API on a user''s behalf.

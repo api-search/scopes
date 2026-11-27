@@ -73,7 +73,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Dystro Dev Scopes
+name: dystro-dev Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'dystro-dev publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the dystro-dev API on a user''s behalf.

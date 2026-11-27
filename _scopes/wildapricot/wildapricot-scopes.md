@@ -182,7 +182,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Wildapricot Scopes
+name: WildApricot Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'WildApricot publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the WildApricot API on a user''s behalf.

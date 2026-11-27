@@ -27,7 +27,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Blacksmith Sh Scopes
+name: Blacksmith Scopes
 name_suffix: OAuth Scopes
 note: Blacksmith publishes no OAuth scopes - login is exclusively GitHub SSO via the Blacksmith GitHub App, and dashboard access is role-based, inherited directly from GitHub organization/repository permissions rather than granted through scopes (https://docs.blacksmith.sh/blacksmith-administration/permissions).
 overview: 'Blacksmith uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

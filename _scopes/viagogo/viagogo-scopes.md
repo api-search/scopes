@@ -134,7 +134,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Viagogo Scopes
+name: viagogo Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'viagogo publishes 17 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the viagogo API on a user''s behalf.

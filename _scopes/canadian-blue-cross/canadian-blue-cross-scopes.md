@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Canadian Blue Cross Scopes
+name: Blue Cross Canada Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Blue Cross Canada publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Blue Cross Canada API on a user''s behalf.

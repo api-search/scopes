@@ -289,7 +289,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Builtwith Scopes
+name: BuiltWith Scopes
 name_suffix: OAuth Scopes
 note: derive-oauth-scopes.py found no oauth2 securityScheme in any OpenAPI (BuiltWith's specs declare apiKey and bearer only). The OAuth surface is not in the specs - it is published as RFC 8414 / RFC 9728 discovery documents at the well-known paths below, which is how an MCP client negotiates access to https://api.builtwith.com/mcp. Scopes are recorded from those probed documents, not derived or invented.
 overview: 'BuiltWith publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the BuiltWith API on a user''s behalf.

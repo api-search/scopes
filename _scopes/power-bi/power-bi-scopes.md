@@ -184,7 +184,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Power Bi Scopes
+name: Power BI Scopes
 name_suffix: OAuth Scopes
 note: Power BI authorizes via Microsoft Entra ID (Azure AD) OAuth 2.0. The curated OpenAPI declares only an http-bearer scheme, so no scopes are derivable from the spec; the scopes below are the documented Power BI Service delegated permissions requested against the resource https://analysis.windows.net/powerbi/api. Application permissions (client-credentials) use .default and are governed by tenant admin settings.
 overview: 'Power BI publishes 17 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Power BI API on a user''s behalf.

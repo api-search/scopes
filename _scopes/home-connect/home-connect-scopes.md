@@ -57,7 +57,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Home Connect Scopes
+name: Home Connect (BSH appliances) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Home Connect (BSH appliances) publishes 63 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Home Connect (BSH appliances) API on a user''s behalf.

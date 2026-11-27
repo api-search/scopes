@@ -37,7 +37,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Vidmob Scopes
+name: VidMob Scopes
 name_suffix: OAuth Scopes
 note: Vidmob runs two distinct scope vocabularies. The REST API keys carry capability-domain scopes (organization / scoring / aperture / analytics with read or read_write access) that are documented in the developer portal but are NOT declared in the published OpenAPI — the specs only declare a single apiKey scheme, so 0-working/derive-oauth-scopes.py finds nothing. The MCP authorization server publishes a separate OIDC-style scope set in its RFC 8414 / OIDC discovery documents. Both are recorded below with their real source.
 overview: 'VidMob publishes 12 OAuth 2.0 scopes via the authorizationCode, refreshToken, and jwtBearer flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the VidMob API on a user''s behalf.

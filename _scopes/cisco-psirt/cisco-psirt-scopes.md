@@ -26,7 +26,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cisco Psirt Scopes
+name: Cisco PSIRT openVuln API Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Cisco PSIRT openVuln API publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cisco PSIRT openVuln API API on a user''s behalf.

@@ -183,7 +183,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Instantly Ai Scopes
+name: Instantly Scopes
 name_suffix: OAuth Scopes
 note: Instantly scopes are attached to API keys (created in the app under Settings > Integrations > API Keys, where the scopes are picked at creation) AND to OAuth 2.0 access tokens. The complete list below is read verbatim from the provider-served RFC 8414 authorization-server metadata; the per-operation scope requirements are additionally published in the docs and in llms/instantly-ai-llms.txt, one line per endpoint. Scopes are shaped <resource>:<action> with action in {read, create, update, delete, all}, plus the wildcards all:<action> and all:all. A few resource names differ from their URL slug (lead-labels, background-jobs, email_verifications).
 overview: 'Instantly publishes 178 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Instantly API on a user''s behalf.

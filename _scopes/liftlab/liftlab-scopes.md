@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Liftlab Scopes
+name: LiftLab Scopes
 name_suffix: OAuth Scopes
 note: Read verbatim from the scopes_supported array of LiftLab's RFC 8414 authorization-server metadata, corroborated by the identical scopes_supported in the RFC 9728 protected-resource document. LiftLab publishes no scopes or permissions reference page — there is no developer portal — so no description could be searched to enrich this. The single scope string is recorded as published; nothing is inferred about what it grants.
 overview: 'LiftLab publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the LiftLab API on a user''s behalf.

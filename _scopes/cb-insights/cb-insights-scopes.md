@@ -80,7 +80,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Cb Insights Scopes
+name: CB Insights Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CB Insights publishes 3 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the CB Insights API on a user''s behalf.

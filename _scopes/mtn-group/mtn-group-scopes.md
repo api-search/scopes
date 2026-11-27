@@ -854,7 +854,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mtn Group Scopes
+name: MTN Group Scopes
 name_suffix: OAuth Scopes
 note: MTN Developer Platform tokens are minted with grant_type=client_credentials at https://api.mtn.com/v1/oauth/access_token and the documented token response carries an EMPTY "scope" field — the platform gates access by app/product subscription rather than by OAuth scope. Only one product-level scope (SEND-SMS) is declared anywhere in the 115 harvested specifications. The MoMo Open API documents one custom scope, all_info, in its sandbox use-case reference. There is no published scopes/permissions reference page for the platform as a whole.
 overview: 'MTN Group publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the MTN Group API on a user''s behalf.

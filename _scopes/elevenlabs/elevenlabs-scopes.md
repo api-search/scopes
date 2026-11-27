@@ -324,7 +324,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Elevenlabs Scopes
+name: ElevenLabs Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ElevenLabs publishes 7 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ElevenLabs API on a user''s behalf.

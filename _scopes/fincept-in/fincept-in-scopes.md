@@ -223,7 +223,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Fincept In Scopes
+name: Fincept Terminal Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Fincept Terminal publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Fincept Terminal API on a user''s behalf.
@@ -257,7 +257,7 @@ tags:
 - Backtesting
 - Portfolio Management
 - MCP
-- Agentic AI
+- AI Agents
 token_bound: false
 token_urls: []
 ---

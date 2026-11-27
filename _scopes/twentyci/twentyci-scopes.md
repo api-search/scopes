@@ -62,7 +62,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Twentyci Scopes
+name: TwentyCi Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'TwentyCi publishes 1 OAuth 2.0 scope via the password flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the TwentyCi API on a user''s behalf.

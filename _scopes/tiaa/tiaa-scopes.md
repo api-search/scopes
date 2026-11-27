@@ -64,7 +64,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Tiaa Scopes
+name: TIAA Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'TIAA publishes 8 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the TIAA API on a user''s behalf.

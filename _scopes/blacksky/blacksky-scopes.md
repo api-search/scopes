@@ -64,7 +64,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Blacksky Scopes
+name: BlackSky Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'BlackSky publishes 3 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the BlackSky API on a user''s behalf.

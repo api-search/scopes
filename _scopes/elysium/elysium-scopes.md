@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Elysium Scopes
+name: Elysium Health Scopes
 name_suffix: OAuth Scopes
 note: Scopes are those advertised by the Shopify Customer Account authorization server for elysiumhealth.com. Elysium publishes no first-party developer OAuth program of its own.
 overview: 'Elysium Health publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Elysium Health API on a user''s behalf.

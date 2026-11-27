@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Mybotspro Scopes
+name: Mybots.pro Scopes
 name_suffix: OAuth Scopes
 note: Scopes are taken verbatim from `scopes_supported` in the provider's live OIDC discovery document. myBots publishes no scopes/permissions reference page, so there are no descriptions to enrich with — the descriptions below are the STANDARD OIDC/OAuth definitions of these registered scopes (RFC 6749 / OpenID Connect Core 1.0 §5.4), not claims about myBots-specific behavior. Every scope advertised is a standard one; myBots advertises NO product-specific scopes (nothing for agents, channels, conversations, contacts or billing), so an OAuth client cannot request least-privilege access to any myBots resource — only identity.
 overview: 'Mybots.pro publishes 6 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Mybots.pro API on a user''s behalf.

@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Arroway App Scopes
+name: Arroway Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Arroway publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Arroway API on a user''s behalf.

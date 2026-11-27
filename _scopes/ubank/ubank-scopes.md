@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ubank Scopes
+name: ubank Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ubank publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ubank API on a user''s behalf.

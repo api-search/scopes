@@ -91,7 +91,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Sadq Holding Limited Scopes
+name: Sadq Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares only BearerAuth (JWT), but the docs host publishes full OAuth 2.0 authorization-server metadata (RFC 8414), OIDC discovery, and an auth.md. Scopes are captured from those searched discovery documents.
 overview: 'Sadq publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Sadq API on a user''s behalf.
@@ -146,7 +146,6 @@ tags:
 - Saudi Arabia
 - Nafath
 - Webhook
-- Agent Ready
 token_bound: false
 token_urls: []
 ---

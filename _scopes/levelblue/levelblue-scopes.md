@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Levelblue Scopes
+name: LevelBlue Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'LevelBlue publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LevelBlue API on a user''s behalf.

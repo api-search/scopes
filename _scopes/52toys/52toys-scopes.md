@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: 52Toys Scopes
+name: 52TOYS Scopes
 name_suffix: OAuth Scopes
 note: OAuth/OIDC scopes advertised by the Shopify customer-account authorization server backing the 52TOYS storefront and its UCP agentic-commerce MCP endpoint. Captured verbatim from scopes_supported in the live discovery document.
 overview: '52TOYS publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the 52TOYS API on a user''s behalf.

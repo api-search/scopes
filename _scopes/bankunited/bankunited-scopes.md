@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Bankunited Scopes
+name: BankUnited Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'BankUnited publishes 36 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BankUnited API on a user''s behalf.

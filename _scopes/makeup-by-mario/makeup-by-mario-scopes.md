@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Makeup By Mario Scopes
+name: Makeup by Mario Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Makeup by Mario publishes 4 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Makeup by Mario API on a user''s behalf.

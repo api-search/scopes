@@ -27,7 +27,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Fastdrop Dev Scopes
+name: FastDrop Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'FastDrop publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the FastDrop API on a user''s behalf.
@@ -69,11 +69,12 @@ source_yaml: "generated: '2026-11-07'\nmethod: derived\nsource: openapi/fastdrop
 source_yaml_url: https://artifacts.apis.io/fastdrop-dev/scopes/fastdrop-dev-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- launch-board
+- Company
+- Launch board
 - MCP
-- AI-agents
-- software-discovery
-- free-service
+- Artificial Intelligence
+- Developer Tools
+- Platform
 token_bound: false
 token_urls:
 - https://fastdrop.dev/api/auth/oauth2/token

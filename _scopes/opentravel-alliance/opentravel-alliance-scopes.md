@@ -45,7 +45,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Opentravel Alliance Scopes
+name: OpenTravel Alliance Scopes
 name_suffix: OAuth Scopes
 note: The published OpenTravel Swagger 2.0 contracts declare no oauth2 security schemes, so derive-oauth-scopes.py returned nothing for this provider. The scope surface below is the real one advertised by the OAuth 2.1 authorization server that opentravel.org runs in front of its Model Context Protocol endpoints. It is a single coarse scope; there is no per-tool or per-resource scope decomposition published, and none is invented here.
 overview: 'OpenTravel Alliance publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the OpenTravel Alliance API on a user''s behalf.

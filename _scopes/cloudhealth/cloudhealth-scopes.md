@@ -40,7 +40,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Cloudhealth Scopes
+name: CloudHealth Scopes
 name_suffix: OAuth Scopes
 note: No OAuth scheme is declared in the (API Evangelist-authored) OpenAPI and the docs publish no scope reference page; these scopes are read verbatim from the authorization server's RFC 8414 metadata (scopes_supported), which protects the MCP server at https://apps.cloudhealthtech.com/mcp. Descriptions are not published by the provider.
 overview: 'CloudHealth publishes 4 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the CloudHealth API on a user''s behalf.

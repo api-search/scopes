@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Ipstack Scopes
+name: IPstack Scopes
 name_suffix: OAuth Scopes
 note: APILayer publishes no human-readable scopes/permissions reference page; the scope list exists only in the machine-readable discovery documents. That is recorded as an honest gap rather than filled in.
 overview: 'IPstack publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the IPstack API on a user''s behalf.

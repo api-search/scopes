@@ -64,7 +64,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Brightedge Scopes
+name: BrightEdge Scopes
 name_suffix: OAuth Scopes
 note: The REST Platform API v5.0 declares NO oauth2 securityScheme — it is key/basic/session auth only, so it has no scope surface. The OAuth surface belongs entirely to the BrightEdge MCP server, whose RFC 8414 / RFC 9728 / OIDC discovery documents were fetched anonymously (all HTTP 200) and whose setup guides publish the scope string clients must request. Scopes below are exactly what those documents and pages state; none were inferred.
 overview: 'BrightEdge publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BrightEdge API on a user''s behalf.

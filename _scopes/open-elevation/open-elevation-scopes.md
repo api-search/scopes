@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Open Elevation Scopes
+name: Open-Elevation Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Open-Elevation uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

@@ -31,14 +31,14 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Algoum De Scopes
+name: Algoum Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'algoum-de uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Algoum uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: algoum-de
+provider_name: Algoum
 provider_slug: algoum-de
 schemes: []
 scope_count: 0

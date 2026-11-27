@@ -75,7 +75,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Kawaa Com Scopes
+name: kawaa-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'kawaa-com publishes 21 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the kawaa-com API on a user''s behalf.

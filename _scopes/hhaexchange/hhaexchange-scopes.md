@@ -26,7 +26,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Hhaexchange Scopes
+name: HHAeXchange Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'HHAeXchange publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the HHAeXchange API on a user''s behalf.

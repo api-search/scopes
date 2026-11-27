@@ -133,7 +133,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: 0Xinsider Com Scopes
+name: 0xinsider Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: '0xinsider publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the 0xinsider API on a user''s behalf.

@@ -18,12 +18,6 @@ api_specs:
   slug: agent-ready-dev-scans-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agent-ready-dev/openapi/agent-ready-dev-scans-api-openapi.yml
-- filename: agent-ready-dev-x402-api-openapi.yml
-  format: yaml
-  label: Agent Ready X402 API
-  slug: agent-ready-dev-x402-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/agent-ready-dev/openapi/agent-ready-dev-x402-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://agent-ready.dev/auth
@@ -31,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Agent Ready Dev Scopes
+name: Agent Ready Scopes
 name_suffix: OAuth Scopes
 note: 'The OpenAPI declares no oauth2 securityScheme (derive-oauth-scopes.py found zero), so this file is built from the provider''s own RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata, which both advertise scopes_supported. IMPORTANT: the scopes are ADVERTISED, NOT ENFORCED — /auth states there is no OAuth flow, keys are long-lived ar_live_ Bearer secrets issued from the dashboard, and access is decided by plan tier (Free vs Pro) rather than by scope. A token never carries a scope, and a 403 for a plan mismatch is reported as insufficient_scope. Recorded as the provider''s declared permission vocabulary.'
 overview: 'Agent Ready publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Agent Ready API on a user''s behalf.

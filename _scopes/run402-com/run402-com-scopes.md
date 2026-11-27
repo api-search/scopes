@@ -265,7 +265,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Run402 Com Scopes
+name: run402-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'run402-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Sellerx Scopes
+name: SellerX Scopes
 name_suffix: OAuth Scopes
 note: Not derived from OpenAPI — SellerX publishes none. These scopes are read verbatim from scopes_supported in the RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata served by the SellerX MCP host. SellerX publishes no scopes/permissions reference page, so no description beyond the scope string itself exists publicly. Nothing is inferred.
 overview: 'SellerX publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SellerX API on a user''s behalf.

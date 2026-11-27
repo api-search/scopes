@@ -152,7 +152,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Got Its Scopes
+name: Reelables Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Reelables publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Reelables API on a user''s behalf.

@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Agentsurface Dev Scopes
+name: Agent Surface Scopes
 name_suffix: OAuth Scopes
 note: No explicit OAuth scopes documented.
 overview: 'Agent Surface uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

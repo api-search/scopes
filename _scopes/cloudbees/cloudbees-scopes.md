@@ -123,7 +123,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Cloudbees Scopes
+name: CloudBees Scopes
 name_suffix: OAuth Scopes
 note: The CloudBees Unify REST API does not use OAuth — both published specifications declare a single http/bearer scheme carrying a personal access token, with no oauth2 securityScheme and therefore no scope surface. The OAuth scopes below belong to the CloudBees Unify MCP server, which IS an OAuth protected resource. This file exists for that surface only; do not read it as REST API scopes.
 overview: 'CloudBees publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CloudBees API on a user''s behalf.

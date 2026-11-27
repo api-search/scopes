@@ -505,7 +505,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Reclaim Ai Scopes
+name: Reclaim.ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Reclaim.ai publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Reclaim.ai API on a user''s behalf.

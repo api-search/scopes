@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Anonping Com Scopes
+name: AnonPing Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AnonPing publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AnonPing API on a user''s behalf.

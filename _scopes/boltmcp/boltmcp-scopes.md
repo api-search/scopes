@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Boltmcp Scopes
+name: BoltMCP Scopes
 name_suffix: OAuth Scopes
 note: BoltMCP publishes no OpenAPI, so derive-oauth-scopes.py had nothing to read. These are the platform-owned OAuth realm resources the chart's `keycloak-reconcile` hook creates and re-applies on every install and upgrade, named verbatim in the configuration reference. They are the only authorization primitives BoltMCP publishes; everything else is defined by the customer in their own identity provider.
 overview: 'BoltMCP publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BoltMCP API on a user''s behalf.

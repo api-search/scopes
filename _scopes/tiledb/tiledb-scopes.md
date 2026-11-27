@@ -123,7 +123,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Tiledb Scopes
+name: TileDB Scopes
 name_suffix: OAuth Scopes
 note: Two distinct scope surfaces. (1) The OAuth 2.0 authorization-code flow declared in securityDefinitions carries three coarse scopes (read/write/admin); note that the spec comments the OAuth2 requirement out of the global security block because it broke the generated Python client, so in practice callers use the X-TILEDB-REST-API-KEY header or HTTP Basic. (2) REST API tokens minted at POST /v1/token carry the finer TokenScope enum below, which the console exposes as the token 'Scope' field. Tokens default to all permissions ('*') and to a 30-minute expiry when none is given.
 overview: 'TileDB publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the TileDB API on a user''s behalf.

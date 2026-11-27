@@ -1245,7 +1245,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: 701X Scopes
+name: 701x Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: '701x publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the 701x API on a user''s behalf.

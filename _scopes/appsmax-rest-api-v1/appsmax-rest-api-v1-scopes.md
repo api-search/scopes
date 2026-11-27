@@ -61,7 +61,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Appsmax Rest Api V1 Scopes
+name: AppsMax Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AppsMax publishes 12 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AppsMax API on a user''s behalf.

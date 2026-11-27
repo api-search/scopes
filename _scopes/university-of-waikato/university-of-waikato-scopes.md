@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: University Of Waikato Scopes
+name: University of Waikato Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'University of Waikato publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of Waikato API on a user''s behalf.

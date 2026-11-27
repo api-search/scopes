@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: 1More Scopes
+name: 1MORE Scopes
 name_suffix: OAuth Scopes
 note: These are the scopes advertised by the OAuth 2.0 / OpenID Connect authorization server that 1MORE's storefront points at for shopper accounts (Shopify customer accounts, issuer https://shopify.com/authentication/11404626, discovered from 1MORE's own host). They govern a logged-in shopper's own account, not any 1MORE developer programme - 1MORE publishes none. Descriptions below are the scope semantics as documented by the issuer's discovery document and Shopify's customer account model; no scope has been invented and none is asserted beyond the four strings the document returns in scopes_supported.
 overview: '1MORE publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the 1MORE API on a user''s behalf.

@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Aboard Sh Scopes
+name: Aboard Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Aboard publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Aboard API on a user''s behalf.

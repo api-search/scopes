@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Robase Dev Scopes
+name: robase-dev Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'robase-dev publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the robase-dev API on a user''s behalf.

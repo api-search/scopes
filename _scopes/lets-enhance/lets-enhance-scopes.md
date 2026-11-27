@@ -26,7 +26,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Lets Enhance Scopes
+name: Let's Enhance Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Let''s Enhance publishes 4 OAuth 2.0 scopes via the password flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Let''s Enhance API on a user''s behalf.

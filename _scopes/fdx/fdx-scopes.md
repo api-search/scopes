@@ -45,7 +45,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Fdx Scopes
+name: Financial Data Exchange (FDX) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Financial Data Exchange (FDX) publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Financial Data Exchange (FDX) API on a user''s behalf.

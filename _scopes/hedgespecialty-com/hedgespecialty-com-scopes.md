@@ -88,7 +88,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Hedgespecialty Com Scopes
+name: Hedge Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Hedge publishes 2 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Hedge API on a user''s behalf.

@@ -36,12 +36,6 @@ api_specs:
   slug: gsma-debit-mandates-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gsma/openapi/gsma-debit-mandates-api-openapi.yml
-- filename: gsma-discovery-api-openapi.yml
-  format: yaml
-  label: GSMA Discovery API
-  slug: gsma-discovery-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gsma/openapi/gsma-discovery-api-openapi.yml
 - filename: gsma-home-devices-qod-api-openapi.yml
   format: yaml
   label: GSMA Home Devices QoD API
@@ -156,12 +150,6 @@ api_specs:
   slug: gsma-apiproductorder-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gsma/openapi/gsma-apiproductorder-api-openapi.yml
-- filename: gsma-application-api-openapi.yml
-  format: yaml
-  label: GSMA Application API
-  slug: gsma-application-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gsma/openapi/gsma-application-api-openapi.yml
 - filename: gsma-application-profiles-api-openapi.yml
   format: yaml
   label: GSMA Application Profiles API
@@ -240,6 +228,18 @@ api_specs:
   slug: gsma-traffic-influence-api-write-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gsma/openapi/gsma-traffic-influence-api-write-api-openapi.yml
+- filename: gsma-application-api-openapi.yml
+  format: yaml
+  label: GSMA Application API
+  slug: gsma-application-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gsma/openapi/gsma-application-api-openapi.yml
+- filename: gsma-discovery-api-openapi.yml
+  format: yaml
+  label: GSMA Discovery API
+  slug: gsma-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gsma/openapi/gsma-discovery-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -247,7 +247,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Gsma Scopes
+name: GSMA Scopes
 name_suffix: OAuth Scopes
 note: 'Every Open Gateway specification declares a single openIdConnect security scheme named ''openId'' and attaches CAMARA scopes per operation, so the scopes are not listed in a flows map and 0-working/derive-oauth-scopes.py (which reads oauth2 flows) returns nothing for this provider. The 30 scopes below were derived from the per-operation security requirements. The GSMA issues no tokens and publishes no scope reference page of its own: the authorization server is always the operator''s, and the openIdConnectUrl in every published spec is the CAMARA placeholder https://example.com/.well-known/openid-configuration. Scope naming follows the CAMARA convention <api-name>:[<resource>:]<action>.'
 overview: 'GSMA publishes 30 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the GSMA API on a user''s behalf.

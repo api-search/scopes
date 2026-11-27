@@ -15,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Servicedesk Plus Scopes
+name: ManageEngine ServiceDesk Plus Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ManageEngine ServiceDesk Plus publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ManageEngine ServiceDesk Plus API on a user''s behalf.

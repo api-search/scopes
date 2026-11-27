@@ -11,7 +11,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Tal Australia Scopes
+name: TAL Scopes
 name_suffix: OAuth Scopes
 note: TAL declares no OpenAPI, so these scopes come straight from the scopes_supported arrays of TAL's three live OpenID Connect discovery documents. They are the standard OIDC scope set — TAL publishes no business-domain scopes (no quote, policy, claim or underwriting scopes are advertised anonymously). Any partner-specific scopes live on custom Okta authorization servers that are not discoverable without a client.
 overview: 'TAL publishes 7 OAuth 2.0 scopes via the authorizationCode and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the TAL API on a user''s behalf.

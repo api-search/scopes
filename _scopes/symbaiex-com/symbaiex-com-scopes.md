@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Symbaiex Com Scopes
+name: symbaiex-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'symbaiex-com publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the symbaiex-com API on a user''s behalf.

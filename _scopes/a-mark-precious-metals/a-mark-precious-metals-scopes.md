@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: A Mark Precious Metals Scopes
+name: A-Mark Precious Metals Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'A-Mark Precious Metals publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the A-Mark Precious Metals API on a user''s behalf.

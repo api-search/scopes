@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Gojek Scopes
+name: GoJek Scopes
 name_suffix: OAuth Scopes
 note: Derived from the published GoBiz scope reference tables, not from an OpenAPI document - Gojek publishes no machine-readable spec. The client-credentials table on the Direct Integration page lists 18 scopes; the Facilitator (authorization code) table adds the two OpenID Connect scopes below.
 overview: 'GoJek publishes 20 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the GoJek API on a user''s behalf.

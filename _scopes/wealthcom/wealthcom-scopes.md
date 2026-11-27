@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Wealthcom Scopes
+name: Wealth.com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Wealth.com publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Wealth.com API on a user''s behalf.

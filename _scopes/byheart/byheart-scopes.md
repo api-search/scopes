@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Byheart Scopes
+name: ByHeart Scopes
 name_suffix: OAuth Scopes
 note: OAuth scopes advertised by the Shopify Customer Account API authorization server for the ByHeart store (issuer shopify.com/authentication/59458650296).
 overview: 'ByHeart publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ByHeart API on a user''s behalf.

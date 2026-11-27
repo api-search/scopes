@@ -94,7 +94,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Bendigo And Adelaide Bank Scopes
+name: Bendigo and Adelaide Bank Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Bendigo and Adelaide Bank publishes 10 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bendigo and Adelaide Bank API on a user''s behalf.

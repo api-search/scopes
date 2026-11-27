@@ -38,7 +38,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Rhel Scopes
+name: Red Hat Enterprise Linux Scopes
 name_suffix: OAuth Scopes
 note: api.console is the only OAuth scope Red Hat documents for its APIs; console.redhat.com access control is RBAC-based, and the Subscription Management API instead uses an offline-token refresh flow (client_id rhsm-api) with no scopes per https://access.redhat.com/articles/3626371.
 overview: 'Red Hat Enterprise Linux publishes 1 OAuth 2.0 scope via the password flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Red Hat Enterprise Linux API on a user''s behalf.

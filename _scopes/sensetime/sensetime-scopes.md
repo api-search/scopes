@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Sensetime Scopes
+name: SenseTime Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SenseTime publishes 3 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the SenseTime API on a user''s behalf.

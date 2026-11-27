@@ -880,7 +880,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Live Direct Marketing Online Scopes
+name: Live Direct Marketing Scopes
 name_suffix: OAuth Scopes
 note: 'Neither OpenAPI declares an oauth2 securityScheme and the provider publishes no OAuth authorization server (its RFC 9728 document says authorization_servers: []). What it DOES publish is a fine-grained scope model attached to Bearer API keys: the LDM OpenAPI stamps x-required-scope on 406 operations, the A2A card lists 79 scopes, and per-method @RequireScope checks are described in the authentication docs. This file records that catalog under the OAuthScopes pointer because it is the scope contract an agent must satisfy; the credential is a static ldm_* key, not an OAuth token. Inbox Check keys carry a smaller scope set. derive-oauth-scopes.py produced nothing for this repo, correctly.'
 overview: 'Live Direct Marketing uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

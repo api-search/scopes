@@ -90,42 +90,6 @@ api_specs:
   slug: datalikers-com-user-v2-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-user-v2-api-openapi.yml
-- filename: datalikers-com-acquisitions-api-openapi.yml
-  format: yaml
-  label: datalikers-com Acquisitions API
-  slug: datalikers-com-acquisitions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-acquisitions-api-openapi.yml
-- filename: datalikers-com-companies-api-openapi.yml
-  format: yaml
-  label: datalikers-com Companies API
-  slug: datalikers-com-companies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-companies-api-openapi.yml
-- filename: datalikers-com-exec-moves-api-openapi.yml
-  format: yaml
-  label: datalikers-com Exec Moves API
-  slug: datalikers-com-exec-moves-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-exec-moves-api-openapi.yml
-- filename: datalikers-com-funding-events-api-openapi.yml
-  format: yaml
-  label: datalikers-com Funding Events API
-  slug: datalikers-com-funding-events-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-funding-events-api-openapi.yml
-- filename: datalikers-com-hiring-signals-api-openapi.yml
-  format: yaml
-  label: datalikers-com Hiring Signals API
-  slug: datalikers-com-hiring-signals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-hiring-signals-api-openapi.yml
-- filename: datalikers-com-investors-api-openapi.yml
-  format: yaml
-  label: datalikers-com Investors API
-  slug: datalikers-com-investors-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-investors-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -133,7 +97,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Datalikers Com Scopes
+name: datalikers-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'datalikers-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

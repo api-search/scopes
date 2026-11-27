@@ -1,71 +1,35 @@
 ---
 api_specs:
-- filename: snov-io-authentication-api-openapi.yml
-  format: yaml
-  label: Snov.io Authentication API
-  slug: snov-io-authentication-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-authentication-api-openapi.yml
-- filename: snov-io-campaigns-api-openapi.yml
-  format: yaml
-  label: Snov.io Campaigns API
-  slug: snov-io-campaigns-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-campaigns-api-openapi.yml
-- filename: snov-io-crm-pipeline-api-openapi.yml
-  format: yaml
-  label: Snov.io CRM Pipeline API
-  slug: snov-io-crm-pipeline-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-crm-pipeline-api-openapi.yml
-- filename: snov-io-domain-search-api-openapi.yml
-  format: yaml
-  label: Snov.io Domain Search API
-  slug: snov-io-domain-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-domain-search-api-openapi.yml
-- filename: snov-io-email-accounts-api-openapi.yml
-  format: yaml
-  label: Snov.io Email Accounts API
-  slug: snov-io-email-accounts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-accounts-api-openapi.yml
-- filename: snov-io-email-finder-api-openapi.yml
-  format: yaml
-  label: Snov.io Email Finder API
-  slug: snov-io-email-finder-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-finder-api-openapi.yml
 - filename: snov-io-email-verification-api-openapi.yml
   format: yaml
   label: Snov.io Email Verification API
-  slug: snov-io-email-verification-api
+  slug: snovio-email-verification-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-verification-api-openapi.yml
+- filename: snov-io-campaigns-api-openapi.yml
+  format: yaml
+  label: Snov.io Campaigns API
+  slug: snovio-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-campaigns-api-openapi.yml
 - filename: snov-io-email-warm-up-api-openapi.yml
   format: yaml
   label: Snov.io Email Warm-up API
-  slug: snov-io-email-warm-up-api
+  slug: snovio-email-warm-up-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-warm-up-api-openapi.yml
-- filename: snov-io-prospects-api-openapi.yml
-  format: yaml
-  label: Snov.io Prospects API
-  slug: snov-io-prospects-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-prospects-api-openapi.yml
-- filename: snov-io-user-api-openapi.yml
-  format: yaml
-  label: Snov.io User API
-  slug: snov-io-user-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-user-api-openapi.yml
 - filename: snov-io-webhooks-api-openapi.yml
   format: yaml
   label: Snov.io Webhooks API
-  slug: snov-io-webhooks-api
+  slug: snovio-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/snov-io/openapi/snov-io-webhooks-api-openapi.yml
+- filename: snov-io-openapi-generated.yml
+  format: yaml
+  label: Snov.io API
+  slug: snov-io-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/snov-io/openapi/_ae-authored/snov-io-openapi-generated.yml
 authorization_urls:
 - https://app.snov.io/mcp/authorize
 description: 'Snov.io issues exactly ONE OAuth scope across its entire platform: "mcp", advertised by the authorization server on app.snov.io and required by the remote MCP server on mcp.snov.io. The REST API issues no scopes at all — its client_credentials exchange accepts no scope parameter and returns a token whose authority is derived entirely from the account''s subscription plan and credit balance.'
@@ -76,7 +40,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Snov Io Scopes
+name: Snov.io Scopes
 name_suffix: OAuth Scopes
 note: Upgraded from derived to probed. The previous round recorded "no OAuth scopes are documented", which was true of the REST API but missed the MCP authorization server entirely. Both discovery documents are now captured verbatim under well-known/.
 overview: 'Snov.io publishes 1 OAuth 2.0 scope via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Snov.io API on a user''s behalf.

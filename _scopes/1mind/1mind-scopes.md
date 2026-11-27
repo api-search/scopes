@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: 1Mind Scopes
+name: 1mind Scopes
 name_suffix: OAuth Scopes
 note: 'The advertised set is the Ory Hydra default and contains NO product scopes — there is no 1mind-specific scope (no read/write, no resource-scoped permission) published anywhere anonymously. Product scopes may exist and simply not be advertised in scopes_supported, which the OAuth 2.0 authorization server metadata spec (RFC 8414 §2) permits as OPTIONAL. Nothing is inferred or invented here: this file records exactly what the server publishes.'
 overview: '1mind publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the 1mind API on a user''s behalf.

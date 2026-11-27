@@ -225,7 +225,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Frontapp Scopes
+name: FrontApp Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'FrontApp publishes 57 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the FrontApp API on a user''s behalf.

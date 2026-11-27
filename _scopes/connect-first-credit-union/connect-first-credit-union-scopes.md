@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Connect First Credit Union Scopes
+name: connectFirst Credit Union Scopes
 name_suffix: OAuth Scopes
 note: The only OAuth scopes advertised are the two standard OIDC scopes exposed by Umbraco member authentication. No banking/data-access scopes exist; there is no public developer authorization surface.
 overview: 'connectFirst Credit Union publishes 2 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the connectFirst Credit Union API on a user''s behalf.

@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Filetypeconverters Com Scopes
+name: FileType Converters Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'FileType Converters publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the FileType Converters API on a user''s behalf.
@@ -99,11 +99,11 @@ tags:
 - PDF
 - OCR
 - Spreadsheets
-- Images
+- Image
 - MCP
 - Developer API
 - AI Deep Read
-- File Formats
+- File Format
 token_bound: false
 token_urls: []
 ---

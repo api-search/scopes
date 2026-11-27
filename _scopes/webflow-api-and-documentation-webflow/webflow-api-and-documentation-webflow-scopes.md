@@ -123,7 +123,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Webflow Api And Documentation Webflow Scopes
+name: Webflow API and Documentation Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Webflow API and Documentation publishes 29 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Webflow API and Documentation API on a user''s behalf.

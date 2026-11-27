@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Athletic Greens Scopes
+name: AG1 Scopes
 name_suffix: OAuth Scopes
 note: Scopes are read verbatim from the live RFC 8414 authorization-server metadata served on AG1's hosts. AG1 publishes no scope reference page; descriptions below state the scope's effect as observed on the protected surfaces, and are marked derived where the metadata carries no description.
 overview: 'AG1 publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the AG1 API on a user''s behalf.

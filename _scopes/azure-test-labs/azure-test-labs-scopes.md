@@ -78,12 +78,6 @@ api_specs:
   slug: azure-test-labs-policies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-policies-api-openapi.yml
-- filename: azure-test-labs-provideroperations-api-openapi.yml
-  format: yaml
-  label: Azure DevTest Labs ProviderOperations API
-  slug: azure-test-labs-provideroperations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-provideroperations-api-openapi.yml
 - filename: azure-test-labs-schedules-api-openapi.yml
   format: yaml
   label: Azure DevTest Labs Schedules API
@@ -126,6 +120,12 @@ api_specs:
   slug: azure-test-labs-virtualmachineschedules-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-virtualmachineschedules-api-openapi.yml
+- filename: azure-test-labs-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure DevTest Labs Subscriptions API
+  slug: azure-test-labs-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-subscriptions-api-openapi.yml
 - filename: azure-test-labs-notification-channels-api-openapi.yml
   format: yaml
   label: Azure DevTest Labs Notification Channels API
@@ -159,7 +159,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Azure Test Labs Scopes
+name: Azure DevTest Labs Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure DevTest Labs publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure DevTest Labs API on a user''s behalf.

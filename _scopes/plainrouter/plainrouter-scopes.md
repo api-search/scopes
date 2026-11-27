@@ -138,7 +138,7 @@ tags:
 - Company
 - Advertising
 - Developer Tools
-- PaidAds
+- Paid Ads
 token_bound: false
 token_urls:
 - https://plainrouter.com/oauth2/token

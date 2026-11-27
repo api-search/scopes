@@ -45,7 +45,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Prosper Ai Scopes
+name: Prosper AI Scopes
 name_suffix: OAuth Scopes
 note: OAuth scopes here belong to the hosted MCP OAuth server (issuer https://voice.getprosperapp.com/mcp). The REST API uses API-key auth and declares no OAuth scopes in its OpenAPI.
 overview: 'Prosper AI publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Prosper AI API on a user''s behalf.

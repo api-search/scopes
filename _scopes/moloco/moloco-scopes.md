@@ -253,7 +253,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Moloco Scopes
+name: MOLOCO Scopes
 name_suffix: OAuth Scopes
 note: 'Moloco''s published OpenAPI documents declare only apiKey security schemes (Authorization bearer token / x-api-key), so no scopes are derivable from the specs. The OAuth surface was found by probing the API host directly: api.moloco.cloud serves RFC 8414 authorization-server metadata, and mcp.moloco.cloud/mcp answers with an RFC 9728 WWW-Authenticate challenge naming the required scope. Scope descriptions below are the observed identifiers only — Moloco publishes no scope reference page, so no descriptions are asserted.'
 overview: 'MOLOCO publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the MOLOCO API on a user''s behalf.

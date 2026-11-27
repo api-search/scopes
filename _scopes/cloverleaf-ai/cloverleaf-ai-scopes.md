@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Cloverleaf Ai Scopes
+name: Cloverleaf AI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Cloverleaf AI publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cloverleaf AI API on a user''s behalf.

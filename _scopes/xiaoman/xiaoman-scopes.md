@@ -51,7 +51,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Xiaoman Scopes
+name: Xiaoman (OKKI) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Xiaoman (OKKI) publishes 12 OAuth 2.0 scopes via the password and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Xiaoman (OKKI) API on a user''s behalf.

@@ -149,7 +149,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Clawspan Cloud Scopes
+name: ClawSpan Scopes
 name_suffix: OAuth Scopes
 note: 'Neither OpenAPI declares an oauth2 security scheme (derive-oauth-scopes.py found 0 oauth2 schemes), so this file is built from the OAuth discovery documents the provider serves: the RFC 9728 protected-resource metadata on app.clawspan.cloud (resource = the MCP endpoint) and the RFC 8414 / OIDC metadata on the authorization server it names, clerk.clawspan.cloud. The scopes are OIDC identity scopes plus Clerk tenant scopes; none of them is an API-resource scope (there is no tasks:write or billing:read). Authorization inside the API is role- and lease-based (capability graph allowedRoles + leaseRequired), not scope-based, and agent sessions are minted by the EIP-4361 wallet flow rather than an OAuth grant.'
 overview: 'ClawSpan publishes 7 OAuth 2.0 scopes via the authorizationCode and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the ClawSpan API on a user''s behalf.

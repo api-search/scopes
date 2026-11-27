@@ -32,7 +32,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Allianz Trade Online Scopes
+name: Allianz Trade Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Allianz Trade publishes 8 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Allianz Trade API on a user''s behalf.

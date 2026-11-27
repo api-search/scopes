@@ -343,7 +343,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Nationgraph Scopes
+name: NationGraph Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'NationGraph publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the NationGraph API on a user''s behalf.

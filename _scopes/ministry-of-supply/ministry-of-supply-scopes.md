@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Ministry Of Supply Scopes
+name: Ministry of Supply Scopes
 name_suffix: OAuth Scopes
 note: Scopes are read from the merchant's own OpenID Connect discovery document, served from www.ministryofsupply.com. They govern Shopify Customer Accounts (a shopper's own orders and profile), not the anonymous UCP/MCP commerce endpoint — that endpoint has no scope surface and requires no token.
 overview: 'Ministry of Supply publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Ministry of Supply API on a user''s behalf.

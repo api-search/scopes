@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Caa Insurance Scopes
+name: CAA Insurance Scopes
 name_suffix: OAuth Scopes
 note: CAA Insurance exposes no API and therefore no API authorization scopes. The only scope surface observable anywhere in the estate is the standard OpenID Connect scope set advertised by the Microsoft Entra External ID (CIAM) tenant that authenticates the CAA Broker Portal and CAA Club Group sign-in. These are identity scopes for signing a human in, not delegated permissions over insurance data — no quote, policy, billing, or claims scope exists publicly.
 overview: 'CAA Insurance publishes 4 OAuth 2.0 scopes via the authorizationCode and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the CAA Insurance API on a user''s behalf.

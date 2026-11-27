@@ -517,7 +517,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Sendpulse Scopes
+name: SendPulse Scopes
 name_suffix: OAuth Scopes
 note: SendPulse operates TWO distinct OAuth surfaces and only one of them has scopes at all. 1. The REST API (api.sendpulse.com) uses client_credentials and declares an EMPTY scopes object in all 19 published specs. There is no scope, permission or consent reference page — an API key or client-credentials token carries the full permissions of the account that issued it. Least-privilege is not expressible. 2. The remote MCP server (mcp.sendpulse.com) publishes RFC 8414 metadata advertising exactly one scope, "rest", which is coarse — a single scope granting the whole REST surface.
 overview: 'SendPulse publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the SendPulse API on a user''s behalf.
@@ -558,7 +558,6 @@ tags:
 - Popups
 - Email Verification
 - MCP
-- Agent Ready
 token_bound: false
 token_urls: []
 ---

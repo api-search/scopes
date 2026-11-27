@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Aicoolies Com Scopes
+name: aicoolies Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'aicoolies publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the aicoolies API on a user''s behalf.

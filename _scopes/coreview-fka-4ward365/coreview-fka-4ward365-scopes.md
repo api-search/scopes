@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Coreview Fka 4Ward365 Scopes
+name: CoreView (FKA 4ward365) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CoreView (FKA 4ward365) publishes 14 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CoreView (FKA 4ward365) API on a user''s behalf.

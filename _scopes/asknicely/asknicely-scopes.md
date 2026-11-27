@@ -39,7 +39,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Asknicely Scopes
+name: AskNicely Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AskNicely publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the AskNicely API on a user''s behalf.

@@ -15,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ge Vernova Scopes
+name: GE Vernova Scopes
 name_suffix: OAuth Scopes
 note: Proficy Authentication (Cloud Foundry UAA) is the OAuth2 authorization server for the on-premises Proficy products. GE Vernova publishes the assignable scope list per product as reference tables in the Proficy Authentication documentation; the scopes below are transcribed verbatim from those tables. There is no OpenAPI document to derive these from — no GE Vernova Electrification Software product publishes a machine-readable contract — so this file is searched, not derived.
 overview: 'GE Vernova publishes 27 OAuth 2.0 scopes via the password and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the GE Vernova API on a user''s behalf.

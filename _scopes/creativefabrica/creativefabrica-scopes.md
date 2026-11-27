@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Creativefabrica Scopes
+name: Creative Fabrica Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Creative Fabrica publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Creative Fabrica API on a user''s behalf.

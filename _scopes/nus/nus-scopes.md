@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Nus Scopes
+name: National University of Singapore Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'National University of Singapore publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the National University of Singapore API on a user''s behalf.

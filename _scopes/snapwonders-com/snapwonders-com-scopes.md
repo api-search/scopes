@@ -55,7 +55,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Snapwonders Com Scopes
+name: snapwonders-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'snapwonders-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -84,7 +84,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Forensics
 - Steganography
-- MediaConversion
+- Media Conversion
 - Privacy
 - Open Source
 token_bound: false

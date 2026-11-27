@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Resilience Cyber Scopes
+name: Resilience Scopes
 name_suffix: OAuth Scopes
 note: 'These are the scopes the Auth0 tenant advertises in its discovery document and the scopes the portal actually requests on /authorize. They are OpenID Connect standard scopes and Auth0 profile-claim scopes — NOT product scopes. No insurance-domain scope surface (policy, quote, bind, claim, submission, portfolio) is published anywhere on the Resilience estate, and there is no scopes/permissions reference page to search: cyberresilience.com soft-404s every developer path. Absence of a domain scope model is the finding, not a gap in this harvest.'
 overview: 'Resilience publishes 14 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Resilience API on a user''s behalf.

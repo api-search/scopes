@@ -87,7 +87,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Wellcare Health Plans Scopes
+name: WellCare Health Plans Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'WellCare Health Plans publishes 8 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the WellCare Health Plans API on a user''s behalf.

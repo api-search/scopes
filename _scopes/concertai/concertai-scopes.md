@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Concertai Scopes
+name: ConcertAI Scopes
 name_suffix: OAuth Scopes
 note: ConcertAI publishes no scopes or permissions reference. The scopes below are the scopes_supported advertised by the OpenID Connect discovery document on the Auth0 tenant fronting the Precision platform. They are the standard OIDC claim scopes plus offline_access — no product/resource scopes (data, trial, imaging, patient) are advertised anonymously, which means any API-level authorization model for the Precision or Eureka platforms is not publicly discoverable.
 overview: 'ConcertAI publishes 14 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the ConcertAI API on a user''s behalf.

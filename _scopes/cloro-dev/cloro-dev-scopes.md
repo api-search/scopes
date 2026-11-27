@@ -37,14 +37,14 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Cloro Dev Scopes
+name: Cloro Incorporation Ltd. Scopes
 name_suffix: OAuth Scopes
 note: Scope descriptions are derived from the Clerk authorization-server metadata (claims_supported) and the provider's MCP page; cloro publishes no separate scopes reference. Tokens are verified by the MCP server against the issuer's JWKS; the API key path (Authorization Bearer or key-in-URL) needs no scopes.
-overview: 'cloro publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the cloro API on a user''s behalf.
+overview: 'Cloro Incorporation Ltd. publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cloro Incorporation Ltd. API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: cloro
+provider_name: Cloro Incorporation Ltd.
 provider_slug: cloro-dev
 schemes: []
 scope_count: 3

@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Beekeepers Naturals Scopes
+name: Beekeeper's Naturals Scopes
 name_suffix: OAuth Scopes
 note: Derived from the live OIDC/OAuth discovery documents served on the store's own host (there is no OpenAPI for this provider). Scope descriptions are the Shopify customer-account meanings of the advertised scope strings; only the four scopes the store actually advertises are listed.
 overview: 'Beekeeper''s Naturals publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Beekeeper''s Naturals API on a user''s behalf.

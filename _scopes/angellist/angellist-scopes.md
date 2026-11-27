@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Angellist Scopes
+name: AngelList Scopes
 name_suffix: OAuth Scopes
 note: Scopes read from the provider's own live RFC 8414 / OIDC discovery documents. There is no OpenAPI to derive from — the Investor Management API is GraphQL with introspection disabled — and AngelList publishes no scopes reference page outside these discovery documents. The Investor Management API itself is API-key authenticated and has no scope surface; the scopes below belong to the web sign-in identity provider and to the documentation MCP surface.
 overview: 'AngelList publishes 4 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AngelList API on a user''s behalf.

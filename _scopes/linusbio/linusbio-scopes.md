@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Linusbio Scopes
+name: LinusBio Scopes
 name_suffix: OAuth Scopes
 note: Derived directly from the scopes_supported array of the RFC 8414 authorization server metadata served on traced.life. LinusBio publishes no scope reference page; these are the Shopify Customer Accounts scopes for the Traced storefront. No OpenAPI declaring oauth2 securitySchemes exists for this provider, so derive-oauth-scopes.py had no input.
 overview: 'LinusBio publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LinusBio API on a user''s behalf.

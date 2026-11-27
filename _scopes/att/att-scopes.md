@@ -166,7 +166,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Att Scopes
+name: AT&T Scopes
 name_suffix: OAuth Scopes
 note: AT&T publishes no OAuth scopes for the Developer Hub's invite-only CAMARA network APIs, which use a client_credentials flow (https://devex-web.att.com/developer-hub/docs/network-api-accelerator-program); the OAuth 2.0 scope documentation at https://developer.att.com/oauth-2/docs covers only legacy APIs (SMS, MMS, ADS, Speech).
 overview: 'AT&T publishes 10 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AT&T API on a user''s behalf.

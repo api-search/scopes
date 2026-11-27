@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: google-cloud-assured-workloads-violations-api-openapi.yml
+- filename: google-cloud-assured-workloads-organizations-api-openapi.yml
   format: yaml
-  label: Google Cloud Assured Workloads Violations API
-  slug: google-cloud-assured-workloads-violations-api
+  label: Google Cloud Assured Workloads Cloud Assured Workloads Organizations API
+  slug: google-cloud-assured-workloads-organizations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-assured-workloads/openapi/google-cloud-assured-workloads-violations-api-openapi.yml
-- filename: google-cloud-assured-workloads-workloads-api-openapi.yml
-  format: yaml
-  label: Google Cloud Assured Workloads API
-  slug: google-cloud-assured-workloads-workloads-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-assured-workloads/openapi/google-cloud-assured-workloads-workloads-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-assured-workloads/openapi/google-cloud-assured-workloads-organizations-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

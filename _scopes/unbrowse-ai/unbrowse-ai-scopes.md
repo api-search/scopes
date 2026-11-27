@@ -94,7 +94,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Unbrowse Ai Scopes
+name: unbrowse-ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'unbrowse-ai publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the unbrowse-ai API on a user''s behalf.

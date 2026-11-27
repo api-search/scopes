@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Jetblue Scopes
+name: JetBlue Scopes
 name_suffix: OAuth Scopes
 note: Scopes are read verbatim from the anonymous discovery documents of accounts.jetblue.com (Okta). The OIDC discovery document advertises only the standard OpenID Connect scope set; the RFC 8414 authorization-server document additionally advertises the Okta org management scope namespace (okta.*), which is Okta platform default surface for the org's own administration API, not a JetBlue product scope. JetBlue publishes no scope or permission reference of its own, and no JetBlue business scopes (booking, flight status, TrueBlue, NDC) appear anywhere in the discovery documents.
 overview: 'JetBlue publishes 7 OAuth 2.0 scopes via the authorizationCode, implicit, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the JetBlue API on a user''s behalf.

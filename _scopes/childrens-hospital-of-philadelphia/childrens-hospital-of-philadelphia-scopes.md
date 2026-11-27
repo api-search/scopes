@@ -34,7 +34,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Childrens Hospital Of Philadelphia Scopes
+name: Children's Hospital of Philadelphia Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Children''s Hospital of Philadelphia publishes 6 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Children''s Hospital of Philadelphia API on a user''s behalf.

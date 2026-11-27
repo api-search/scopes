@@ -303,7 +303,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Sarj Ai Developer Api Scopes
+name: Sarj AI Developer API Scopes
 name_suffix: OAuth Scopes
 note: 'derive-oauth-scopes.py found no oauth2 securityScheme in any harvested OpenAPI — the REST APIs are bearer-API-key only. The OAuth surface exists solely to authorize the hosted MCP server, and is described by RFC 8414 authorization-server metadata rather than by the specs. This artifact is built from that live metadata document, not derived from a spec and not searched from a docs scopes page (Sarj publishes none). Re-verified 2026-09-11: derive-oauth-scopes.py still reports 0 oauth2 securitySchemes across the refreshed specs, and the live authorization-server metadata is byte-identical to the 2026-08 fetch — scopes_supported is still the single value "openid".'
 overview: 'Sarj AI Developer API publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Sarj AI Developer API API on a user''s behalf.

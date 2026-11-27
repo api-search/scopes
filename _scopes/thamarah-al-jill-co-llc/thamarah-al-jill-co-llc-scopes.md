@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Thamarah Al Jill Co Llc Scopes
+name: Thamarah Al-Jill Co LLC Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Thamarah Al-Jill Co LLC publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Thamarah Al-Jill Co LLC API on a user''s behalf.

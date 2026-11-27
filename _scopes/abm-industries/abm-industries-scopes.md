@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Abm Industries Scopes
+name: ABM Industries Scopes
 name_suffix: OAuth Scopes
 note: 'ABM publishes no scopes reference page. What follows is not a reconstruction — it is the authorisation configuration ABM''s own first-party client ships to every browser. ABM Connect uses a SINGLE coarse application scope across every protected resource: there is no per-resource or per-verb scoping, so a token that can read a service location can also reach finance, talent-management and safety resources. That is a real, material finding for anyone assessing delegated access.'
 overview: 'ABM Industries publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ABM Industries API on a user''s behalf.

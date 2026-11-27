@@ -193,7 +193,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Sirenic Eu Scopes
+name: Sirenic Scopes
 name_suffix: OAuth Scopes
 note: 'OAuth 2.0 exists for ONE surface: the MCP connector at https://api.sirenic.eu/mcp/connecteur used by Gemini CLI / Claude / ChatGPT style assistants. The REST API itself is not OAuth — it is x402 pay-per-call or an X-Api-Key. The OpenAPI declares no oauth2 securityScheme, so derive-oauth-scopes.py produced nothing; this file is read from the live discovery documents.'
 overview: 'Sirenic publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Sirenic API on a user''s behalf.

@@ -37,7 +37,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Ai Visionary Xyz Scopes
+name: AI Visionary Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AI Visionary uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

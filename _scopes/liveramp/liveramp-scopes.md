@@ -261,7 +261,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Liveramp Scopes
+name: LiveRamp Scopes
 name_suffix: OAuth Scopes
 note: LiveRamp does not publish a scope/permission reference. The Clean Room API declares an oauth2 clientCredentials scheme with an EMPTY scopes map, and the LiveRamp Service Account token request documents exactly one scope value, `openid`. Authorization is carried by the service account itself (provisioned per organization by a LiveRamp representative) and by the LR-Org-Id header, not by OAuth scopes. Recorded as an honest near-absence rather than an invented scope list.
 overview: 'LiveRamp publishes 1 OAuth 2.0 scope via the clientCredentials and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the LiveRamp API on a user''s behalf.

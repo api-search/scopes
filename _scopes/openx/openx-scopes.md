@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Openx Scopes
+name: OpenX Scopes
 name_suffix: OAuth Scopes
 note: OpenX publishes no OpenAPI, so these scopes are read from the live OIDC discovery document and the RFC 9728 protected-resource metadata served at api.openx.com, cross-checked against the scope string the published authentication guide tells integrators to send ("openid email profile api"). OpenX documents no per-resource or per-object scopes — `api` is a single coarse grant covering the whole Platform API; object-level access is controlled by the OpenX user's role/ACL inside the instance, not by scope.
 overview: 'OpenX publishes 5 OAuth 2.0 scopes via the authorizationCode and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the OpenX API on a user''s behalf.

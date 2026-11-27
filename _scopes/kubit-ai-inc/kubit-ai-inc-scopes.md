@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Kubit Ai Inc Scopes
+name: Kubit AI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Kubit AI publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Kubit AI API on a user''s behalf.

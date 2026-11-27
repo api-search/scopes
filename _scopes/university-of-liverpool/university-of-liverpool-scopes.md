@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: University Of Liverpool Scopes
+name: University of Liverpool Scopes
 name_suffix: OAuth Scopes
 note: The only scope vocabulary the University of Liverpool publishes machine-readably is the one advertised by its own AD FS authorization server's OpenID Connect discovery document. Read verbatim from that document on 2026-09-01. The scholarly surfaces (OAI-PMH, EPrints REST) are anonymous and have no scope model at all; the Canvas, Elements, Alma/Primo and Talis scopes belong to those vendors' products and are deliberately not restated here.
 overview: 'University of Liverpool publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of Liverpool API on a user''s behalf.

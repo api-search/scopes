@@ -109,7 +109,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Datastax Scopes
+name: DataStax Scopes
 name_suffix: OAuth Scopes
 note: Astra application tokens carry permission scopes (not OAuth2). These scope strings are declared on the BearerAuth security requirement in the DevOps API OpenAPI. Astra also supports fine-grained custom roles; this list captures the built-in permission scopes present in the spec.
 overview: 'DataStax publishes 15 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the DataStax API on a user''s behalf.

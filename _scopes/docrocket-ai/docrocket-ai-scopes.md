@@ -51,7 +51,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Docrocket Ai Scopes
+name: docrocket-ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'docrocket-ai publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the docrocket-ai API on a user''s behalf.

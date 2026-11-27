@@ -91,7 +91,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Astrology Api Scopes
+name: Astrology API Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Astrology API publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Astrology API API on a user''s behalf.

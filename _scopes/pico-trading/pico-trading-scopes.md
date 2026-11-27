@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Pico Trading Scopes
+name: Pico Scopes
 name_suffix: OAuth Scopes
 note: Pico publishes no public product-API OAuth documentation. These are the scopes_supported advertised by the authorization server of the login-gated Salesforce Experience Cloud customer portal (portal.pico.net) that gates all product and Corvil API documentation. They are Salesforce platform scopes, not Pico product-API scopes; descriptions are intentionally omitted rather than inferred.
 overview: 'Pico publishes 36 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Pico API on a user''s behalf.

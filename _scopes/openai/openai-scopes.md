@@ -367,7 +367,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Openai Scopes
+name: OpenAI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'OpenAI publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the OpenAI API on a user''s behalf.

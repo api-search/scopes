@@ -1,5 +1,17 @@
 ---
 api_specs:
+- filename: microsoft-onenote-groups-site-api-openapi.yml
+  format: yaml
+  label: Microsoft OneNote Groups.site API
+  slug: microsoft-onenote-groups-site-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-groups-site-api-openapi.yml
+- filename: microsoft-onenote-me-onenote-api-openapi.yml
+  format: yaml
+  label: Microsoft OneNote Me.onenote API
+  slug: microsoft-onenote-me-onenote-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-me-onenote-api-openapi.yml
 - filename: microsoft-onenote-notebooks-api-openapi.yml
   format: yaml
   label: Microsoft OneNote Notebooks API
@@ -14,7 +26,7 @@ api_specs:
   url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-pages-api-openapi.yml
 - filename: microsoft-onenote-sectiongroups-api-openapi.yml
   format: yaml
-  label: Microsoft OneNote SectionGroups API
+  label: Microsoft OneNote Section Groups API
   slug: microsoft-onenote-sectiongroups-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-sectiongroups-api-openapi.yml
@@ -51,7 +63,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Microsoft Onenote Scopes
+name: Microsoft OneNote Scopes
 name_suffix: OAuth Scopes
 note: The Notes OpenAPI declares the azureaadv2 OAuth2 scheme with an empty scopes map; the permissions below are the Notes.* permissions documented in the Microsoft Graph permissions reference.
 overview: 'Microsoft OneNote publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft OneNote API on a user''s behalf.

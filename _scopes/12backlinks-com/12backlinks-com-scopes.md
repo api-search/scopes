@@ -37,7 +37,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: 12Backlinks Com Scopes
+name: 12backlinks Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: '12backlinks uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

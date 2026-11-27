@@ -55,7 +55,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Realworldapis Com Scopes
+name: realworldapis-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'realworldapis-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -84,7 +84,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Discovery
 - Artificial Intelligence
-- PhysicalWorld
+- Physical-World
 - RealWorldAPIs
 token_bound: false
 token_urls: []

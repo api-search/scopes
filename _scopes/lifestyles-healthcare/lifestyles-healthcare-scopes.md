@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Lifestyles Healthcare Scopes
+name: LifeStyles Healthcare Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'LifeStyles Healthcare publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LifeStyles Healthcare API on a user''s behalf.

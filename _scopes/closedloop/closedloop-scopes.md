@@ -73,7 +73,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Closedloop Scopes
+name: ClosedLoop AI Scopes
 name_suffix: OAuth Scopes
 note: 'derive-oauth-scopes.py returned nothing for this provider, correctly: the published OpenAPI declares only an apiKey securityScheme and no oauth2 flows, so there is nothing in the REST contract to derive from. The scopes below are NOT derived -- they were read from the live OAuth metadata the MCP servers actually serve. The provider publishes the scope NAMES in that metadata but publishes no per-scope description or permission matrix anywhere in its documentation, so the descriptions below say what the metadata establishes and no more.'
 overview: 'ClosedLoop AI publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ClosedLoop AI API on a user''s behalf.

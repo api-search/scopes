@@ -27,7 +27,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Stayingapi Scopes
+name: StayingAPI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'StayingAPI publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the StayingAPI API on a user''s behalf.

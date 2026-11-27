@@ -681,7 +681,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Clickfunnels Scopes
+name: ClickFunnels Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares only a bearer scheme and no oauth2 securityScheme, so nothing is derivable from the spec. The scope list below is the authoritative one ClickFunnels publishes, in its RFC 8414 authorization-server metadata. The OAuth guide tells integrators "You should not need to specify any scopes" and that the default grant is full access to the authorized workspace; a real token response in the docs shows scope "admin read". The `mcp` scope is advertised but no reachable MCP endpoint was found — see mcp/clickfunnels-mcp.yml.
 overview: 'ClickFunnels publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ClickFunnels API on a user''s behalf.

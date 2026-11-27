@@ -50,7 +50,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Bankvic Scopes
+name: BankVic Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI contract in this repo declares no oauth2 securitySchemes (it documents the public Product Reference Data surface, which is unauthenticated, alongside the consented consumer-data surface). BankVic's consented CDR banking surface is authorised through the shared DSB Consumer Data Standards OAuth 2.0 / OIDC + FAPI 2.0 profile, whose authorisation scopes are the canonical CDR banking + common scopes below (not bank-proprietary). Public PRD endpoints (listBankingProducts, getBankingProductDetail) require NO scope. Scopes are requested by an accredited Data Recipient (ADR); there is no self-service developer OAuth client for the public.
 overview: 'BankVic publishes 9 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BankVic API on a user''s behalf.

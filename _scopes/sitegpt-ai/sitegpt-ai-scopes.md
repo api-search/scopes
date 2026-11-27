@@ -205,7 +205,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Sitegpt Ai Scopes
+name: sitegpt-ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'sitegpt-ai publishes 37 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the sitegpt-ai API on a user''s behalf.

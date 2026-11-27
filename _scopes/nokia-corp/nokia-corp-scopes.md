@@ -193,7 +193,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Nokia Corp Scopes
+name: Nokia Scopes
 name_suffix: OAuth Scopes
 note: 'The RapidAPI contract declares only an apiKey scheme, so no oauth2 scopes could be derived from it (derive-oauth-scopes.py: 0). These scopes are the consent and authorization scopes the docs publish for the NaC Authorization Server (CIBA / Authorization Code flows) and the Consent & Authorization form. Purpose may be prefixed per W3C DPV, e.g. "dpv:FraudPreventionAndDetection number-verification:verify".'
 overview: 'Nokia uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

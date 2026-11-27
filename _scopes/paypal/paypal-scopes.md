@@ -170,7 +170,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Paypal Scopes
+name: PayPal Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'PayPal publishes 39 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the PayPal API on a user''s behalf.

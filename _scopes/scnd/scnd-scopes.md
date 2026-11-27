@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Scnd Scopes
+name: Second (scnd) Scopes
 name_suffix: OAuth Scopes
 note: Second's OAuth authorized-apps model exposes a coarse two-level permission ("scope") selection rather than a fine-grained named-scope catalog. An authorized app is granted one or both of the permissions below at registration. No further per-resource scope reference is published in the docs.
 overview: 'Second (scnd) publishes 2 OAuth 2.0 scopes via the clientCredentials, password, and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Second (scnd) API on a user''s behalf.

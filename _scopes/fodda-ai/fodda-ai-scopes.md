@@ -118,7 +118,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Fodda Ai Scopes
+name: Fodda (PSFK) Scopes
 name_suffix: OAuth Scopes
 note: derive-oauth-scopes.py found no oauth2 scheme in the OpenAPI (the REST contract declares apiKey + bearer SPT only), so this file is built from the provider's published discovery documents. The scopes are identity scopes of the Clerk-delegated authorization server plus the single resource scope "read" advertised by the www-hosted protected-resource document; no per-tool or per-graph scopes are published, and MCP tool authorization is by account/plan rather than scope.
 overview: 'Fodda (PSFK) publishes 8 OAuth 2.0 scopes via the authorizationCode and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Fodda (PSFK) API on a user''s behalf.

@@ -205,7 +205,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Fhir Scopes
+name: Fast Healthcare Interoperability Resources Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Fast Healthcare Interoperability Resources publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Fast Healthcare Interoperability Resources API on a user''s behalf.

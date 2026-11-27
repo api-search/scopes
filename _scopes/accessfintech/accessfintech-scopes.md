@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Accessfintech Scopes
+name: AccessFintech Scopes
 name_suffix: OAuth Scopes
 note: IMPORTANT SCOPE OF THIS FILE. AccessFintech publishes no OpenAPI and no public scopes / permissions reference, so nothing here is a business scope for the Synergy API. These are the scopes the company's own OpenID Connect issuer advertises in its anonymous discovery document. The `openid`-family scopes are the standard OIDC set the Synergy sign-in flow can request; the `okta.*` scopes belong to the Okta org management authorization server that the same issuer fronts, not to the Synergy data API. Recorded as observed, not as a claim about AccessFintech's API authorization model.
 overview: 'AccessFintech publishes 7 OAuth 2.0 scopes via the authorizationCode, implicit, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AccessFintech API on a user''s behalf.

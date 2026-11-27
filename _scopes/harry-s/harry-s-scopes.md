@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Harry S Scopes
+name: Mammoth Brands Scopes
 name_suffix: OAuth Scopes
 note: Scopes come from the scopes_supported array of the live OIDC / RFC 8414 discovery documents the two Shopify-hosted brands serve from their own domains. There is no OpenAPI to derive from and Mammoth Brands publishes no scope reference page, so descriptions below are the standard OIDC meanings plus the Shopify Customer Account API scope names verbatim — nothing was invented and no scope was added that the discovery document does not list.
 overview: 'Mammoth Brands publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Mammoth Brands API on a user''s behalf.

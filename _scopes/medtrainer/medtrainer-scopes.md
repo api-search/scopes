@@ -43,7 +43,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Medtrainer Scopes
+name: MedTrainer Scopes
 name_suffix: OAuth Scopes
 note: The MedTrainer Public API itself declares NO oauth2 security scheme — it authenticates with an X-API-Key header or an opaque bearer token, and therefore has no scope surface at all. An API key is scoped by the permissions of the API key group created in the platform, and those permissions are not published. The scopes below were read from two live OAuth/OIDC discovery documents on other MedTrainer hosts and are recorded so the platform's real authorization surface is not lost — they do NOT govern api.medtrainer.com.
 overview: 'MedTrainer uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: google-cloud-build-builds-api-openapi.yml
+- filename: google-cloud-build-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Build Builds API
-  slug: google-cloud-build-builds-api
+  label: Google Cloud Build Cloud Build Projects API
+  slug: google-cloud-build-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-build/openapi/google-cloud-build-builds-api-openapi.yml
-- filename: google-cloud-build-triggers-api-openapi.yml
-  format: yaml
-  label: Google Cloud Build Triggers API
-  slug: google-cloud-build-triggers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-build/openapi/google-cloud-build-triggers-api-openapi.yml
-- filename: google-cloud-build-worker-pools-api-openapi.yml
-  format: yaml
-  label: Google Cloud Build Worker Pools API
-  slug: google-cloud-build-worker-pools-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-build/openapi/google-cloud-build-worker-pools-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-build/openapi/google-cloud-build-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -45,12 +33,12 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
-  source: openapi/cloud-build-api-openapi.yml
+  source: openapi/google-cloud-build-projects-api-openapi.yml
 scope_count: 1
 scope_names:
 - https://www.googleapis.com/auth/cloud-platform
 scopes:
-- description: Full access to Google Cloud
+- description: See, edit, configure, and delete your Google Cloud data and see the email address for your Google Account.
   flows:
   - authorizationCode
   scope: https://www.googleapis.com/auth/cloud-platform
@@ -58,7 +46,7 @@ slug: google-cloud-build-scopes
 source_filename: google-cloud-build-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloud-build-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cloud-build-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-build-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-cloud-build-projects-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-cloud-build-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: See, edit, configure, and delete your Google Cloud data and see the email address\n    for your Google Account.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-build-projects-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-cloud-build/scopes/google-cloud-build-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:

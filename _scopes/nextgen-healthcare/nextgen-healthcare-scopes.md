@@ -179,7 +179,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Nextgen Healthcare Scopes
+name: NextGen Healthcare Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'NextGen Healthcare publishes 12 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the NextGen Healthcare API on a user''s behalf.

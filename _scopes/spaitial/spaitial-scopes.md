@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Spaitial Scopes
+name: SpAItial Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SpAItial publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the SpAItial API on a user''s behalf.

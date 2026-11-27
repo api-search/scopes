@@ -54,7 +54,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Groupe Bpce Scopes
+name: Groupe BPCE Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Groupe BPCE publishes 12 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Groupe BPCE API on a user''s behalf.

@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Modifyhealth Scopes
+name: ModifyHealth Scopes
 name_suffix: OAuth Scopes
 note: Read verbatim from scopes_supported in the OIDC discovery document served on ModifyHealth's own host. The authorization server is Shopify's customer-account issuer for shop 7887683702; ModifyHealth publishes no scope reference page of its own, so there is no richer docs source to upgrade this from.
 overview: 'ModifyHealth publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ModifyHealth API on a user''s behalf.

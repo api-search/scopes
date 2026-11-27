@@ -171,7 +171,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Sendly Now Scopes
+name: sendly-now Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'sendly-now publishes 50 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the sendly-now API on a user''s behalf.

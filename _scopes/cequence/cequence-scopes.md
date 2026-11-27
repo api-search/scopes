@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Cequence Scopes
+name: Cequence Security Scopes
 name_suffix: OAuth Scopes
 note: Read from the live RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata served by the first-party Cequence AI Gateway MCP endpoint. Cequence publishes no standalone scopes reference page. The scope set is the identity-provider scope set (Descope, fronted by Cequence) — it carries WHO the caller is, not WHAT they may do. Actual permission is resolved server-side from the caller's AI Gateway role and Team membership, which is why the docs state that a read-only role receives an authorization error on write tools rather than being refused a scope at the token endpoint. Do not read this list as a permission model.
 overview: 'Cequence Security publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cequence Security API on a user''s behalf.

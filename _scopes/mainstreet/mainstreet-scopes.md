@@ -11,7 +11,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Mainstreet Scopes
+name: MainStreet Scopes
 name_suffix: OAuth Scopes
 note: These are the scopes the MainStreet identity host advertises in its OIDC discovery document (an Auth0 tenant). They are the standard OIDC scope set plus Auth0's per-claim scopes — MainStreet publishes no product-specific API scopes, because it publishes no public product API. Nothing below is inferred; every scope is transcribed verbatim from scopes_supported.
 overview: 'MainStreet publishes 14 OAuth 2.0 scopes via the authorizationCode, clientCredentials, implicit, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the MainStreet API on a user''s behalf.

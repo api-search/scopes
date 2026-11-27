@@ -333,7 +333,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Corestory Scopes
+name: CoreStory Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CoreStory publishes 7 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CoreStory API on a user''s behalf.

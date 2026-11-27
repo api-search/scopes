@@ -14,7 +14,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Campaignmonitor Scopes
+name: Campaign Monitor Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Campaign Monitor publishes 12 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Campaign Monitor API on a user''s behalf.

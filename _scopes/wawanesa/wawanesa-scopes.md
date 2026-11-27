@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Wawanesa Scopes
+name: Wawanesa Insurance Scopes
 name_suffix: OAuth Scopes
 note: Wawanesa publishes no OpenAPI and no scope/permission reference, so there is no insurance-business scope vocabulary to harvest. Every scope below was read verbatim from the `scopes_supported` array of a live discovery document on a Wawanesa host. They are STOCK IDENTITY-PLATFORM scopes — standard OIDC claims scopes on the Okta broker issuer, Okta org-management scopes on the Okta org authorization server, and stock Salesforce Experience Cloud platform scopes on the Broker Platform. None of them grants access to a quote, bind, policy, billing or claims capability; they govern broker sign-in and the vendor platforms underneath it. Recorded here so the gap is explicit rather than implied. Wawanesa's real API authorization model is defined by CSIO's API Security Standards (certified 2024-10-29), which is member-gated and does not publish its scope vocabulary publicly.
 overview: 'Wawanesa Insurance uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

@@ -67,7 +67,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Compuute Se Scopes
+name: compuute-se Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'compuute-se uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

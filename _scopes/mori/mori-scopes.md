@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mori Scopes
+name: MORI Scopes
 name_suffix: OAuth Scopes
 note: OAuth 2.0 / OIDC scopes advertised by the Shopify Customer Account API discovery document for this store. customer-account-mcp-api:full authorizes the authenticated Customer Account MCP surface; the anonymous storefront MCP at /api/mcp requires no scope.
 overview: 'MORI publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the MORI API on a user''s behalf.

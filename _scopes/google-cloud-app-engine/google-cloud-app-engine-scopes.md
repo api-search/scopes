@@ -1,29 +1,17 @@
 ---
 api_specs:
-- filename: google-cloud-app-engine-applications-api-openapi.yml
-  format: yaml
-  label: Google Cloud App Engine Applications API
-  slug: google-cloud-app-engine-applications-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-applications-api-openapi.yml
 - filename: google-cloud-app-engine-apps-api-openapi.yml
   format: yaml
   label: Google Cloud App Engine Apps API
   slug: google-cloud-app-engine-apps-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-apps-api-openapi.yml
-- filename: google-cloud-app-engine-instances-api-openapi.yml
+- filename: google-cloud-app-engine-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud App Engine Instances API
-  slug: google-cloud-app-engine-instances-api
+  label: Google Cloud App Engine Projects API
+  slug: google-cloud-app-engine-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-instances-api-openapi.yml
-- filename: google-cloud-app-engine-versions-api-openapi.yml
-  format: yaml
-  label: Google Cloud App Engine Versions API
-  slug: google-cloud-app-engine-versions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -36,7 +24,7 @@ method: derived
 name: Google Cloud App Engine Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Google Cloud App Engine publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google Cloud App Engine API on a user''s behalf.
+overview: 'Google Cloud App Engine publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google Cloud App Engine API on a user''s behalf.
 
 
   Tokens are issued from https://oauth2.googleapis.com/token.
@@ -51,11 +39,36 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
-  source: openapi/appengine-openapi.yml
-scope_count: 2
+  source: openapi/_superseded/google-cloud-app-engine-applications-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-cloud-app-engine-apps-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/_superseded/google-cloud-app-engine-instances-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-cloud-app-engine-projects-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/_superseded/google-cloud-app-engine-versions-api-openapi.yml
+scope_count: 3
 scope_names:
 - https://www.googleapis.com/auth/appengine.admin
 - https://www.googleapis.com/auth/cloud-platform
+- https://www.googleapis.com/auth/cloud-platform.read-only
 scopes:
 - description: Full access to App Engine Admin API
   flows:
@@ -65,13 +78,19 @@ scopes:
   flows:
   - authorizationCode
   scope: https://www.googleapis.com/auth/cloud-platform
+- description: View your data across Google Cloud services and see the email address of your Google Account
+  flows:
+  - authorizationCode
+  scope: https://www.googleapis.com/auth/cloud-platform.read-only
 slug: google-cloud-app-engine-scopes
 source_filename: google-cloud-app-engine-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/appengine-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/appengine-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/appengine.admin\n  description: Full access to App Engine Admin API\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/appengine-openapi.yml\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud Platform\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/appengine-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/_superseded/google-cloud-app-engine-applications-api-openapi.yml, openapi/google-cloud-app-engine-apps-api-openapi.yml,\n  openapi/_superseded/google-cloud-app-engine-instances-api-openapi.yml, openapi/google-cloud-app-engine-projects-api-openapi.yml,\n  openapi/_superseded/google-cloud-app-engine-versions-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/_superseded/google-cloud-app-engine-applications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-cloud-app-engine-apps-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/_superseded/google-cloud-app-engine-instances-api-openapi.yml\n  flows:\n\
+  \  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-cloud-app-engine-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/_superseded/google-cloud-app-engine-versions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/appengine.admin\n  description: Full access to App Engine Admin API\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/_superseded/google-cloud-app-engine-applications-api-openapi.yml\n  - openapi/google-cloud-app-engine-apps-api-openapi.yml\n  - openapi/_superseded/google-cloud-app-engine-instances-api-openapi.yml\n\
+  \  - openapi/google-cloud-app-engine-projects-api-openapi.yml\n  - openapi/_superseded/google-cloud-app-engine-versions-api-openapi.yml\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud Platform\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/_superseded/google-cloud-app-engine-applications-api-openapi.yml\n  - openapi/google-cloud-app-engine-apps-api-openapi.yml\n  - openapi/_superseded/google-cloud-app-engine-instances-api-openapi.yml\n  - openapi/google-cloud-app-engine-projects-api-openapi.yml\n  - openapi/_superseded/google-cloud-app-engine-versions-api-openapi.yml\n- scope: https://www.googleapis.com/auth/cloud-platform.read-only\n  description: View your data across Google Cloud services and see the email address of your\n    Google Account\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-app-engine-projects-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-cloud-app-engine/scopes/google-cloud-app-engine-scopes.yml
-summary_line: 2 scopes · authorizationCode
+summary_line: 3 scopes · authorizationCode
 tags:
 - App Engine
 - Compute

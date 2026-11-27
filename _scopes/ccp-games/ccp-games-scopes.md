@@ -195,7 +195,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ccp Games Scopes
+name: CCP Games Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CCP Games publishes 70 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CCP Games API on a user''s behalf.

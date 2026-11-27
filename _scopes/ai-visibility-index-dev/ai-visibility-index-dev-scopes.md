@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Ai Visibility Index Dev Scopes
+name: AI Visibility Index Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AI Visibility Index uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

@@ -30,7 +30,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Typingdna Scopes
+name: TypingDNA Scopes
 name_suffix: OAuth Scopes
 note: The Authentication API itself is HTTP Basic (apiKey/apiSecret) and has no OAuth scope surface. The scopes below belong to the Verify 2FA OIDC integration, whose live discovery document is captured in well-known/typingdna-verify-openid-configuration.json.
 overview: 'TypingDNA publishes 3 OAuth 2.0 scopes via the authorizationCode, refreshToken, deviceCode, and jwtBearer flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the TypingDNA API on a user''s behalf.

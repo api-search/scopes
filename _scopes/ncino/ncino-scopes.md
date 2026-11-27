@@ -520,7 +520,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ncino Scopes
+name: nCino Scopes
 name_suffix: OAuth Scopes
 note: 'The OpenAPI declares an OAuth2 clientCredentials flow with an EMPTY scopes map and a relative tokenUrl, so no scope is discoverable from the spec alone. The single real scope was recovered from two searched sources: the authentication documentation ("the API grants an external scope for authenticated requests") and the RFC 8414 authorization-server metadata at https://ncinomortgage.com/.well-known/oauth-authorization-server, which publishes scopes_supported: [external]. Fine-grained authorization in nCino Mortgage is not carried by OAuth scopes at all — it is enforced per API credential by resource toggles in API Settings, and per user by the RBAC roles/permissions surface (permissions-index, roles-index, user_permissions-index). A credential without the resource toggle receives 403 even with a valid, correctly-scoped token.'
 overview: 'nCino publishes 1 OAuth 2.0 scope via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the nCino API on a user''s behalf.

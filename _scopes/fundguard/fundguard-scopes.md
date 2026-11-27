@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Fundguard Scopes
+name: FundGuard Scopes
 name_suffix: OAuth Scopes
 note: Derived from published OAuth metadata rather than an OpenAPI (FundGuard publishes no spec). The authorization server advertises exactly one scope. No scopes/permissions reference page exists on any public FundGuard host; nothing beyond the advertised value is recorded.
 overview: 'FundGuard publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the FundGuard API on a user''s behalf.

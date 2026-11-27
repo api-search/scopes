@@ -105,7 +105,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Cardiff Scopes
+name: Cardiff University Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Cardiff University publishes 2 OAuth 2.0 scopes via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cardiff University API on a user''s behalf.

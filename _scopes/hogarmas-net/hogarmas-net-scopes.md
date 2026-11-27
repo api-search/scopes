@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Hogarmas Net Scopes
+name: hogarmas-net Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'hogarmas-net uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

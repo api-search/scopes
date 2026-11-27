@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Samaya Ai Scopes
+name: Samaya AI Scopes
 name_suffix: OAuth Scopes
 note: 'Samaya''s MCP authorization server publishes RFC 9728 protected-resource metadata with an EMPTY scopes_supported array, and the RFC 8414 authorization-server document declares no scopes_supported key at all. This is a measured absence, not an unchecked field: the server runs OAuth 2.1 with dynamic client registration and PKCE S256 but exposes no granular permission vocabulary, so an agent connecting to it cannot request or be granted least privilege at the protocol level. The published REST OpenAPI declares no oauth2 securityScheme (it uses a WorkOS bearer token), so it contributes no scopes either.'
 overview: 'Samaya AI uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

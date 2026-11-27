@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Tum Scopes
+name: Technical University of Munich Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Technical University of Munich publishes 108 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Technical University of Munich API on a user''s behalf.

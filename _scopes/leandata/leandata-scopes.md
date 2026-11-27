@@ -63,7 +63,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Leandata Scopes
+name: LeanData Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'LeanData publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the LeanData API on a user''s behalf.

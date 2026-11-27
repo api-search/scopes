@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Characterquilt Scopes
+name: CharacterQuilt Scopes
 name_suffix: OAuth Scopes
 note: 'Scopes read verbatim from CharacterQuilt''s own RFC 9728 OAuth Protected Resource Metadata document, served at the MCP host and returned HTTP 200 with content-type application/json. CharacterQuilt publishes no scope reference page, so the descriptions below are read from the scope names themselves and are marked as such — nothing here is invented beyond naming what a read:/write:/publish: verb on a named resource means. The scopes are NOT declared in any OpenAPI securityScheme; the protected-resource metadata is the only place they appear.'
 overview: 'CharacterQuilt publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the CharacterQuilt API on a user''s behalf.

@@ -119,7 +119,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Passivelogic Scopes
+name: PassiveLogic Scopes
 name_suffix: OAuth Scopes
 note: The PassiveLogic OpenAPI declares no oauth2 securityScheme — the REST API is protected by JWT/API-key headers. The OAuth 2.0 / OpenID Connect surface lives one layer down, on the external Keycloak identity provider that the app redirects to (GET /app/login and GET /api/util/externalauthconfig both point at it). The scopes below are the realm's advertised scopes_supported, read from the anonymous discovery document — they are Keycloak defaults plus the realm-specific "service_account" and "organization" scopes, not a published PassiveLogic permission model. PassiveLogic publishes no per-resource scope reference; API keys "act with the same permissions as a JWT for the user who generated them" (Quantum documentation), so authorization is role-based, not scope-based.
 overview: 'PassiveLogic publishes 13 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the PassiveLogic API on a user''s behalf.

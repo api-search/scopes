@@ -68,7 +68,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Sap Brim Billing And Revenue Innovation Management Scopes
+name: SAP BRIM (Billing and Revenue Innovation Management) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SAP BRIM (Billing and Revenue Innovation Management) publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SAP BRIM (Billing and Revenue Innovation Management) API on a user''s behalf.

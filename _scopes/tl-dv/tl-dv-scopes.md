@@ -33,7 +33,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Tl Dv Scopes
+name: tl;dv Scopes
 name_suffix: OAuth Scopes
 note: The tl;dv REST API has NO OAuth surface — it authenticates with a single x-api-key header and has no scopes (see authentication/tl-dv-authentication.yml). A prior round therefore omitted this artifact, correctly at the time. An OAuth scope surface does exist, but only on the hosted MCP endpoint https://mcp.tldv.io/mcp, and it was found by probe rather than in any documentation. The RFC 9728 protected-resource metadata and the RFC 8414 authorization-server metadata both resolve 200 anonymously and are saved verbatim under well-known/. Exactly ONE scope is advertised. tl;dv publishes no scopes/permissions reference page, so descriptions below are read from the metadata and the server's capability, not from prose that does not exist.
 overview: 'tl;dv publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the tl;dv API on a user''s behalf.

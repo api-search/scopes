@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Ecmwf Scopes
+name: ECMWF Scopes
 name_suffix: OAuth Scopes
 note: ECMWF APIs use API keys/tokens rather than OAuth scopes for authentication.
 overview: 'ECMWF uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

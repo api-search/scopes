@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Usesignal Dev Scopes
+name: usesignal-dev Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'usesignal-dev uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -33,7 +33,6 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/usesignal-dev/scopes/usesignal-dev-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Free Tools
 - Video
 - Audio
 - PDF

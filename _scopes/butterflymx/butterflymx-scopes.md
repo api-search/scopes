@@ -94,7 +94,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Butterflymx Scopes
+name: ButterflyMX Scopes
 name_suffix: OAuth Scopes
 note: 'The published OpenAPI declares no oauth2 securityScheme, so no scopes are derivable from the spec. These scopes come from the live OAuth 2.0 / OpenID Connect discovery documents the ButterflyMX authorization server serves anonymously. ButterflyMX publishes no scope-reference page in its developer docs, so the descriptions below are marked `undocumented` where the provider does not explain the scope — they are NOT guessed. The sample token response in the authorization guide shows `"scope": "public"`, confirming `public` is the default scope granted to a developer application.'
 overview: 'ButterflyMX publishes 6 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the ButterflyMX API on a user''s behalf.

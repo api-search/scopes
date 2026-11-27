@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-bastion-bastion-hosts-api-openapi.yml
+- filename: microsoft-azure-bastion-bastionhosts-api-openapi.yml
   format: yaml
-  label: Azure Bastion Hosts API
-  slug: microsoft-azure-bastion-bastion-hosts-api
+  label: Azure Bastion Bastion Hosts API
+  slug: microsoft-azure-bastion-bastionhosts-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-bastion-hosts-api-openapi.yml
-- filename: microsoft-azure-bastion-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-bastionhosts-api-openapi.yml
+- filename: microsoft-azure-bastion-bastionshareablelink-api-openapi.yml
   format: yaml
-  label: Azure Bastion Operations API
-  slug: microsoft-azure-bastion-operations-api
+  label: Azure Bastion Bastion Shareable Link API
+  slug: microsoft-azure-bastion-bastionshareablelink-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-bastionshareablelink-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -21,7 +21,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Azure Bastion Scopes
+name: Azure Bastion Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure Bastion publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Bastion API on a user''s behalf.

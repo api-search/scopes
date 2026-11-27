@@ -259,7 +259,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Kfupm Scopes
+name: King Fahd University of Petroleum & Minerals Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'King Fahd University of Petroleum & Minerals publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the King Fahd University of Petroleum & Minerals API on a user''s behalf.

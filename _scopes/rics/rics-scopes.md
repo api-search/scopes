@@ -51,7 +51,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Rics Scopes
+name: RICS (Royal Institution of Chartered Surveyors) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the RICS (Royal Institution of Chartered Surveyors) API on a user''s behalf.

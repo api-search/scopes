@@ -410,7 +410,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: 8X8 Scopes
+name: 8x8 Scopes
 name_suffix: OAuth Scopes
 note: Scopes exist only on the Analytics for Contact Center historical and real-time metrics APIs, the sole 8x8 surface using OAuth 2.0 client credentials. Every other 8x8 API uses an API key, HTTP Basic or an opaque bearer token and has no scope surface. 8x8 publishes no dedicated scopes/permissions reference page — the three scopes below (read, write, admin) are exactly what the published OpenAPI declares, and are not enriched with invented descriptions.
 overview: '8x8 publishes 3 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the 8x8 API on a user''s behalf.

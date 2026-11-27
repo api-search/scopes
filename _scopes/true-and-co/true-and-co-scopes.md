@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: True And Co Scopes
+name: True & Co Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'True & Co publishes 4 OAuth 2.0 scopes via the authorization_code (PKCE, S256), refresh_token, and urn:ietf:params:oauth:grant-type:jwt-bearer flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the True & Co API on a user''s behalf.

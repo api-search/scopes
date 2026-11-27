@@ -98,7 +98,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Fossology Scopes
+name: FOSSology Scopes
 name_suffix: OAuth Scopes
 note: FOSSology authenticates with JWT bearer tokens (or OIDC machine-to-machine tokens) whose scope is limited to read or write; it does not publish a finer-grained OAuth scope catalog (https://github.com/fossology/fossology/wiki/FOSSology-REST-API).
 overview: 'FOSSology publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the FOSSology API on a user''s behalf.

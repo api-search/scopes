@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Adwhiz Ai Scopes
+name: adwhiz-ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'adwhiz-ai publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the adwhiz-ai API on a user''s behalf.

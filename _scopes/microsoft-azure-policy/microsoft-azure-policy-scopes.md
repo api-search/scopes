@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-policy-operations-api-openapi.yml
-  format: yaml
-  label: Azure Policy Operations API
-  slug: microsoft-azure-policy-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-operations-api-openapi.yml
-- filename: policyDefinitions.json
-  format: json
-  label: Azure Policy REST API
-  slug: microsoft-azure-policy-policy-definitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/resources/resource-manager/Microsoft.Authorization/policy/stable/2025-01-01/policyDefinitions.json
 - filename: microsoft-azure-policy-policyassignments-api-openapi.yml
   format: yaml
   label: Azure Policy Policy Assignments API
@@ -42,6 +30,18 @@ api_specs:
   slug: microsoft-azure-policy-policysetdefinitionversions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-policysetdefinitionversions-api-openapi.yml
+- filename: microsoft-azure-policy-providers-api-openapi.yml
+  format: yaml
+  label: Azure Policy Providers API
+  slug: microsoft-azure-policy-providers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-providers-api-openapi.yml
+- filename: microsoft-azure-policy-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Policy Subscriptions API
+  slug: microsoft-azure-policy-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-subscriptions-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -51,7 +51,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Azure Policy Scopes
+name: Azure Policy Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure Policy publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Policy API on a user''s behalf.
@@ -72,13 +72,13 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-policy-operations-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-policy-operations-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-policy-policy-definitions-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-policy-policy-definitions-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
@@ -97,8 +97,8 @@ slug: microsoft-azure-policy-scopes
 source_filename: microsoft-azure-policy-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-policy-openapi.yml, openapi/microsoft-azure-policy-operations-api-openapi.yml,\n  openapi/microsoft-azure-policy-policy-definitions-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-policy-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-policy-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-policy-policy-definitions-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name:\
-  \ azure_auth\n  source: openapi/microsoft-azure-policy-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-policy-openapi.yml\n  - openapi/microsoft-azure-policy-operations-api-openapi.yml\n  - openapi/microsoft-azure-policy-policy-definitions-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-policy-openapi.yml, openapi/_superseded/microsoft-azure-policy-operations-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-policy-policy-definitions-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-policy-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-policy-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-policy-policy-definitions-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description:\
+  \ Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-policy-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-policy-openapi.yml\n  - openapi/_superseded/microsoft-azure-policy-operations-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-policy-policy-definitions-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-policy/scopes/microsoft-azure-policy-scopes.yml
 summary_line: 1 scope · implicit
 tags:

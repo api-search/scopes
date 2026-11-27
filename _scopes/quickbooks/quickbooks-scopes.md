@@ -489,7 +489,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Quickbooks Scopes
+name: QuickBooks Scopes
 name_suffix: OAuth Scopes
 note: Scopes are requested in the authorization request to https://appcenter.intuit.com/connect/oauth2. Intuit recommends requesting them incrementally; changing an app's scopes requires users to re-authorize. GraphQL "premium API" scopes appear under Restricted scopes only for Silver, Gold and Platinum partners. Workforce payroll scopes are restricted and granted by Intuit on request.
 overview: 'QuickBooks publishes 19 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the QuickBooks API on a user''s behalf.

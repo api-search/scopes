@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Finesse Scopes
+name: FINESSE Scopes
 name_suffix: OAuth Scopes
 note: Scopes are read verbatim from the `scopes_supported` array of the OAuth 2.0 / OpenID Connect metadata FINESSE serves at its own apex domain. FINESSE publishes no scope reference page of its own, so the descriptions below state only what the scope name asserts plus what the metadata itself proves; nothing is inferred beyond that. The authorization server is the Shopify-hosted customer identity provider for this merchant (issuer https://shopify.com/authentication/23733469261), with endpoints on account.finesse.us.
 overview: 'FINESSE publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the FINESSE API on a user''s behalf.

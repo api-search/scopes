@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Quizizz Scopes
+name: Wayground Scopes
 name_suffix: OAuth Scopes
 note: A single all-or-nothing scope is the finding. An agent authorising against Wayground's MCP server cannot request less than everything the scope covers, and cannot tell from any published source what "everything" is.
 overview: 'Wayground publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Wayground API on a user''s behalf.

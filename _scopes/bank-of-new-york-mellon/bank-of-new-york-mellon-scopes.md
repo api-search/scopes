@@ -38,7 +38,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Bank Of New York Mellon Scopes
+name: BNY Mellon Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'BNY Mellon publishes 5 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BNY Mellon API on a user''s behalf.

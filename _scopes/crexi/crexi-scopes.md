@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Crexi Scopes
+name: CREXi Scopes
 name_suffix: OAuth Scopes
 note: CREXi publishes no OpenAPI with oauth2 securitySchemes and no public scopes/permissions reference page. The scope list below is exactly what the authorization server's own discovery document advertises anonymously — nothing has been added or inferred.
 overview: 'CREXi publishes 2 OAuth 2.0 scopes via the password, refresh_token, switch_user, and single_use_token_exchange flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the CREXi API on a user''s behalf.

@@ -208,7 +208,7 @@ summary_line: 30 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Company
 - Media
-- Link in Bio
+- Link-in-bio
 - Creator Economy
 - Social Media
 - Marketing

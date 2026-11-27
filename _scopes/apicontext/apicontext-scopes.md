@@ -347,7 +347,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Apicontext Scopes
+name: APIContext Scopes
 name_suffix: OAuth Scopes
 note: 'APIContext''s OAuth2 is an Auth0 tenant at auth.apimetrics.io fronting the platform API as the audience https://client.apimetrics.io. The platform contract declares only the three OIDC identity scopes on its authorizationCode flow, and NO operation in the 325-operation surface declares a per-operation scope requirement — every operation carries the bare `security: [{OAuth2: []}, {ApiKey: []}]`. Authorization is therefore enforced by project and organization role (Project Roles, Organization Roles, Project Access operations exist in the contract), not by OAuth scope. The wider scopes_supported list below is what the Auth0 discovery document advertises; it is the standard OIDC claim set, not an APIContext permission model.'
 overview: 'APIContext publishes 3 OAuth 2.0 scopes via the authorizationCode, deviceCode, and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the APIContext API on a user''s behalf.

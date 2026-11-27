@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Healthex Scopes
+name: HealthEx Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'HealthEx publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the HealthEx API on a user''s behalf.

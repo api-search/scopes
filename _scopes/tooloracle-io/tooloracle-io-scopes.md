@@ -713,7 +713,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Tooloracle Io Scopes
+name: FeedOracle Technologies Scopes
 name_suffix: OAuth Scopes
 note: None of the three OpenAPIs declares an oauth2 securityScheme (derive-oauth-scopes.py found 0), so this file is built from the RFC 8414 / RFC 9728 discovery documents both brands serve. The scopes are NAMED in scopes_supported but the provider publishes no per-scope description anywhere that was fetched; `meaning` below is what the name states and nothing more.
 overview: 'FeedOracle Technologies publishes 8 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the FeedOracle Technologies API on a user''s behalf.

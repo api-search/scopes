@@ -69,7 +69,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Companycam Scopes
+name: CompanyCam Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CompanyCam publishes 54 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CompanyCam API on a user''s behalf.

@@ -32,7 +32,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Project44 Scopes
+name: project44 Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'project44 publishes 3 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the project44 API on a user''s behalf.

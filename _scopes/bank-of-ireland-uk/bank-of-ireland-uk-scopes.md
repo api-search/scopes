@@ -214,7 +214,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Bank Of Ireland Uk Scopes
+name: Bank of Ireland (UK) Scopes
 name_suffix: OAuth Scopes
 note: Scope surface upgraded from the OBIE spec placeholders using the LIVE FAPI OpenID discovery document at the Bank of Ireland (UK) UK authorization host (https://auth.obapi.bankofireland.com). The discovery document advertises scopes_supported [openid, payments, accounts]; the OBIE Read/Write CBPII spec adds the fundsconfirmations scope. Real token/authorization endpoints replace the spec's authserver.example placeholders. Tokens are mutual-TLS certificate-bound (tls_client_certificate_bound_access_tokens=true) and access requires PSD2 SCA (acr urn:openbanking:psd2:sca).
 overview: 'Bank of Ireland (UK) publishes 4 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bank of Ireland (UK) API on a user''s behalf.

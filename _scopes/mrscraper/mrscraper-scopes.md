@@ -55,7 +55,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mrscraper Scopes
+name: MrScraper Scopes
 name_suffix: OAuth Scopes
 note: Scopes are issued by the OAuth 2.1 authorization server at https://api.app.mrscraper.com for the MCP resource https://mcp.mrscraper.com/mcp (RFC 9728 protected-resource metadata lists scrape:read, scrape:write, account:read; the AS metadata adds offline_access). Tool-to-scope binding is from the server source (src/scopes.ts). The REST API itself uses API tokens, not scopes.
 overview: 'MrScraper publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the MrScraper API on a user''s behalf.

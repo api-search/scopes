@@ -2299,7 +2299,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Cisco Catalyst Sdwan Scopes
+name: Cisco Catalyst SD-WAN Scopes
 name_suffix: OAuth Scopes
 note: 'Cisco Catalyst SD-WAN Manager does NOT use OAuth 2.0, so there is no OAuth scope surface. It ships a role-based authorization model instead: every one of the 4,138 harvested operations carries an x-roles-required extension naming the SD-WAN Manager user-group permission(s) required, in "<Area>-read" / "<Area>-write" form (UX 2.0 feature-profile operations use "Feature Profile > <Area> > <Parcel>-read|write"). Recorded here because it is the authorization surface an agent must reason about; NOT wired as type: OAuthScopes, because it is not OAuth.'
 overview: 'Cisco Catalyst SD-WAN uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

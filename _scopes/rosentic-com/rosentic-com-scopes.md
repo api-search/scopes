@@ -11,7 +11,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Rosentic Com Scopes
+name: Rosentic Scopes
 name_suffix: OAuth Scopes
 note: No OpenAPI declares an oauth2 scheme, so derive-oauth-scopes.py has nothing to read; this file is written from the provider's live RFC 8414 and RFC 9728 discovery documents on api.rosentic.com and the 401 challenge the MCP endpoint returns. Exactly one scope is published, for one resource. The provider's human docs do not publish a scopes reference page.
 overview: 'Rosentic publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Rosentic API on a user''s behalf.

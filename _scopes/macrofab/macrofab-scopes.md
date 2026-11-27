@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Macrofab Scopes
+name: MacroFab Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'MacroFab publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the MacroFab API on a user''s behalf.

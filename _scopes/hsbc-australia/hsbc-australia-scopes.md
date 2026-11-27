@@ -51,7 +51,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Hsbc Australia Scopes
+name: HSBC Bank Australia Scopes
 name_suffix: OAuth Scopes
 note: Scopes are published live in the HSBC Australia CDR OpenID Connect discovery document (scopes_supported). They govern the AUTHENTICATED consumer data sharing surface, which is restricted to Accredited Data Recipients (ADRs) under the CDR register - not the public unauthenticated Product Reference Data endpoints, which require no scopes. Scope semantics follow the DSB Consumer Data Standards (Australia).
 overview: 'HSBC Bank Australia publishes 10 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the HSBC Bank Australia API on a user''s behalf.

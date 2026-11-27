@@ -381,7 +381,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Guestready Scopes
+name: GuestReady Scopes
 name_suffix: OAuth Scopes
 note: RentalReady publishes no standalone scopes or permissions reference page. The authoritative scope list is the OAuth 2.0 securityScheme inside the specification the provider serves anonymously at https://pms.rentalready.io/api/v3/schema/, rendered for humans at its Swagger UI. The provider's own client-examples repository publishes a working SCOPES string in python/.env.example naming 24 of these scopes, which corroborates the spec but is a strict subset of it — the spec is the superset and is what is recorded here. Descriptions below are the provider's own verbatim scope labels. Two scopes carry a deprecation marker in their own label (hosts:read, hosts:write, both "(deprecated)"); see lifecycle/guestready-lifecycle.yml.
 overview: 'GuestReady publishes 54 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the GuestReady API on a user''s behalf.

@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: google-cloud-certificate-manager-certificatemaps-api-openapi.yml
+- filename: google-cloud-certificate-manager-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Certificate Manager CertificateMaps API
-  slug: google-cloud-certificate-manager-certificatemaps-api
+  label: Google Cloud Certificate Manager Projects API
+  slug: google-cloud-certificate-manager-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-certificate-manager/openapi/google-cloud-certificate-manager-certificatemaps-api-openapi.yml
-- filename: google-cloud-certificate-manager-certificates-api-openapi.yml
-  format: yaml
-  label: Google Cloud Certificate Manager Certificates API
-  slug: google-cloud-certificate-manager-certificates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-certificate-manager/openapi/google-cloud-certificate-manager-certificates-api-openapi.yml
-- filename: google-cloud-certificate-manager-dnsauthorizations-api-openapi.yml
-  format: yaml
-  label: Google Cloud Certificate Manager DnsAuthorizations API
-  slug: google-cloud-certificate-manager-dnsauthorizations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-certificate-manager/openapi/google-cloud-certificate-manager-dnsauthorizations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-certificate-manager/openapi/google-cloud-certificate-manager-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

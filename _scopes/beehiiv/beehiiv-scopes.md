@@ -189,7 +189,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Beehiiv Scopes
+name: beehiiv Scopes
 name_suffix: OAuth Scopes
 note: 'derive-oauth-scopes.py found nothing: the published OpenAPI declares only an HTTP bearer securityScheme and no oauth2 flows, so the scope surface exists only in the documentation and in the per-operation badges. This file is the searched reconciliation of both. The MCP server at mcp.beehiiv.com uses a separate, coarser scope vocabulary (read, write) — see mcp/beehiiv-mcp.yml.'
 overview: 'beehiiv publishes 30 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the beehiiv API on a user''s behalf.

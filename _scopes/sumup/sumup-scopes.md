@@ -70,7 +70,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Sumup Scopes
+name: SumUp Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SumUp publishes 10 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the SumUp API on a user''s behalf.

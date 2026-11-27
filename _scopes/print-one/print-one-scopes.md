@@ -69,7 +69,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Print One Scopes
+name: print-one Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'print-one publishes 30 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the print-one API on a user''s behalf.

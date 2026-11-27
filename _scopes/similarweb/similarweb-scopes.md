@@ -87,7 +87,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Similarweb Scopes
+name: SimilarWeb Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SimilarWeb publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SimilarWeb API on a user''s behalf.

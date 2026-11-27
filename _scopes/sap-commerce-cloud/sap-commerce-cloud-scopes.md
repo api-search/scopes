@@ -153,7 +153,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Sap Commerce Cloud Scopes
+name: SAP Commerce Cloud Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SAP Commerce Cloud publishes 3 OAuth 2.0 scopes via the clientCredentials and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the SAP Commerce Cloud API on a user''s behalf.

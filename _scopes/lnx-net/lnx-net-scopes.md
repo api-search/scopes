@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Lnx Net Scopes
+name: lnx-net Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'lnx-net uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -41,7 +41,7 @@ source_yaml_url: https://artifacts.apis.io/lnx-net/scopes/lnx-net-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Link in Bio
+- Link-in-bio
 - Creator Tools
 - Software-as-a-Service
 - Social Media

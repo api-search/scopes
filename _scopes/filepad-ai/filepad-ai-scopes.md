@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Filepad Ai Scopes
+name: Filepad Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Filepad publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Filepad API on a user''s behalf.
@@ -74,7 +74,7 @@ tags:
 - Developer Tools
 - Internal Tools
 - Workspace
-- Apps
+- Application
 token_bound: false
 token_urls: []
 ---

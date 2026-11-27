@@ -231,7 +231,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ercot Scopes
+name: ERCOT Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ERCOT publishes 3 OAuth 2.0 scopes via the password flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ERCOT API on a user''s behalf.

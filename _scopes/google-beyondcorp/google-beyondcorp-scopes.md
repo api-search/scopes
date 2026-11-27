@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: google-beyondcorp-appconnectors-api-openapi.yml
+- filename: google-beyondcorp-organizations-api-openapi.yml
   format: yaml
-  label: Google BeyondCorp AppConnectors API
-  slug: google-beyondcorp-appconnectors-api
+  label: Google BeyondCorp Organizations API
+  slug: google-beyondcorp-organizations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-appconnectors-api-openapi.yml
-- filename: google-beyondcorp-securitygateways-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-organizations-api-openapi.yml
+- filename: google-beyondcorp-projects-api-openapi.yml
   format: yaml
-  label: Google BeyondCorp SecurityGateways API
-  slug: google-beyondcorp-securitygateways-api
+  label: Google BeyondCorp Projects API
+  slug: google-beyondcorp-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-securitygateways-api-openapi.yml
-- filename: google-beyondcorp-app-connections-api-openapi.yml
-  format: yaml
-  label: Google BeyondCorp App Connections API
-  slug: google-beyondcorp-app-connections-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-app-connections-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -27,7 +21,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Google Beyondcorp Scopes
+name: Google BeyondCorp Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Google BeyondCorp publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google BeyondCorp API on a user''s behalf.

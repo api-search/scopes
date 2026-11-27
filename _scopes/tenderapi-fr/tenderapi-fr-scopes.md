@@ -55,7 +55,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Tenderapi Fr Scopes
+name: tenderapi-fr Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'tenderapi-fr uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

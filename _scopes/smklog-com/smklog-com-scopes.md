@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: smklog-com-checkout-api-openapi.yml
-  format: yaml
-  label: SMKlog Checkout API
-  slug: smklog-com-checkout-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-checkout-api-openapi.yml
 - filename: smklog-com-operations-api-openapi.yml
   format: yaml
   label: SMKlog Operations API
   slug: smklog-com-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-operations-api-openapi.yml
-- filename: smklog-com-quotes-api-openapi.yml
+- filename: smklog-com-dimensional-weight-api-openapi.yml
   format: yaml
-  label: SMKlog Quotes API
-  slug: smklog-com-quotes-api
+  label: SMKlog Dimensional Weight API
+  slug: smklog-com-dimensional-weight-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-dimensional-weight-api-openapi.yml
+- filename: smklog-com-holiday-shipping-api-openapi.yml
+  format: yaml
+  label: SMKlog Holiday Shipping API
+  slug: smklog-com-holiday-shipping-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-holiday-shipping-api-openapi.yml
+- filename: smklog-com-payments-api-openapi.yml
+  format: yaml
+  label: SMKlog Payments API
+  slug: smklog-com-payments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-payments-api-openapi.yml
+- filename: smklog-com-price-index-api-openapi.yml
+  format: yaml
+  label: SMKlog Price Index API
+  slug: smklog-com-price-index-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-price-index-api-openapi.yml
+- filename: smklog-com-refunds-api-openapi.yml
+  format: yaml
+  label: SMKlog Refunds API
+  slug: smklog-com-refunds-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-refunds-api-openapi.yml
+- filename: smklog-com-shipping-rates-api-openapi.yml
+  format: yaml
+  label: SMKlog Shipping Rates API
+  slug: smklog-com-shipping-rates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-shipping-rates-api-openapi.yml
+- filename: smklog-com-shipping-restrictions-api-openapi.yml
+  format: yaml
+  label: SMKlog Shipping Restrictions API
+  slug: smklog-com-shipping-restrictions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-shipping-restrictions-api-openapi.yml
+- filename: smklog-com-tracking-api-openapi.yml
+  format: yaml
+  label: SMKlog Tracking API
+  slug: smklog-com-tracking-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-tracking-api-openapi.yml
+- filename: smklog-com-webhooks-api-openapi.yml
+  format: yaml
+  label: SMKlog Webhooks API
+  slug: smklog-com-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/smklog-com/openapi/smklog-com-webhooks-api-openapi.yml
 authorization_urls: []
 description: The OpenAPI declares no securitySchemes (0-working/derive-oauth-scopes.py found nothing to derive), because the API is open; OAuth exists only as an optional rate-limit tier. The RFC 8414 metadata publishes one scope, quote, one grant (client_credentials) and two token-endpoint auth methods. Registration is manual by email; there is no authorization endpoint, no user identity and no dynamic client registration.
 docs: https://smklog.com/auth.md
@@ -26,7 +68,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Smklog Com Scopes
+name: SMKlog Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SMKlog publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SMKlog API on a user''s behalf.

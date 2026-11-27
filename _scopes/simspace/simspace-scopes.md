@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Simspace Scopes
+name: SimSpace Scopes
 name_suffix: OAuth Scopes
 note: The only OAuth scope surface SimSpace publishes anonymously is the one declared in its RFC 8414 authorization-server metadata and echoed in its RFC 9728 protected-resource metadata. It carries a single scope. SimSpace publishes no scopes or permissions reference page for the platform API; if the platform API uses scopes, they are documented only inside the authenticated portal.
 overview: 'SimSpace publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the SimSpace API on a user''s behalf.

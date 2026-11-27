@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Anthra Com Scopes
+name: Anthra Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Anthra publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Anthra API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Mailoptin Scopes
+name: MailOptin Scopes
 name_suffix: OAuth Scopes
 note: Not derived from an OpenAPI — derive-oauth-scopes.py found no oauth2 securitySchemes because MailOptin publishes no OpenAPI. The single scope below is read verbatim from the RFC 8414 authorization-server metadata document mailoptin.io serves, and confirmed against the RFC 9728 protected-resource document. MailOptin publishes no human-readable scopes/permissions reference page, so there is no `docs:` URL to record.
 overview: 'MailOptin publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the MailOptin API on a user''s behalf.

@@ -33,7 +33,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Intentdocs Com Scopes
+name: intentdocs-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'intentdocs-com publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the intentdocs-com API on a user''s behalf.

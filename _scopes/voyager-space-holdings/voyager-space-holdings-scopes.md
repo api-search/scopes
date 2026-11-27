@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Voyager Space Holdings Scopes
+name: Voyager Technologies Scopes
 name_suffix: OAuth Scopes
 note: Read verbatim from scopes_supported in the provider's RFC 8414 metadata and confirmed by the RFC 9728 protected-resource document (both HTTP 200, 2026-09-18). The single scope belongs to the WordPress MCP adapter's authorization server; there is no product API, no scopes reference page and no finer-grained permission model published.
 overview: 'Voyager Technologies publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Voyager Technologies API on a user''s behalf.

@@ -69,7 +69,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Fulfil Io Scopes
+name: Fulfil Scopes
 name_suffix: OAuth Scopes
 note: Fulfil documents an OAuth 2.0 authorization code flow with scopes passed as a comma-separated list, but does not publish a complete public scopes reference - the current OAuth docs (https://developers.fulfil.io/rest_api/oauth/) redirect to a workspace login; only the scopes shown in the official OAuth guide (archived) and the official fulfil-python-api client examples are recorded here, which follow a model:permission pattern (e.g. sale.channel:read) plus offline_access as an access_type for offline tokens.
 overview: 'Fulfil publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Fulfil API on a user''s behalf.

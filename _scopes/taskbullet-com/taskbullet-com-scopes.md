@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Taskbullet Com Scopes
+name: taskbullet-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'taskbullet-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -43,7 +43,7 @@ tags:
 - Company
 - Virtual Assistant
 - Software-as-a-Service
-- USBusiness
+- US Business
 - Productivity
 token_bound: false
 token_urls: []

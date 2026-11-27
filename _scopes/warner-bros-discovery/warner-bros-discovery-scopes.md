@@ -32,7 +32,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Warner Bros Discovery Scopes
+name: Warner Bros. Discovery Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Warner Bros. Discovery publishes 4 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Warner Bros. Discovery API on a user''s behalf.

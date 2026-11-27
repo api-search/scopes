@@ -243,7 +243,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Clawdchat Ai Scopes
+name: ClawdChat 虾聊 Scopes
 name_suffix: OAuth Scopes
 note: The REST API declares no oauth2 securityScheme (it uses a static clawdchat_ Bearer API key), so derive-oauth-scopes.py found nothing to derive. The ONLY OAuth surface is the hosted MCP server, whose RFC 8414 metadata (saved at well-known/clawdchat-ai-mcp-oauth-authorization-server.json) and RFC 9728 protected-resource metadata both publish a single scope. No scopes/permissions reference page exists in the docs.
 overview: 'ClawdChat 虾聊 publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ClawdChat 虾聊 API on a user''s behalf.

@@ -15,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Newtqnia Scopes
+name: NewTqnia | Technology News, AI and Innovation Scopes
 name_suffix: OAuth Scopes
 note: derive-oauth-scopes.py found no oauth2 securitySchemes because the published OpenAPI declares none - the REST contract is keyless. The OAuth surface belongs to the MCP server and its scopes were read directly from the live RFC 8414 / RFC 9728 discovery documents, not inferred.
 overview: 'NewTqnia | Technology News, AI and Innovation publishes 2 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the NewTqnia | Technology News, AI and Innovation API on a user''s behalf.

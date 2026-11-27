@@ -73,7 +73,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Mercedes Me Scopes
+name: Mercedes-Benz Mercedes me Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Mercedes-Benz Mercedes me publishes 38 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Mercedes-Benz Mercedes me API on a user''s behalf.

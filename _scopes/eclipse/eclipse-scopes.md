@@ -485,7 +485,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Eclipse Scopes
+name: Eclipse Foundation Scopes
 name_suffix: OAuth Scopes
 note: 'Upgraded from derived to searched. The OpenAPI securitySchemes name only 7 scopes; the Keycloak discovery documents publish the authoritative scopes_supported for each realm, including four Eclipse-specific paperwork/document scopes that appear in NO OpenAPI. Those are added below with source: openid-configuration.'
 overview: 'Eclipse Foundation publishes 11 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Eclipse Foundation API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Digitalk2 Se Scopes
+name: DigitalK2 Scopes
 name_suffix: OAuth Scopes
 note: The docs name two user-chosen permissions at consent time; the literal OAuth scope strings are not published, so names below are the documented permission labels, not verified scope tokens.
 overview: 'DigitalK2 publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the DigitalK2 API on a user''s behalf.

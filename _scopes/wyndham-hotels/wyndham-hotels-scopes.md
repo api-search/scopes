@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Wyndham Hotels Scopes
+name: Wyndham Hotels & Resorts Scopes
 name_suffix: OAuth Scopes
 note: 'The only OAuth surface anywhere on the Wyndham Hotels & Resorts estate is the authorization server bound to the WordPress MCP server on www.wyndhambusiness.com. Its published metadata advertises exactly one scope — `mcp` — on both the authorization server and the protected resource. There is no scopes or permissions reference page on any Wyndham property, no per-resource or per-operation scope decomposition, and no client-credentials surface, so this records the full and minimal real catalogue rather than a curated one. Nothing is inferred: a coarse single-scope catalogue is what the provider actually publishes.'
 overview: 'Wyndham Hotels & Resorts publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Wyndham Hotels & Resorts API on a user''s behalf.

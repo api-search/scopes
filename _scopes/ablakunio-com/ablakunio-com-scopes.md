@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Ablakunio Com Scopes
+name: Ablakunio – SM-UNIO Nyílászáró Kft. Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Ablakunio – SM-UNIO Nyílászáró Kft. uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

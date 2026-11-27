@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Ianacare Scopes
+name: ianacare Scopes
 name_suffix: OAuth Scopes
 note: These are the scopes ianacare's own authorization server advertises in its discovery document. They are the standard OIDC/Auth0 identity scope set — ianacare publishes no API-specific permission scopes anywhere public, and no audience/API identifier is discoverable, so no resource scopes could be recorded. Nothing here was authored; every entry is copied from scopes_supported.
 overview: 'ianacare publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ianacare API on a user''s behalf.

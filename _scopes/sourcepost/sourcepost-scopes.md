@@ -12,6 +12,12 @@ api_specs:
   slug: sourcepost-listings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/sourcepost/openapi/sourcepost-listings-api-openapi.yml
+- filename: sourcepost-system-api-openapi.yml
+  format: yaml
+  label: SourcePost System API
+  slug: sourcepost-system-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sourcepost/openapi/sourcepost-system-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -19,9 +25,9 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Sourcepost Scopes
+name: SourcePost Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: 'Not applicable: the SourcePost API and MCP server use no authentication (no keys, no accounts, no OAuth). The OpenAPI at https://sourcepost.dev/openapi.json (200, 2026-11-13) declares no securitySchemes.'
 overview: 'SourcePost uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -36,11 +42,17 @@ slug: sourcepost-scopes
 source_filename: sourcepost-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: 'generated: ''2026-11-02''
+source_yaml: 'generated: ''2026-11-13''
 
   method: none
 
+  source: https://sourcepost.dev/openapi.json
+
+  auth: none
+
   scopes: []
+
+  note: ''Not applicable: the SourcePost API and MCP server use no authentication (no keys, no accounts, no OAuth). The OpenAPI at https://sourcepost.dev/openapi.json (200, 2026-11-13) declares no securitySchemes.''
 
   '
 source_yaml_url: https://artifacts.apis.io/sourcepost/scopes/sourcepost-scopes.yml

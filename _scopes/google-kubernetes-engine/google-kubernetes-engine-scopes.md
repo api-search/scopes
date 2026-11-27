@@ -1,35 +1,11 @@
 ---
 api_specs:
-- filename: google-kubernetes-engine-clusters-api-openapi.yml
+- filename: google-kubernetes-engine-projects-api-openapi.yml
   format: yaml
-  label: Google Kubernetes Engine Clusters API
-  slug: google-kubernetes-engine-clusters-api
+  label: Google Kubernetes Engine Projects API
+  slug: google-kubernetes-engine-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-clusters-api-openapi.yml
-- filename: google-kubernetes-engine-google-kubernetes-engine-api-api-openapi.yml
-  format: yaml
-  label: Google Kubernetes Engine Google Kubernetes Engine API
-  slug: google-kubernetes-engine-google-kubernetes-engine-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-google-kubernetes-engine-api-api-openapi.yml
-- filename: google-kubernetes-engine-operations-api-openapi.yml
-  format: yaml
-  label: Google Kubernetes Engine Operations API
-  slug: google-kubernetes-engine-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-operations-api-openapi.yml
-- filename: google-kubernetes-engine-serverconfig-api-openapi.yml
-  format: yaml
-  label: Google Kubernetes Engine ServerConfig API
-  slug: google-kubernetes-engine-serverconfig-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-serverconfig-api-openapi.yml
-- filename: google-kubernetes-engine-node-pools-api-openapi.yml
-  format: yaml
-  label: Google Kubernetes Engine Node Pools API
-  slug: google-kubernetes-engine-node-pools-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-node-pools-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -42,7 +18,7 @@ method: derived
 name: Google Kubernetes Engine Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Google Kubernetes Engine publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google Kubernetes Engine API on a user''s behalf.
+overview: 'Google Kubernetes Engine publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google Kubernetes Engine API on a user''s behalf.
 
 
   Tokens are issued from https://oauth2.googleapis.com/token.
@@ -57,22 +33,52 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
-  source: openapi/google-kubernetes-engine-openapi.yml
-scope_count: 1
+  source: openapi/google-kubernetes-engine-container-projects-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-kubernetes-engine-gkebackup-projects-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-kubernetes-engine-gkehub-projects-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-kubernetes-engine-gkeonprem-projects-api-openapi.yml
+scope_count: 3
 scope_names:
 - https://www.googleapis.com/auth/cloud-platform
+- https://www.googleapis.com/auth/container
+- https://www.googleapis.com/auth/container.read-only
 scopes:
-- description: View and manage Google Cloud data
+- description: See, edit, configure, and delete your Google Cloud data and see the email address for your Google Account.
   flows:
   - authorizationCode
   scope: https://www.googleapis.com/auth/cloud-platform
+- description: See, edit, configure, and delete your Google Kubernetes Engine data and see the email address for your Google Account
+  flows:
+  - authorizationCode
+  scope: https://www.googleapis.com/auth/container
+- description: See your Google Kubernetes Engine data and the email address of your Google Account
+  flows:
+  - authorizationCode
+  scope: https://www.googleapis.com/auth/container.read-only
 slug: google-kubernetes-engine-scopes
 source_filename: google-kubernetes-engine-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-kubernetes-engine-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-kubernetes-engine-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: View and manage Google Cloud data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-kubernetes-engine-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-kubernetes-engine-container-projects-api-openapi.yml, openapi/google-kubernetes-engine-gkebackup-projects-api-openapi.yml,\n  openapi/google-kubernetes-engine-gkehub-projects-api-openapi.yml, openapi/google-kubernetes-engine-gkeonprem-projects-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-kubernetes-engine-container-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-kubernetes-engine-gkebackup-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-kubernetes-engine-gkehub-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-kubernetes-engine-gkeonprem-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: See, edit, configure, and delete your Google Cloud data and see the email address\n    for your Google Account.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-kubernetes-engine-container-projects-api-openapi.yml\n  - openapi/google-kubernetes-engine-gkebackup-projects-api-openapi.yml\n  - openapi/google-kubernetes-engine-gkehub-projects-api-openapi.yml\n  - openapi/google-kubernetes-engine-gkeonprem-projects-api-openapi.yml\n- scope: https://www.googleapis.com/auth/container\n  description: See, edit, configure, and delete your Google Kubernetes Engine\
+  \ data and see the\n    email address for your Google Account\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-kubernetes-engine-container-projects-api-openapi.yml\n- scope: https://www.googleapis.com/auth/container.read-only\n  description: See your Google Kubernetes Engine data and the email address of your Google Account\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-kubernetes-engine-container-projects-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-kubernetes-engine/scopes/google-kubernetes-engine-scopes.yml
-summary_line: 1 scope · authorizationCode
+summary_line: 3 scopes · authorizationCode
 tags:
 - Cloud-Native
 - Containers

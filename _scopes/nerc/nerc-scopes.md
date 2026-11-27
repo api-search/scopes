@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Nerc Scopes
+name: NERC Scopes
 name_suffix: OAuth Scopes
 note: NERC itself publishes no OAuth surface and no scope reference - there is no developer portal, no API documentation and no scopes page anywhere on nerc.com. The only OAuth2 authorization server in NERC's estate is the one fronting the Electricity Information Sharing and Analysis Center (E-ISAC), which NERC operates on Salesforce Experience Cloud. The scope list below is transcribed VERBATIM from that issuer's anonymous OIDC discovery document; it is the Salesforce platform's stock scope set advertised by the E-ISAC issuer, NOT a NERC-defined or NERC-documented permission model. No NERC page documents any of these scopes, there is no self-serve client registration for outside developers, and every resource they would authorize is membership-gated (https://www.eisac.com/services/data/v62.0 -> HTTP 401 INVALID_SESSION_ID). Descriptions are supplied only for the scopes defined by OpenID Connect Core 1.0 / RFC 6749; platform scopes are left undescribed rather than glossed.
 overview: 'NERC publishes 36 OAuth 2.0 scopes via the authorizationCode and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the NERC API on a user''s behalf.

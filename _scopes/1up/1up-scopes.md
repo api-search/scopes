@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: 1Up Scopes
+name: 1up Scopes
 name_suffix: OAuth Scopes
 note: 1up publishes no OpenAPI, so derive-oauth-scopes.py has nothing to read. The scope list below is the one the provider actually advertises, taken verbatim from both RFC 8414 and RFC 9728 discovery documents on mcp.1up.ai. It is an OpenID Connect-shaped identity scope set only — there is no resource-level or per-tool permission scope. Authorization inside a workspace is enforced by 1up's own RBAC and workspace isolation, not by OAuth scope, so an agent holding a token has whatever the signed-in user has. Nothing more granular is published.
 overview: '1up publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the 1up API on a user''s behalf.

@@ -280,7 +280,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Lianlian Global Scopes
+name: LianLian Global Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'LianLian Global publishes 1 OAuth 2.0 scope via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the LianLian Global API on a user''s behalf.

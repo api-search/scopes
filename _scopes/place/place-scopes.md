@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Place Scopes
+name: PLACE Scopes
 name_suffix: OAuth Scopes
 note: These scopes come from the scopes_supported arrays of the OAuth 2.0 / OpenID Connect discovery documents PLACE serves from sso.place.com and hub.place.com. PLACE publishes no scopes reference page and no product API, so no PLACE-authored product scopes exist. The okta.* set is the Okta Org Authorization Server management scope catalog shipped by the identity vendor — it is recorded for fidelity and is explicitly NOT a PLACE product scope surface.
 overview: 'PLACE publishes 8 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the PLACE API on a user''s behalf.

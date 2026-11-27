@@ -12,7 +12,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Auditoria Scopes
+name: Auditoria.AI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Auditoria.AI publishes 14 OAuth 2.0 scopes via the authorizationCode, clientCredentials, deviceCode, implicit, and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Auditoria.AI API on a user''s behalf.

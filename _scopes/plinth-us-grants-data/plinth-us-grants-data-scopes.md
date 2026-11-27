@@ -30,6 +30,30 @@ api_specs:
   slug: plinth-us-grants-data-sql-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-sql-api-openapi.yml
+- filename: plinth-us-grants-data-pulse-api-openapi.yml
+  format: yaml
+  label: Plinth US Grants Data Pulse API
+  slug: plinth-us-grants-data-pulse-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-pulse-api-openapi.yml
+- filename: plinth-us-grants-data-batch-api-openapi.yml
+  format: yaml
+  label: Plinth US Grants Data Batch API
+  slug: plinth-us-grants-data-batch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-batch-api-openapi.yml
+- filename: plinth-us-grants-data-credentials-api-openapi.yml
+  format: yaml
+  label: Plinth US Grants Data Credentials API
+  slug: plinth-us-grants-data-credentials-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-credentials-api-openapi.yml
+- filename: plinth-us-grants-data-meta-api-openapi.yml
+  format: yaml
+  label: Plinth US Grants Data Meta API
+  slug: plinth-us-grants-data-meta-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-meta-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://data.useplinth.com/connect
@@ -37,7 +61,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Plinth Us Grants Data Scopes
+name: Plinth US Grants Data Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Plinth US Grants Data publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Plinth US Grants Data API on a user''s behalf.

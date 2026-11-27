@@ -98,7 +98,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Venminder Digital Comply Scopes
+name: Venminder (Digital Comply) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Venminder (Digital Comply) publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Venminder (Digital Comply) API on a user''s behalf.

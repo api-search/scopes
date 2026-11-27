@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Serviceup Scopes
+name: ServiceUp Scopes
 name_suffix: OAuth Scopes
 note: Scopes are taken verbatim from the OAuth metadata ServiceUp serves anonymously. ServiceUp publishes no scopes/permissions reference page, so there are no descriptions to enrich from — the descriptions below state only what the scope name and its RFC 9728 resource binding assert, and are marked accordingly.
 overview: 'ServiceUp publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ServiceUp API on a user''s behalf.

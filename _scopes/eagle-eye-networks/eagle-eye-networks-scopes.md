@@ -345,6 +345,7 @@ tags:
 - License Plate Recognition
 - Streaming
 - Webhook
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

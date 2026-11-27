@@ -39,7 +39,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Icallagent Public Api Scopes
+name: iCallAgent Public API Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'iCallAgent Public API publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the iCallAgent Public API API on a user''s behalf.

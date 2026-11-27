@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Animal And Plant Health Inspection Service Scopes
+name: Animal and Plant Health Inspection Service Scopes
 name_suffix: OAuth Scopes
 note: 'These 36 scopes are read verbatim from the scopes_supported array of the OpenID Connect Discovery documents APHIS serves on its three Salesforce Experience Cloud hosts. They are the Salesforce platform default scope set, not a permission model APHIS authored or documents: APHIS publishes no scope reference page, and no APHIS document maps any of these scopes to an APHIS operation. Recorded because the surface is genuinely served by APHIS-controlled issuers; descriptions below state what each platform scope grants and are derived from the OAuth/OIDC and Salesforce platform meanings, not from APHIS documentation.'
 overview: 'Animal and Plant Health Inspection Service publishes 36 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Animal and Plant Health Inspection Service API on a user''s behalf.

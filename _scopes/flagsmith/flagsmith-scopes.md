@@ -193,7 +193,6 @@ tags:
 - Open Source
 - Software-as-a-Service
 - MCP
-- Agent Ready
 token_bound: false
 token_urls: []
 ---

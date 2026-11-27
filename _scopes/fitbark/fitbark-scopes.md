@@ -40,7 +40,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Fitbark Scopes
+name: FitBark Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'FitBark publishes 1 OAuth 2.0 scope via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the FitBark API on a user''s behalf.

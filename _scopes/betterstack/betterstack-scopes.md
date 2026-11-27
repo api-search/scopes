@@ -32,7 +32,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Betterstack Scopes
+name: Better Stack Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Better Stack publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Better Stack API on a user''s behalf.

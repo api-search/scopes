@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Tu Wien Scopes
+name: TU Wien Scopes
 name_suffix: OAuth Scopes
 note: No TU Wien surface publishes a scope catalogue. The entries below are the access boundaries we could actually observe, expressed as scopes; they are OUR reading of observed behaviour, not TU Wien's declaration.
 overview: 'TU Wien publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TU Wien API on a user''s behalf.

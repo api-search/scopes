@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Expeditors International Of Washington Scopes
+name: Expeditors International of Washington Scopes
 name_suffix: OAuth Scopes
 note: The Tracking API issues a single-scope client-credentials token. Expeditors documents no scope reference page and no per-resource permissions; the docs state explicitly that "this API has only one type of token", which is why a 403 insufficient_scope "should not occur".
 overview: 'Expeditors International of Washington publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Expeditors International of Washington API on a user''s behalf.

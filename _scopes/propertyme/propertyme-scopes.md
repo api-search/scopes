@@ -48,7 +48,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Propertyme Scopes
+name: PropertyMe Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'PropertyMe publishes 20 OAuth 2.0 scopes via the authorizationCode, clientCredentials, deviceCode, and ciba flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the PropertyMe API on a user''s behalf.

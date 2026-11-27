@@ -224,7 +224,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Gerencianet Scopes
+name: Efí Pay (Gerencianet) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Efí Pay (Gerencianet) publishes 40 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Efí Pay (Gerencianet) API on a user''s behalf.

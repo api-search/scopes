@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: 247 Ai Scopes
+name: '[24]7.ai Scopes'
 name_suffix: OAuth Scopes
 note: '[24]7.ai publishes no OpenAPI and no public scopes/permissions reference page. These scopes were read from the live discovery documents served by login.247.ai, the Okta-hosted [24]7 Engagement Cloud SSO tenant. IMPORTANT PROVENANCE CAVEAT: the org authorization server additionally advertises 80 `okta.*` scopes. Those belong to Okta''s own Management API running on the tenant — they are Okta''s product surface, not a [24]7.ai product API scope catalog — and are therefore recorded below as a counted, attributed block rather than listed as [24]7.ai scopes. Only the standard OIDC scopes are attributable to the [24]7.ai sign-in surface itself.'
 overview: '[24]7.ai publishes 7 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the [24]7.ai API on a user''s behalf.

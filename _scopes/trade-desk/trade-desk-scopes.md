@@ -41,7 +41,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Trade Desk Scopes
+name: The Trade Desk Scopes
 name_suffix: OAuth Scopes
 note: Scopes are read from The Trade Desk's live OpenID Connect discovery document, not from an OpenAPI — none of the published Data API specs declare an oauth2 securityScheme. The provider does not publish a scopes/permissions reference page, so descriptions are supplied only where the scope name is unambiguous; the rest are recorded verbatim with no invented description.
 overview: 'The Trade Desk publishes 91 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the The Trade Desk API on a user''s behalf.

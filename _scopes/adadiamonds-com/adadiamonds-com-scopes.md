@@ -82,7 +82,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Adadiamonds Com Scopes
+name: Ada Diamonds Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Ada Diamonds publishes 6 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Ada Diamonds API on a user''s behalf.

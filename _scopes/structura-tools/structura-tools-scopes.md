@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Structura Tools Scopes
+name: Structura Scopes
 name_suffix: OAuth Scopes
 note: The docs publish no scopes reference page. The scope names were read from live discovery metadata.
 overview: 'Structura publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Structura API on a user''s behalf.

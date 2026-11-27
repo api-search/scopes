@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Welcome To The Jungle Scopes
+name: Welcome to the Jungle Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Welcome to the Jungle publishes 29 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Welcome to the Jungle API on a user''s behalf.

@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: google-recaptcha-assessments-api-openapi.yml
+- filename: google-recaptcha-projects-api-openapi.yml
   format: yaml
-  label: Google reCAPTCHA Assessments API
-  slug: google-recaptcha-assessments-api
+  label: Google reCAPTCHA Recaptcha Projects API
+  slug: google-recaptcha-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-recaptcha/openapi/google-recaptcha-assessments-api-openapi.yml
-- filename: google-recaptcha-keys-api-openapi.yml
-  format: yaml
-  label: Google reCAPTCHA Keys API
-  slug: google-recaptcha-keys-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-recaptcha/openapi/google-recaptcha-keys-api-openapi.yml
+  url: https://artifacts.apis.io/google-recaptcha/openapi/google-recaptcha-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -21,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Google Recaptcha Scopes
+name: Google reCAPTCHA Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Google reCAPTCHA publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google reCAPTCHA API on a user''s behalf.

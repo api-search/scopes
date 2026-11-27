@@ -7,7 +7,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Leaftfoods Scopes
+name: Leaft Foods Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Leaft Foods publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Leaft Foods API on a user''s behalf.

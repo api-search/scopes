@@ -46,7 +46,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Virgin Money Uk Scopes
+name: Virgin Money UK Scopes
 name_suffix: OAuth Scopes
 note: Scopes taken verbatim from the live production OpenID Connect discovery document (scopes_supported). These are the standard UK Open Banking / OBIE Read-Write scopes governing AIS, PIS, and CBPII access.
 overview: 'Virgin Money UK publishes 4 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Virgin Money UK API on a user''s behalf.

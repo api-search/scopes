@@ -244,7 +244,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Open Banking Uk Scopes
+name: UK Open Banking Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'UK Open Banking publishes 3 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the UK Open Banking API on a user''s behalf.

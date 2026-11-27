@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Shopline Scopes
+name: SHOPLINE Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SHOPLINE publishes 63 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SHOPLINE API on a user''s behalf.

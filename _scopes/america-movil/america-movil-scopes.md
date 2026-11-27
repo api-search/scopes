@@ -32,7 +32,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: America Movil Scopes
+name: América Móvil Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'América Móvil publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the América Móvil API on a user''s behalf.

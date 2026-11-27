@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Bonsai Io Scopes
+name: Bonsai Scopes
 name_suffix: OAuth Scopes
 note: 'A new token is read-only by default: account:read and clusters:read are checked, and clusters:write is not. Bonsai tokens are scoped API tokens, not OAuth 2.0.'
 overview: 'Bonsai publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bonsai API on a user''s behalf.

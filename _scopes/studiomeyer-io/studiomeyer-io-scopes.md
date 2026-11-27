@@ -111,7 +111,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Studiomeyer Io Scopes
+name: studiomeyer-io Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'studiomeyer-io publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the studiomeyer-io API on a user''s behalf.

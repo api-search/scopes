@@ -62,7 +62,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Energyaustralia Scopes
+name: EnergyAustralia Scopes
 name_suffix: OAuth Scopes
 note: Derived from the per-operation `x-scopes` extension in the Consumer Data Standards CDR Energy API 1.36.0 and CDR Common API 1.36.0. The CDS OpenAPI documents do NOT declare `components.securitySchemes` — authorisation is specified out-of-band in the CDR Information Security profile (FAPI 1.0 Advanced), and the resource-server scopes are carried per operation as `x-scopes`. `derive-oauth-scopes.py` therefore returns zero for this provider; this file was derived by reading `x-scopes` directly. EnergyAustralia is a live registered CDR energy data holder (ACCC CDR Register dataHolderBrandId 1cc7833a-b834-ed11-a832-000d3a8830d6), so these are the scopes an accredited Data Recipient requests against its publicBaseUri. The scope values are ecosystem-wide CDR values, identical for every energy data holder — EnergyAustralia publishes no proprietary scope reference.
 overview: 'EnergyAustralia publishes 12 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the EnergyAustralia API on a user''s behalf.

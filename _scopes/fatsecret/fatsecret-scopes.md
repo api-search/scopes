@@ -68,7 +68,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Fatsecret Scopes
+name: fatsecret Scopes
 name_suffix: OAuth Scopes
 note: Upgraded from derived to searched on 2026-08-12. The OpenAPI declares only two scopes (basic, premier); the provider's OAuth 2.0 guide documents SEVEN. The five the spec omits — barcode, localization, nlp, image-recognition, feedback — gate exactly the capabilities fatsecret sells as add-ons, so a client built from the spec alone will hit error 14 ("Missing scope") on the barcode, image-recognition and NLP methods with no indication why.
 overview: 'fatsecret publishes 7 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the fatsecret API on a user''s behalf.

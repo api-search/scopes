@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Cardmachinepricing Co Uk Scopes
+name: cardmachinepricing-co-uk Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'cardmachinepricing-co-uk uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

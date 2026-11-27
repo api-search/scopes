@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Bulletproof Scopes
+name: BulletProof Scopes
 name_suffix: OAuth Scopes
 note: Scopes come from the live OAuth 2.0 / OpenID Connect discovery documents served on the Bulletproof hosts (identical payload at shop., account. and the myshopify origin). Bulletproof publishes no scope reference page of its own — these four are the complete scopes_supported list as advertised, nothing has been added.
 overview: 'BulletProof publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BulletProof API on a user''s behalf.

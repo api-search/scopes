@@ -58,7 +58,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Hooklogic Criteo Scopes
+name: HookLogic (Criteo) Scopes
 name_suffix: OAuth Scopes
 note: Scope strings below were derived from the Criteo Retail Media OpenAPI security requirements and then reconciled against the published authorization docs. Criteo does not publish a flat scope-reference table; it documents the same thing as a PERMISSION MODEL — an API application declares the "domains" it needs (Accounts, Analytics, Audience, Balance, Billing, Campaign, Catalog) at one of two permission levels, and an advertiser grants or denies them per account through the consent dashboard. The `<Domain>_Read` / `<Domain>_Manage` pairs in the spec are exactly that model expressed as OAuth2 scopes.
 overview: 'HookLogic (Criteo) publishes 11 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the HookLogic (Criteo) API on a user''s behalf.

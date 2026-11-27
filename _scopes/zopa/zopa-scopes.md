@@ -82,7 +82,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Zopa Scopes
+name: zopa Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'zopa publishes 2 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the zopa API on a user''s behalf.

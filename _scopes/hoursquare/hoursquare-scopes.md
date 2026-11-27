@@ -32,7 +32,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Hoursquare Scopes
+name: HourSquare Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'HourSquare publishes 5 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the HourSquare API on a user''s behalf.

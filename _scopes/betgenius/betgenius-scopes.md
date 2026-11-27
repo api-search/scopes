@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Betgenius Scopes
+name: BetGenius Scopes
 name_suffix: OAuth Scopes
 note: 'Genius Sports publishes no scopes reference page. `derive-oauth-scopes.py` found nothing, because none of the three OpenAPI files in openapi/ declares an oauth2 securityScheme — Booking uses HTTP Basic and Video-v3 uses a Cognito authorizer modelled as an apiKey. The scopes below are the ones the platform actually issues: they were read out of the decoded `scope` claim of the example access token the BetGenius Integration Documents publish on the authentication page. They are therefore real, provider-published values, but they are an EXAMPLE token''s grant — not a complete catalogue, and the descriptions are read from the endpoint each scope guards, not from a provider-written definition. Treat this as evidence that the scope model exists and what its naming convention is, not as an exhaustive list.'
 overview: 'BetGenius publishes 10 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the BetGenius API on a user''s behalf.

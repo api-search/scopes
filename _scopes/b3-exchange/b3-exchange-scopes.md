@@ -57,7 +57,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: B3 Exchange Scopes
+name: B3 (Brasil Bolsa Balcão) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'B3 (Brasil Bolsa Balcão) publishes 2 OAuth 2.0 scopes via the clientCredentials and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the B3 (Brasil Bolsa Balcão) API on a user''s behalf.

@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Webz Scopes
+name: Webz.io Scopes
 name_suffix: OAuth Scopes
 note: Webz.io's REST APIs use a single opaque API token with no scopes; entitlement is a per-product permission on the account, not an OAuth scope. The only OAuth surface is the authorization server in front of the News Search MCP endpoint, and it advertises exactly one scope. Recorded from the live RFC 8414 metadata document, not inferred.
 overview: 'Webz.io publishes 1 OAuth 2.0 scope via the authorization_code and client_credentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Webz.io API on a user''s behalf.

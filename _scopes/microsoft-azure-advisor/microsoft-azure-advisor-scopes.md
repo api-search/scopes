@@ -6,12 +6,6 @@ api_specs:
   slug: microsoft-azure-advisor-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-operations-api-openapi.yml
-- filename: microsoft-azure-advisor-recommendations-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Advisor Recommendations API
-  slug: microsoft-azure-advisor-recommendations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
 - filename: microsoft-azure-advisor-advisorscoreentities-api-openapi.yml
   format: yaml
   label: Microsoft Azure Advisor Advisor Score Entities API
@@ -78,13 +72,13 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-advisor-operations-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-advisor-operations-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-advisor-recommendations-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
@@ -103,8 +97,8 @@ slug: microsoft-azure-advisor-scopes
 source_filename: microsoft-azure-advisor-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-advisor-openapi.yml, openapi/microsoft-azure-advisor-operations-api-openapi.yml,\n  openapi/microsoft-azure-advisor-recommendations-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-advisor-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-advisor-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-advisor-recommendations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name:\
-  \ azure_auth\n  source: openapi/microsoft-azure-advisor-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-advisor-openapi.yml\n  - openapi/microsoft-azure-advisor-operations-api-openapi.yml\n  - openapi/microsoft-azure-advisor-recommendations-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-advisor-openapi.yml, openapi/_superseded/microsoft-azure-advisor-operations-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-advisor-recommendations-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-advisor-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-advisor-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-advisor-recommendations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description:\
+  \ Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-advisor-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-advisor-openapi.yml\n  - openapi/_superseded/microsoft-azure-advisor-operations-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-advisor-recommendations-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-advisor/scopes/microsoft-azure-advisor-scopes.yml
 summary_line: 1 scope · implicit
 tags:

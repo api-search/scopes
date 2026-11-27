@@ -12,7 +12,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ccc Intelligent Solutions Scopes
+name: CCC Intelligent Solutions Scopes
 name_suffix: OAuth Scopes
 note: CCC publishes no OpenAPI, so no oauth2 scope map could be derived from a spec. These scopes are read verbatim from the two anonymously readable Okta discovery documents at auth.cccis.com plus the scope observed on the live CCC Connect authorization request. They are identity/portal scopes - CCC does NOT publish any resource scopes for the api.cccis.com gateway or for CCC Secure Share; those are issued privately after contract/CIECA gating.
 overview: 'CCC Intelligent Solutions publishes 9 OAuth 2.0 scopes via the authorizationCode, implicit, deviceCode, and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the CCC Intelligent Solutions API on a user''s behalf.

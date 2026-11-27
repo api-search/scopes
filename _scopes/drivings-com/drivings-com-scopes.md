@@ -21,7 +21,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Drivings Com Scopes
+name: Drivings Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Drivings publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Drivings API on a user''s behalf.

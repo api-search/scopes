@@ -92,7 +92,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Hopin Scopes
+name: RingCentral Events Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'RingCentral Events publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the RingCentral Events API on a user''s behalf.

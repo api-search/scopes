@@ -62,7 +62,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Dips Scopes
+name: DIPS Scopes
 name_suffix: OAuth Scopes
 note: 'Read live, unauthenticated, from the DIPS Federation Service OpenID Connect discovery document on 2026-09-02 (saved verbatim at well-known/dips-openid-configuration.json). Descriptions are supplied by API Evangelist only where the scope name is self-describing or is documented on the Open DIPS getting-started page; scopes DIPS does not document carry description: null rather than a guess. DIPS publishes no scopes/permissions reference page.'
 overview: 'DIPS publishes 49 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the DIPS API on a user''s behalf.

@@ -175,7 +175,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mvmnt Scopes
+name: MVMNT Scopes
 name_suffix: OAuth Scopes
 note: MVMNT uses OAuth 2.0 client-credentials (machine-to-machine). The OpenAPI declares a single http bearer (JWT) scheme rather than granular oauth2 scopes. Tokens are issued with a single default scope; there is no per-resource scope taxonomy published.
 overview: 'MVMNT publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the MVMNT API on a user''s behalf.

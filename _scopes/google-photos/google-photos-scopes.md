@@ -6,15 +6,9 @@ api_specs:
   slug: google-photos-albums-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-photos/openapi/google-photos-albums-api-openapi.yml
-- filename: google-photos-mediaitems-search-api-openapi.yml
-  format: yaml
-  label: Google Photos Library MediaItems:search API
-  slug: google-photos-mediaitems-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-photos/openapi/google-photos-mediaitems-search-api-openapi.yml
 - filename: google-photos-sharedalbums-api-openapi.yml
   format: yaml
-  label: Google Photos Library SharedAlbums API
+  label: Google Photos Library Shared Albums API
   slug: google-photos-sharedalbums-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-photos/openapi/google-photos-sharedalbums-api-openapi.yml
@@ -27,16 +21,16 @@ api_specs:
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
-docs: ''
+docs: https://developers.google.com/photos/overview/authorization
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
-name: Google Photos Scopes
+method: searched
+name: Google Photos Library Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Google Photos Library publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google Photos Library API on a user''s behalf.
+overview: 'Google Photos Library publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google Photos Library API on a user''s behalf.
 
 
   Tokens are issued from https://oauth2.googleapis.com/token.
@@ -52,11 +46,14 @@ schemes:
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
   source: openapi/photos.yml
-scope_count: 3
+scope_count: 6
 scope_names:
 - https://www.googleapis.com/auth/photoslibrary
 - https://www.googleapis.com/auth/photoslibrary.readonly
 - https://www.googleapis.com/auth/photoslibrary.sharing
+- https://www.googleapis.com/auth/photoslibrary.appendonly
+- https://www.googleapis.com/auth/photoslibrary.readonly.appcreateddata
+- https://www.googleapis.com/auth/photoslibrary.edit.appcreateddata
 scopes:
 - description: View and manage your Google Photos library
   flows:
@@ -70,13 +67,27 @@ scopes:
   flows:
   - authorizationCode
   scope: https://www.googleapis.com/auth/photoslibrary.sharing
+- description: Write access only. Access to upload bytes, create media items, create albums, and add enrichments.
+  flows:
+  - authorizationCode
+  scope: https://www.googleapis.com/auth/photoslibrary.appendonly
+- description: Read access to media items and albums created by the developer.
+  flows:
+  - authorizationCode
+  scope: https://www.googleapis.com/auth/photoslibrary.readonly.appcreateddata
+- description: Edit access only. Access to change these details for albums and media items created by the developer.
+  flows:
+  - authorizationCode
+  scope: https://www.googleapis.com/auth/photoslibrary.edit.appcreateddata
 slug: google-photos-scopes
 source_filename: google-photos-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/photos.yml\nschemes:\n- name: oauth2\n  source: openapi/photos.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/photoslibrary\n  description: View and manage your Google Photos library\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/photos.yml\n- scope: https://www.googleapis.com/auth/photoslibrary.readonly\n  description: View your Google Photos library\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/photos.yml\n- scope: https://www.googleapis.com/auth/photoslibrary.sharing\n  description: Manage and add to shared albums\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/photos.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: searched\nsource: openapi/photos.yml\nschemes:\n- name: oauth2\n  source: openapi/photos.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/photoslibrary\n  description: View and manage your Google Photos library\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/photos.yml\n  status: removed\n  note: Removed from the Library API after March 31, 2025 (docs).\n- scope: https://www.googleapis.com/auth/photoslibrary.readonly\n  description: View your Google Photos library\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/photos.yml\n  status: removed\n  note: Removed from the Library API after March 31, 2025 (docs).\n- scope: https://www.googleapis.com/auth/photoslibrary.sharing\n  description: Manage and add to shared albums\n  flows:\n  - authorizationCode\n  sources:\n \
+  \ - openapi/photos.yml\n  status: removed\n  note: Removed from the Library API after March 31, 2025 (docs).\n- scope: https://www.googleapis.com/auth/photoslibrary.appendonly\n  description: Write access only. Access to upload bytes, create media items, create\n    albums, and add enrichments.\n  flows:\n  - authorizationCode\n  status: active\n  sources:\n  - https://developers.google.com/photos/overview/authorization\n- scope: https://www.googleapis.com/auth/photoslibrary.readonly.appcreateddata\n  description: Read access to media items and albums created by the developer.\n  flows:\n  - authorizationCode\n  status: active\n  sources:\n  - https://developers.google.com/photos/overview/authorization\n- scope: https://www.googleapis.com/auth/photoslibrary.edit.appcreateddata\n  description: Edit access only. Access to change these details for albums and media\n    items created by the developer.\n  flows:\n  - authorizationCode\n  status: active\n  sources:\n  - https://developers.google.com/photos/overview/authorization\n\
+  docs: https://developers.google.com/photos/overview/authorization\n"
 source_yaml_url: https://artifacts.apis.io/google-photos/scopes/google-photos-scopes.yml
-summary_line: 3 scopes · authorizationCode
+summary_line: 6 scopes · authorizationCode
 tags:
 - Albums
 - Google

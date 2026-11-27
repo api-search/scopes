@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Splashthat Scopes
+name: Splash Scopes
 name_suffix: OAuth Scopes
 note: 'Splash publishes no OpenAPI and no scopes/permissions reference page, so `derive-oauth-scopes.py` returns nothing. The single scope below is read directly from Splash''s own published token requests and token responses in the "Splash API v2.2" Postman collection: every Access Token and Refresh Token call sends `scope=user`, and every successful token response echoes `"scope": "user"`. No other scope value appears anywhere in the published contract. Splash''s authorization granularity is carried by ROLES and ADMIN PRIVILEGES on the account, not by OAuth scopes.'
 overview: 'Splash publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Splash API on a user''s behalf.

@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Revenue Io Scopes
+name: Revenue.io Scopes
 name_suffix: OAuth Scopes
 note: Derived from live RFC 8414 authorization-server metadata, not from an OpenAPI — Revenue.io publishes no machine-readable spec. Revenue.io publishes no scopes or permissions reference page in its knowledge center; the single scope below is everything the provider advertises. A granular scope model, if one exists behind the OAuth flow, is not published.
 overview: 'Revenue.io publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Revenue.io API on a user''s behalf.

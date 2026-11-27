@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Developerhub Scopes
+name: DeveloperHub Scopes
 name_suffix: OAuth Scopes
 note: 'The REST API declares no OAuth flows — it is X-Api-Key only. OAuth exists on exactly one surface: the hosted Editor MCP server at https://ai.developerhub.io/mcp, whose RFC 8414 / RFC 9728 discovery documents are served anonymously and declare a single scope. Alongside that, API keys carry a separate, finer-grained permission vocabulary that the OpenAPI names per operation; those are recorded here as api_key_permissions because they are not OAuth scopes.'
 overview: 'DeveloperHub publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the DeveloperHub API on a user''s behalf.

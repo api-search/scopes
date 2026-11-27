@@ -93,7 +93,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Smartthings Scopes
+name: Samsung SmartThings Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Samsung SmartThings publishes 8 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Samsung SmartThings API on a user''s behalf.

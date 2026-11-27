@@ -385,7 +385,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Sendgrid Scopes
+name: SendGrid Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SendGrid publishes 185 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the SendGrid API on a user''s behalf.

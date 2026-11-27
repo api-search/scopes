@@ -115,7 +115,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Princeton Scopes
+name: Princeton University Scopes
 name_suffix: OAuth Scopes
 note: Princeton publishes no OAuth scope catalog. This file records that as a measured absence rather than leaving the slot empty and unexplained.
 overview: 'Princeton University uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

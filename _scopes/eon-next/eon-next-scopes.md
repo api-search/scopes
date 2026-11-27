@@ -11,7 +11,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Eon Next Scopes
+name: E.ON Next Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'E.ON Next publishes 14 OAuth 2.0 scopes via the authorizationCode, implicit, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the E.ON Next API on a user''s behalf.

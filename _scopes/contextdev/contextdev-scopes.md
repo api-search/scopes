@@ -97,7 +97,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Contextdev Scopes
+name: Context.dev Scopes
 name_suffix: OAuth Scopes
 note: 'Context.dev exposes the SAME two scopes (api.read, api.write) through three different credential paths: a static ctxt_secret_ API key (no scopes attached, full key privilege), the AgentAuth JWT-bearer/claim ceremony on www.context.dev, and OAuth authorization_code + PKCE on mcp.context.dev for the hosted MCP server. The OpenAPI declares only bearerAuth (http bearer); the scope surface lives entirely in the well-known metadata and auth.md, so a consumer reading the spec alone would not know scopes exist. Only two scopes cover a 49-operation API, so the granularity is coarse — an api.write token can delete every monitor and every batch.'
 overview: 'Context.dev publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Context.dev API on a user''s behalf.

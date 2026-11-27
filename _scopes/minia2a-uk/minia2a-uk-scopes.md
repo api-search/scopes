@@ -163,7 +163,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Minia2A Uk Scopes
+name: minia2a-uk Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'minia2a-uk uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

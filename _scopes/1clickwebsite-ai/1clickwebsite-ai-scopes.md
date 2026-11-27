@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: 1Clickwebsite Ai Scopes
+name: 1ClickWebsite.ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: '1ClickWebsite.ai uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

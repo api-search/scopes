@@ -11,7 +11,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Adroll Scopes
+name: AdRoll Scopes
 name_suffix: OAuth Scopes
 note: Two distinct OAuth authorization surfaces exist and they do not share a scope vocabulary. The platform OAuth server supports exactly one scope; the MCP authorization server (published as RFC 8414 metadata) supports exactly one different scope. Neither is fine-grained. This file was written from the docs and the live metadata document, not derived from an OpenAPI — NextRoll publishes no spec file.
 overview: 'AdRoll publishes 2 OAuth 2.0 scopes via the authorizationCode, implicit, and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AdRoll API on a user''s behalf.

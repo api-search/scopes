@@ -45,7 +45,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Realtor Ca Scopes
+name: REALTOR.ca Scopes
 name_suffix: OAuth Scopes
 note: 'derive-oauth-scopes.py returned zero because neither harvested OpenAPI declares an oauth2 securityScheme. The scopes below are SEARCHED: CREA''s authorization server publishes them anonymously in its discovery document, and the documentation names exactly one — DDFApi_Read — as the scope a DDF data feed requests. The other three are advertised by the same authorization server for CREA products that have no public documentation and no resolvable host; they are recorded as observed-but-undocumented, and no endpoint was invented for them.'
 overview: 'REALTOR.ca publishes 5 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the REALTOR.ca API on a user''s behalf.

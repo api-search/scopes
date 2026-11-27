@@ -17,7 +17,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Hilberts Ai Scopes
+name: Hilbert's AI Scopes
 name_suffix: OAuth Scopes
 note: 'The published OpenAPI declares no oauth2 securityScheme, so derive-oauth-scopes.py found nothing to derive (0 oauth2 schemes, 0 scopes). Hilbert nevertheless runs OAuth 2.0 / OIDC: the application authenticates against the Auth0 tenant hilbert-app.us.auth0.com with audience https://app-api.hilberts.ai. The scopes below are the tenant''s own advertised scopes_supported, read verbatim from its discovery document. These are OIDC identity scopes, not Hilbert API permission scopes. The one API-permission string Hilbert does name anywhere public is admin:project, described in the MetricCalculationRequest schema of the OpenAPI; it is recorded separately below because it is a documented authorization requirement, not a scope the discovery document advertises. No public scopes/permissions reference page exists.'
 overview: 'Hilbert''s AI publishes 14 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Hilbert''s AI API on a user''s behalf.

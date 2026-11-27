@@ -214,7 +214,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: First Direct Scopes
+name: first direct Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'first direct publishes 3 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the first direct API on a user''s behalf.

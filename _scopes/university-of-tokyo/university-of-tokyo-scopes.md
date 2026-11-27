@@ -37,7 +37,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: University Of Tokyo Scopes
+name: University of Tokyo Scopes
 name_suffix: OAuth Scopes
 note: There are no OAuth 2.0 scopes to record. No OAuth authorization server, token endpoint or scope vocabulary exists on any University of Tokyo host — /.well-known/oauth-authorization-server and /.well-known/openid-configuration are absent, and every public surface answers unauthenticated. This file exists to record that absence explicitly rather than leave the slot empty and let a reader infer a gap in the profile. The nearest equivalent to a scope model at this institution is SAML attribute release through GakuNin — an IdP decides which attributes (eduPersonPrincipalName, eduPersonAffiliation, eduPersonScopedAffiliation, and so on) it releases to which Service Provider. That is an authorization boundary, but it is a federation policy negotiated between entities, not a scope a developer can request. The three University of Tokyo entities and their endpoints are recorded in authentication/university-of-tokyo-authentication.yml.
 overview: 'University of Tokyo uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

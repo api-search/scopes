@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Malk Organics Scopes
+name: MALK Organics Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'MALK Organics publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the MALK Organics API on a user''s behalf.

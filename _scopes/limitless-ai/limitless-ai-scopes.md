@@ -33,7 +33,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Limitless Ai Scopes
+name: Limitless Scopes
 name_suffix: OAuth Scopes
 note: Scopes are NOT declared in the published Swagger 2.0 document (it has no securityDefinitions). They come from the live RFC 8414 / OIDC Discovery documents on api.limitless.ai, which back the hosted MCP server. Limitless publishes no separate scopes/permissions reference page.
 overview: 'Limitless publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Limitless API on a user''s behalf.

@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Ubc Scopes
+name: University of British Columbia Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'University of British Columbia uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Querysail Com Scopes
+name: querysail-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'querysail-com publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the querysail-com API on a user''s behalf.

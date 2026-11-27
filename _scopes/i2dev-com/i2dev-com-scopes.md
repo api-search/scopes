@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: I2Dev Com Scopes
+name: i2dev-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'i2dev-com publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the i2dev-com API on a user''s behalf.

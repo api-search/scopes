@@ -102,7 +102,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Edf Energy Scopes
+name: EDF Energy Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'EDF Energy publishes 111 OAuth 2.0 scopes via the authorizationCode, clientCredentials, deviceCode, and tokenExchange flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the EDF Energy API on a user''s behalf.

@@ -272,7 +272,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Adro1B33 Scopes
+name: ADRO Scopes
 name_suffix: OAuth Scopes
 note: The AOX Platform API at api.aoxlabs.com declares no oauth2 securityScheme and publishes no scope reference, so it contributes no scopes to this file. These four are the storefront identity scopes ADRO's own domain advertises; the authorization server is Shopify's, scoped to ADRO's shop id.
 overview: 'ADRO publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ADRO API on a user''s behalf.

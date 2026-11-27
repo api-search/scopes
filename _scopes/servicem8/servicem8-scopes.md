@@ -75,7 +75,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Servicem8 Scopes
+name: ServiceM8 Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ServiceM8 publishes 11 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ServiceM8 API on a user''s behalf.

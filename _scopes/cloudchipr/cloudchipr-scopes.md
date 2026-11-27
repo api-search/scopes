@@ -73,7 +73,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Cloudchipr Scopes
+name: CloudChipr Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CloudChipr publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the CloudChipr API on a user''s behalf.

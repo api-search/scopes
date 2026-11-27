@@ -7,7 +7,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Offgridstores Scopes
+name: Off Grid Stores - All Things Off-Grid Solar Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Off Grid Stores - All Things Off-Grid Solar publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Off Grid Stores - All Things Off-Grid Solar API on a user''s behalf.

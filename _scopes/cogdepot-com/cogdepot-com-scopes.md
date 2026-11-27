@@ -69,7 +69,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cogdepot Com Scopes
+name: cogDepot Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'cogDepot publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the cogDepot API on a user''s behalf.

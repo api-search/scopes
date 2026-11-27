@@ -61,7 +61,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Listings Api Scopes
+name: Listings API Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Listings API publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Listings API API on a user''s behalf.
@@ -99,7 +99,7 @@ tags:
 - Analytics
 - citation-management
 - Local Marketing
-- social-publishing
+- Social publishing
 - MCP
 - Agent-Native
 token_bound: false

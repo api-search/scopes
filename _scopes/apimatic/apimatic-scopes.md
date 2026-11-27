@@ -34,7 +34,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Apimatic Scopes
+name: APIMatic Scopes
 name_suffix: OAuth Scopes
 note: APIMatic's PLATFORM API has no OAuth surface — it authenticates with a custom Authorization header carrying an Auth Key (see authentication/apimatic-authentication.yml). The only OAuth scope APIMatic publishes belongs to its hosted MCP server, whose RFC 8414 and RFC 9728 discovery documents were fetched live on 2026-09-15. Recorded here because a scope an agent can actually request is a scope, whichever surface serves it; it is NOT evidence of OAuth on the Platform API.
 overview: 'APIMatic publishes 1 OAuth 2.0 scope via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the APIMatic API on a user''s behalf.

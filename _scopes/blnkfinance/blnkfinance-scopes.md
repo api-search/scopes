@@ -55,7 +55,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Blnkfinance Scopes
+name: Blnk Finance Scopes
 name_suffix: OAuth Scopes
 note: Blnk Core's scope model is attached to API KEYS, not to an OAuth flow -- derive-oauth-scopes.py found nothing because the published OpenAPI declares only http/basic and no oauth2 securityScheme. The model is real and fully documented anyway, and it is the same vocabulary the Blnk Cloud OAuth clients use, so it is captured here. Scopes are `resource:action` pairs; Blnk maps HTTP methods to actions automatically rather than naming a scope per endpoint, so the scope list is a small grid rather than a long registry.
 overview: 'Blnk Finance publishes 24 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Blnk Finance API on a user''s behalf.

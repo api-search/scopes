@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Dnanexus Scopes
+name: DNAnexus Scopes
 name_suffix: OAuth Scopes
 note: The DNAnexus Platform API itself (api.dnanexus.com) is bearer-token authenticated and has NO OAuth scope surface - a token carries the full permissions of the user or job it was issued for, and access is instead constrained by project/org permission levels (VIEW / UPLOAD / CONTRIBUTE / ADMINISTER). The scopes below belong to the DNAnexus OpenID Connect provider, which third-party web apps use to sign users in.
 overview: 'DNAnexus publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the DNAnexus API on a user''s behalf.

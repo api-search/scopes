@@ -50,7 +50,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Anz Scopes
+name: Australia and New Zealand Banking Group (ANZ) Scopes
 name_suffix: OAuth Scopes
 note: The public ANZ Product Reference Data endpoints require NO OAuth scope (they are unauthenticated). The scopes below govern the CDR consumer-data-sharing operations in the shared DSB Consumer Data Standards banking contract, which ANZ exposes only to CDR-accredited Data Recipients under consumer consent. Scope strings are captured verbatim from the spec's per-operation x-scopes extension and the Consumer Data Standards authorisation-scopes reference.
 overview: 'Australia and New Zealand Banking Group (ANZ) publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Australia and New Zealand Banking Group (ANZ) API on a user''s behalf.

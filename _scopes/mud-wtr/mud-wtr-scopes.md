@@ -7,7 +7,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Mud Wtr Scopes
+name: Mud\Wtr Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Mud\Wtr publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Mud\Wtr API on a user''s behalf.

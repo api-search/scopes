@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Gogift Scopes
+name: GoGift Scopes
 name_suffix: OAuth Scopes
 note: The API reference at docs.gogift.io never names a scope. Which of AuthApi / finance_api / retail_api a given client is granted is decided by GoGift when it provisions the client id and secret. Treat the non-standard scopes below as observed-from-discovery, not as a provider-published permissions reference.
 overview: 'GoGift publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the GoGift API on a user''s behalf.

@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Accordacff Scopes
+name: Accord Scopes
 name_suffix: OAuth Scopes
 note: Read from Accord's own RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata, both served anonymously on api.inaccord.com. These scopes govern the Accord MCP server. The Accord Developer API (GraphQL) does NOT use OAuth — it authenticates with a workspace-scoped bearer API key and has no scope surface; per Accord's authentication page, "the same Row-Level Security rules that apply to in-app sessions apply to API key requests". Accord publishes no separate scopes/permissions reference page; nothing beyond the metadata was found.
 overview: 'Accord publishes 2 OAuth 2.0 scopes via the authorization_code and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Accord API on a user''s behalf.

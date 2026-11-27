@@ -184,7 +184,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Angelcam Scopes
+name: AngelCam Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AngelCam publishes 51 OAuth 2.0 scopes via the authorizationCode and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AngelCam API on a user''s behalf.

@@ -67,7 +67,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Agendapro Scopes
+name: AgendaPro Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AgendaPro publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AgendaPro API on a user''s behalf.

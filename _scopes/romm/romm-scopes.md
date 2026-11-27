@@ -206,7 +206,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Romm Scopes
+name: RomM Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'RomM publishes 22 OAuth 2.0 scopes via the password flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the RomM API on a user''s behalf.

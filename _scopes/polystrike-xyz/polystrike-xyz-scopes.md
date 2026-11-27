@@ -61,7 +61,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Polystrike Xyz Scopes
+name: polystrike-xyz Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'polystrike-xyz uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -91,7 +91,7 @@ tags:
 - Company
 - Finance
 - Data
-- Prediction Market
+- Prediction-Market
 - Cryptocurrency
 token_bound: false
 token_urls: []

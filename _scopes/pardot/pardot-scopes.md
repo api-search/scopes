@@ -15,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Pardot Scopes
+name: Salesforce Marketing Cloud Account Engagement (Pardot) Scopes
 name_suffix: OAuth Scopes
 note: 'Account Engagement exposes exactly ONE product scope: pardot_api. It is not a granular permission model — the scope grants access to the API, and what a caller may actually do is decided by the Account Engagement user role abilities on the authenticating user (each object reference page names the ability required per operation, e.g. "Prospect > Prospects > Create"). The scope list below is the live scopes_supported array from the Salesforce authorization server, which is the authoritative source; the entries after pardot_api are Salesforce-platform scopes commonly paired with it, not Account Engagement scopes.'
 overview: 'Salesforce Marketing Cloud Account Engagement (Pardot) publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Salesforce Marketing Cloud Account Engagement (Pardot) API on a user''s behalf.

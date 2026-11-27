@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Rad Scopes
+name: Rad. Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Rad. publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Rad. API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Everysim Inc Scopes
+name: EverySim Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'EverySim publishes 13 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the EverySim API on a user''s behalf.

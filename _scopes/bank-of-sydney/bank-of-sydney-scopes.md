@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Bank Of Sydney Scopes
+name: Bank of Sydney Scopes
 name_suffix: OAuth Scopes
 note: The harvested CDS banking spec declares scopes on each operation via the x-scopes extension (not an OpenAPI oauth2 securityScheme), so the standard derive-oauth-scopes pass yields nothing; these five CDR banking scopes are extracted from those x-scopes values. Product Reference Data operations are public and require no scope. Scopes are granted through the CDR authorisation server to Accredited Data Recipients under consumer consent.
 overview: 'Bank of Sydney publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bank of Sydney API on a user''s behalf.

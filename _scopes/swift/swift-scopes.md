@@ -129,7 +129,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Swift Scopes
+name: SWIFT Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SWIFT publishes 2 OAuth 2.0 scopes via the password and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the SWIFT API on a user''s behalf.

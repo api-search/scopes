@@ -44,7 +44,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Spp Scopes
+name: Southwest Power Pool Scopes
 name_suffix: OAuth Scopes
 note: These scopes are declared by the LF Energy TROLIE community specification — the contract SPP's own "SPP LEP/TROLIE API Data Exchange Guide" (v1.0, 2024-11-08) directs implementers to — not by an SPP-published authorization server. SPP publishes no OAuth authorization server, no token URL and no scope reference of its own; its LEP ratings API authenticates with an OATI webCARES x.509 certificate plus an SPP UAA role (see authentication/spp-authentication.yml). Treat this as the scope vocabulary an SPP LEP integration is built against, not as an observed SPP OAuth surface.
 overview: 'Southwest Power Pool publishes 15 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Southwest Power Pool API on a user''s behalf.

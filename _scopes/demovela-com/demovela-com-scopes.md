@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Demovela Com Scopes
+name: Demovela Scopes
 name_suffix: OAuth Scopes
 note: 'Scope strings are published verbatim for the MCP server ("Requested scopes: `profile:read videos:read drafts:write`"). The n8n/REST page describes the same permissions in prose ("read your profile, read videos and drafts, save drafts") without naming scope strings; REST tokens use a separate OAuth audience (https://demovela.com/v1).'
 overview: 'Demovela publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Demovela API on a user''s behalf.

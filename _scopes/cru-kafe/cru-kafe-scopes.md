@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cru Kafe Scopes
+name: CRU Kafe Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CRU Kafe publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the CRU Kafe API on a user''s behalf.

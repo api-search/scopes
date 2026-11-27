@@ -61,7 +61,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Przypominamy Com Scopes
+name: przypominamy-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'przypominamy-com publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the przypominamy-com API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Atlas Red Scopes
+name: RED Atlas Inc Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'RED Atlas Inc uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

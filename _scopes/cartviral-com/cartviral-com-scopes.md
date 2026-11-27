@@ -81,7 +81,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Cartviral Com Scopes
+name: CartViral Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CartViral publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CartViral API on a user''s behalf.

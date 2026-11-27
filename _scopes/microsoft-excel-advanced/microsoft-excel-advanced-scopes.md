@@ -63,7 +63,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Excel Advanced Scopes
+name: Microsoft Excel (Advanced) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Microsoft Excel (Advanced) publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Excel (Advanced) API on a user''s behalf.
@@ -82,7 +82,63 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: oauth2
-  source: openapi/microsoft-excel-advanced-openapi.yml
+  source: openapi/microsoft-excel-advanced-charts-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-excel-advanced-functions-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-excel-advanced-named-items-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-excel-advanced-range-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-excel-advanced-sessions-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-excel-advanced-table-columns-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-excel-advanced-table-rows-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-excel-advanced-tables-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-excel-advanced-worksheets-api-openapi.yml
 scope_count: 4
 scope_names:
 - Files.Read
@@ -110,8 +166,13 @@ slug: microsoft-excel-advanced-scopes
 source_filename: microsoft-excel-advanced-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-excel-advanced-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\nscopes:\n- scope: Files.Read\n  description: Read user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-openapi.yml\n- scope: Files.ReadWrite\n  description: Read and write user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-openapi.yml\n- scope: Sites.Read.All\n  description: Read items in all site collections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-openapi.yml\n- scope: Sites.ReadWrite.All\n  description: Read and write items in all site\
-  \ collections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-excel-advanced-charts-api-openapi.yml, openapi/microsoft-excel-advanced-functions-api-openapi.yml,\n  openapi/microsoft-excel-advanced-named-items-api-openapi.yml, openapi/microsoft-excel-advanced-range-api-openapi.yml,\n  openapi/microsoft-excel-advanced-sessions-api-openapi.yml, openapi/microsoft-excel-advanced-table-columns-api-openapi.yml,\n  openapi/microsoft-excel-advanced-table-rows-api-openapi.yml, openapi/microsoft-excel-advanced-tables-api-openapi.yml,\n  openapi/microsoft-excel-advanced-worksheets-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-charts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-functions-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-named-items-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-range-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-sessions-api-openapi.yml\n  flows:\n \
+  \ - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-table-columns-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-table-rows-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-tables-api-openapi.yml\n  flows:\n  - flow:\
+  \ authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-worksheets-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\nscopes:\n- scope: Files.Read\n  description: Read user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-charts-api-openapi.yml\n  - openapi/microsoft-excel-advanced-functions-api-openapi.yml\n  - openapi/microsoft-excel-advanced-named-items-api-openapi.yml\n  - openapi/microsoft-excel-advanced-range-api-openapi.yml\n  - openapi/microsoft-excel-advanced-sessions-api-openapi.yml\n  - openapi/microsoft-excel-advanced-table-columns-api-openapi.yml\n\
+  \  - openapi/microsoft-excel-advanced-table-rows-api-openapi.yml\n  - openapi/microsoft-excel-advanced-tables-api-openapi.yml\n  - openapi/microsoft-excel-advanced-worksheets-api-openapi.yml\n- scope: Files.ReadWrite\n  description: Read and write user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-charts-api-openapi.yml\n  - openapi/microsoft-excel-advanced-functions-api-openapi.yml\n  - openapi/microsoft-excel-advanced-named-items-api-openapi.yml\n  - openapi/microsoft-excel-advanced-range-api-openapi.yml\n  - openapi/microsoft-excel-advanced-sessions-api-openapi.yml\n  - openapi/microsoft-excel-advanced-table-columns-api-openapi.yml\n  - openapi/microsoft-excel-advanced-table-rows-api-openapi.yml\n  - openapi/microsoft-excel-advanced-tables-api-openapi.yml\n  - openapi/microsoft-excel-advanced-worksheets-api-openapi.yml\n- scope: Sites.Read.All\n  description: Read items in all site collections\n  flows:\n  - authorizationCode\n  sources:\n\
+  \  - openapi/microsoft-excel-advanced-charts-api-openapi.yml\n  - openapi/microsoft-excel-advanced-functions-api-openapi.yml\n  - openapi/microsoft-excel-advanced-named-items-api-openapi.yml\n  - openapi/microsoft-excel-advanced-range-api-openapi.yml\n  - openapi/microsoft-excel-advanced-sessions-api-openapi.yml\n  - openapi/microsoft-excel-advanced-table-columns-api-openapi.yml\n  - openapi/microsoft-excel-advanced-table-rows-api-openapi.yml\n  - openapi/microsoft-excel-advanced-tables-api-openapi.yml\n  - openapi/microsoft-excel-advanced-worksheets-api-openapi.yml\n- scope: Sites.ReadWrite.All\n  description: Read and write items in all site collections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-charts-api-openapi.yml\n  - openapi/microsoft-excel-advanced-functions-api-openapi.yml\n  - openapi/microsoft-excel-advanced-named-items-api-openapi.yml\n  - openapi/microsoft-excel-advanced-range-api-openapi.yml\n  - openapi/microsoft-excel-advanced-sessions-api-openapi.yml\n\
+  \  - openapi/microsoft-excel-advanced-table-columns-api-openapi.yml\n  - openapi/microsoft-excel-advanced-table-rows-api-openapi.yml\n  - openapi/microsoft-excel-advanced-tables-api-openapi.yml\n  - openapi/microsoft-excel-advanced-worksheets-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-excel-advanced/scopes/microsoft-excel-advanced-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:

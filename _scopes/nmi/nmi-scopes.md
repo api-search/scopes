@@ -164,7 +164,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Nmi Scopes
+name: NMI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'NMI publishes 6 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the NMI API on a user''s behalf.

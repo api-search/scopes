@@ -70,7 +70,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: 401Go Scopes
+name: 401GO Scopes
 name_suffix: OAuth Scopes
 note: 'The published OpenAPI declares its OAuth surface as an http/bearer scheme rather than an oauth2 scheme, so the mechanical derive pass finds no scopes. The real authorization server metadata is published at app.401go.com/api/o/.well-known/openid-configuration, and the scopes below are its verbatim scopes_supported list. 401GO layers a second, non-OAuth authorization control on top: a per-client endpoint + HTTP-method allow list negotiated at onboarding, documented at https://developer.401go.com/docs/api-endpoint-and-method-access. Holding a scope is therefore necessary but not sufficient — an unlisted endpoint/method returns 403.'
 overview: '401GO publishes 12 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the 401GO API on a user''s behalf.

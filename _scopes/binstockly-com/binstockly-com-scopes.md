@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Binstockly Com Scopes
+name: binstockly-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'binstockly-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -37,7 +37,6 @@ tags:
 - Inventory
 - Software
 - Small Business
-- Free Tools
 token_bound: false
 token_urls: []
 ---

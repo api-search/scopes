@@ -32,7 +32,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Iproov Scopes
+name: iProov Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'iProov publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the iProov API on a user''s behalf.

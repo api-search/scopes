@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Klang Scopes
+name: Klang Games Scopes
 name_suffix: OAuth Scopes
 note: Klang publishes no scopes or permissions reference page. These are the scopes advertised verbatim in the SEED OpenID Connect discovery document — the standard OIDC set with no product-specific scopes exposed.
 overview: 'Klang Games publishes 5 OAuth 2.0 scopes via the authorizationCode and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Klang Games API on a user''s behalf.

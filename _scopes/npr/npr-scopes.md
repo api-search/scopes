@@ -33,7 +33,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Npr Scopes
+name: NPR Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'NPR publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the NPR API on a user''s behalf.

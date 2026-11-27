@@ -691,7 +691,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Mammoth Io Scopes
+name: mammoth-io Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'mammoth-io uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

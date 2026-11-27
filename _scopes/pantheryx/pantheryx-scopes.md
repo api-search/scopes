@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Pantheryx Scopes
+name: PanTheryx Scopes
 name_suffix: OAuth Scopes
 note: These are Shopify customer-account scopes exposed by the identity provider behind the two PanTheryx brand storefronts. PanTheryx publishes no scope reference of its own, and there is no provider-authored docs page to enrich these descriptions from — the descriptions below are read from the scope names and the Shopify authorization-server metadata only.
 overview: 'PanTheryx publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the PanTheryx API on a user''s behalf.

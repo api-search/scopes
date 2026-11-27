@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Ci Hub Scopes
+name: CI HUB Scopes
 name_suffix: OAuth Scopes
 note: 'The Access SDK HTTP API has no OAuth scope surface — it authenticates by partner-JWT token exchange plus a per-DAM connection token, so derive-oauth-scopes.py correctly found nothing there. The scope surface belongs to the MCP server: mcp.ci-hub.com is an OAuth 2.1 protected resource whose authorization server publishes RFC 8414 metadata anonymously. That metadata declares exactly one scope. Values below are read verbatim from the live document; nothing is inferred.'
 overview: 'CI HUB publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the CI HUB API on a user''s behalf.

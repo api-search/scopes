@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Zspace Scopes
+name: zSpace Scopes
 name_suffix: OAuth Scopes
 note: scopes_supported read verbatim from the production Keycloak OIDC discovery document. These are the Keycloak realm default client scopes; zSpace publishes no scope or permission reference page, so no application-specific scopes (device, content, roster, licensing) could be found. Descriptions below are the standard OIDC/Keycloak meanings of each scope, not zSpace prose.
 overview: 'zSpace publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the zSpace API on a user''s behalf.

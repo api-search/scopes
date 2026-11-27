@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: forcedream-ai-account-api-openapi.yml
+- filename: forcedream-ai-oracle-api-openapi.yml
   format: yaml
-  label: ForceDream Account API
-  slug: forcedream-ai-account-api
+  label: ForceDream Oracle API
+  slug: forcedream-ai-oracle-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-account-api-openapi.yml
-- filename: forcedream-ai-agents-api-openapi.yml
-  format: yaml
-  label: ForceDream Agents API
-  slug: forcedream-ai-agents-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-agents-api-openapi.yml
-- filename: forcedream-ai-signup-api-openapi.yml
-  format: yaml
-  label: ForceDream Signup API
-  slug: forcedream-ai-signup-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-signup-api-openapi.yml
-- filename: forcedream-ai-workforce-api-openapi.yml
-  format: yaml
-  label: ForceDream Workforce API
-  slug: forcedream-ai-workforce-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-workforce-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-oracle-api-openapi.yml
 authorization_urls:
 - https://api.forcedream.ai/v1/oauth/authorize
 description: 'ForceDream''s OAuth scope surface is small and lives in machine-readable discovery documents rather than a scopes reference page (none exists): two scopes in the RFC 8414 / RFC 9728 metadata for the MCP resource, and one scope declared on the A2A agent card. The published OpenAPI declares only bearerAuth, so derive-oauth-scopes.py produced nothing; this file is authored from the discovery documents.'
@@ -32,7 +14,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Forcedream Ai Scopes
+name: ForceDream Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ForceDream uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

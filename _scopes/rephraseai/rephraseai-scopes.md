@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Rephraseai Scopes
+name: Rephrase.ai Scopes
 name_suffix: OAuth Scopes
 note: Only one OAuth2 scope is documented in the legacy Rephrase Studio API reference. The provider (acquired by Adobe, Nov 2023) publishes no dedicated scopes/permissions reference page.
 overview: 'Rephrase.ai publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Rephrase.ai API on a user''s behalf.

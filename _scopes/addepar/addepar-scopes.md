@@ -126,6 +126,8 @@ tags:
 - Portfolio Management
 - Investment Management
 - Financial Data
+- Family Offices
+- RIA
 - JSON:API
 - REST
 token_bound: false

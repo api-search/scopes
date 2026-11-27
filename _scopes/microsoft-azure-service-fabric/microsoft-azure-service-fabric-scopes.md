@@ -1,35 +1,11 @@
 ---
 api_specs:
-- filename: microsoft-azure-service-fabric-clusters-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Clusters API
-  slug: microsoft-azure-service-fabric-clusters-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-clusters-api-openapi.yml
-- filename: microsoft-azure-service-fabric-operations-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Operations API
-  slug: microsoft-azure-service-fabric-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-operations-api-openapi.yml
 - filename: microsoft-azure-service-fabric-applications-api-openapi.yml
   format: yaml
   label: Azure Service Fabric Applications API
   slug: microsoft-azure-service-fabric-applications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-applications-api-openapi.yml
-- filename: microsoft-azure-service-fabric-application-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Application API
-  slug: microsoft-azure-service-fabric-application-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-application-api-openapi.yml
-- filename: microsoft-azure-service-fabric-applicationtype-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Application Type API
-  slug: microsoft-azure-service-fabric-applicationtype-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-applicationtype-api-openapi.yml
 - filename: microsoft-azure-service-fabric-applicationtypes-api-openapi.yml
   format: yaml
   label: Azure Service Fabric Application Types API
@@ -48,60 +24,12 @@ api_specs:
   slug: microsoft-azure-service-fabric-applicationtypeversions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-applicationtypeversions-api-openapi.yml
-- filename: microsoft-azure-service-fabric-chaos-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Chaos API
-  slug: microsoft-azure-service-fabric-chaos-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-chaos-api-openapi.yml
-- filename: microsoft-azure-service-fabric-cluster-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Cluster API
-  slug: microsoft-azure-service-fabric-cluster-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-cluster-api-openapi.yml
 - filename: microsoft-azure-service-fabric-clusterversion-api-openapi.yml
   format: yaml
   label: Azure Service Fabric Cluster Version API
   slug: microsoft-azure-service-fabric-clusterversion-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-clusterversion-api-openapi.yml
-- filename: microsoft-azure-service-fabric-code-package-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Code Package API
-  slug: microsoft-azure-service-fabric-code-package-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-code-package-api-openapi.yml
-- filename: microsoft-azure-service-fabric-compose-deployment-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Compose Deployment API
-  slug: microsoft-azure-service-fabric-compose-deployment-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-compose-deployment-api-openapi.yml
-- filename: microsoft-azure-service-fabric-eventsstore-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Events Store API
-  slug: microsoft-azure-service-fabric-eventsstore-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-eventsstore-api-openapi.yml
-- filename: microsoft-azure-service-fabric-faults-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Faults API
-  slug: microsoft-azure-service-fabric-faults-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-faults-api-openapi.yml
-- filename: microsoft-azure-service-fabric-imagestore-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Image Store API
-  slug: microsoft-azure-service-fabric-imagestore-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-imagestore-api-openapi.yml
-- filename: microsoft-azure-service-fabric-infrastructure-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Infrastructure API
-  slug: microsoft-azure-service-fabric-infrastructure-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-infrastructure-api-openapi.yml
 - filename: microsoft-azure-service-fabric-listupgradableversions-api-openapi.yml
   format: yaml
   label: Azure Service Fabric List Upgradable Versions API
@@ -144,6 +72,78 @@ api_specs:
   slug: microsoft-azure-service-fabric-managedvmsizes-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-managedvmsizes-api-openapi.yml
+- filename: microsoft-azure-service-fabric-nodetypes-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Node Types API
+  slug: microsoft-azure-service-fabric-nodetypes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-nodetypes-api-openapi.yml
+- filename: microsoft-azure-service-fabric-nodetypeskus-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Node Type Skus API
+  slug: microsoft-azure-service-fabric-nodetypeskus-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-nodetypeskus-api-openapi.yml
+- filename: microsoft-azure-service-fabric-services-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Services API
+  slug: microsoft-azure-service-fabric-services-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-services-api-openapi.yml
+- filename: microsoft-azure-service-fabric-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Subscriptions API
+  slug: microsoft-azure-service-fabric-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-subscriptions-api-openapi.yml
+- filename: microsoft-azure-service-fabric-chaos-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Chaos API
+  slug: microsoft-azure-service-fabric-chaos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-chaos-api-openapi.yml
+- filename: microsoft-azure-service-fabric-clusters-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Clusters API
+  slug: microsoft-azure-service-fabric-clusters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-clusters-api-openapi.yml
+- filename: microsoft-azure-service-fabric-code-package-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Code Package API
+  slug: microsoft-azure-service-fabric-code-package-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-code-package-api-openapi.yml
+- filename: microsoft-azure-service-fabric-compose-deployment-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Compose Deployment API
+  slug: microsoft-azure-service-fabric-compose-deployment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-compose-deployment-api-openapi.yml
+- filename: microsoft-azure-service-fabric-eventsstore-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Events Store API
+  slug: microsoft-azure-service-fabric-eventsstore-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-eventsstore-api-openapi.yml
+- filename: microsoft-azure-service-fabric-faults-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Faults API
+  slug: microsoft-azure-service-fabric-faults-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-faults-api-openapi.yml
+- filename: microsoft-azure-service-fabric-imagestore-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Image Store API
+  slug: microsoft-azure-service-fabric-imagestore-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-imagestore-api-openapi.yml
+- filename: microsoft-azure-service-fabric-infrastructure-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Infrastructure API
+  slug: microsoft-azure-service-fabric-infrastructure-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-infrastructure-api-openapi.yml
 - filename: microsoft-azure-service-fabric-meshapplications-api-openapi.yml
   format: yaml
   label: Azure Service Fabric Mesh Applications API
@@ -204,18 +204,6 @@ api_specs:
   slug: microsoft-azure-service-fabric-node-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-node-api-openapi.yml
-- filename: microsoft-azure-service-fabric-nodetypes-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Node Types API
-  slug: microsoft-azure-service-fabric-nodetypes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-nodetypes-api-openapi.yml
-- filename: microsoft-azure-service-fabric-nodetypeskus-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Node Type Skus API
-  slug: microsoft-azure-service-fabric-nodetypeskus-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-nodetypeskus-api-openapi.yml
 - filename: microsoft-azure-service-fabric-partition-api-openapi.yml
   format: yaml
   label: Azure Service Fabric Partition API
@@ -240,42 +228,54 @@ api_specs:
   slug: microsoft-azure-service-fabric-replica-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-replica-api-openapi.yml
-- filename: microsoft-azure-service-fabric-service-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Service API
-  slug: microsoft-azure-service-fabric-service-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-service-api-openapi.yml
 - filename: microsoft-azure-service-fabric-service-package-api-openapi.yml
   format: yaml
   label: Azure Service Fabric Service Package API
   slug: microsoft-azure-service-fabric-service-package-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-service-package-api-openapi.yml
-- filename: microsoft-azure-service-fabric-services-api-openapi.yml
-  format: yaml
-  label: Azure Service Fabric Services API
-  slug: microsoft-azure-service-fabric-services-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-services-api-openapi.yml
 - filename: microsoft-azure-service-fabric-servicetype-api-openapi.yml
   format: yaml
   label: Azure Service Fabric Service Type API
   slug: microsoft-azure-service-fabric-servicetype-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-servicetype-api-openapi.yml
-- filename: microsoft-azure-service-fabric-subscriptions-api-openapi.yml
+- filename: microsoft-azure-service-fabric-application-api-openapi.yml
   format: yaml
-  label: Azure Service Fabric Subscriptions API
-  slug: microsoft-azure-service-fabric-subscriptions-api
+  label: Azure Service Fabric Application API
+  slug: microsoft-azure-service-fabric-application-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-application-api-openapi.yml
+- filename: microsoft-azure-service-fabric-applicationtype-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Application Type API
+  slug: microsoft-azure-service-fabric-applicationtype-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-applicationtype-api-openapi.yml
 - filename: microsoft-azure-service-fabric-backup-restore-api-openapi.yml
   format: yaml
   label: Azure Service Fabric Backup Restore API
   slug: microsoft-azure-service-fabric-backup-restore-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-backup-restore-api-openapi.yml
+- filename: microsoft-azure-service-fabric-cluster-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Cluster API
+  slug: microsoft-azure-service-fabric-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-cluster-api-openapi.yml
+- filename: microsoft-azure-service-fabric-operations-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Operations API
+  slug: microsoft-azure-service-fabric-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-operations-api-openapi.yml
+- filename: microsoft-azure-service-fabric-service-api-openapi.yml
+  format: yaml
+  label: Azure Service Fabric Service API
+  slug: microsoft-azure-service-fabric-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-service-fabric/openapi/microsoft-azure-service-fabric-service-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -285,7 +285,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Azure Service Fabric Scopes
+name: Azure Service Fabric Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure Service Fabric publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Service Fabric API on a user''s behalf.
@@ -300,13 +300,13 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-service-fabric-applications-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-service-fabric-applications-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-service-fabric-clusters-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-service-fabric-clusters-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
@@ -318,7 +318,7 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-service-fabric-operations-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-service-fabric-operations-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
@@ -337,9 +337,9 @@ slug: microsoft-azure-service-fabric-scopes
 source_filename: microsoft-azure-service-fabric-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-service-fabric-applications-api-openapi.yml, openapi/microsoft-azure-service-fabric-clusters-api-openapi.yml,\n  openapi/microsoft-azure-service-fabric-managed-clusters-api-openapi.yml, openapi/microsoft-azure-service-fabric-openapi.yml,\n  openapi/microsoft-azure-service-fabric-operations-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-service-fabric-applications-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow\n- name: azure_auth\n  source: openapi/microsoft-azure-service-fabric-clusters-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow\n- name: azure_auth\n  source: openapi/microsoft-azure-service-fabric-managed-clusters-api-openapi.yml\n\
-  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-service-fabric-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-service-fabric-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-service-fabric-applications-api-openapi.yml\n  - openapi/microsoft-azure-service-fabric-clusters-api-openapi.yml\n  - openapi/microsoft-azure-service-fabric-managed-clusters-api-openapi.yml\n\
-  \  - openapi/microsoft-azure-service-fabric-openapi.yml\n  - openapi/microsoft-azure-service-fabric-operations-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/_superseded/microsoft-azure-service-fabric-applications-api-openapi.yml, openapi/_superseded/microsoft-azure-service-fabric-clusters-api-openapi.yml,\n  openapi/microsoft-azure-service-fabric-managed-clusters-api-openapi.yml, openapi/microsoft-azure-service-fabric-openapi.yml,\n  openapi/_superseded/microsoft-azure-service-fabric-operations-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-service-fabric-applications-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-service-fabric-clusters-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow\n- name: azure_auth\n\
+  \  source: openapi/microsoft-azure-service-fabric-managed-clusters-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-service-fabric-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-service-fabric-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/_superseded/microsoft-azure-service-fabric-applications-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-service-fabric-clusters-api-openapi.yml\n\
+  \  - openapi/microsoft-azure-service-fabric-managed-clusters-api-openapi.yml\n  - openapi/microsoft-azure-service-fabric-openapi.yml\n  - openapi/_superseded/microsoft-azure-service-fabric-operations-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-service-fabric/scopes/microsoft-azure-service-fabric-scopes.yml
 summary_line: 1 scope · implicit
 tags:

@@ -14,7 +14,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Banksapi Scopes
+name: fineconomy Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'fineconomy publishes 5 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the fineconomy API on a user''s behalf.

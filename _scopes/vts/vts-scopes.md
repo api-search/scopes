@@ -201,7 +201,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Vts Scopes
+name: VTS Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'VTS publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the VTS API on a user''s behalf.

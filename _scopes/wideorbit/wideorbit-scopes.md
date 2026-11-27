@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Wideorbit Scopes
+name: WideOrbit Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'WideOrbit publishes 10 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the WideOrbit API on a user''s behalf.

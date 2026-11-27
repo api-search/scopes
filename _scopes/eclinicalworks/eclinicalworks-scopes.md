@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Eclinicalworks Scopes
+name: eClinicalWorks Scopes
 name_suffix: OAuth Scopes
 note: SMART on FHIR scope set read verbatim from the SMART configuration document served by the eClinicalWorks FHIR Facade. The identical 486-scope set is served on the healow patient-facing facade (https://fhir4.healow.com/fhir/r4/{practice_code}/.well-known/smart-configuration). Scope descriptions for the patient/user/system resource scopes are derived mechanically from the SMART v1/v2 scope grammar; the identity and launch-context descriptions are taken from the eClinicalWorks "Scopes Supported by eClinicalWorks" documentation page. Both SMART v1 (.read/.write) and SMART v2 (.rs/.c/.u/.d/.cruds) forms are advertised (capabilities include permission-v1 and permission-v2).
 overview: 'eClinicalWorks publishes 486 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the eClinicalWorks API on a user''s behalf.

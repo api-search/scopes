@@ -619,7 +619,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Opengov Scopes
+name: OpenGov Scopes
 name_suffix: OAuth Scopes
 note: OpenGov's authorization surface is two-layered and neither layer is an OAuth scopes map in the OpenAPI. (1) The platform authorizes integrations with named PERMISSIONS granted per integration in the Developer Portal — this is the surface an integrator actually reasons about, and it is published as a table rather than in any spec. (2) Underneath, the Permitting & Licensing API's openIdConnect scheme points at an Auth0 tenant whose discovery document advertises standard OIDC scopes. derive-oauth-scopes.py returns zero because no oauth2 securityScheme with a `scopes` map exists in any of the ten definitions — the OIDC scheme carries only an openIdConnectUrl. Captured here by hand from the published permissions reference.
 overview: 'OpenGov uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

@@ -59,7 +59,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Dremio Intelligent Lakehouse Platform Scopes
+name: Dremio | Intelligent Lakehouse Platform Scopes
 name_suffix: OAuth Scopes
 note: 'No OpenAPI in this repo declares an oauth2 securityScheme, so derive-oauth-scopes.py found nothing (0 providers with oauth2). These scopes are real all the same: they are published in Dremio''s OAuth Token documentation and advertised in the live RFC 8414 discovery document the hosted MCP server serves. The scope surface is deliberately coarse.'
 overview: 'Dremio | Intelligent Lakehouse Platform publishes 2 OAuth 2.0 scopes via the clientCredentials, authorizationCode, and tokenExchange flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Dremio | Intelligent Lakehouse Platform API on a user''s behalf.

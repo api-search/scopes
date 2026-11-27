@@ -237,7 +237,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Mcp360 Scopes
+name: MCP360 Scopes
 name_suffix: OAuth Scopes
 note: Scopes are advertised by the RFC 9728 protected-resource metadata for the MCP surface, not by the per-service OpenAPI (which declares only bearerAuth + X-API-Key). MCP360 publishes no human-readable scope reference page.
 overview: 'MCP360 publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the MCP360 API on a user''s behalf.

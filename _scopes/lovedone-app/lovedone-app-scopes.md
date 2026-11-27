@@ -27,7 +27,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Lovedone App Scopes
+name: lovedone-app Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'lovedone-app publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the lovedone-app API on a user''s behalf.

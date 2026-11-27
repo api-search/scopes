@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: apaleo-availability-api-openapi.yml
-  format: yaml
-  label: apaleo Availability API
-  slug: apaleo-availability-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apaleo/openapi/apaleo-availability-api-openapi.yml
 - filename: apaleo-booking-api-openapi.yml
   format: yaml
   label: apaleo Booking API
   slug: apaleo-booking-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apaleo/openapi/apaleo-booking-api-openapi.yml
-- filename: apaleo-finance-api-openapi.yml
-  format: yaml
-  label: apaleo Finance API
-  slug: apaleo-finance-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apaleo/openapi/apaleo-finance-api-openapi.yml
-- filename: apaleo-inventory-api-openapi.yml
-  format: yaml
-  label: apaleo Inventory API
-  slug: apaleo-inventory-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apaleo/openapi/apaleo-inventory-api-openapi.yml
-- filename: apaleo-rate-plan-api-openapi.yml
-  format: yaml
-  label: apaleo Rate Plan API
-  slug: apaleo-rate-plan-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apaleo/openapi/apaleo-rate-plan-api-openapi.yml
-- filename: apaleo-settings-api-openapi.yml
-  format: yaml
-  label: apaleo Settings API
-  slug: apaleo-settings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apaleo/openapi/apaleo-settings-api-openapi.yml
 - filename: apaleo-authorization-api-openapi.yml
   format: yaml
   label: apaleo Authorization API
@@ -118,7 +88,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Apaleo Scopes
+name: apaleo Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'apaleo publishes 10 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the apaleo API on a user''s behalf.

@@ -43,7 +43,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Autofi Scopes
+name: AutoFi Scopes
 name_suffix: OAuth Scopes
 note: AutoFi does not declare an `oauth2` securityScheme. It declares a single `http` `bearer` scheme (`bearerAuth`) and attaches scope strings to the per-operation security requirement, so the scope vocabulary below is read from the `security[].bearerAuth[]` arrays in the OpenAPI rather than from an oauth2 `flows.scopes` map. The reference does not publish a standalone scope / permission page, and no authorization-server metadata document is served, so these seven scopes are the complete published vocabulary as of this pass.
 overview: 'AutoFi publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AutoFi API on a user''s behalf.

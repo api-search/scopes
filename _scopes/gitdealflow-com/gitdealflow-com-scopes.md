@@ -97,7 +97,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Gitdealflow Com Scopes
+name: GitDealFlow Scopes
 name_suffix: OAuth Scopes
 note: 'The OpenAPI declares no oauth2 securityScheme (derive-oauth-scopes.py found nothing to derive), but the MCP host publishes OAuth 2.0 authorization-server metadata with a single scope. The token endpoint issues a Bearer JWT to anonymous callers (token_endpoint_auth_methods_supported [none]) — it is an optional, identity-less capability token for the MCP server, "required: false" per mcp.json. The paid REST route uses a separate credit-pack bearer key, not OAuth.'
 overview: 'GitDealFlow publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the GitDealFlow API on a user''s behalf.

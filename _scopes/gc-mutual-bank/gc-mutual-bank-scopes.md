@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Gc Mutual Bank Scopes
+name: G&C Mutual Bank Scopes
 name_suffix: OAuth Scopes
 note: The public Product Reference Data surface requires NO scopes (unauthenticated). The scopes below are the DSB Consumer Data Standards CDR banking + common authorisation scopes that G&C Mutual Bank grants as a CDR Data Holder for the authenticated consumer-data surface. They are standard CDR scopes (not bank-proprietary) documented by the DSB; the harvested OpenAPI declares no oauth2 securitySchemes so these are captured from the standard, not derived.
 overview: 'G&C Mutual Bank publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the G&C Mutual Bank API on a user''s behalf.

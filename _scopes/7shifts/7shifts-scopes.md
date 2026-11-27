@@ -98,7 +98,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: 7Shifts Scopes
+name: 7shifts Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: '7shifts publishes 18 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the 7shifts API on a user''s behalf.

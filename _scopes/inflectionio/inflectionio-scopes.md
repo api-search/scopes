@@ -63,7 +63,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Inflectionio Scopes
+name: Inflection.io Scopes
 name_suffix: OAuth Scopes
 note: 'The OpenAPI declares only an http/bearer securityScheme, so nothing about OAuth is derivable from the spec. Inflection nonetheless runs a full OAuth 2.1 + PKCE authorization server for Connected Apps, documented in the developer docs and discoverable anonymously via RFC 8414 metadata. Scopes below are read from that live metadata document and from the docs'' authorization-request reference. Scope granularity is coarse: a single application scope (inflection_app) grants the app the acting user''s own permissions, so authorization is by USER ROLE, not by scope.'
 overview: 'Inflection.io publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Inflection.io API on a user''s behalf.

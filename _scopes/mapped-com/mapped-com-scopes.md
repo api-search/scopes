@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mapped Com Scopes
+name: Mapped Scopes
 name_suffix: OAuth Scopes
 note: Scopes are used for Personal Access Token permissions, not OAuth2. Documentation mentions scopes are role-dependent (ADMIN vs EXPLORER). EXPLORER role has read-only access to most resources.
 overview: 'Mapped publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Mapped API on a user''s behalf.

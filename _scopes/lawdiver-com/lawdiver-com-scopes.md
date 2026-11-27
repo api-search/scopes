@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: lawdiver-com-openapi-generated.yml
+  format: yaml
+  label: LawDiver API
+  slug: lawdiver-com-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lawdiver-com/openapi/_ae-authored/lawdiver-com-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -6,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Lawdiver Com Scopes
+name: LawDiver Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'LawDiver uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

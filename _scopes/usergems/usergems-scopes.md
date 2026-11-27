@@ -27,7 +27,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Usergems Scopes
+name: UserGems Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'UserGems publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the UserGems API on a user''s behalf.

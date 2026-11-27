@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: O9 Solutions Scopes
+name: o9 Solutions Scopes
 name_suffix: OAuth Scopes
 note: o9 publishes no OpenAPI and no public scopes reference, so these are not derived from a spec or from a documented scope catalog. They are the scopes actually observed on live OAuth authorization requests issued by o9's own first-party clients against guide.o9solutions.com/oauthserver. They cover identity/profile only — no o9 Platform API resource scopes are publicly observable, and the API scope model (if any) sits behind the customer login.
 overview: 'o9 Solutions publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the o9 Solutions API on a user''s behalf.

@@ -18,12 +18,6 @@ api_specs:
   slug: navision-available-applications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/navision/openapi/navision-available-applications-api-openapi.yml
-- filename: navision-companies-api-openapi.yml
-  format: yaml
-  label: Microsoft Dynamics NAV Companies API
-  slug: navision-companies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/navision/openapi/navision-companies-api-openapi.yml
 - filename: navision-configuration-packages-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics NAV Configuration Packages API
@@ -228,6 +222,12 @@ api_specs:
   slug: navision-vendors-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/navision/openapi/navision-vendors-api-openapi.yml
+- filename: navision-companies-api-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics NAV Companies API
+  slug: navision-companies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/navision/openapi/navision-companies-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
 description: ''
@@ -238,7 +238,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Navision Scopes
+name: Microsoft Dynamics NAV Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Microsoft Dynamics NAV publishes 1 OAuth 2.0 scope via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Dynamics NAV API on a user''s behalf.

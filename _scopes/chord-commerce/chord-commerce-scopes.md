@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Chord Commerce Scopes
+name: Chord Scopes
 name_suffix: OAuth Scopes
 note: Chord publishes no OpenAPI, so derive-oauth-scopes.py had no securitySchemes to read. These scopes are taken verbatim from the two live OAuth discovery documents Chord's MCP host serves. They are OIDC identity scopes only — Chord publishes NO resource/permission scopes (nothing like read:orders or write:audiences). Authorization inside the MCP server is decided by the authenticated user's Chord organization membership and by the server's own read-only constraint, not by scope.
 overview: 'Chord publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Chord API on a user''s behalf.

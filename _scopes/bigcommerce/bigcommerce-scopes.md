@@ -907,7 +907,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Bigcommerce Scopes
+name: BigCommerce Scopes
 name_suffix: OAuth Scopes
 note: OAuth scopes as named verbatim in the API Accounts page (code-formatted scope identifiers); the page also lists UI-named scopes (e.g. Products, Orders, Customers with read-only/modify levels) not captured as identifiers here.
 overview: 'BigCommerce publishes 34 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the BigCommerce API on a user''s behalf.

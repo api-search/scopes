@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Kyocare Scopes
+name: Kyo Scopes
 name_suffix: OAuth Scopes
 note: Scopes read verbatim from the published `scopes_supported` of the Attain platform API discovery document. Kyo publishes no scope/permission reference page, so this is the complete advertised scope surface — standard OIDC identity scopes only, with no resource-level scopes exposed publicly.
 overview: 'Kyo publishes 2 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Kyo API on a user''s behalf.

@@ -5,7 +5,7 @@ api_specs:
   label: BambooHR Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-asyncapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-asyncapi.yml
 - filename: bamboohr-directory-api-openapi.yml
   format: yaml
   label: BambooHR Directory API
@@ -51,7 +51,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Bamboohr Scopes
+name: BambooHR Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'BambooHR publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BambooHR API on a user''s behalf.

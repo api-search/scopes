@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Juul Scopes
+name: JUUL Scopes
 name_suffix: OAuth Scopes
 note: These are the scopes JUUL's own authorization server advertises in scopes_supported. JUUL publishes no scope reference page and no developer documentation, so no description, grant, or consent copy exists to attach — the names below are recorded verbatim and nothing is inferred about what they authorize beyond what the names themselves say. This is a first-party sign-in surface, not a developer-facing scope catalog.
 overview: 'JUUL publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the JUUL API on a user''s behalf.

@@ -297,7 +297,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Doit Scopes
+name: DoiT Scopes
 name_suffix: OAuth Scopes
 note: DoiT runs two OAuth surfaces from one authorization server. The DoiT Platform API declares a single coarse scope (dci — "Access All Data"), and the MCP resource declares three of its own. Neither surface publishes a fine-grained read/write scope taxonomy; authorization is enforced by the DoiT role or service-account permissions behind the token, not by scope. An agent cannot request least privilege through scopes here.
 overview: 'DoiT publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the DoiT API on a user''s behalf.

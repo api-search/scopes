@@ -117,7 +117,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Airops Scopes
+name: AirOps Scopes
 name_suffix: OAuth Scopes
 note: Scopes are enumerated from the live OAuth 2.0 / OpenID Connect discovery documents published by AirOps. The OIDC discovery advertises openid/profile/ email/api; the OAuth authorization-server metadata advertises the single "api" scope used to authorize the hosted MCP server and API access. AirOps does not publish a granular per-resource scope taxonomy; the REST API is authorized with a workspace-scoped API key rather than fine-grained OAuth scopes.
 overview: 'AirOps publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the AirOps API on a user''s behalf.

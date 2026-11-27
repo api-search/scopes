@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Hanr Block Scopes
+name: H&R Block Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'H&R Block publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the H&R Block API on a user''s behalf.

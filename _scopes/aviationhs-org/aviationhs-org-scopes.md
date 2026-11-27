@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Aviationhs Org Scopes
+name: AviationHS Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AviationHS uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -53,7 +53,7 @@ tags:
 - Private-Jet
 - Charter
 - Aviation
-- quote-engine
+- QuoteEngine
 - MCP
 token_bound: false
 token_urls: []

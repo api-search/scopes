@@ -55,7 +55,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Applytovolunteer Com Scopes
+name: ApplyToVolunteer Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ApplyToVolunteer publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ApplyToVolunteer API on a user''s behalf.

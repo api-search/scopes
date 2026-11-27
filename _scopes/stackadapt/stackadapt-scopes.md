@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Stackadapt Scopes
+name: StackAdapt Scopes
 name_suffix: OAuth Scopes
 note: 'StackAdapt publishes no OpenAPI, so these scopes are NOT derived from a spec — they are read verbatim from the two machine-readable OAuth discovery documents StackAdapt serves. No public scopes/permissions reference page exists: docs.stackadapt.com disallows all crawlers in its robots.txt, so the descriptions below are inferred from the scope names and their resource, not quoted from StackAdapt documentation. Treat the descriptions as ours and the scope strings as theirs.'
 overview: 'StackAdapt publishes 2 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the StackAdapt API on a user''s behalf.

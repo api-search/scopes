@@ -32,7 +32,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Movehome Org Scopes
+name: Move Home Organisation CIC Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Move Home Organisation CIC publishes 3 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Move Home Organisation CIC API on a user''s behalf.

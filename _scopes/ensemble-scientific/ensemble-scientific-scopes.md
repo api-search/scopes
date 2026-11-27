@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Ensemble Scientific Scopes
+name: Ensemble Scientific (ESCI) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Ensemble Scientific (ESCI) uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

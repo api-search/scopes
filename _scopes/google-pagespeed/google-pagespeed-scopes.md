@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: google-pagespeed-analysis-api-openapi.yml
+- filename: google-pagespeed-pagespeedapi-api-openapi.yml
   format: yaml
-  label: Google PageSpeed Analysis API
-  slug: google-pagespeed-analysis-api
+  label: Google PageSpeed Pagespeed Pagespeedapi API
+  slug: google-pagespeed-pagespeedapi-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-pagespeed/openapi/google-pagespeed-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/google-pagespeed/openapi/google-pagespeed-pagespeedapi-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.google.com/speed/docs/insights/v5/get-started#APIKey
@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Google Pagespeed Scopes
+name: Google PageSpeed Scopes
 name_suffix: OAuth Scopes
 note: The refined OpenAPI in this repo declares only apiKey security, so the mechanical derivation (derive-oauth-scopes.py) found zero oauth2 schemes. Google's own Discovery document — revision 20260811, probed 2026-08-13 — does declare an oauth2 block, with a single scope, and attaches that scope to the one method. The documented and recommended path is still the API key; OAuth here only carries an identity assertion, not a resource permission.
 overview: 'Google PageSpeed publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google PageSpeed API on a user''s behalf.

@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Emailverifier Dev Scopes
+name: emailverifier-dev Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'emailverifier-dev uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

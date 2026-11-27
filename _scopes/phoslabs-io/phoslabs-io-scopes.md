@@ -51,7 +51,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Phoslabs Io Scopes
+name: Phos Labs Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares no oauth2 scheme (derive-oauth-scopes.py found nothing), but the MCP server documents OAuth 2.1 through its RFC 8414 / RFC 9728 discovery documents, which are the provider's only published scope reference. One scope is declared and no human description of it is published anywhere; the name suggests it exists to satisfy the Claude connector flow. No scopes reference page exists (/docs is 403).
 overview: 'Phos Labs publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Phos Labs API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Timely Scopes
+name: Timely (Memory AS) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Timely (Memory AS) publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Timely (Memory AS) API on a user''s behalf.

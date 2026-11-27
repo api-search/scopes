@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Livekindly Scopes
+name: LIVEKINDLY Scopes
 name_suffix: OAuth Scopes
 note: 'This OAuth surface exists to authorize the site''s WordPress MCP Adapter, not a product API. The authorization server declares exactly ONE scope — "mcp" — which is the coarse all-or-nothing grant the adapter uses; there is no per-resource or per-ability scope decomposition, so an agent that obtains this scope obtains whatever the granting WordPress user can do through the registered abilities. The wp/v2 content API in openapi/ does NOT use OAuth at all: it is anonymous for reads and WordPress Application Passwords (HTTP Basic) for writes.'
 overview: 'LIVEKINDLY publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the LIVEKINDLY API on a user''s behalf.

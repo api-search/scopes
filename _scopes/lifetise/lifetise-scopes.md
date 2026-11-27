@@ -11,7 +11,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Lifetise Scopes
+name: Coadjute Scopes
 name_suffix: OAuth Scopes
 note: 'These are the scopes advertised by Coadjute''s Auth0 identity tenant — the standard OpenID Connect scope set plus Auth0''s per-claim scopes. They are the real, publicly fetchable scope surface, but they describe identity claims, NOT the authorization model of the Coadjute Network''s Partner Cloud API. No Coadjute product/API scopes are published anywhere public: api.coadjute.com answers 401 to every anonymous request and developer.coadjute.com (which once carried an API Catalogue) returns 502. Do not read this list as the network''s permission model.'
 overview: 'Coadjute publishes 14 OAuth 2.0 scopes via the authorizationCode, clientCredentials, deviceCode, and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Coadjute API on a user''s behalf.

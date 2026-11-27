@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Legitfit Scopes
+name: LegitFit Scopes
 name_suffix: OAuth Scopes
 note: LegitFit publishes no OpenAPI, so these scopes were read directly from the RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata. Both documents advertise the same two scopes, which gate the MCP server at https://legitfit.com/api/mcp. LegitFit publishes no human-readable scope reference page; the descriptions below restate the scope names and the resource they protect, and no finer-grained permission mapping is asserted.
 overview: 'LegitFit publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the LegitFit API on a user''s behalf.

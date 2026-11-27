@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Rslcollective Org Scopes
+name: RSL Collective Scopes
 name_suffix: OAuth Scopes
 note: 'OLP is documented as an OAuth 2.0 extension (client_credentials grant), but the /token request defines no `scope` parameter: the granted rights are expressed by the RSL <license> XML element sent in the request (permits/prohibits usage such as search, ai-train, ai-input). The only scope-like term in the spec is the /key error `insufficient_scope` ("The license does not permit access to the encryption key for this resource."). No OAuth scope list is published.'
 overview: 'RSL Collective uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

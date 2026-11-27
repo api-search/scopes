@@ -93,7 +93,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Jane App Scopes
+name: Jane Scopes
 name_suffix: OAuth Scopes
 note: Scopes are resource:action OAuth2 scopes gated by user consent at authorization. This is standard OAuth2/OIDC, not SMART-on-FHIR scope grammar.
 overview: 'Jane publishes 30 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Jane API on a user''s behalf.

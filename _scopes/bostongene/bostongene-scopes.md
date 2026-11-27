@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Bostongene Scopes
+name: BostonGene Scopes
 name_suffix: OAuth Scopes
 note: These are the `scopes_supported` advertised verbatim by the OpenID Connect discovery document on BostonGene's customer-portal host. They are the standard Salesforce Experience Cloud platform scope set, not a BostonGene-authored API permission model — BostonGene publishes no developer API and no scope reference page. Recorded because the document is genuinely served from a BostonGene host; do NOT read this list as a BostonGene API authorization design.
 overview: 'BostonGene publishes 36 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BostonGene API on a user''s behalf.

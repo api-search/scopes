@@ -205,7 +205,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Publiq Scopes
+name: publiq Scopes
 name_suffix: OAuth Scopes
 note: 'Docs: scope is "A space-delimited string with one or more of the following values: openid, email, offline_access". API permissions (e.g. TICKETSALES_REGISTER, REWARDS_REDEEM, CHECKINS_WRITE on UiTPAS) are organizer permissions checked via GET /permissions, not OAuth scopes.'
 overview: 'publiq publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the publiq API on a user''s behalf.

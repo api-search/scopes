@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: google-anthos-baremetalclusters-api-openapi.yml
+- filename: google-anthos-projects-api-openapi.yml
   format: yaml
-  label: Google Anthos BareMetalClusters API
-  slug: google-anthos-baremetalclusters-api
+  label: Google Anthos Anthos Projects API
+  slug: google-anthos-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-anthos/openapi/google-anthos-baremetalclusters-api-openapi.yml
-- filename: google-anthos-vmwareclusters-api-openapi.yml
-  format: yaml
-  label: Google Anthos VmwareClusters API
-  slug: google-anthos-vmwareclusters-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-anthos/openapi/google-anthos-vmwareclusters-api-openapi.yml
-- filename: google-anthos-vmwarenodepools-api-openapi.yml
-  format: yaml
-  label: Google Anthos VmwareNodePools API
-  slug: google-anthos-vmwarenodepools-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-anthos/openapi/google-anthos-vmwarenodepools-api-openapi.yml
+  url: https://artifacts.apis.io/google-anthos/openapi/google-anthos-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -45,12 +33,12 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
-  source: openapi/gke-on-prem-api-openapi.yml
+  source: openapi/google-anthos-projects-api-openapi.yml
 scope_count: 1
 scope_names:
 - https://www.googleapis.com/auth/cloud-platform
 scopes:
-- description: Full access to Google Cloud resources
+- description: See, edit, configure, and delete your Google Cloud data and see the email address for your Google Account.
   flows:
   - authorizationCode
   scope: https://www.googleapis.com/auth/cloud-platform
@@ -58,7 +46,7 @@ slug: google-anthos-scopes
 source_filename: google-anthos-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gke-on-prem-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/gke-on-prem-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud resources\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gke-on-prem-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-anthos-projects-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-anthos-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: See, edit, configure, and delete your Google Cloud data and see the email address\n    for your Google Account.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-anthos-projects-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-anthos/scopes/google-anthos-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:

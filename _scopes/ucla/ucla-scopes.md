@@ -61,7 +61,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Ucla Scopes
+name: University of California, Los Angeles Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'University of California, Los Angeles publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of California, Los Angeles API on a user''s behalf.

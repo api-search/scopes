@@ -21,7 +21,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Hydro Quebec Scopes
+name: Hydro-Québec Scopes
 name_suffix: OAuth Scopes
 note: 'The harvested OpenAPI declares only an apiKey scheme, so the mechanical derive pass found no oauth2 flows. The Opendatasoft platform that serves donnees.hydroquebec.com does implement OAuth2, and both endpoints were verified live on the Hydro-Québec domain: /oauth2/authorize/ returned HTTP 302 and /oauth2/token/ returned HTTP 405 (POST only) on 2026-07-27. The scope surface is deliberately minimal — the platform documents exactly one scope. This is an authorization surface that exists but is undeclared in the machine-readable contract.'
 overview: 'Hydro-Québec publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Hydro-Québec API on a user''s behalf.

@@ -81,7 +81,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Cdk Global Scopes
+name: CDK Global Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CDK Global publishes 3 OAuth 2.0 scopes via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CDK Global API on a user''s behalf.

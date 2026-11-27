@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Digi Data Nl Scopes
+name: DigiData Scopes
 name_suffix: OAuth Scopes
 note: Scopes are taken from scopes_supported in the published OAuth metadata documents (HTTP 200). The docs do not publish a scopes reference that maps each scope; descriptions below quote only what the provider pages say about read versus manage access, and the mapping of mcp:manage to that option is our reading, not a provider statement.
 overview: 'DigiData publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the DigiData API on a user''s behalf.

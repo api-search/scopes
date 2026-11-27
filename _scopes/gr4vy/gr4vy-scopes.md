@@ -374,7 +374,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Gr4Vy Scopes
+name: Gr4vy Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Gr4vy publishes 86 OAuth 2.0 scopes via the password flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Gr4vy API on a user''s behalf.

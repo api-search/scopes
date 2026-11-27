@@ -33,7 +33,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Hmrc Scopes
+name: HMRC UK Tax Authority Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'HMRC UK Tax Authority publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the HMRC UK Tax Authority API on a user''s behalf.

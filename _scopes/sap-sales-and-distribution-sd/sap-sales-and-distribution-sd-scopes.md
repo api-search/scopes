@@ -284,7 +284,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Sap Sales And Distribution Sd Scopes
+name: SAP Sales and Distribution (SD) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SAP Sales and Distribution (SD) publishes 17 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SAP Sales and Distribution (SD) API on a user''s behalf.

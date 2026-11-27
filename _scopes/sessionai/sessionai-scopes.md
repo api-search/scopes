@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Sessionai Scopes
+name: Session AI Scopes
 name_suffix: OAuth Scopes
 note: Scopes are read from the live RFC 8414 authorization-server metadata that Session AI's own RFC 9728 protected-resource metadata names for its MCP server. Session AI publishes no scopes reference page of its own, and these are the generic OIDC scopes advertised by the authorization server rather than Session AI product permissions. The REST platform API is API-key authenticated and has no OAuth scope surface at all.
 overview: 'Session AI publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Session AI API on a user''s behalf.

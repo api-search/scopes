@@ -324,7 +324,6 @@ tags:
 - Automation Workflows
 - Analytics
 - MCP
-- Agent Ready
 - Transactional Messaging
 token_bound: false
 token_urls:

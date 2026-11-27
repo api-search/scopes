@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: google-cloud-talent-solution-companies-api-openapi.yml
+- filename: google-cloud-talent-solution-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Talent Solution Companies API
-  slug: google-cloud-talent-solution-companies-api
+  label: Google Cloud Talent Solution Cloud Talent Solution Projects API
+  slug: google-cloud-talent-solution-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-talent-solution/openapi/google-cloud-talent-solution-companies-api-openapi.yml
-- filename: google-cloud-talent-solution-jobs-api-openapi.yml
-  format: yaml
-  label: Google Cloud Talent Solution Jobs API
-  slug: google-cloud-talent-solution-jobs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-talent-solution/openapi/google-cloud-talent-solution-jobs-api-openapi.yml
-- filename: google-cloud-talent-solution-tenants-api-openapi.yml
-  format: yaml
-  label: Google Cloud Talent Solution Tenants API
-  slug: google-cloud-talent-solution-tenants-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-talent-solution/openapi/google-cloud-talent-solution-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-talent-solution/openapi/google-cloud-talent-solution-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

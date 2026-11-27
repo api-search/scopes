@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: microsoft-defender-for-cloud-alerts-api-openapi.yml
+- filename: microsoft-defender-for-cloud-datascanners-api-openapi.yml
   format: yaml
-  label: Microsoft Defender for Cloud Alerts API
-  slug: microsoft-defender-for-cloud-alerts-api
+  label: Microsoft Defender for Cloud Data Scanners API
+  slug: microsoft-defender-for-cloud-datascanners-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-alerts-api-openapi.yml
-- filename: microsoft-defender-for-cloud-assessments-api-openapi.yml
-  format: yaml
-  label: Microsoft Defender for Cloud Assessments API
-  slug: microsoft-defender-for-cloud-assessments-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-assessments-api-openapi.yml
-- filename: microsoft-defender-for-cloud-pricings-api-openapi.yml
-  format: yaml
-  label: Microsoft Defender for Cloud Pricings API
-  slug: microsoft-defender-for-cloud-pricings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-pricings-api-openapi.yml
-- filename: microsoft-defender-for-cloud-securescores-api-openapi.yml
-  format: yaml
-  label: Microsoft Defender for Cloud SecureScores API
-  slug: microsoft-defender-for-cloud-securescores-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-securescores-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-datascanners-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -33,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Defender For Cloud Scopes
+name: Microsoft Defender for Cloud Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Microsoft Defender for Cloud publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Defender for Cloud API on a user''s behalf.

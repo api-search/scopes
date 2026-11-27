@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Infact Scopes
+name: InFact Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'InFact publishes 2 OAuth 2.0 scopes via the oauth2 client_credentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the InFact API on a user''s behalf.

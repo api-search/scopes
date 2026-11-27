@@ -67,7 +67,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Newcastle Scopes
+name: Newcastle University Scopes
 name_suffix: OAuth Scopes
 note: No institution-operated Newcastle University API defines authorization scopes. The Digitised Objects Repository, the ECPPEC GraphQL API, the Urban Observatory API and the eTheses OAI-PMH endpoint are all open and unauthenticated, so there is nothing to scope. The one scoped authorization surface in the institution's footprint belongs to its Figshare tenant at data.ncl.ac.uk, and those scopes are Figshare's, defined in Figshare's contract — recording them here would credit Newcastle with a vendor's authorization design.
 overview: 'Newcastle University uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

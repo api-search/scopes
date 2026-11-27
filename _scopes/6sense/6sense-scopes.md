@@ -34,7 +34,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: 6Sense Scopes
+name: 6sense Scopes
 name_suffix: OAuth Scopes
 note: '6sense declares no oauth2 securityScheme in any published OpenAPI — the REST APIs are API-token only. The OAuth surface below is real but exists solely for the 6sense remote MCP server: it was read from the live RFC 8414 Authorization Server Metadata and RFC 9728 Protected Resource Metadata documents served anonymously from api.6sense.com, both saved verbatim in well-known/. Exactly one scope is advertised. No scope reference page is published; the docs describe authorization as a per-user consent screen rather than a scope catalog.'
 overview: '6sense publishes 1 OAuth 2.0 scope via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the 6sense API on a user''s behalf.

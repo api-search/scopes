@@ -14,7 +14,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Pdfbroker Io Scopes
+name: pdfbroker-io Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'pdfbroker-io publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the pdfbroker-io API on a user''s behalf.

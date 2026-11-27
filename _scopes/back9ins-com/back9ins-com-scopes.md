@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Back9Ins Com Scopes
+name: back9ins-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'back9ins-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

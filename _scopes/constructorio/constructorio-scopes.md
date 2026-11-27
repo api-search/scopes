@@ -235,7 +235,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Constructorio Scopes
+name: Constructor.io Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Constructor.io publishes 37 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Constructor.io API on a user''s behalf.

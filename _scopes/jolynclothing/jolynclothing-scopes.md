@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Jolynclothing Scopes
+name: JOLYN Scopes
 name_suffix: OAuth Scopes
 note: OAuth/OIDC scopes advertised by the Shopify Customer Account API OIDC discovery document served for the JOLYN store. Captured verbatim from scopes_supported; descriptions per the Shopify Customer Account API documentation.
 overview: 'JOLYN publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the JOLYN API on a user''s behalf.

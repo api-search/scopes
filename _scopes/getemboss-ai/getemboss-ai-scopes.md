@@ -135,7 +135,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Getemboss Ai Scopes
+name: Emboss Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Emboss publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Emboss API on a user''s behalf.

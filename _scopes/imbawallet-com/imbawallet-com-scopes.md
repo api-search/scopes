@@ -43,7 +43,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Imbawallet Com Scopes
+name: imbawallet-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'imbawallet-com publishes 16 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the imbawallet-com API on a user''s behalf.

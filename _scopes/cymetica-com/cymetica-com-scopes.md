@@ -507,7 +507,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cymetica Com Scopes
+name: Cymetica Scopes
 name_suffix: OAuth Scopes
 note: The three scopes in the spec are exactly the scopes_supported in the RFC 8414 and RFC 9728 documents; no scopes/permissions reference page exists beyond those. OAuth tokens cannot withdraw (docs); withdraw is an API-key permission reserved for registered agent keys.
 overview: 'Cymetica publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cymetica API on a user''s behalf.

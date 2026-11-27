@@ -157,7 +157,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Tink Com Scopes
+name: Tink Scopes
 name_suffix: OAuth Scopes
 note: Scopes named in Tink access-token docs; the full per-endpoint scope list is in the API reference (403 = access token missing a required scope).
 overview: 'Tink publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Tink API on a user''s behalf.

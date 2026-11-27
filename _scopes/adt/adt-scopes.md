@@ -69,7 +69,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Adt Scopes
+name: ADT Scopes
 name_suffix: OAuth Scopes
 note: These are the scopes ADT's own OpenID Connect issuer (https://auth.adt.com) advertises in scopes_supported. They are the Salesforce Experience Cloud platform scope catalog as exposed by ADT's tenant, not scopes ADT designed for a developer API — ADT publishes no developer API. Recorded because they are what ADT actually serves. This supersedes the 2026-07-11 file, whose scopes were derived from OpenAPI documents API Evangelist authored (openapi/_ae-authored/) and which ADT never published.
 overview: 'ADT publishes 36 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ADT API on a user''s behalf.

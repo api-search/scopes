@@ -121,7 +121,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Blockchain.Com Scopes
+name: Blockchain.com Scopes
 name_suffix: OAuth Scopes
 note: Blockchain.com operates an OAuth 2.0 resource gateway that lets a third-party app read a user's custodial wallet data with the user's consent. No OpenAPI declares these scopes and no /.well-known/oauth-authorization-server or /.well-known/oauth-protected-resource document is served (both 404 on api.blockchain.info/partner-resource-gateway), so the scopes below are harvested from the published OAuth Resources documentation only. The authorization server endpoints themselves are not publicly documented — partners are onboarded directly by Blockchain.com.
 overview: 'Blockchain.com publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Blockchain.com API on a user''s behalf.

@@ -1,0 +1,57 @@
+---
+api_specs:
+- filename: microsoft-azure-blob-storage-azure-storage-blob-service-api-openapi.yml
+  format: yaml
+  label: Azure Blob Storage Azure Storage Blob Service API
+  slug: microsoft-azure-blob-storage-azure-storage-blob-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-azure-storage-blob-service-api-openapi.yml
+authorization_urls:
+- https://login.microsoftonline.com/common/oauth2/authorize
+description: ''
+docs: ''
+flows:
+- implicit
+kind: oauth-scopes
+layout: scope
+method: derived
+name: Azure Blob Storage Scopes
+name_suffix: OAuth Scopes
+note: ''
+overview: 'Azure Blob Storage publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Blob Storage API on a user''s behalf.
+
+
+  This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
+provider_name: Azure Blob Storage
+provider_slug: microsoft-azure-blob-storage
+schemes:
+- flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: OAuth2Auth
+  source: openapi/microsoft-azure-blob-storage-azure-storage-blob-service-api-openapi.yml
+scope_count: 1
+scope_names:
+- https://storage.azure.com/.default
+scopes:
+- description: ''
+  flows:
+  - implicit
+  scope: https://storage.azure.com/.default
+slug: microsoft-azure-blob-storage-scopes
+source_filename: microsoft-azure-blob-storage-scopes.yml
+source_heading: OAuth Scopes
+source_url: ''
+source_yaml: "generated: '2026-11-12'\nmethod: derived\nsource: openapi/microsoft-azure-blob-storage-azure-storage-blob-service-api-openapi.yml\nschemes:\n- name: OAuth2Auth\n  source: openapi/microsoft-azure-blob-storage-azure-storage-blob-service-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\nscopes:\n- scope: https://storage.azure.com/.default\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-blob-storage-azure-storage-blob-service-api-openapi.yml\n"
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-blob-storage/scopes/microsoft-azure-blob-storage-scopes.yml
+summary_line: 1 scope · implicit
+tags:
+- Microsoft Azure
+- Blobs
+- Cloud Storage
+- Microsoft
+- Object Storage
+- Storage
+token_bound: false
+token_urls: []
+---

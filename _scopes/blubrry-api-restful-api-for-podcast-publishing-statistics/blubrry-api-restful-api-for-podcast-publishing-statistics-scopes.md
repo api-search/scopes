@@ -27,7 +27,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Blubrry Api Restful Api For Podcast Publishing Statistics Scopes
+name: Blubrry API Scopes
 name_suffix: OAuth Scopes
 note: 'Blubrry''s OAuth 2.0 implementation does not use or document scopes. The published token response on https://blubrry.com/developer/api/oauth-2/ returns "scope": null, and access is granted at the level of the whole Blubrry account authorized during the authorization-code flow. There is no scope reference page and the OpenAPI declares no oauth2 scopes. An honest zero, not a gap in our search.'
 overview: 'Blubrry API uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

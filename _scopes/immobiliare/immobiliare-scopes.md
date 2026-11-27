@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Immobiliare Scopes
+name: Immobiliare.it Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Immobiliare.it publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Immobiliare.it API on a user''s behalf.

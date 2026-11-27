@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Testsprite Scopes
+name: TestSprite Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'TestSprite publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TestSprite API on a user''s behalf.

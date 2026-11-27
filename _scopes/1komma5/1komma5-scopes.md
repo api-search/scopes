@@ -173,7 +173,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: 1Komma5 Scopes
+name: 1KOMMA5° Scopes
 name_suffix: OAuth Scopes
 note: 1KOMMA5° declares no API scopes in any published OpenAPI (the Offer Tool spec has no securitySchemes at all) and publishes no scopes/permissions reference page. The scopes below are the ones its Auth0 authorization server advertises anonymously in OIDC discovery — standard OIDC/Auth0 identity scopes, not product-resource scopes. No 1KOMMA5°-specific API scope (e.g. read:sites, write:systems) is publicly discoverable.
 overview: '1KOMMA5° publishes 14 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the 1KOMMA5° API on a user''s behalf.

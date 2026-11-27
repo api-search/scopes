@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Leo Scopes
+name: LeO Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'LeO publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LeO API on a user''s behalf.

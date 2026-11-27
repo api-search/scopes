@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Demiton Io Scopes
+name: Demiton Scopes
 name_suffix: OAuth Scopes
 note: These are Demiton's documented data-read permissions, enforced per register at query time across API, MCP and Studio. The docs do not say whether they are issued as OAuth scope strings on MCP tokens; they are recorded as documented permissions, not as observed token scopes.
 overview: 'Demiton publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Demiton API on a user''s behalf.

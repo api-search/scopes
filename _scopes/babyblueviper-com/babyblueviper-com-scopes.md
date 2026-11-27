@@ -201,7 +201,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Babyblueviper Com Scopes
+name: invinoveritas Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares no oauth2 securityScheme, so derive-oauth-scopes.py found nothing. The provider's OAuth 2.1 surface exists for the MCP resource only and is documented by its RFC 8414 / RFC 9728 metadata, which is the source here. Exactly one scope is published. No human scopes/permissions reference page was found; the metadata is the reference.
 overview: 'invinoveritas publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the invinoveritas API on a user''s behalf.

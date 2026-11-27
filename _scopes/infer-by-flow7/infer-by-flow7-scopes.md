@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Infer By Flow7 Scopes
+name: Infer by Flow7 Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Infer by Flow7 uses a bearer token bound to 1 scope when it is issued. This is not OAuth 2.0: there is no authorization server, token endpoint or consent flow. Each scope gates specific operations, and access outside the token''s scopes is denied.

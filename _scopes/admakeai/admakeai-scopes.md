@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Admakeai Scopes
+name: AdMakeAI Scopes
 name_suffix: OAuth Scopes
 note: No OpenAPI exists to derive from, so this is read from the provider's live RFC 8414 authorization-server metadata and the scope descriptions the provider publishes in its own MCP server card and MCP README. Three functional scopes plus offline_access; scope is filtered at tools/list, so a narrower grant removes the tools entirely rather than failing them at call time.
 overview: 'AdMakeAI publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the AdMakeAI API on a user''s behalf.

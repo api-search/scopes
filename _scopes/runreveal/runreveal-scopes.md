@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Runreveal Scopes
+name: RunReveal Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'RunReveal publishes 37 OAuth 2.0 scopes via the authorizationCode and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the RunReveal API on a user''s behalf.

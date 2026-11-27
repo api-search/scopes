@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ringahuman Com Scopes
+name: ringahuman-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ringahuman-com publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the ringahuman-com API on a user''s behalf.

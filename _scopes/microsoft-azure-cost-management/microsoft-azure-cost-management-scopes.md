@@ -6,24 +6,12 @@ api_specs:
   slug: microsoft-azure-cost-management-exports-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-exports-api-openapi.yml
-- filename: microsoft-azure-cost-management-operations-api-openapi.yml
-  format: yaml
-  label: Azure Cost Management Operations API
-  slug: microsoft-azure-cost-management-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-operations-api-openapi.yml
 - filename: microsoft-azure-cost-management-alerts-api-openapi.yml
   format: yaml
   label: Azure Cost Management Alerts API
   slug: microsoft-azure-cost-management-alerts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-alerts-api-openapi.yml
-- filename: microsoft-azure-cost-management-budgets-api-openapi.yml
-  format: yaml
-  label: Azure Cost Management Budgets API
-  slug: microsoft-azure-cost-management-budgets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-budgets-api-openapi.yml
 - filename: microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml
   format: yaml
   label: Azure Cost Management Cost Allocation Rule Definitions API
@@ -54,12 +42,6 @@ api_specs:
   slug: microsoft-azure-cost-management-markuprules-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-markuprules-api-openapi.yml
-- filename: microsoft-azure-cost-management-providers-api-openapi.yml
-  format: yaml
-  label: Azure Cost Management Providers API
-  slug: microsoft-azure-cost-management-providers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-providers-api-openapi.yml
 - filename: microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml
   format: yaml
   label: Azure Cost Management Scheduled Action Operation Group API
@@ -90,6 +72,42 @@ api_specs:
   slug: microsoft-azure-cost-management-views-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-views-api-openapi.yml
+- filename: microsoft-azure-cost-management-creditsummaries-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Credit Summaries API
+  slug: microsoft-azure-cost-management-creditsummaries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-creditsummaries-api-openapi.yml
+- filename: microsoft-azure-cost-management-pricesheet-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Price Sheet API
+  slug: microsoft-azure-cost-management-pricesheet-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-pricesheet-api-openapi.yml
+- filename: microsoft-azure-cost-management-pricesheetresults-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Price Sheet Results API
+  slug: microsoft-azure-cost-management-pricesheetresults-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-pricesheetresults-api-openapi.yml
+- filename: microsoft-azure-cost-management-budgets-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Budgets API
+  slug: microsoft-azure-cost-management-budgets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-budgets-api-openapi.yml
+- filename: microsoft-azure-cost-management-operations-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Operations API
+  slug: microsoft-azure-cost-management-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-operations-api-openapi.yml
+- filename: microsoft-azure-cost-management-providers-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Providers API
+  slug: microsoft-azure-cost-management-providers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-providers-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -99,7 +117,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Microsoft Azure Cost Management Scopes
+name: Azure Cost Management Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure Cost Management publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Cost Management API on a user''s behalf.
@@ -114,91 +132,91 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-alerts-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-alerts-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-budgets-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-budgets-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-exports-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-exports-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-markuprules-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-markuprules-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-operations-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-operations-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-providers-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-providers-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-scheduledactions-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-scheduledactions-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-settings-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-settings-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cost-management-views-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cost-management-views-api-openapi.yml
 scope_count: 1
 scope_names:
 - user_impersonation
@@ -211,15 +229,15 @@ slug: microsoft-azure-cost-management-scopes
 source_filename: microsoft-azure-cost-management-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: openapi/microsoft-azure-cost-management-alerts-api-openapi.yml, openapi/microsoft-azure-cost-management-budgets-api-openapi.yml,\n  openapi/microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml, openapi/microsoft-azure-cost-management-exports-api-openapi.yml,\n  openapi/microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml, openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml,\n  openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml, openapi/microsoft-azure-cost-management-markuprules-api-openapi.yml,\n  openapi/microsoft-azure-cost-management-operations-api-openapi.yml, openapi/microsoft-azure-cost-management-providers-api-openapi.yml,\n  openapi/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml, openapi/microsoft-azure-cost-management-scheduledactions-api-openapi.yml,\n\
-  \  openapi/microsoft-azure-cost-management-settings-api-openapi.yml, openapi/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml,\n  openapi/microsoft-azure-cost-management-views-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-alerts-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-budgets-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory\
-  \ OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-exports-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml\n  flows:\n  - flow: implicit\n\
-  \    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-markuprules-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-providers-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml\n\
-  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-scheduledactions-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-settings-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cost-management-views-api-openapi.yml\n\
-  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-cost-management-alerts-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-budgets-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-exports-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-markuprules-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-operations-api-openapi.yml\n\
-  \  - openapi/microsoft-azure-cost-management-providers-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-scheduledactions-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-settings-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-views-api-openapi.yml\ndocs: https://learn.microsoft.com/en-us/entra/identity-platform/scopes-oidc\ndocs_note: The scope surface of this API is one scope wide and that is not an omission in the contract\n  — it is the Azure Resource Manager model. Entra ID issues a token for the RESOURCE https://management.azure.com;\n  the delegated form is user_impersonation, and the application form is the .default scope. Neither carries\n  per-operation permission. What an accepted token may actually do is decided afterwards by Azure RBAC\n  role assignment at the {scope}\
-  \ in the request path — Cost Management Reader for reads, Cost Management\n  Contributor for writes. An integrator looking for a fine-grained scope list will not find one, and should\n  design around role assignment instead.\nadditional_scopes:\n- scope: https://management.azure.com/.default\n  description: Application-permission scope for the client-credentials flow. The unattended / service-principal\n    path; not declared in the contract.\n  flows:\n  - client_credentials\n  source: https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-client-creds-grant-flow\n- scope: https://management.azure.com/user_impersonation\n  description: Fully qualified form of the delegated scope the contract declares as user_impersonation.\n  flows:\n  - authorization_code\n  - implicit\nauthorization_after_token:\n  style: azure-rbac\n  roles:\n  - Cost Management Reader\n  - Cost Management Contributor\n  see: authentication/microsoft-azure-cost-management-authentication.yml\ndocs_more:\n\
-  - https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-client-creds-grant-flow\n- https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/management-and-governance\n"
+source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: openapi/_superseded/microsoft-azure-cost-management-alerts-api-openapi.yml, openapi/_superseded/microsoft-azure-cost-management-budgets-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml, openapi/_superseded/microsoft-azure-cost-management-exports-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml, openapi/_superseded/microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml, openapi/_superseded/microsoft-azure-cost-management-markuprules-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-cost-management-operations-api-openapi.yml, openapi/_superseded/microsoft-azure-cost-management-providers-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml,\
+  \ openapi/_superseded/microsoft-azure-cost-management-scheduledactions-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-cost-management-settings-api-openapi.yml, openapi/_superseded/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-cost-management-views-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-alerts-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-budgets-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml\n\
+  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-exports-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active\
+  \ Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-markuprules-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-providers-api-openapi.yml\n  flows:\n  -\
+  \ flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-scheduledactions-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-settings-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name:\
+  \ azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cost-management-views-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/_superseded/microsoft-azure-cost-management-alerts-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-budgets-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-exports-api-openapi.yml\n\
+  \  - openapi/_superseded/microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-markuprules-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-operations-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-providers-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-scheduledactions-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-settings-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cost-management-views-api-openapi.yml\n\
+  docs: https://learn.microsoft.com/en-us/entra/identity-platform/scopes-oidc\ndocs_note: The scope surface of this API is one scope wide and that is not an omission in the contract\n  — it is the Azure Resource Manager model. Entra ID issues a token for the RESOURCE https://management.azure.com;\n  the delegated form is user_impersonation, and the application form is the .default scope. Neither carries\n  per-operation permission. What an accepted token may actually do is decided afterwards by Azure RBAC\n  role assignment at the {scope} in the request path — Cost Management Reader for reads, Cost Management\n  Contributor for writes. An integrator looking for a fine-grained scope list will not find one, and should\n  design around role assignment instead.\nadditional_scopes:\n- scope: https://management.azure.com/.default\n  description: Application-permission scope for the client-credentials flow. The unattended / service-principal\n    path; not declared in the contract.\n  flows:\n\
+  \  - client_credentials\n  source: https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-client-creds-grant-flow\n- scope: https://management.azure.com/user_impersonation\n  description: Fully qualified form of the delegated scope the contract declares as user_impersonation.\n  flows:\n  - authorization_code\n  - implicit\nauthorization_after_token:\n  style: azure-rbac\n  roles:\n  - Cost Management Reader\n  - Cost Management Contributor\n  see: authentication/microsoft-azure-cost-management-authentication.yml\ndocs_more:\n- https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-client-creds-grant-flow\n- https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/management-and-governance\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-cost-management/scopes/microsoft-azure-cost-management-scopes.yml
 summary_line: 1 scope · implicit
 tags:

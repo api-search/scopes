@@ -130,7 +130,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Frameio Scopes
+name: Frame.io Scopes
 name_suffix: OAuth Scopes
 note: Frame.io delegates auth to Adobe IMS; scopes are coarse Adobe IMS scopes (not fine-grained Frame.io read/write scopes). Server-to-server default scope set is "openid AdobeID frame.s2s.all"; user flows use "openid email profile offline_access additional_info.roles".
 overview: 'Frame.io publishes 6 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Frame.io API on a user''s behalf.

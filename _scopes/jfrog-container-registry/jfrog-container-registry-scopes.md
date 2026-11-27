@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Jfrog Container Registry Scopes
+name: JFrog Container Registry Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'JFrog Container Registry publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the JFrog Container Registry API on a user''s behalf.

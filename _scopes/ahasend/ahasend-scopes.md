@@ -109,7 +109,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ahasend Scopes
+name: AhaSend Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AhaSend publishes 51 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AhaSend API on a user''s behalf.

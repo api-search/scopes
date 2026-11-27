@@ -12,7 +12,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Countertack Scopes
+name: CounterTack Scopes
 name_suffix: OAuth Scopes
 note: Scopes read verbatim from the scopes_supported array of the GoSecure Titan Keycloak realm discovery document. GoSecure publishes no scope/permission reference page that could be found, so the descriptions below only distinguish the standard OpenID Connect / Keycloak built-in scopes from the two realm-specific scopes (titan, service_account); the actual permissions those two grant are not publicly documented and have NOT been guessed.
 overview: 'CounterTack publishes 13 OAuth 2.0 scopes via the authorizationCode, clientCredentials, deviceCode, implicit, and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the CounterTack API on a user''s behalf.

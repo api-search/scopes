@@ -38,7 +38,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Cargosmart Scopes
+name: CargoSmart Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CargoSmart publishes 4 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CargoSmart API on a user''s behalf.

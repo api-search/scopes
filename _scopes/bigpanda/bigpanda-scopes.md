@@ -181,7 +181,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Bigpanda Scopes
+name: BigPanda Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'BigPanda publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the BigPanda API on a user''s behalf.

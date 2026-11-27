@@ -73,7 +73,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: N3Xt Scopes
+name: N3XT Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'N3XT publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the N3XT API on a user''s behalf.

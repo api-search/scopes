@@ -57,7 +57,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Abbyy Scopes
+name: ABBYY Scopes
 name_suffix: OAuth Scopes
 note: 'ABBYY publishes exactly three OAuth scopes and no per-resource scope taxonomy: authorization is enforced by Vantage tenant ROLES (Tenant Administrator, Processing Supervisor, and so on) rather than by scope. global.wildcard grants the whole API surface — there is no read-only or per-resource scope a client can request instead, which is a real least-privilege gap for agent integrations. No scopes/permissions reference page exists in the public docs; searched 2026-08-29 and none found.'
 overview: 'ABBYY publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ABBYY API on a user''s behalf.

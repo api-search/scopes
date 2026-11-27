@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Docketai Scopes
+name: Docket Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Docket publishes 4 OAuth 2.0 scopes via the authorizationCode and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Docket API on a user''s behalf.

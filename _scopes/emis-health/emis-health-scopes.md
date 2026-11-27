@@ -69,7 +69,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Emis Health Scopes
+name: EMIS Health Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'EMIS Health publishes 7 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the EMIS Health API on a user''s behalf.

@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Farmready Scopes
+name: FarmReady (Bolt, Cart, Shed) Scopes
 name_suffix: OAuth Scopes
 note: No OAuth scopes are documented.
 overview: 'FarmReady (Bolt, Cart, Shed) uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

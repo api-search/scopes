@@ -44,7 +44,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Trolie Scopes
+name: TROLIE Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'TROLIE publishes 15 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the TROLIE API on a user''s behalf.

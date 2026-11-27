@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Alexandrecaramaschi Com Scopes
+name: Brasil GEO Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Brasil GEO publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Brasil GEO API on a user''s behalf.

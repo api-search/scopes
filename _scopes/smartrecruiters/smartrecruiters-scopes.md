@@ -40,7 +40,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Smartrecruiters Scopes
+name: SmartRecruiters Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SmartRecruiters publishes 4 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the SmartRecruiters API on a user''s behalf.

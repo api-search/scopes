@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Everlane Scopes
+name: everlane Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'everlane publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the everlane API on a user''s behalf.

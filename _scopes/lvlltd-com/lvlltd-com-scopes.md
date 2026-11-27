@@ -157,7 +157,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Lvlltd Com Scopes
+name: LVL LTD CO Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'LVL LTD CO publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LVL LTD CO API on a user''s behalf.

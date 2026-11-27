@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Im8 Scopes
+name: IM8 Health Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'IM8 Health publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the IM8 Health API on a user''s behalf.

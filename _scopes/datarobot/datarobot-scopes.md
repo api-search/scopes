@@ -523,7 +523,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Datarobot Scopes
+name: DataRobot Scopes
 name_suffix: OAuth Scopes
 note: Scopes advertised by the DataRobot OIDC authorization server (app.datarobot.com). DataRobot's primary REST API auth is personal API keys (bearer); OAuth2 scopes below apply to the OIDC/agent authorization flows.
 overview: 'DataRobot publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the DataRobot API on a user''s behalf.

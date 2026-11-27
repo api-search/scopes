@@ -28,7 +28,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Rocketreach Scopes
+name: RocketReach Scopes
 name_suffix: OAuth Scopes
 note: The RocketReach REST API is API-key authenticated and has no scope surface. OAuth exists solely for the RocketReach MCP server, and the scope list below is read verbatim from the provider's own RFC 8414 authorization-server metadata (scopes_supported), corroborated by the published Authentication page. It is a single coarse scope — there is no per-tool or read/write separation.
 overview: 'RocketReach publishes 1 OAuth 2.0 scope via the authorization_code and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the RocketReach API on a user''s behalf.

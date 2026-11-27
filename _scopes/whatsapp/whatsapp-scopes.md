@@ -451,7 +451,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Whatsapp Scopes
+name: WhatsApp Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares only http bearer; Meta documents Graph API permissions granted to the app (via system user token creation or Embedded Signup / Facebook Login for Businesses) and reported in the debug_token scopes property.
 overview: 'WhatsApp publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the WhatsApp API on a user''s behalf.

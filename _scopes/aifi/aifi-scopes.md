@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Aifi Scopes
+name: AiFi Scopes
 name_suffix: OAuth Scopes
 note: These are the scopes advertised by AiFi's Keycloak realm `aifi` in its OIDC discovery document — the identity provider in front of docs.aifi.com and partners.aifi.com. They are the standard OIDC/Keycloak realm scopes, NOT application scopes for the OASIS retailer APIs. AiFi publishes no public scope or permission reference, and no OASIS API scope is asserted here. Recorded because they are the only authorization surface AiFi exposes anonymously.
 overview: 'AiFi publishes 10 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AiFi API on a user''s behalf.

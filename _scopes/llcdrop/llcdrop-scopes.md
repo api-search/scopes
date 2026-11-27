@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Llcdrop Scopes
+name: LLCDrop Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'LLCDrop publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the LLCDrop API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Aig Scopes
+name: AIG Scopes
 name_suffix: OAuth Scopes
 note: Read from AIG's own anonymously-served OAuth 2.0 / OpenID Connect discovery documents. AIG publishes no scopes reference page, so descriptions below are the standard OIDC/Okta meanings for the standard scopes and are left null for the two AIG-specific scopes rather than guessed.
 overview: 'AIG uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

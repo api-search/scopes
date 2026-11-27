@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Winnai Scopes
+name: Winn.ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Winn.ai publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Winn.ai API on a user''s behalf.

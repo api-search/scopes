@@ -685,7 +685,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Raiffeisen Ru Scopes
+name: Raiffeisenbank (Russia) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Raiffeisenbank (Russia) publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Raiffeisenbank (Russia) API on a user''s behalf.

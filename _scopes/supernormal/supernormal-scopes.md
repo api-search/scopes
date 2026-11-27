@@ -37,7 +37,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Supernormal Scopes
+name: supernormal Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'supernormal publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the supernormal API on a user''s behalf.

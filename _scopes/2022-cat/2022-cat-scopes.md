@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: 2022 Cat Scopes
+name: Catalunya 2022 Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Catalunya 2022 uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

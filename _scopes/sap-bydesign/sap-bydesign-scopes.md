@@ -57,7 +57,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Sap Bydesign Scopes
+name: SAP Business ByDesign Scopes
 name_suffix: OAuth Scopes
 note: SAP Business ByDesign does not publish a full OAuth scopes catalog; scopes are tenant-specific work center IDs granted to an OAuth 2.0 client registration in the "Application and User Management - OAuth 2.0 Client Registration" work center view, and UIWC:CC_HOME is the only scope ID documented publicly by SAP (see docs URL).
 overview: 'SAP Business ByDesign publishes 1 OAuth 2.0 scope via the clientCredentials and saml2Bearer flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the SAP Business ByDesign API on a user''s behalf.

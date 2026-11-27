@@ -69,7 +69,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Debank Scopes
+name: DeBank Scopes
 name_suffix: OAuth Scopes
 note: OAuth 2.0 lives in DeBank Connect, not in the published Swagger — derive-oauth-scopes.py found zero oauth2 securitySchemes in openapi/, so this file is searched from the Connect integration guide. The DeBank Cloud Pro API (pro-openapi.debank.com) is api-key only and has no scope surface.
 overview: 'DeBank publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the DeBank API on a user''s behalf.
@@ -134,7 +134,7 @@ tags:
 - Portfolio Tracking
 - On-Chain Data
 - Wallets
-- token-data
+- Token Data
 - NFT
 - Ethereum
 - OAuth

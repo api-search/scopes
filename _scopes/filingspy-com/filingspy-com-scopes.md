@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Filingspy Com Scopes
+name: FilingSpy Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'FilingSpy publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the FilingSpy API on a user''s behalf.

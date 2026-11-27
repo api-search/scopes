@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Agnikul Scopes
+name: Agnikul Cosmos Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Agnikul Cosmos publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Agnikul Cosmos API on a user''s behalf.

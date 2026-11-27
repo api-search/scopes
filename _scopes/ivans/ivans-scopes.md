@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: ivans-agencies-api-openapi.yml
-  format: yaml
-  label: IVANS Agencies API
-  slug: ivans-agencies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/ivans/openapi/ivans-agencies-api-openapi.yml
 - filename: ivans-agents-api-openapi.yml
   format: yaml
   label: IVANS Agents API
@@ -492,6 +486,12 @@ api_specs:
   slug: ivans-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/ivans/openapi/ivans-webhooks-api-openapi.yml
+- filename: ivans-agencies-api-openapi.yml
+  format: yaml
+  label: IVANS Agencies API
+  slug: ivans-agencies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-agencies-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -500,7 +500,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Ivans Scopes
+name: IVANS Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'IVANS publishes 4 OAuth 2.0 scopes via the password flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the IVANS API on a user''s behalf.

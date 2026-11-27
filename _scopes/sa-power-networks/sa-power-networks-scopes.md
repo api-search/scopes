@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Sa Power Networks Scopes
+name: SA Power Networks Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SA Power Networks publishes 36 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SA Power Networks API on a user''s behalf.

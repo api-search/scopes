@@ -55,7 +55,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Ezoic Scopes
+name: ezoic Scopes
 name_suffix: OAuth Scopes
 note: 'Ezoic runs a real OAuth 2.0 authorization server at token.ezoic.com and publishes RFC 8414 metadata for it, but that metadata omits scopes_supported and Ezoic publishes no scope reference page. The access token issued to an MCP client is described in prose as "a scoped access token", and the gate is an Ezoic ROLE PERMISSION ("Analytics"), not a named OAuth scope a client can request. So there is nothing to enumerate: scope_count is 0 by measurement, not by omission.'
 overview: 'ezoic publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ezoic API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Sentry Insurance Group Scopes
+name: Sentry Insurance Scopes
 name_suffix: OAuth Scopes
 note: These are the scopes the Sentry Insurance Okta tenant (account.sentry.com) advertises in its published OIDC/OAuth 2.0 metadata. They are the stock OpenID Connect set plus Okta's myAccount self-service family and one tenant-specific scope (`interclient_access`). Sentry Insurance publishes NO scope reference page and no business-domain scopes — there is no product API for a scope to protect. Recorded verbatim from the metadata, not curated.
 overview: 'Sentry Insurance publishes 25 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Sentry Insurance API on a user''s behalf.

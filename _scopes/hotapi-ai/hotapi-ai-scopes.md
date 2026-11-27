@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Hotapi Ai Scopes
+name: hotapi-ai Scopes
 name_suffix: OAuth Scopes
 note: Provider does not use OAuth scopes.
 overview: 'hotapi-ai uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -36,7 +36,7 @@ source_yaml_url: https://artifacts.apis.io/hotapi-ai/scopes/hotapi-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Artificial Intelligence
-- Nsfw
+- NSFW
 - Chat
 - Image Generation
 - Video Generation

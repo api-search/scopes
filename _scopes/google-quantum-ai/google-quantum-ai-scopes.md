@@ -45,7 +45,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Google Quantum Ai Scopes
+name: Google Quantum AI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Google Quantum AI publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google Quantum AI API on a user''s behalf.

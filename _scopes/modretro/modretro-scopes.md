@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Modretro Scopes
+name: ModRetro Scopes
 name_suffix: OAuth Scopes
 note: Derived from the RFC 8414 / OIDC discovery documents ModRetro serves at its own domain — there is no OpenAPI to derive from, and derive-oauth-scopes.py therefore has no input. The scope set is Shopify Customer Accounts scoped to ModRetro's shop (issuer 82920341806); ModRetro publishes no scope reference page of its own.
 overview: 'ModRetro publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ModRetro API on a user''s behalf.

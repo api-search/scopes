@@ -65,7 +65,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Whisper Online Scopes
+name: Whisper Security Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Whisper Security publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Whisper Security API on a user''s behalf.

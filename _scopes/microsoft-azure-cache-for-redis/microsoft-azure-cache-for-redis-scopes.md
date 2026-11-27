@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-cache-for-redis-operations-api-openapi.yml
-  format: yaml
-  label: microsoft-azure-cache-for-redis Operations API
-  slug: microsoft-azure-cache-for-redis-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Linked Server API
@@ -42,18 +36,48 @@ api_specs:
   slug: microsoft-azure-cache-for-redis-redisresources-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml
-- filename: microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-accesspolicyassignments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Cache For Redis Subscriptions API
-  slug: microsoft-azure-cache-for-redis-subscriptions-api
+  label: Microsoft Azure Cache For Redis Access Policy Assignments API
+  slug: microsoft-azure-cache-for-redis-accesspolicyassignments-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-accesspolicyassignments-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-clusters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Clusters API
+  slug: microsoft-azure-cache-for-redis-clusters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-clusters-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-databases-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Databases API
+  slug: microsoft-azure-cache-for-redis-databases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-databases-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-migrations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Migrations API
+  slug: microsoft-azure-cache-for-redis-migrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-migrations-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Operations API
+  slug: microsoft-azure-cache-for-redis-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-private-endpoint-connections-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Private Endpoint Connections API
   slug: microsoft-azure-cache-for-redis-private-endpoint-connections-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-private-endpoint-connections-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Subscriptions API
+  slug: microsoft-azure-cache-for-redis-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -78,13 +102,13 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cache-for-redis-operations-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
@@ -96,37 +120,37 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
 scope_count: 1
 scope_names:
 - user_impersonation
@@ -139,10 +163,11 @@ slug: microsoft-azure-cache-for-redis-scopes
 source_filename: microsoft-azure-cache-for-redis-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml, openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml,\n  openapi/microsoft-azure-cache-for-redis-privateendpointconnections-api-openapi.yml, openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml,\n  openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml,\n  openapi/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml, openapi/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml,\n  openapi/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml, openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description:\
-  \ Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-privateendpointconnections-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml\n  flows:\n  - flow: implicit\n\
-  \    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml\n\
-  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-privateendpointconnections-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml\n"
+source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/_superseded/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml, openapi/_superseded/microsoft-azure-cache-for-redis-operations-api-openapi.yml,\n  openapi/microsoft-azure-cache-for-redis-privateendpointconnections-api-openapi.yml, openapi/_superseded/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml, openapi/_superseded/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml, openapi/_superseded/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml\n  flows:\n  - flow:\
+  \ implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cache-for-redis-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-privateendpointconnections-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n\
+  \  source: openapi/_superseded/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl:\
+  \ https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/_superseded/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cache-for-redis-operations-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-privateendpointconnections-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml\n\
+  \  - openapi/_superseded/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/scopes/microsoft-azure-cache-for-redis-scopes.yml
 summary_line: 1 scope · implicit
 tags:

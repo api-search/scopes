@@ -43,7 +43,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Machinelibrary Ai Scopes
+name: Space Frontiers Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares no oauth2 securityScheme (derive-oauth-scopes.py correctly found nothing); OAuth 2.1 access tokens are accepted by the REST API through the bearer_auth http scheme ("Send the same API key, or an OAuth 2.0 access token, as a Bearer token") and by the MCP server. The scope vocabulary therefore comes from the RFC 8414 / RFC 9728 metadata and auth.md, all provider-published and fetched live on 2026-09-19 and re-verified 2026-10-03, when the issuer had moved from https://api.spacefrontiers.org to https://api.machinelibrary.ai.
 overview: 'Space Frontiers publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Space Frontiers API on a user''s behalf.

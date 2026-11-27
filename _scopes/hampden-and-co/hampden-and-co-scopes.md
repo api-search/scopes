@@ -178,7 +178,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Hampden And Co Scopes
+name: Hampden & Co Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Hampden & Co publishes 3 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Hampden & Co API on a user''s behalf.

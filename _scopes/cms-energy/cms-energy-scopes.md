@@ -55,7 +55,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cms Energy Scopes
+name: CMS Energy Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CMS Energy publishes 10 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the CMS Energy API on a user''s behalf.

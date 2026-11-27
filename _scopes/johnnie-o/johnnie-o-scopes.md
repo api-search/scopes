@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Johnnie O Scopes
+name: Johnnie-O Scopes
 name_suffix: OAuth Scopes
 note: Read verbatim from the scopes_supported array of the OIDC discovery document served on Johnnie-O's own primary domain. This is Shopify's customer-accounts scope set for merchant tenant 22750137 — Johnnie-O publishes no scope reference page of its own, and no additional scopes were found anywhere on its site. Recorded exactly as advertised; nothing inferred.
 overview: 'Johnnie-O publishes 4 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Johnnie-O API on a user''s behalf.

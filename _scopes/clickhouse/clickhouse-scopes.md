@@ -127,7 +127,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Clickhouse Scopes
+name: ClickHouse Scopes
 name_suffix: OAuth Scopes
 note: The ClickHouse Cloud REST API at api.clickhouse.cloud does NOT use OAuth — it declares a single securityScheme, HTTP Basic with an API key ID and secret, and therefore has no scopes. The only OAuth surface ClickHouse publishes is the remote MCP server, and the scopes below are read straight from its RFC 8414 / RFC 9728 discovery documents. Permissions on the REST API are expressed as key ROLES (developer / admin) rather than scopes; those are recorded here too because they are the closest equivalent a caller has to reason about.
 overview: 'ClickHouse publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ClickHouse API on a user''s behalf.

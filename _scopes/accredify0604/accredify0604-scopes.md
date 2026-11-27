@@ -146,7 +146,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Accredify0604 Scopes
+name: Accredify Scopes
 name_suffix: OAuth Scopes
 note: 'The 20 scopes below are published verbatim by Accredify in two places that agree: the components.securitySchemes.OAuth2 clientCredentials block of the Nexus specs, and a scope/permission table rendered in the description of POST /oauth/token. Accredify has no separate scopes reference page; the specification IS the reference. The Accredify Dashboard API declares no scopes at all — it uses an unscoped bearer JWT — so this file covers the Nexus family only. The provider instructs: "Request only the scopes required by your integration, separated by spaces."'
 overview: 'Accredify publishes 20 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Accredify API on a user''s behalf.

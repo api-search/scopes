@@ -598,7 +598,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Thousandeyes Scopes
+name: ThousandEyes Scopes
 name_suffix: OAuth Scopes
 note: 'The 26 harvested OpenAPI documents declare only http/bearer security, so derive-oauth-scopes.py found nothing. The OAuth 2.0 surface is real but lives outside the spec: the RFC 8414 and RFC 9728 metadata documents are served anonymously and advertise exactly two scopes. Per-operation authorization is expressed as ThousandEyes RBAC permissions (see authentication/thousandeyes-authentication.yml), not as OAuth scopes.'
 overview: 'ThousandEyes publishes 2 OAuth 2.0 scopes via the authorizationCode and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the ThousandEyes API on a user''s behalf.

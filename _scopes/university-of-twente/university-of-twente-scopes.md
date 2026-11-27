@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: University Of Twente Scopes
+name: University of Twente Scopes
 name_suffix: OAuth Scopes
 note: No scopes exist to record. The University of Twente Energy API declares no securitySchemes and requires no authorization, so there is no OAuth flow, no scope vocabulary and no consent screen. This file is written deliberately as an evidenced empty set rather than left absent, so the absence reads as a measured fact rather than as an unfinished profile.
 overview: 'University of Twente uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

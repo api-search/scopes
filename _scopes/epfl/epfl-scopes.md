@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Epfl Scopes
+name: EPFL Scopes
 name_suffix: OAuth Scopes
 note: EPFL operates NO OAuth 2.0 or OpenID Connect authorization server that is reachable from the public internet — no /.well-known/openid-configuration is served on any EPFL host probed on 2026-08-19, and neither public API declares an oauth2 security scheme. So there are no OAuth scopes to record, and inventing some would be fabrication. What EPFL does operate is a SAML attribute-release surface, and that is the institution's real authorization vocabulary. It is published in the SWITCHaai federation metadata and is recorded here in its place.
 overview: 'EPFL uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

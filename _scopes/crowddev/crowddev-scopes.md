@@ -104,7 +104,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Crowddev Scopes
+name: Crowd.dev Scopes
 name_suffix: OAuth Scopes
 note: 'Upgraded from derived to searched on 2026-08-14. ADR-0016 documents a scope migration the OpenAPI does not yet reflect: three Akrites-namespaced scopes are now defined on the `cdp_public_api` Auth0 API and granted only to the `Akrites Enclave` client, while each /akrites-external subrouter transitionally accepts EITHER the namespaced scope OR its legacy Self Serve equivalent via `requireScopes([...], ''any'')`. The legacy fallbacks are removed once Akrites confirms end-to-end token exchange. The specs in openapi/ still declare only the legacy names, so both sets are recorded below with their status.'
 overview: 'Crowd.dev publishes 17 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Crowd.dev API on a user''s behalf.

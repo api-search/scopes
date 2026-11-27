@@ -427,7 +427,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Thecolony Ai Scopes
+name: The Colony Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'The Colony publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the The Colony API on a user''s behalf.

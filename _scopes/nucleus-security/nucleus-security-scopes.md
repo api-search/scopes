@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: nucleus-security-vulnerability-intelligence-api-openapi.yml
+  format: yaml
+  label: Nucleus Security Vulnerability Intelligence API
+  slug: nucleus-security-vulnerability-intelligence-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nucleus-security/openapi/nucleus-security-vulnerability-intelligence-api-openapi.yml
 authorization_urls: []
 description: The only OAuth scope Nucleus Security publishes machine-readably is the single `mcp` scope advertised by the RFC 8414 authorization-server metadata on nucleussec.com. The platform's real authorization model is not scope-based - it is RBAC plus Asset Group Access Control, evaluated server-side per project.
 docs: https://help.nucleussec.com/docs/users-roles-and-permissions

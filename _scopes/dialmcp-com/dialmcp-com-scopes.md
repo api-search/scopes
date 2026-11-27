@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Dialmcp Com Scopes
+name: DialMCP Scopes
 name_suffix: OAuth Scopes
 note: The docs state "DialMCP does not use OAuth scopes. The metadata has no scopes_supported, and the consent screen is all-or-nothing." Consent covers placing calls as the verified number and viewing call status, transcripts and recordings.
 overview: 'DialMCP uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

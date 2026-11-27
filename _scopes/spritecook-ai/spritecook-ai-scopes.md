@@ -43,7 +43,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Spritecook Ai Scopes
+name: spritecook-ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'spritecook-ai publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the spritecook-ai API on a user''s behalf.

@@ -313,7 +313,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Runwhen Scopes
+name: RunWhen Scopes
 name_suffix: OAuth Scopes
 note: RunWhen PAPI resource endpoints authenticate with JWT Bearer tokens (no per-endpoint OAuth scopes). The OAuth/OIDC authorization server advertises the standard OIDC scopes below for interactive login.
 overview: 'RunWhen publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the RunWhen API on a user''s behalf.

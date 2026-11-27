@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: University Of Lisbon Scopes
+name: University of Lisbon Scopes
 name_suffix: OAuth Scopes
 note: Written by API Evangelist. This file records an ABSENCE that was measured, not a scope list. No scope names are invented here.
 overview: 'University of Lisbon uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

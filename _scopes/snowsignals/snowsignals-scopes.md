@@ -38,7 +38,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Snowsignals Scopes
+name: SnowSignals Scopes
 name_suffix: OAuth Scopes
 note: The REST OpenAPI declares only apiKey schemes (url / nonce methods), so OAuth scopes are not in the spec — the OAuth surface belongs to the MCP endpoint. One scope exists. Public client with PKCE S256, dynamic client registration open at /v1/oauth/register, token endpoint auth method `none`.
 overview: 'SnowSignals publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the SnowSignals API on a user''s behalf.
@@ -72,7 +72,7 @@ tags:
 - Bitcoin
 - Analytics
 - market-phase
-- regime
+- Regime
 - trendvane
 - DaaS
 - MCP

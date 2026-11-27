@@ -163,7 +163,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Getvda Ai Scopes
+name: Verified Digital Agents (VDA) Scopes
 name_suffix: OAuth Scopes
 note: 'The OAuth scopes live in the served C2MD agent card''s securitySchemes, not in any OpenAPI (the C2MD OpenAPI is an edge-proxy shell with no securitySchemes, so derive-oauth-scopes.py has nothing to read). The same five c2md:* scopes are declared identically under google_oauth2 and microsoft_oauth2 authorizationCode flows, plus one Microsoft clientCredentials scope for pre-registered service principals. The witness_bearer scheme maps a Witness ACCOUNT tier to the same access ladder without OAuth: SEALED -> assess-tier skills, ANCHORED -> generate_starter and above. Witness''s own whoami returns scopes ["seal","read"] for a key; those are account-level grants, not OAuth scopes, and are listed under witness_account_scopes.'
 overview: 'Verified Digital Agents (VDA) publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Verified Digital Agents (VDA) API on a user''s behalf.

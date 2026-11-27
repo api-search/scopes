@@ -21,7 +21,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Appdeploy Ai Scopes
+name: appdeploy-ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'appdeploy-ai publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the appdeploy-ai API on a user''s behalf.

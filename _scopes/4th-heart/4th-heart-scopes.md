@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: 4Th Heart Scopes
+name: 4th & Heart Scopes
 name_suffix: OAuth Scopes
 note: Scopes read verbatim from scopes_supported in the merchant's own OAuth 2.0 authorization-server and OpenID Connect discovery documents. Descriptions below are the plain reading of each scope name; 4th & Heart publishes no scope reference page of its own, because the authorization server is operated by Shopify on the merchant's behalf. The agent-commerce MCP endpoint at /api/ucp/mcp is anonymous and consumes none of these scopes.
 overview: '4th & Heart publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the 4th & Heart API on a user''s behalf.

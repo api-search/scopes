@@ -309,7 +309,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Trustarc Scopes
+name: TrustArc Scopes
 name_suffix: OAuth Scopes
 note: 'TrustArc''s OAuth surface is effectively scope-free. The published discovery document declares scopes_supported: ["openid"] and nothing else, and the Guardian OpenAPI declares the same single scope. The token response echoes "openid profile email", but profile and email are not advertised as grantable scopes in discovery. Authorization is decided by ROLE (SUPER_ADMIN / ADMIN / DESIGNER), not by scope — see authentication/trustarc-authentication.yml. No scopes or permissions reference page exists in the TrustArc help center; the search returned none. Nothing invented to fill the gap.'
 overview: 'TrustArc publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the TrustArc API on a user''s behalf.

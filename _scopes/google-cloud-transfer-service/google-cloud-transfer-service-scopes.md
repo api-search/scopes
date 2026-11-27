@@ -1,23 +1,29 @@
 ---
 api_specs:
+- filename: google-cloud-transfer-service-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Transfer Service Cloud Transfer Service Projects API
+  slug: google-cloud-transfer-service-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-projects-api-openapi.yml
+- filename: google-cloud-transfer-service-googleserviceaccounts-api-openapi.yml
+  format: yaml
+  label: Google Cloud Transfer Service Google Service Accounts API
+  slug: google-cloud-transfer-service-googleserviceaccounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-googleserviceaccounts-api-openapi.yml
 - filename: google-cloud-transfer-service-transferjobs-api-openapi.yml
   format: yaml
-  label: Google Cloud Transfer Service TransferJobs API
+  label: Google Cloud Transfer Service Transfer Jobs API
   slug: google-cloud-transfer-service-transferjobs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-transferjobs-api-openapi.yml
 - filename: google-cloud-transfer-service-transferoperations-api-openapi.yml
   format: yaml
-  label: Google Cloud Transfer Service TransferOperations API
+  label: Google Cloud Transfer Service Transfer Operations API
   slug: google-cloud-transfer-service-transferoperations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-transferoperations-api-openapi.yml
-- filename: google-cloud-transfer-service-agent-pools-api-openapi.yml
-  format: yaml
-  label: Google Cloud Transfer Service Agent Pools API
-  slug: google-cloud-transfer-service-agent-pools-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-agent-pools-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -45,12 +51,30 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
-  source: openapi/storage-transfer-api-openapi.yml
+  source: openapi/google-cloud-transfer-service-google-service-accounts-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-cloud-transfer-service-projects-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-cloud-transfer-service-transfer-jobs-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-cloud-transfer-service-transfer-operations-api-openapi.yml
 scope_count: 1
 scope_names:
 - https://www.googleapis.com/auth/cloud-platform
 scopes:
-- description: Full access to Google Cloud resources
+- description: See, edit, configure, and delete your Google Cloud data and see the email address for your Google Account.
   flows:
   - authorizationCode
   scope: https://www.googleapis.com/auth/cloud-platform
@@ -58,7 +82,8 @@ slug: google-cloud-transfer-service-scopes
 source_filename: google-cloud-transfer-service-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/storage-transfer-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/storage-transfer-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud resources\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/storage-transfer-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-cloud-transfer-service-google-service-accounts-api-openapi.yml, openapi/google-cloud-transfer-service-projects-api-openapi.yml,\n  openapi/google-cloud-transfer-service-transfer-jobs-api-openapi.yml, openapi/google-cloud-transfer-service-transfer-operations-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-cloud-transfer-service-google-service-accounts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-cloud-transfer-service-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-cloud-transfer-service-transfer-jobs-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n\
+  \    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-cloud-transfer-service-transfer-operations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: See, edit, configure, and delete your Google Cloud data and see the email address\n    for your Google Account.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-transfer-service-google-service-accounts-api-openapi.yml\n  - openapi/google-cloud-transfer-service-projects-api-openapi.yml\n  - openapi/google-cloud-transfer-service-transfer-jobs-api-openapi.yml\n  - openapi/google-cloud-transfer-service-transfer-operations-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-cloud-transfer-service/scopes/google-cloud-transfer-service-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
@@ -68,6 +93,7 @@ tags:
 - Migration
 - S3
 - Storage
+- Google Cloud
 token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token

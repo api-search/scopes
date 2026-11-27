@@ -278,7 +278,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Ibm Api Connect Scopes
+name: IBM API Connect Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'IBM API Connect publishes 35 OAuth 2.0 scopes via the password, authorizationCode, implicit, and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the IBM API Connect API on a user''s behalf.

@@ -39,7 +39,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Veradial Scopes
+name: VeraDial Scopes
 name_suffix: OAuth Scopes
 note: The MCP server advertises only OpenID Connect identity scopes; access is read-only and scoped to the signed-in customer's own account rather than by fine-grained scopes.
 overview: 'VeraDial publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the VeraDial API on a user''s behalf.

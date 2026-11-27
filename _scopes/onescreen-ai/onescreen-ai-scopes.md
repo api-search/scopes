@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Onescreen Ai Scopes
+name: OneScreen AI Scopes
 name_suffix: OAuth Scopes
 note: 'Not derived from an OpenAPI — OneScreen publishes no REST contract. These scopes are read verbatim from the two anonymous OAuth discovery documents the MCP host serves: the RFC 8414 authorization-server metadata (22 scopes) and the RFC 9728 protected-resource metadata for https://mcp.onescreen.ai/mcp (18 scopes). Descriptions are ours, inferred from the scope name and the provider''s published product description; the scope STRINGS are the provider''s.'
 overview: 'OneScreen AI publishes 22 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the OneScreen AI API on a user''s behalf.

@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: University Of Michigan Ann Arbor Scopes
+name: University of Michigan-Ann Arbor Scopes
 name_suffix: OAuth Scopes
 note: 'No scope model exists to record, and that is a finding rather than a gap in the research. The one U-M contract this repo describes — the Deep Blue Documents OAI-PMH endpoint — is unauthenticated by protocol design: OAI-PMH 2.0 has no authorization layer, the endpoint answered every verb anonymously, and there is therefore nothing to scope. The enterprise estate that WOULD carry scopes, the ITS API Directory on Apigee X, is unreachable without a U-M uniqname, Duo two-factor and campus-network/VPN presence, so no scope catalog could be read. No scopes have been invented to fill the slot.'
 overview: 'University of Michigan-Ann Arbor uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

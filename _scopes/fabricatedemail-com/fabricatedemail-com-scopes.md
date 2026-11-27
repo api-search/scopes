@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Fabricatedemail Com Scopes
+name: fabricatedemail-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'fabricatedemail-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

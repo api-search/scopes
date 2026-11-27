@@ -70,7 +70,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Regal Ai Scopes
+name: Regal Scopes
 name_suffix: OAuth Scopes
 note: Regal's REST APIs are API-key only and have no scope surface at all — the OpenAPI securityScheme is a single apiKey in the Authorization header, and derive-oauth-scopes.py correctly finds zero oauth2 schemes across every spec in this repo. The OAuth surface belongs entirely to the hosted MCP server at mcp.regal.ai, which advertises RFC 8414 authorization-server metadata anonymously. The scopes below are read verbatim from that metadata; they are OIDC identity scopes, not Regal permission scopes. Authorization is brand-scoped by the authenticated Okta identity rather than by requested scope, so there is no per-resource scope catalogue to capture. Do not read this file as evidence of a fine-grained permission model — it is evidence of an OIDC login boundary in front of 60 MCP tools.
 overview: 'Regal publishes 4 OAuth 2.0 scopes via the authorizationCode and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Regal API on a user''s behalf.

@@ -78,6 +78,18 @@ api_specs:
   slug: dialnexa-llms-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dialnexa/openapi/dialnexa-llms-api-openapi.yml
+- filename: dialnexa-agent-builder-api-openapi.yml
+  format: yaml
+  label: DialNexa Agent Builder API
+  slug: dialnexa-agent-builder-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dialnexa/openapi/dialnexa-agent-builder-api-openapi.yml
+- filename: dialnexa-authentication-api-openapi.yml
+  format: yaml
+  label: DialNexa Authentication API
+  slug: dialnexa-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dialnexa/openapi/dialnexa-authentication-api-openapi.yml
 authorization_urls: []
 description: OAuth scopes apply to the MCP surface only. The REST /v1 API uses dashboard-provisioned API keys (bearer) and declares no oauth2 securityScheme in its OpenAPI; the dialnexa.com oauth-authorization-server metadata says plainly that public OAuth token issuance is not available for the REST API. The api.dialnexa.com authorization server (OAuth 2.1, authorization-code + PKCE S256, PAR, DPoP) issues tokens for the MCP endpoint https://api.dialnexa.com/v1/mcp.
 docs: https://dialnexa.com/docs/mcp-tools/overview
@@ -85,7 +97,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Dialnexa Scopes
+name: DialNexa Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'DialNexa publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the DialNexa API on a user''s behalf.

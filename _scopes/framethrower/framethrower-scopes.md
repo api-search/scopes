@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Framethrower Scopes
+name: FrameThrower Scopes
 name_suffix: OAuth Scopes
 note: Scopes are the OpenID Connect standard set advertised by the MCP authorization server; the REST API uses personal bearer tokens with no scopes.
 overview: 'FrameThrower publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the FrameThrower API on a user''s behalf.

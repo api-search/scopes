@@ -97,7 +97,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Contactout Scopes
+name: ContactOut Scopes
 name_suffix: OAuth Scopes
 note: OAuth 2.0 (authorization code + PKCE S256, refresh_token, dynamic client registration) is used only for the hosted MCP server at https://contactout.com/mcp; the REST API authenticates with an API key in the token header and has no scopes. The authorization-server metadata advertises a single scope.
 overview: 'ContactOut publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the ContactOut API on a user''s behalf.

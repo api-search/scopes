@@ -429,7 +429,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Gofundme Scopes
+name: GoFundMe Scopes
 name_suffix: OAuth Scopes
 note: Searched the GoFundMe Pro developer portal (overview, authentication, making-requests, reference) and the help center for a scopes / permissions reference page. None exists. The only OAuth scope vocabulary GoFundMe Pro publishes is the two-value read/write pair declared in the OpenAPI securitySchemes, and no operation in the spec attaches a scope requirement to itself — the root-level `security` block lists both schemes with EMPTY scope arrays. In practice an app token carries organization-wide read and write.
 overview: 'GoFundMe publishes 2 OAuth 2.0 scopes via the clientCredentials and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the GoFundMe API on a user''s behalf.

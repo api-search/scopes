@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Unsw Sydney Scopes
+name: University of New South Wales Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'University of New South Wales uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

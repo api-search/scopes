@@ -334,7 +334,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Lightspeed Scopes
+name: Lightspeed Commerce Scopes
 name_suffix: OAuth Scopes
 note: Three separate OAuth scope vocabularies, one per product line, with no shared naming. X-Series uses resource:action (products:read) with sub-actions (consignments:write:stock_order); R-Series uses employee:permission (employee:inventory); K-Series uses product-area names (orders-api, financial-api). A partner integrating two Lightspeed products must learn two unrelated permission models.
 overview: 'Lightspeed Commerce publishes 90 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Lightspeed Commerce API on a user''s behalf.

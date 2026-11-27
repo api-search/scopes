@@ -122,7 +122,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Gemini Trust Scopes
+name: Gemini Trust Company Scopes
 name_suffix: OAuth Scopes
 note: These scopes are NOT in either OpenAPI - neither spec declares an oauth2 securityScheme, so the derive-from-spec path returns nothing. They come from the provider's live RFC 8414 authorization-server metadata, which is the authoritative machine-readable source. 33 scopes, resource:action shaped.
 overview: 'Gemini Trust Company publishes 32 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Gemini Trust Company API on a user''s behalf.

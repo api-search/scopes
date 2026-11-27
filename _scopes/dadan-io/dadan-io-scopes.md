@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Dadan Io Scopes
+name: Dadan Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Dadan publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Dadan API on a user''s behalf.

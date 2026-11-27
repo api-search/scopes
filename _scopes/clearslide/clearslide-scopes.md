@@ -46,7 +46,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Clearslide Scopes
+name: ClearSlide Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ClearSlide publishes 2 OAuth 2.0 scopes via the authorizationCode and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the ClearSlide API on a user''s behalf.

@@ -12,7 +12,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ieso Scopes
+name: IESO Scopes
 name_suffix: OAuth Scopes
 note: IESO publishes no OpenAPI and no API authorization scope reference. The only scope surface in the estate that can be read anonymously is the Okta identity provider at gateway.ieso.ca, whose OIDC discovery document advertises the stock OpenID Connect scope set for interactive participant login. These are identity scopes, not API permission scopes — none of IESO's documented APIs (Reports REST, MIM SOAP, Online IESO Appian) use OAuth 2.0 bearer tokens issued against these scopes; they use HTTP Basic, Appian API keys, and UserID/password with IP allow-listing respectively. Recorded here because it is the real, verified scope surface; nothing has been inferred or invented.
 overview: 'IESO publishes 7 OAuth 2.0 scopes via the authorizationCode, implicit, password, deviceCode, and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the IESO API on a user''s behalf.

@@ -400,7 +400,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Tidal Scopes
+name: TIDAL Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'TIDAL publishes 12 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the TIDAL API on a user''s behalf.

@@ -20,7 +20,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Resistant Ai Scopes
+name: Resistant AI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Resistant AI publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Resistant AI API on a user''s behalf.

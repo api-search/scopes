@@ -7,7 +7,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Vinkius Com Scopes
+name: Vinkius Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Vinkius publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Vinkius API on a user''s behalf.

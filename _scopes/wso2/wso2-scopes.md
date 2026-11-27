@@ -548,7 +548,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Wso2 Scopes
+name: WSO2 Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'WSO2 publishes 51 OAuth 2.0 scopes via the password flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the WSO2 API on a user''s behalf.

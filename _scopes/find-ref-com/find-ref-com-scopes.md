@@ -14,7 +14,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Find Ref Com Scopes
+name: find-ref Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'find-ref publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the find-ref API on a user''s behalf.
@@ -50,7 +50,7 @@ tags:
 - Labor Law
 - AI Assistant
 - MCP
-- Korea
+- South Korea
 - Reference Search
 token_bound: false
 token_urls: []

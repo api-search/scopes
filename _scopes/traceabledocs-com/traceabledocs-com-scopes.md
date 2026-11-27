@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Traceabledocs Com Scopes
+name: traceabledocs-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'traceabledocs-com publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the traceabledocs-com API on a user''s behalf.

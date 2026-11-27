@@ -44,7 +44,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Cmic Scopes
+name: CMiC Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CMiC publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CMiC API on a user''s behalf.

@@ -237,7 +237,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Execution Market Scopes
+name: Ultravioleta DAO Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Ultravioleta DAO publishes 9 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Ultravioleta DAO API on a user''s behalf.

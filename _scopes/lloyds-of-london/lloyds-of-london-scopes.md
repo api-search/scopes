@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Lloyds Of London Scopes
+name: Lloyd's of London Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Lloyd''s of London publishes 1 OAuth 2.0 scope via the authorizationCode and on-behalf-of flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Lloyd''s of London API on a user''s behalf.

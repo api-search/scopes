@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Coast Capital Scopes
+name: Coast Capital Savings Scopes
 name_suffix: OAuth Scopes
 note: Scopes advertised by the member-authentication OIDC discovery document (scopes_supported). These govern member sign-in / identity, not a public data API. No scope reference page is published in developer docs (there is no public developer portal).
 overview: 'Coast Capital Savings publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Coast Capital Savings API on a user''s behalf.

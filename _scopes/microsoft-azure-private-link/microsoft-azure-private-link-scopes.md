@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-private-link-operations-api-openapi.yml
-  format: yaml
-  label: microsoft-azure-private-link Operations API
-  slug: microsoft-azure-private-link-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-operations-api-openapi.yml
-- filename: microsoft-azure-private-link-private-endpoints-api-openapi.yml
-  format: yaml
-  label: microsoft-azure-private-link Private Endpoints API
-  slug: microsoft-azure-private-link-private-endpoints-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml
 - filename: microsoft-azure-private-link-privatednszonegroups-api-openapi.yml
   format: yaml
   label: Microsoft Azure Private Link Private Dns Zone Groups API
@@ -36,6 +24,12 @@ api_specs:
   slug: microsoft-azure-private-link-subscriptions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-subscriptions-api-openapi.yml
+- filename: microsoft-azure-private-link-private-endpoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Private Link Private Endpoints API
+  slug: microsoft-azure-private-link-private-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -60,13 +54,13 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-private-link-operations-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-private-link-operations-api-openapi.yml
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-private-link-private-endpoints-api-openapi.yml
 scope_count: 1
 scope_names:
 - user_impersonation
@@ -79,7 +73,7 @@ slug: microsoft-azure-private-link-scopes
 source_filename: microsoft-azure-private-link-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/microsoft-azure-private-link-operations-api-openapi.yml, openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-private-link-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-private-link-operations-api-openapi.yml\n  - openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml\n"
+source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/_superseded/microsoft-azure-private-link-operations-api-openapi.yml, openapi/_superseded/microsoft-azure-private-link-private-endpoints-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-private-link-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-private-link-private-endpoints-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/_superseded/microsoft-azure-private-link-operations-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-private-link-private-endpoints-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-private-link/scopes/microsoft-azure-private-link-scopes.yml
 summary_line: 1 scope · implicit
 tags:

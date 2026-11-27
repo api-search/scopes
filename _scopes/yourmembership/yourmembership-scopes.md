@@ -46,7 +46,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Yourmembership Scopes
+name: YourMembership Scopes
 name_suffix: OAuth Scopes
 note: These two scopes are the only ones published in YourMembership's Getting Started with OAuth guide; the REST API also exposes a GET /Ams/{ClientID}/OAuthScopes metadata operation (ScopeID, ScopeName, DisplayName, IsDefault, GranularScope) indicating scopes are managed per-site in OAuth Management, but no additional scope values are publicly documented.
 overview: 'YourMembership publishes 2 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the YourMembership API on a user''s behalf.

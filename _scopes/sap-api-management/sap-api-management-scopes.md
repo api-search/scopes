@@ -38,7 +38,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Sap Api Management Scopes
+name: SAP API Management Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SAP API Management publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SAP API Management API on a user''s behalf.

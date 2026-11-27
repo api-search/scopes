@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Saib And Co Scopes
+name: SAIB & Co. Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SAIB & Co. publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SAIB & Co. API on a user''s behalf.

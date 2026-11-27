@@ -459,7 +459,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ringcentral Scopes
+name: RingCentral Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'RingCentral publishes 38 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the RingCentral API on a user''s behalf.

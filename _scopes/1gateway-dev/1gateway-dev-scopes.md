@@ -229,7 +229,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: 1Gateway Dev Scopes
+name: 1gateway Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: '1gateway uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

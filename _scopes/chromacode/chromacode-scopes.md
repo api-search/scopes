@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Chromacode Scopes
+name: ChromaCode Scopes
 name_suffix: OAuth Scopes
 note: ChromaCode publishes no scopes or permissions reference page. These scopes are the scopes_supported values advertised by the provider's own Keycloak OpenID Connect discovery documents for the two ChromaCode Cloud realms. The two application-specific scopes (chromacloud, chromacloud:service_account) exist only on the "apps" realm; the rest are Keycloak's standard OIDC client scopes. No scope-level documentation is published, so descriptions below are the standard OIDC/Keycloak meanings and are marked as such — none are ChromaCode-authored.
 overview: 'ChromaCode publishes 12 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the ChromaCode API on a user''s behalf.

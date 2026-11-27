@@ -38,7 +38,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Alliance Data Systems Scopes
+name: Alliance Data Systems (Bread Financial Holdings) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Alliance Data Systems (Bread Financial Holdings) publishes 3 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Alliance Data Systems (Bread Financial Holdings) API on a user''s behalf.

@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Theorg Scopes
+name: The Org Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'The Org publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the The Org API on a user''s behalf.

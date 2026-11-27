@@ -130,7 +130,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Wakatime Scopes
+name: WakaTime Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'WakaTime publishes 8 OAuth 2.0 scopes via the authorizationCode and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the WakaTime API on a user''s behalf.

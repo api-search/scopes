@@ -69,7 +69,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Linqalpha Scopes
+name: LinqAlpha Scopes
 name_suffix: OAuth Scopes
 note: The published OpenAPI declares only the ApiKeyAuth (X-API-KEY) scheme, so no scopes are derivable from the spec. The OAuth surface is discovered instead from RFC 8414 authorization server metadata at api.linqalpha.com, which fronts the LinqAlpha MCP server.
 overview: 'LinqAlpha publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the LinqAlpha API on a user''s behalf.

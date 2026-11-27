@@ -18,6 +18,18 @@ api_specs:
   slug: leadiq-prospects-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/leadiq/openapi/leadiq-prospects-api-openapi.yml
+- filename: leadiq-company-lists-api-openapi.yml
+  format: yaml
+  label: LeadIQ Company Lists API
+  slug: leadiq-company-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-company-lists-api-openapi.yml
+- filename: leadiq-salesforce-api-openapi.yml
+  format: yaml
+  label: LeadIQ Salesforce API
+  slug: leadiq-salesforce-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-salesforce-api-openapi.yml
 - filename: leadiq-graph-ql-api-openapi.yml
   format: yaml
   label: LeadIQ Graph QL API
@@ -35,7 +47,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Leadiq Scopes
+name: LeadIQ Scopes
 name_suffix: OAuth Scopes
 note: LeadIQ's OpenAPI and GraphQL surfaces declare no oauth2 security scheme — they are API-key surfaces (Basic for GraphQL, X-API-Key for Prospector REST). The only OAuth surface on the estate is the MCP connector at mcp.leadiq.com, and its scopes are published anonymously in RFC 9728 protected-resource metadata rather than in a spec or a docs page. `derive-oauth-scopes.py` found zero oauth2 schemes across the specs; everything below comes from the live well-known probe.
 overview: 'LeadIQ publishes 2 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the LeadIQ API on a user''s behalf.

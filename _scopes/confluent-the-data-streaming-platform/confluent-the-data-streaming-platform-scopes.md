@@ -704,7 +704,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Confluent The Data Streaming Platform Scopes
+name: Confluent | the Data Streaming Platform Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Confluent | the Data Streaming Platform publishes 5 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Confluent | the Data Streaming Platform API on a user''s behalf.

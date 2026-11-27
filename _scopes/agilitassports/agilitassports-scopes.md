@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Agilitassports Scopes
+name: Agilitas Sports Scopes
 name_suffix: OAuth Scopes
 note: No client registration endpoint is published and no public client_id is documented, so these scopes are not requestable by a third-party integrator today. They are recorded as probed fact, not as an available developer surface.
 overview: 'Agilitas Sports publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Agilitas Sports API on a user''s behalf.

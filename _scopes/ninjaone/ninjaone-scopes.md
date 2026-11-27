@@ -142,7 +142,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ninjaone Scopes
+name: NinjaOne Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'NinjaOne publishes 4 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the NinjaOne API on a user''s behalf.

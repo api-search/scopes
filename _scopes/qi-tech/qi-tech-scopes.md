@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Qi Tech Scopes
+name: QI Tech Scopes
 name_suffix: OAuth Scopes
 note: No OAuth scopes documented. Authentication uses JWT with API key exchange rather than OAuth.
 overview: 'QI Tech uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

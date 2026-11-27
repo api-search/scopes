@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Entyrix Com Scopes
+name: entyrix-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'entyrix-com publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the entyrix-com API on a user''s behalf.

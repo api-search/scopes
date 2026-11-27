@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Cleveland Cliffs Scopes
+name: Cleveland-Cliffs Scopes
 name_suffix: OAuth Scopes
 note: Read from the anonymous discovery documents on Cleveland-Cliffs' own Okta tenant. The seven scopes below are the standard OIDC/OAuth 2.0 set the org authorization server advertises. The RFC 8414 document additionally advertises the full Okta org-management scope family (okta.users.*, okta.groups.*, okta.apps.* and ~40 more); those are the Okta product's own administrative scopes, not scopes Cleveland-Cliffs defined for a business API, so they are recorded as vendor_platform_scopes rather than as the company's scope surface. Cleveland-Cliffs publishes no public API and therefore no business-domain scope reference page.
 overview: 'Cleveland-Cliffs publishes 7 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cleveland-Cliffs API on a user''s behalf.

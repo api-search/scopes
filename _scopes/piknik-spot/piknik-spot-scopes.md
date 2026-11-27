@@ -531,7 +531,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Piknik Spot Scopes
+name: Piknik.Spot Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Piknik.Spot publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Piknik.Spot API on a user''s behalf.

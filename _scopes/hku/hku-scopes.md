@@ -23,7 +23,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Hku Scopes
+name: University of Hong Kong Scopes
 name_suffix: OAuth Scopes
 note: Scope strings are read verbatim from scopes_supported in HKU's live OpenID Connect discovery document on its own host. Descriptions are ours. These are the scopes the HKU AD FS issuer advertises to relying parties; HKU publishes no scope documentation of its own, and the HKU ITS API developer portal (developer.hku.hk) does not expose its API scopes without institutional sign-in.
 overview: 'University of Hong Kong publishes 9 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of Hong Kong API on a user''s behalf.

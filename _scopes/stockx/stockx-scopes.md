@@ -33,7 +33,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Stockx Scopes
+name: StockX Scopes
 name_suffix: OAuth Scopes
 note: The StockX Public API OpenAPI declares only http-bearer + api-key security schemes, but access tokens are minted by StockX's Auth0 tenant via the OAuth 2.0 Authorization Code flow. The authorization request must set audience to gateway.stockx.com. Application-level authorization (catalog/selling/orders) is governed by the developer program grant tied to the API key rather than by granular OAuth scopes; the scopes below are the identity/session scopes the Auth0 authorize endpoint accepts.
 overview: 'StockX publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the StockX API on a user''s behalf.

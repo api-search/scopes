@@ -525,7 +525,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Secureauth Scopes
+name: SecureAuth (incl. Cloudentity) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SecureAuth (incl. Cloudentity) publishes 44 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the SecureAuth (incl. Cloudentity) API on a user''s behalf.

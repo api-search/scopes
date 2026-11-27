@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-intune-device-compliance-policies-api-openapi.yml
-  format: yaml
-  label: Microsoft Intune Device Compliance Policies API
-  slug: microsoft-intune-device-compliance-policies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-device-compliance-policies-api-openapi.yml
-- filename: microsoft-intune-device-configurations-api-openapi.yml
-  format: yaml
-  label: Microsoft Intune Device Configurations API
-  slug: microsoft-intune-device-configurations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-device-configurations-api-openapi.yml
-- filename: microsoft-intune-managed-devices-api-openapi.yml
-  format: yaml
-  label: Microsoft Intune Managed Devices API
-  slug: microsoft-intune-managed-devices-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-managed-devices-api-openapi.yml
 - filename: microsoft-intune-deviceappmanagement-androidmanagedappprotection-api-openapi.yml
   format: yaml
   label: Microsoft Intune Device App Management.android Managed App Protection API
@@ -468,12 +450,18 @@ api_specs:
   slug: microsoft-intune-devicemanagement-windowsmalwareinformation-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-devicemanagement-windowsmalwareinformation-api-openapi.yml
-- filename: microsoft-intune-remote-actions-api-openapi.yml
+- filename: microsoft-intune-me-devicemanagementtroubleshootingevent-api-openapi.yml
   format: yaml
-  label: Microsoft Intune Remote Actions API
-  slug: microsoft-intune-remote-actions-api
+  label: Microsoft Intune Me.device Management Troubleshooting Event API
+  slug: microsoft-intune-me-devicemanagementtroubleshootingevent-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-remote-actions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-me-devicemanagementtroubleshootingevent-api-openapi.yml
+- filename: microsoft-intune-users-devicemanagementtroubleshootingevent-api-openapi.yml
+  format: yaml
+  label: Microsoft Intune Users.device Management Troubleshooting Event API
+  slug: microsoft-intune-users-devicemanagementtroubleshootingevent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-users-devicemanagementtroubleshootingevent-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -502,21 +490,21 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: oauth2
-  source: openapi/microsoft-intune-device-compliance-policies-api-openapi.yml
+  source: openapi/_superseded/microsoft-intune-device-compliance-policies-api-openapi.yml
 - description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune license for the tenant.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
     flow: authorizationCode
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: oauth2
-  source: openapi/microsoft-intune-device-configurations-api-openapi.yml
+  source: openapi/_superseded/microsoft-intune-device-configurations-api-openapi.yml
 - description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune license for the tenant.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
     flow: authorizationCode
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: oauth2
-  source: openapi/microsoft-intune-managed-devices-api-openapi.yml
+  source: openapi/_superseded/microsoft-intune-managed-devices-api-openapi.yml
 - description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune license for the tenant.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
@@ -551,10 +539,10 @@ slug: microsoft-intune-scopes
 source_filename: microsoft-intune-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-intune-device-compliance-policies-api-openapi.yml, openapi/microsoft-intune-device-configurations-api-openapi.yml,\n  openapi/microsoft-intune-managed-devices-api-openapi.yml, openapi/microsoft-intune-remote-actions-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-intune-device-compliance-policies-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune\n    license for the tenant.\n- name: oauth2\n  source: openapi/microsoft-intune-device-configurations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n\
-  \  description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune\n    license for the tenant.\n- name: oauth2\n  source: openapi/microsoft-intune-managed-devices-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune\n    license for the tenant.\n- name: oauth2\n  source: openapi/microsoft-intune-remote-actions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune\n    license for the tenant.\nscopes:\n- scope: DeviceManagementConfiguration.Read.All\n\
-  \  description: Read Microsoft Intune device configuration and policies\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-intune-device-compliance-policies-api-openapi.yml\n  - openapi/microsoft-intune-device-configurations-api-openapi.yml\n  - openapi/microsoft-intune-managed-devices-api-openapi.yml\n  - openapi/microsoft-intune-remote-actions-api-openapi.yml\n- scope: DeviceManagementConfiguration.ReadWrite.All\n  description: Read and write Microsoft Intune device configuration and policies\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-intune-device-compliance-policies-api-openapi.yml\n  - openapi/microsoft-intune-device-configurations-api-openapi.yml\n  - openapi/microsoft-intune-managed-devices-api-openapi.yml\n  - openapi/microsoft-intune-remote-actions-api-openapi.yml\n- scope: DeviceManagementManagedDevices.Read.All\n  description: Read Microsoft Intune managed devices\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-intune-device-compliance-policies-api-openapi.yml\n\
-  \  - openapi/microsoft-intune-device-configurations-api-openapi.yml\n  - openapi/microsoft-intune-managed-devices-api-openapi.yml\n  - openapi/microsoft-intune-remote-actions-api-openapi.yml\n- scope: DeviceManagementManagedDevices.ReadWrite.All\n  description: Read and write Microsoft Intune managed devices\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-intune-device-compliance-policies-api-openapi.yml\n  - openapi/microsoft-intune-device-configurations-api-openapi.yml\n  - openapi/microsoft-intune-managed-devices-api-openapi.yml\n  - openapi/microsoft-intune-remote-actions-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/_superseded/microsoft-intune-device-compliance-policies-api-openapi.yml, openapi/_superseded/microsoft-intune-device-configurations-api-openapi.yml,\n  openapi/_superseded/microsoft-intune-managed-devices-api-openapi.yml, openapi/microsoft-intune-remote-actions-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/_superseded/microsoft-intune-device-compliance-policies-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune\n    license for the tenant.\n- name: oauth2\n  source: openapi/_superseded/microsoft-intune-device-configurations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune\n    license for the tenant.\n- name: oauth2\n  source: openapi/_superseded/microsoft-intune-managed-devices-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune\n    license for the tenant.\n- name: oauth2\n  source: openapi/microsoft-intune-remote-actions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Azure Active Directory. Requires an active Intune\n \
+  \   license for the tenant.\nscopes:\n- scope: DeviceManagementConfiguration.Read.All\n  description: Read Microsoft Intune device configuration and policies\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/_superseded/microsoft-intune-device-compliance-policies-api-openapi.yml\n  - openapi/_superseded/microsoft-intune-device-configurations-api-openapi.yml\n  - openapi/_superseded/microsoft-intune-managed-devices-api-openapi.yml\n  - openapi/microsoft-intune-remote-actions-api-openapi.yml\n- scope: DeviceManagementConfiguration.ReadWrite.All\n  description: Read and write Microsoft Intune device configuration and policies\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/_superseded/microsoft-intune-device-compliance-policies-api-openapi.yml\n  - openapi/_superseded/microsoft-intune-device-configurations-api-openapi.yml\n  - openapi/_superseded/microsoft-intune-managed-devices-api-openapi.yml\n  - openapi/microsoft-intune-remote-actions-api-openapi.yml\n- scope: DeviceManagementManagedDevices.Read.All\n\
+  \  description: Read Microsoft Intune managed devices\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/_superseded/microsoft-intune-device-compliance-policies-api-openapi.yml\n  - openapi/_superseded/microsoft-intune-device-configurations-api-openapi.yml\n  - openapi/_superseded/microsoft-intune-managed-devices-api-openapi.yml\n  - openapi/microsoft-intune-remote-actions-api-openapi.yml\n- scope: DeviceManagementManagedDevices.ReadWrite.All\n  description: Read and write Microsoft Intune managed devices\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/_superseded/microsoft-intune-device-compliance-policies-api-openapi.yml\n  - openapi/_superseded/microsoft-intune-device-configurations-api-openapi.yml\n  - openapi/_superseded/microsoft-intune-managed-devices-api-openapi.yml\n  - openapi/microsoft-intune-remote-actions-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-intune/scopes/microsoft-intune-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:

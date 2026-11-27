@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Jubilee Tv Scopes
+name: Jubilee TV Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Jubilee TV publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Jubilee TV API on a user''s behalf.

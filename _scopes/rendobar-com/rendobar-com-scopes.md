@@ -91,7 +91,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Rendobar Com Scopes
+name: rendobar-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'rendobar-com publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the rendobar-com API on a user''s behalf.

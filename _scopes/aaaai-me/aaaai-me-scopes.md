@@ -107,7 +107,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Aaaai Me Scopes
+name: AAA AI Scopes
 name_suffix: OAuth Scopes
 note: 'openapi/aaaai-me-openapi.json declares NO oauth2 security scheme (its only scheme is the X-User-Login apiKey header), so derive-oauth-scopes.py has nothing to derive. The scopes below are the ones AAA AI publishes in its OAuth 2.0 authorization-server metadata and OpenID Provider metadata, both served from the marketing host aaaai.me for issuer https://web.aaaai.me, and described for agents at https://aaaai.me/auth.md ("authenticate against the platform issuer https://web.aaaai.me using the metadata at /.well-known/oauth-authorization-server"). VERIFICATION 2026-09-19: the issuer host serves neither metadata document (404) nor the declared JWKS (404); the authorization_endpoint is the application root (https://web.aaaai.me/), the token_endpoint is the email/password login route (POST /api/auth/login, which answered a bare POST with 400 "Login and password required"), and no operation in the contract requires any of these scopes. Treat this as a PUBLISHED scope vocabulary whose authorization
   flow could not be exercised anonymously, not as a working OAuth 2.0 server.'

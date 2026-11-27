@@ -32,7 +32,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Battle Net Scopes
+name: Battle.net Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Battle.net publishes 4 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Battle.net API on a user''s behalf.

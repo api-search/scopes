@@ -37,7 +37,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Ss C Technologies Scopes
+name: SS&C Technologies Scopes
 name_suffix: OAuth Scopes
 note: 'These are the scopes_supported values the SS&C APIM Keycloak realm advertises in its own OpenID Connect discovery document, read anonymously on 2026-09-13. They are NOT derived from an OpenAPI: the Eze EMS xAPI spec declares no oauth2 securityScheme, so there is no scope surface to derive there. Most entries below are Keycloak built-ins; only events_enrichment_api_member and voucher are realm-specific, and SS&C publishes no scope reference page describing what either grants — the portal''s own documentation is behind SSO.'
 overview: 'SS&C Technologies publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the SS&C Technologies API on a user''s behalf.

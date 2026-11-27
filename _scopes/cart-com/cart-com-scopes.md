@@ -435,7 +435,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cart Com Scopes
+name: Cart.com Scopes
 name_suffix: OAuth Scopes
 note: 'The published OpenAPI declares only the apiKey scheme X-AC-Auth-Token and carries no oauth2 securityScheme, so no scopes are derivable from the spec. The scope model below is captured verbatim from the provider''s Scopes and Authentication guides. Scopes are coarse-grained and paired read/write: naming a write scope supersedes its read sibling. An access token can only use the scopes requested when it was created — changing scope requires a new token. The authorizing admin-console user must also hold the matching role-based permission.'
 overview: 'Cart.com publishes 17 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cart.com API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Socialbee Scopes
+name: SocialBee Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SocialBee publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the SocialBee API on a user''s behalf.

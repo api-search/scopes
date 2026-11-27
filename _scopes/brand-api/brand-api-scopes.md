@@ -39,7 +39,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Brand Api Scopes
+name: Brand API (Brandfetch) Scopes
 name_suffix: OAuth Scopes
 note: 'Brandfetch''s OpenAPI declares no oauth2 security scheme — the REST API is bearer API-key only — so derive-oauth-scopes.py correctly found nothing. The OAuth surface exists solely for the MCP server, and its scope model is published anonymously in the RFC 8414 authorization-server metadata. Exactly one scope is advertised. Read-only is the whole authorization model: there is no write scope because the public product has no write surface.'
 overview: 'Brand API (Brandfetch) publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Brand API (Brandfetch) API on a user''s behalf.

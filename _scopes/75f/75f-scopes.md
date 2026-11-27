@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: 75f-openapi-generated.yml
+  format: yaml
+  label: 75F API
+  slug: 75f-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/75f/openapi/_ae-authored/75f-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: https://support.75f.io/hc/en-us/articles/5459701361427-Oauth-API

@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Transcriptfetch Scopes
+name: TranscriptFetch Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'TranscriptFetch publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TranscriptFetch API on a user''s behalf.

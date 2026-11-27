@@ -59,7 +59,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Bureau Of Land Management Scopes
+name: Bureau of Land Management Scopes
 name_suffix: OAuth Scopes
 note: 'READ THIS BEFORE USING THE SCOPE LIST. BLM authors none of these scopes. MLRS and GLO Records run on Salesforce Experience Cloud, and their discovery documents advertise the stock Salesforce platform scope set — identical strings on both hosts, including scopes for products BLM plainly does not operate through these sites (pardot_api, einstein_gpt_api, cdp_*). They describe what the PLATFORM can issue, not what BLM grants. BLM publishes no scopes/permissions reference page of its own. Both surfaces are, in practice, closed: every non-discovery path on both hosts answered 401 to an anonymous client on 2026-09-05, and there is no self-service developer registration. The public geospatial surface — the GBP Hub Search API, the 13 ArcGIS Server instances and the WMS endpoints — has NO scope model because it has no authentication at all.'
 overview: 'Bureau of Land Management publishes 12 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bureau of Land Management API on a user''s behalf.

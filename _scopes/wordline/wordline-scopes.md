@@ -434,7 +434,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Wordline Scopes
+name: Worldline Scopes
 name_suffix: OAuth Scopes
 note: Documented scopes below apply to the Worldline Acquiring API (OAuth 2.0 client credentials); the Financial Services portal APIs also use client credentials but publish no scopes (https://financial-services.developer.worldline.com/acquiring/documentation/authentication).
 overview: 'Worldline publishes 7 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Worldline API on a user''s behalf.

@@ -386,7 +386,6 @@ tags:
 - SLO
 - Infrastructure as Code
 - MCP
-- Agent Ready
 - A2A
 token_bound: false
 token_urls: []

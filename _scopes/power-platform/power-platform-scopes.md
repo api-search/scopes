@@ -76,7 +76,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Power Platform Scopes
+name: Microsoft Power Platform APIs Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Microsoft Power Platform APIs publishes 1 OAuth 2.0 scope via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Power Platform APIs API on a user''s behalf.

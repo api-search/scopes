@@ -55,7 +55,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Amp Bank Scopes
+name: AMP Bank Scopes
 name_suffix: OAuth Scopes
 note: Scope descriptions follow the DSB Consumer Data Standards authorisation-scopes reference. AMP Bank implements the standard CDR banking scope set; it does not define bank-proprietary scopes. The PRD product endpoints (listBankingProducts, getBankingProductDetail) require no scope.
 overview: 'AMP Bank publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AMP Bank API on a user''s behalf.

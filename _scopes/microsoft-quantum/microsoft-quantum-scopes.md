@@ -40,7 +40,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Quantum Scopes
+name: Microsoft Azure Quantum Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Microsoft Azure Quantum publishes 2 OAuth 2.0 scopes via the implicit and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Azure Quantum API on a user''s behalf.

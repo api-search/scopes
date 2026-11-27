@@ -187,7 +187,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Autocontent Api Scopes
+name: AutoContent API Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AutoContent API publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AutoContent API API on a user''s behalf.

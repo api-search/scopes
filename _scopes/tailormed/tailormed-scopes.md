@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Tailormed Scopes
+name: TailorMed Scopes
 name_suffix: OAuth Scopes
 note: These are platform sign-in scopes. The Application Data API, Claims Data API and HL7/FHIR data-exchange surfaces are documented only behind the login on hub.tailormed.co, so any API-specific scope or permission model they use is not publicly readable.
 overview: 'TailorMed publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TailorMed API on a user''s behalf.

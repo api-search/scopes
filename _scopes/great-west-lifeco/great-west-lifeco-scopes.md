@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Great West Lifeco Scopes
+name: Great-West Lifeco Scopes
 name_suffix: OAuth Scopes
 note: Both OAuth surfaces in the group are real and both withhold their scope vocabulary. This artifact records the authorization-server metadata that IS published and states plainly that no scope names are. Nothing is invented - the scopes list is empty because the providers publish an empty one.
 overview: 'Great-West Lifeco uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

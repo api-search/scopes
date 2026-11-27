@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Scrollport Com Scopes
+name: scrollport-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'scrollport-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -42,7 +42,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - AI Agents
 - API Tools
-- Pay-Per-Use
+- Pay-per-use
 - Search
 - Web Scraping
 token_bound: false

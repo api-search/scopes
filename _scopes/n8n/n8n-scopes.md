@@ -139,7 +139,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: N8N Scopes
+name: n8n Scopes
 name_suffix: OAuth Scopes
 note: n8n's public REST API authenticates with API keys, not OAuth; these are the provider's documented API-key scopes, available on Enterprise instances (non-Enterprise keys have full access). The same scope vocabulary governs what a scoped key may do, and the instance-level MCP server applies scope selection at OAuth consent (n8n 2.32). resource:action format.
 overview: 'n8n publishes 67 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the n8n API on a user''s behalf.

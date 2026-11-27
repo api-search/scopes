@@ -61,7 +61,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Depixapp Com Scopes
+name: DePix App Scopes
 name_suffix: OAuth Scopes
 note: Scopes are attached to API keys (Bearer sk_*), chosen at key creation and immutable. No implicit hierarchy. The OpenAPI declares no oauth2 scheme; the hosted MCP OAuth 2.1 connector sessions are capped to read + merchant scopes.
 overview: 'DePix App publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the DePix App API on a user''s behalf.

@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Insurance Council Australia Scopes
+name: Insurance Council of Australia Scopes
 name_suffix: OAuth Scopes
 note: The only OAuth/OIDC surface on the Insurance Council of Australia estate is the Azure AD B2C tenant that fronts the member portal sign-in. Its discovery document advertises a single scope — openid — which is the bare OIDC authentication scope and carries no API authorization semantics. There is no scopes or permissions reference page on insurancecouncil.com.au, no delegated data scopes, and no client-credentials surface, so this artifact records the full (and minimal) real scope catalogue rather than a curated one.
 overview: 'Insurance Council of Australia publishes 1 OAuth 2.0 scope via the authorizationCode and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Insurance Council of Australia API on a user''s behalf.

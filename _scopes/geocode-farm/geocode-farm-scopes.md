@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Geocode Farm Scopes
+name: Geocode.Farm Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Geocode.Farm uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

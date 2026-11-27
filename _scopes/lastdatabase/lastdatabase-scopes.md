@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Lastdatabase Scopes
+name: LastDatabase Scopes
 name_suffix: OAuth Scopes
 note: All nine scopes are listed in scopes_supported of both the authorization-server and protected-resource metadata (HTTP 200). Only credits:read, people:search and email:verify are tied to a documented tool; the other six carry no published description.
 overview: 'LastDatabase publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LastDatabase API on a user''s behalf.

@@ -185,7 +185,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mediavalet Scopes
+name: MediaValet Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'MediaValet publishes 7 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the MediaValet API on a user''s behalf.

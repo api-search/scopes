@@ -231,7 +231,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Precisely Apis Scopes
+name: Precisely APIs Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Precisely APIs publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Precisely APIs API on a user''s behalf.

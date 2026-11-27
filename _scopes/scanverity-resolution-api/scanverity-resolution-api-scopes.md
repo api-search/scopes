@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Scanverity Resolution Api Scopes
+name: Scanverity Resolution API Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Scanverity Resolution API uses a bearer token bound to 4 scopes when it is issued. This is not OAuth 2.0: there is no authorization server, token endpoint or consent flow. Each scope gates specific operations, and access outside the token''s scopes is denied.
@@ -74,7 +74,6 @@ tags:
 - Risk Analytics
 - Polymarket
 - Event Contracts
-- Agent Ready
 token_bound: true
 token_urls: []
 ---

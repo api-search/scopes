@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Gammaapp Scopes
+name: Gamma.app Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Gamma.app publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Gamma.app API on a user''s behalf.

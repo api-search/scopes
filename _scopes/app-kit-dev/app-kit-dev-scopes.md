@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: App Kit Dev Scopes
+name: app-kit-dev Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'app-kit-dev uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

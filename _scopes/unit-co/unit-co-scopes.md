@@ -109,7 +109,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Unit Co Scopes
+name: Unit Scopes
 name_suffix: OAuth Scopes
 note: Unit authenticates with OAuth 2.0 Bearer tokens (Org API tokens and short-lived Customer tokens). Each token is minted with a set of scopes granting read/write access per resource. The OpenAPI declares the transport as http bearer (JWT); the scope catalog below is documented in the "Scopes" section of the docs, not in the spec's securitySchemes. Fund-movement and PCI-sensitive scopes require Two-Factor Authentication (OTP) within the prior 24 hours; Customer tokens execute the 2FA for you.
 overview: 'Unit publishes 46 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Unit API on a user''s behalf.

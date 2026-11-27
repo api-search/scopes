@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Willie S Reserve Scopes
+name: Willie's Reserve Scopes
 name_suffix: OAuth Scopes
 note: These scopes govern the customer-account surface only. The anonymous UCP/MCP endpoint at /api/ucp/mcp requires no scope and no token.
 overview: 'Willie''s Reserve publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Willie''s Reserve API on a user''s behalf.

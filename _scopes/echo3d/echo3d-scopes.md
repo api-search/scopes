@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Echo3D Scopes
+name: echo3D Scopes
 name_suffix: OAuth Scopes
 note: These OAuth/OIDC scopes govern the echo3D console/dashboard identity provider (Auth0 tenant echo3d.us.auth0.com), advertised via OIDC discovery on api.echo3d.com. The RESTful data API (upload/query/download/delete) does NOT use OAuth scopes — it authenticates with key + email + userKey. These are the standard OIDC scopes exposed by the identity provider, not data-plane permissions.
 overview: 'echo3D publishes 14 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the echo3D API on a user''s behalf.

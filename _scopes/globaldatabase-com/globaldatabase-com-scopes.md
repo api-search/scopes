@@ -84,6 +84,12 @@ api_specs:
   slug: globaldatabase-com-well-known-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-well-known-api-openapi.yml
+- filename: globaldatabase-com-osb-api-openapi.yml
+  format: yaml
+  label: Global Database Osb API
+  slug: globaldatabase-com-osb-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-osb-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://github.com/global-database/mcp-server#microsoft-copilot-studio
@@ -91,7 +97,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Globaldatabase Com Scopes
+name: Global Database Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Global Database uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

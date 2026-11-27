@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: 1099Policy Com Scopes
+name: 1099policy-com Scopes
 name_suffix: OAuth Scopes
 note: No OAuth scopes; API uses API key authentication.
 overview: '1099policy-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

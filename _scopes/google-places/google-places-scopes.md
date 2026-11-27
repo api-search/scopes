@@ -6,12 +6,6 @@ api_specs:
   slug: google-places-places-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-places/openapi/google-places-places-api-openapi.yml
-- filename: google-places-search-api-openapi.yml
-  format: yaml
-  label: Google Places Search API
-  slug: google-places-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-places/openapi/google-places-search-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

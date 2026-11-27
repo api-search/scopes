@@ -7,7 +7,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Uspl Wrogn Scopes
+name: USPL Wrogn Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'USPL Wrogn publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the USPL Wrogn API on a user''s behalf.

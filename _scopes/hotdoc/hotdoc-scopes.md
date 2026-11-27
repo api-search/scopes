@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Hotdoc Scopes
+name: HotDoc Scopes
 name_suffix: OAuth Scopes
 note: HotDoc's OpenID Connect discovery document advertises a single OAuth 2.0 scope, "openid". No broader resource/API scope surface (read/write per-resource scopes) is published; the authorization server issues OIDC identity tokens whose claims (practice_name, pms_software, access_level, company) carry the authorization context rather than granular scopes. Additional scopes, if any, are gated behind partner/clinic client registration and are not publicly documented.
 overview: 'HotDoc publishes 1 OAuth 2.0 scope via the authorizationCode and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the HotDoc API on a user''s behalf.

@@ -73,7 +73,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mikmak Scopes
+name: MikMak Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'MikMak publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the MikMak API on a user''s behalf.

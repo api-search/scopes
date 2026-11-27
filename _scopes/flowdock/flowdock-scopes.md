@@ -99,7 +99,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Flowdock Scopes
+name: Flowdock (Discontinued) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Flowdock (Discontinued) publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Flowdock (Discontinued) API on a user''s behalf.

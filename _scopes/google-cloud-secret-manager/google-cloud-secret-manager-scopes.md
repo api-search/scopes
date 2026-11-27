@@ -1,17 +1,11 @@
 ---
 api_specs:
-- filename: google-cloud-secret-manager-secret-versions-api-openapi.yml
+- filename: google-cloud-secret-manager-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Secret Manager Secret Versions API
-  slug: google-cloud-secret-manager-secret-versions-api
+  label: Google Cloud Secret Manager Projects API
+  slug: google-cloud-secret-manager-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-secret-manager/openapi/google-cloud-secret-manager-secret-versions-api-openapi.yml
-- filename: google-cloud-secret-manager-secrets-api-openapi.yml
-  format: yaml
-  label: Google Cloud Secret Manager Secrets API
-  slug: google-cloud-secret-manager-secrets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-secret-manager/openapi/google-cloud-secret-manager-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-secret-manager/openapi/google-cloud-secret-manager-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -39,12 +33,18 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
-  source: openapi/openapi.yml
+  source: openapi/google-cloud-secret-manager-parametermanager-projects-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-cloud-secret-manager-secretmanager-projects-api-openapi.yml
 scope_count: 1
 scope_names:
 - https://www.googleapis.com/auth/cloud-platform
 scopes:
-- description: Full access to Google Cloud
+- description: See, edit, configure, and delete your Google Cloud data and see the email address for your Google Account.
   flows:
   - authorizationCode
   scope: https://www.googleapis.com/auth/cloud-platform
@@ -52,7 +52,8 @@ slug: google-cloud-secret-manager-scopes
 source_filename: google-cloud-secret-manager-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-cloud-secret-manager-parametermanager-projects-api-openapi.yml, openapi/google-cloud-secret-manager-secretmanager-projects-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-cloud-secret-manager-parametermanager-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-cloud-secret-manager-secretmanager-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: See, edit, configure, and delete your Google Cloud data and see the email address\n    for your Google Account.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-secret-manager-parametermanager-projects-api-openapi.yml\n\
+  \  - openapi/google-cloud-secret-manager-secretmanager-projects-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-cloud-secret-manager/scopes/google-cloud-secret-manager-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:

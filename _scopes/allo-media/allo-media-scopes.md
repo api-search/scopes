@@ -16,7 +16,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Allo Media Scopes
+name: Allo-Media Scopes
 name_suffix: OAuth Scopes
 note: 'This is the most interesting thing recovered from Allo-Media in this pass. The developer documentation states only that you exchange a client_id and client_secret for a token; it never mentions scopes at all. The realm''s discovery document exposes a per-product scope model that the docs are silent about, including one scope — `voip-callapi` — for a surface that has no public documentation page whatsoever. Because these come from `scopes_supported` on the realm, they are the scopes the AUTHORIZATION SERVER can issue, not necessarily the scopes any given client is granted or that a given API enforces. Product mappings below are marked with an honest confidence: the names map onto documented product surfaces one-for-one, but no provider documentation confirms the binding.'
 overview: 'Allo-Media publishes 19 OAuth 2.0 scopes via the clientCredentials, authorizationCode, deviceCode, password, refreshToken, tokenExchange, jwtBearer, uma, and ciba flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Allo-Media API on a user''s behalf.

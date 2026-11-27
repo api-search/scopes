@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Referencesource Org Scopes
+name: referencesource-org Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'referencesource-org uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

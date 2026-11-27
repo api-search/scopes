@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: 0Bull Net Scopes
+name: 0bull Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: '0bull publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the 0bull API on a user''s behalf.

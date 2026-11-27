@@ -189,7 +189,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Eve Online Scopes
+name: EVE Online Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'EVE Online publishes 63 OAuth 2.0 scopes via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the EVE Online API on a user''s behalf.

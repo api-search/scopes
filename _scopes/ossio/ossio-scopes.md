@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Ossio Scopes
+name: OSSIO Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'OSSIO publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the OSSIO API on a user''s behalf.

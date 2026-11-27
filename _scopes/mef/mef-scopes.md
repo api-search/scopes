@@ -332,7 +332,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mef Scopes
+name: MEF Scopes
 name_suffix: OAuth Scopes
 note: Mplify ships two variants of every LSO API document. The canonical productApi/ and serviceApi/ definitions carry NO securitySchemes at all — they are contracts for implementers to secure. The generated/security/ variants add a single scheme, oauth2MEFLSOAPI (OAuth 2.0 client credentials, m2m), and attach a PER-OPERATION scope named after the operationId. The scope list below is harvested verbatim from those 88 published security variants. The tokenUrl/refreshUrl in the published documents are placeholders (http://mef.net/example/token, http://mef.net/example/refresh) — the implementing Seller supplies the real authorization server.
 overview: 'MEF publishes 218 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the MEF API on a user''s behalf.

@@ -43,7 +43,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Regrow Ag Scopes
+name: Regrow Scopes
 name_suffix: OAuth Scopes
 note: APIs use API key authentication (x-apikey header), not OAuth. No scopes or permissions system documented.
 overview: 'Regrow uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

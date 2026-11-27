@@ -38,7 +38,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Kannkidas De Scopes
+name: Kann KI das? Sponsoring Agent Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Kann KI das? Sponsoring Agent publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Kann KI das? Sponsoring Agent API on a user''s behalf.

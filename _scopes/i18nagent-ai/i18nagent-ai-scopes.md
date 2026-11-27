@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: I18Nagent Ai Scopes
+name: i18nagent-ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'i18nagent-ai uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

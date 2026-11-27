@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Imb Bank Scopes
+name: IMB Bank Scopes
 name_suffix: OAuth Scopes
 note: Scopes captured verbatim from IMB's live OIDC discovery document (scopes_supported). Descriptions follow the Australian Consumer Data Standards (CDS) authorisation scopes for the banking sector. Access to member banking data requires the CDR consent flow (PAR + private_key_jwt + mTLS); the public Product Reference Data API is unauthenticated and requires no scope.
 overview: 'IMB Bank publishes 12 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the IMB Bank API on a user''s behalf.

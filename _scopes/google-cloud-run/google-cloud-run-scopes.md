@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: google-cloud-run-jobs-api-openapi.yml
-  format: yaml
-  label: Google Cloud Run Jobs API
-  slug: google-cloud-run-jobs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-jobs-api-openapi.yml
 - filename: google-cloud-run-projects-api-openapi.yml
   format: yaml
   label: Google Cloud Run Projects API
   slug: google-cloud-run-projects-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-projects-api-openapi.yml
-- filename: google-cloud-run-revisions-api-openapi.yml
-  format: yaml
-  label: Google Cloud Run Revisions API
-  slug: google-cloud-run-revisions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-revisions-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -71,6 +59,7 @@ tags:
 - Containers
 - Google Cloud
 - Serverless
+- Platform-as-a-Service
 token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token

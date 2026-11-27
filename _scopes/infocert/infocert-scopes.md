@@ -643,7 +643,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Infocert Scopes
+name: InfoCert Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'InfoCert publishes 13 OAuth 2.0 scopes via the clientCredentials, authorizationCode, and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the InfoCert API on a user''s behalf.

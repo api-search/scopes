@@ -283,7 +283,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mri Software Scopes
+name: MRI Software Scopes
 name_suffix: OAuth Scopes
 note: The docs publish the domain:read / domain:write pattern and two example scopes only; no full scope list is published, so no other scope names are recorded.
 overview: 'MRI Software publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the MRI Software API on a user''s behalf.

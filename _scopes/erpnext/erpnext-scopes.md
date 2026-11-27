@@ -27,7 +27,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Erpnext Scopes
+name: ERPNext Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ERPNext publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ERPNext API on a user''s behalf.

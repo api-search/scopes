@@ -1,11 +1,23 @@
 ---
 api_specs:
+- filename: taskhawktech-com-opaque-event-interface-openapi.json
+  format: json
+  label: TaskHawk Opaque Event Interface
+  slug: taskhawk-opaque-event-interface
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-opaque-event-interface-openapi.json
 - filename: taskhawktech-com-billing-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Billing API
   slug: taskhawktech-com-billing-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-billing-api-openapi.yml
+- filename: taskhawktech-com-events-api-openapi.yml
+  format: yaml
+  label: TaskHawk Systems Events API
+  slug: taskhawktech-com-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-events-api-openapi.yml
 - filename: taskhawktech-com-governance-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Governance API
@@ -37,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Taskhawktech Com Scopes
+name: TaskHawk Systems Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares ONLY an apiKey scheme (X-API-Key), so derive-oauth-scopes.py found nothing to derive. These scopes come from the provider's published authorization-server metadata. No scopes reference page exists; descriptions below are limited to what the scope name plus the matching REST operation make evident, and are marked accordingly. The scopes are NOT referenced by any operation's security requirement in the contract.
 overview: 'TaskHawk Systems publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TaskHawk Systems API on a user''s behalf.

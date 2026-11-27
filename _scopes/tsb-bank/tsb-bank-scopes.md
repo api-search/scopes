@@ -63,7 +63,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Tsb Bank Scopes
+name: TSB Bank Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'TSB Bank publishes 9 OAuth 2.0 scopes via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the TSB Bank API on a user''s behalf.

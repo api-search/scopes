@@ -188,7 +188,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Emarsys Scopes
+name: SAP Emarsys Scopes
 name_suffix: OAuth Scopes
 note: Emarsys v3 API uses OAuth 2.0 client credentials (OpenID Connect/JWT) without a scope parameter; access is governed by named endpoint permissions enabled per API user in Security Settings, documented at https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings.
 overview: 'SAP Emarsys publishes 156 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SAP Emarsys API on a user''s behalf.

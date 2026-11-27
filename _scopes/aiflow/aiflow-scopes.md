@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Aiflow Scopes
+name: aiFlow Scopes
 name_suffix: OAuth Scopes
 note: These are the scopes_supported advertised by the company's own Auth0 authorization server at auth.aiflow.solutions, read verbatim from its discovery document. They are the standard OIDC identity scopes plus offline_access — they govern sign-in to the Verata application and the claims released about the signed-in user. aiFlow publishes NO API permission or scope reference, and no product-specific or resource-specific scopes are advertised; a developer cannot request access to any aiFlow data surface with these. Recorded as published identity scopes, not as an API authorization model.
 overview: 'aiFlow publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the aiFlow API on a user''s behalf.

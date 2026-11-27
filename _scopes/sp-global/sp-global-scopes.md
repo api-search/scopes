@@ -52,7 +52,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Sp Global Scopes
+name: S&P Global Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'S&P Global publishes 2 OAuth 2.0 scopes via the authorizationCode and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the S&P Global API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Deoochform Com Scopes
+name: Deoochform Scopes
 name_suffix: OAuth Scopes
 note: The OAuth 2.0 docs describe no scope parameter or scope list. Every token is scoped to the account that owns it ("Every endpoint below is scoped to the account that owns the token"). The four Slack permissions on /help/slack (commands, chat:write, im:history, im:write) are Slack's scopes for the Deoochform Slack app, not Deoochform API scopes.
 overview: 'Deoochform uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

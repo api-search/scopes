@@ -175,7 +175,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Deliverd Dev Scopes
+name: Deliverd Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares only an http bearer scheme with no oauth2 flows; these scopes are from the docs. A call without the needed scope answers 403 insufficient_scope.
 overview: 'Deliverd publishes 29 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Deliverd API on a user''s behalf.

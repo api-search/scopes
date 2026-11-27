@@ -68,7 +68,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Sas Scopes
+name: SAS Institute Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SAS Institute publishes 1 OAuth 2.0 scope via the password flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SAS Institute API on a user''s behalf.

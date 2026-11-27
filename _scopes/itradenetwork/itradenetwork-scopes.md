@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Itradenetwork Scopes
+name: iTradeNetwork Scopes
 name_suffix: OAuth Scopes
 note: Searched iTradeNetwork website and documentation for OAuth scopes or permissions reference. No public API documentation was found.
 overview: 'iTradeNetwork uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

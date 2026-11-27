@@ -611,7 +611,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Anyapi Scopes
+name: AnyAPI Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares only apiKey and http-bearer security schemes, so derive-oauth-scopes.py correctly found nothing there. The OAuth surface is real but lives OUTSIDE the spec, in the RFC 8414 authorization-server metadata served at the API host, and it is what an MCP client actually authenticates against. Both scopes below are read verbatim from that document's scopes_supported, and are corroborated by the RFC 9728 protected-resource document and by the WWW-Authenticate challenge the MCP endpoint returns (scope="run balance:read").
 overview: 'AnyAPI publishes 2 OAuth 2.0 scopes via the authorizationCode, refreshToken, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AnyAPI API on a user''s behalf.

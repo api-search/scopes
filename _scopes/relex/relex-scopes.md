@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Relex Scopes
+name: RELEX Solutions Scopes
 name_suffix: OAuth Scopes
 note: 'RELEX publishes no scopes/permissions reference page. The authoritative public list is the `scopes_supported` array of RELEX Identity''s own OpenID Connect discovery documents, which are served anonymously and are identical across all three authorities (root, /login/restapi_prod, /monitoring_api_prod) and both regions. That list is far richer than the contracts: the Data API declares ONE scope, the Monitoring API declares NONE, while RELEX Identity advertises 51. Scopes are granted per client during provisioning; there is no self-service consent screen for the client-credentials clients these APIs use.'
 overview: 'RELEX Solutions publishes 51 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the RELEX Solutions API on a user''s behalf.

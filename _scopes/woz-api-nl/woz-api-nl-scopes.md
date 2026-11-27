@@ -33,7 +33,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Woz Api Nl Scopes
+name: woz-api-nl Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'woz-api-nl publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the woz-api-nl API on a user''s behalf.

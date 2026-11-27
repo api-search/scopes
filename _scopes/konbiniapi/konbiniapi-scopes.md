@@ -37,7 +37,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Konbiniapi Scopes
+name: KonbiniAPI Scopes
 name_suffix: OAuth Scopes
 note: These scopes govern the hosted MCP server only. The REST API at api.konbiniapi.com uses a static Bearer API key with NO scopes at all — one key carries the whole surface, all 67 operations, with no way to issue a read-only or platform-restricted credential. The OpenAPI declares no oauth2 securityScheme, so `derive-oauth-scopes.py` correctly found nothing; every scope below was read from live authorization-server metadata instead.
 overview: 'KonbiniAPI publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the KonbiniAPI API on a user''s behalf.

@@ -37,7 +37,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Xrhealth Scopes
+name: XRHealth Scopes
 name_suffix: OAuth Scopes
 note: 'These two scope names are read from the provider''s own published EXAMPLE value ("patient:login patient:read") and are the only scope strings XRHealth publishes anywhere. They are recorded with confidence medium and complete: false: an example is evidence that the patient:<verb> namespace is real, not evidence that these are the only two scopes, and no scope descriptions are published. A scopes/permissions reference page would live behind the invitation-only developer portal at https://developer.xr.health/, where every documentation path probed on 2026-09-04 returned 404 to an unauthenticated client. Nothing here is invented.'
 overview: 'XRHealth publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the XRHealth API on a user''s behalf.

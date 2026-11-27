@@ -39,7 +39,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Regions Financial Scopes
+name: Regions Financial Corporation Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Regions Financial Corporation publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Regions Financial Corporation API on a user''s behalf.

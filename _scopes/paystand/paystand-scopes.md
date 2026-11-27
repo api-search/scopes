@@ -58,7 +58,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Paystand Scopes
+name: PayStand Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'PayStand publishes 1 OAuth 2.0 scope via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the PayStand API on a user''s behalf.

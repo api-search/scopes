@@ -85,7 +85,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Scrunch Ai Scopes
+name: Scrunch AI Scopes
 name_suffix: OAuth Scopes
 note: Scrunch does not use OAuth2 authorization flows for the Data API - scopes are attached to organization-level API keys (Bearer tokens) at creation time and enforced per operation via the HTTPBearer security scheme. These are the operational scopes the OpenAPI security requirements reference and that the docs document as selectable key scopes. (The separate hosted MCP server uses OAuth sign-in - see mcp/scrunch-ai-mcp.yml.)
 overview: 'Scrunch AI publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Scrunch AI API on a user''s behalf.

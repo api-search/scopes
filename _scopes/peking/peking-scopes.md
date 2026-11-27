@@ -37,7 +37,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Peking Scopes
+name: Peking University Scopes
 name_suffix: OAuth Scopes
 note: No OAuth scope vocabulary is published by Peking University. The IAAA unified authentication service exposes an OAuth authorization page (HTTP 200) but no discovery document — /.well-known/openid-configuration was not served on any PKU host probed on 2026-08-19 — and client registration is an internal, approval-gated process. The federated surface uses SAML attribute release, not OAuth scopes; the attribute authority is declared in the IdP metadata and its released attribute set is negotiated per service provider through CARSI rather than published. Nothing is asserted here that was not observed. This file records an absence.
 overview: 'Peking University uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

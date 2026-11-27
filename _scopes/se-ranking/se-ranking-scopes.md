@@ -63,7 +63,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Se Ranking Scopes
+name: SE Ranking Scopes
 name_suffix: OAuth Scopes
 note: 'SE Ranking''s REST OpenAPI declares no oauth2 scheme (apiKey only), so there are no REST scopes. The OAuth surface belongs entirely to the hosted MCP server: an RFC 8414 authorization server at https://seranking.com issuing tokens for the MCP resource. It advertises exactly ONE scope, `mcp`, which is coarse — a granted token carries the whole 217-tool surface including destructive PROJECT_delete*/SEV_delete* tools. Recorded as published, not as an endorsement.'
 overview: 'SE Ranking publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SE Ranking API on a user''s behalf.

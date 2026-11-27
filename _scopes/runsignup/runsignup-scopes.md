@@ -63,7 +63,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Runsignup Scopes
+name: RunSignup Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'RunSignup publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the RunSignup API on a user''s behalf.

@@ -31,7 +31,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Loa Healthcare Pricing Api Scopes
+name: Loa Healthcare Pricing API Scopes
 name_suffix: OAuth Scopes
 note: OAuth applies to the MCP surface only; the REST OpenAPI declares a single optional apiKey scheme with no oauth2 flows (derive-oauth-scopes found no spec-declared scopes). Scopes below are the identity scopes the protected-resource metadata advertises — there are no resource-permission scopes; access tiers (authenticated / suggestions / linked provider) are enforced per-account, not per-scope.
 overview: 'Loa Healthcare Pricing API publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Loa Healthcare Pricing API API on a user''s behalf.

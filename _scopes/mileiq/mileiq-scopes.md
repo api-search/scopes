@@ -21,7 +21,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mileiq Scopes
+name: MileIQ Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI does not declare oauth2 flows or scopes; scopes are documented in the developer portal (the getting-started OAuth example requests "drives:read:all users:read") and enforced via 403 responses whose descriptions name the required scope. The authorization server advertises the OIDC baseline scopes (openid, offline, offline_access).
 overview: 'MileIQ publishes 7 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the MileIQ API on a user''s behalf.

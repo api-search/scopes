@@ -44,7 +44,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Sap S4Hana Scopes
+name: SAP S/4HANA Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SAP S/4HANA publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SAP S/4HANA API on a user''s behalf.

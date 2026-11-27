@@ -1,71 +1,23 @@
 ---
 api_specs:
-- filename: github-actions-artifacts-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Artifacts API
-  slug: github-actions-artifacts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-artifacts-api-openapi.yml
-- filename: github-actions-cache-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Cache API
-  slug: github-actions-cache-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-cache-api-openapi.yml
-- filename: github-actions-jobs-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Jobs API
-  slug: github-actions-jobs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-jobs-api-openapi.yml
 - filename: github-actions-oidc-api-openapi.yml
   format: yaml
   label: GitHub Actions OIDC API
   slug: github-actions-oidc-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/github-actions/openapi/github-actions-oidc-api-openapi.yml
-- filename: github-actions-permissions-api-openapi.yml
+- filename: github-actions-actions-api-openapi.yml
   format: yaml
-  label: GitHub Actions Permissions API
-  slug: github-actions-permissions-api
+  label: GitHub Actions Actions API
+  slug: github-actions-actions-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-permissions-api-openapi.yml
-- filename: github-actions-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-actions-api-openapi.yml
+- filename: github-actions-merge-queue-api-openapi.yml
   format: yaml
-  label: GitHub Actions Secrets API
-  slug: github-actions-secrets-api
+  label: GitHub Actions Merge Queue API
+  slug: github-actions-merge-queue-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-secrets-api-openapi.yml
-- filename: github-actions-self-hosted-runner-groups-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Self-Hosted Runner Groups API
-  slug: github-actions-self-hosted-runner-groups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-self-hosted-runner-groups-api-openapi.yml
-- filename: github-actions-self-hosted-runners-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Self-Hosted Runners API
-  slug: github-actions-self-hosted-runners-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-self-hosted-runners-api-openapi.yml
-- filename: github-actions-variables-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Variables API
-  slug: github-actions-variables-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-variables-api-openapi.yml
-- filename: github-actions-workflow-runs-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Workflow Runs API
-  slug: github-actions-workflow-runs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-workflow-runs-api-openapi.yml
-- filename: github-actions-workflows-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Workflows API
-  slug: github-actions-workflows-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-merge-queue-api-openapi.yml
 authorization_urls: []
 description: 'The OpenAPI declares http-bearer auth without oauth2 flow objects, so scopes are captured from the GitHub docs. GitHub exposes two parallel authorization models: classic OAuth scopes (coarse) and fine-grained token / GitHub App permissions (per-resource read|write). Both relevant to the Actions API are listed here.'
 docs: https://docs.github.com/en/rest/authentication/permissions-required-for-fine-grained-personal-access-tokens
@@ -73,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Github Actions Scopes
+name: GitHub Actions Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'GitHub Actions publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the GitHub Actions API on a user''s behalf.

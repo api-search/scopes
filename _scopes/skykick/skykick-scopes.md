@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Skykick Scopes
+name: SkyKick Scopes
 name_suffix: OAuth Scopes
 note: 'These are the only scope values SkyKick publishes anonymously. The Get Started page states them verbatim as "Valid scopes: Partner, Distributor" in the body of the token request. There is no OpenAPI oauth2 securityScheme to derive a fuller list from, and no published scopes/permissions reference page, so this artifact records exactly the two values the provider documents and nothing more. Per-scope operation mapping requires authenticated access to the gated API reference.'
 overview: 'SkyKick publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SkyKick API on a user''s behalf.

@@ -51,7 +51,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Instabug Scopes
+name: Instabug (Luciq) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Instabug (Luciq) publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Instabug (Luciq) API on a user''s behalf.

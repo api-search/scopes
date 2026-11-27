@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: html2img-com-account-api-openapi.yml
-  format: yaml
-  label: html2img-com Account API
-  slug: html2img-com-account-api
+- filename: html2img-com-api-openapi.json
+  format: json
+  label: HTML to Image API API
+  slug: html-to-image-api-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-account-api-openapi.yml
-- filename: html2img-com-html-rendering-api-openapi.yml
-  format: yaml
-  label: html2img-com HTML rendering API
-  slug: html2img-com-html-rendering-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-html-rendering-api-openapi.yml
-- filename: html2img-com-screenshots-api-openapi.yml
-  format: yaml
-  label: html2img-com Screenshots API
-  slug: html2img-com-screenshots-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-screenshots-api-openapi.yml
-- filename: html2img-com-templates-api-openapi.yml
-  format: yaml
-  label: html2img-com Templates API
-  slug: html2img-com-templates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-templates-api-openapi.yml
+  url: https://artifacts.apis.io/html2img-com/openapi/_original/html2img-com-api-openapi.json
 authorization_urls: []
 description: ''
 docs: ''
@@ -31,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Html2Img Com Scopes
+name: html2img-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'html2img-com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

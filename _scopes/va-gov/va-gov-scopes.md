@@ -189,7 +189,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Va Gov Scopes
+name: Department of Veterans Affairs (VA Lighthouse) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Department of Veterans Affairs (VA Lighthouse) publishes 35 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Department of Veterans Affairs (VA Lighthouse) API on a user''s behalf.

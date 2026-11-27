@@ -70,7 +70,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Leanlaw Scopes
+name: LeanLaw Scopes
 name_suffix: OAuth Scopes
 note: Derived from the LIVE OAuth metadata, not from the OpenAPI. The published OpenAPI declares only a `BearerAuth` (http/bearer) scheme with no oauth2 flows, so derive-oauth-scopes.py found zero scopes in the spec; the real scope surface is published in the authorization-server and protected-resource discovery documents. This is a genuine gap between LeanLaw's contract and its deployed auth.
 overview: 'LeanLaw publishes 17 OAuth 2.0 scopes via the authorization_code and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the LeanLaw API on a user''s behalf.

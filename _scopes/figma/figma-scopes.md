@@ -102,166 +102,174 @@ api_specs:
   slug: figma-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/figma/openapi/figma-webhooks-api-openapi.yml
+- filename: figma-teams-api-openapi.yml
+  format: yaml
+  label: Figma Teams API
+  slug: figma-teams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-teams-api-openapi.yml
 - filename: figma-o-embed-api-openapi.yml
   format: yaml
   label: Figma o Embed API
   slug: figma-o-embed-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/figma/openapi/figma-o-embed-api-openapi.yml
-authorization_urls:
-- https://www.figma.com/oauth
+authorization_urls: []
 description: ''
-docs: ''
-flows:
-- authorizationCode
+docs: https://developers.figma.com/docs/rest-api/scopes/
+flows: []
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Figma Scopes
 name_suffix: OAuth Scopes
-note: ''
-overview: 'Figma publishes 9 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Figma API on a user''s behalf.
-
-
-  Tokens are issued from https://api.figma.com/v1/oauth/token.
+note: Scopes apply to personal access tokens and OAuth 2 tokens and do not supersede file/team/org permissions. The file_read scope is deprecated for OAuth 2 tokens. The Figma MCP server handles its own OAuth flow and does not use REST API scopes. in_spec marks scopes declared in the oauth2 securitySchemes of openapi/.
+overview: 'Figma publishes 31 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Figma API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Figma
 provider_slug: figma
-schemes:
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://api.figma.com/v1/oauth/token
-  name: OrgOAuth2
-  source: openapi/figma-activity-logs-api-openapi.yml
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://api.figma.com/v1/oauth/token
-  name: OAuth2
-  source: openapi/figma-analytics-api-openapi.yml
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://api.figma.com/v1/oauth/token
-  name: OAuth2
-  source: openapi/figma-api-openapi.yml
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://api.figma.com/v1/oauth/token
-  name: OAuth2
-  source: openapi/figma-component-sets-api-openapi.yml
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://api.figma.com/v1/oauth/token
-  name: OAuth2
-  source: openapi/figma-dev-resources-api-openapi.yml
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://api.figma.com/v1/oauth/token
-  name: OAuth2
-  source: openapi/figma-files-api-openapi.yml
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://www.figma.com/api/oauth/token
-  name: OAuth2
-  source: openapi/figma-images-api-openapi.yml
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://www.figma.com/api/oauth/token
-  name: OAuth2
-  source: openapi/figma-me-api-openapi.yml
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://www.figma.com/api/oauth/token
-  name: OAuth2
-  source: openapi/figma-projects-api-openapi.yml
-- description: OAuth 2.0 authorization code flow for Figma. Applications must be registered on the Figma developer portal.
-  flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://api.figma.com/v1/oauth/token
-  name: OAuth2
-  source: openapi/figma-rest-api-openapi.yml
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://www.figma.com/api/oauth/token
-  name: OAuth2
-  source: openapi/figma-styles-api-openapi.yml
-- flows:
-  - authorizationUrl: https://www.figma.com/oauth
-    flow: authorizationCode
-    tokenUrl: https://www.figma.com/api/oauth/token
-  name: OAuth2
-  source: openapi/figma-teams-api-openapi.yml
-scope_count: 9
+schemes: []
+scope_count: 31
 scope_names:
+- current_user:read
+- file_comments:read
 - file_comments:write
+- file_content:read
+- file_duplicate:write
 - file_dev_resources:read
 - file_dev_resources:write
+- file_metadata:read
 - file_variables:read
 - file_variables:write
+- file_versions:read
 - files:read
+- folder_metadata:read
+- folders:read
+- folders:write
 - library_analytics:read
+- library_assets:read
+- library_content:read
 - org:activity_log_read
+- org:ai_metering_usage_read
+- org:developer_log_read
+- org:discovery_read
+- project_metadata:read
+- projects:read
+- selections:read
+- team_library_content:read
+- team_members:write
+- teams:read
+- teams:write
+- webhooks:read
 - webhooks:write
 scopes:
-- description: Post and delete comments on files
-  flows:
-  - authorizationCode
+- description: Read your name, email, and profile image.
+  flows: []
+  scope: current_user:read
+- description: Read the comments for files.
+  flows: []
+  scope: file_comments:read
+- description: Post and delete comments and comment reactions in files.
+  flows: []
   scope: file_comments:write
-- description: Read dev resources on files
-  flows:
-  - authorizationCode
+- description: Read the contents of files, such as nodes and the editor type.
+  flows: []
+  scope: file_content:read
+- description: Duplicate files into folders. Available only to private OAuth apps in an Enterprise plan.
+  flows: []
+  scope: file_duplicate:write
+- description: Read dev resources in files.
+  flows: []
   scope: file_dev_resources:read
-- description: Write dev resources to files
-  flows:
-  - authorizationCode
+- description: Write dev resources to files.
+  flows: []
   scope: file_dev_resources:write
-- description: Read access to variables in files
-  flows:
-  - authorizationCode
+- description: Read metadata of files.
+  flows: []
+  scope: file_metadata:read
+- description: 'Read variables in files. Note: Enterprise plan only.'
+  flows: []
   scope: file_variables:read
-- description: Write access to variables in files
-  flows:
-  - authorizationCode
+- description: 'Write variables and collections in files. Note: Enterprise plan only.'
+  flows: []
   scope: file_variables:write
-- description: Read files
-  flows:
-  - authorizationCode
+- description: Read the version history for files you can access.
+  flows: []
+  scope: file_versions:read
+- description: Deprecated . Read files, folders, users, versions, comments, components, styles, and webhooks. While this scope will continue to work, it's highly recommended you use the granular scopes Figma provides. Because files:read is extremely permissive, more limited scopes such as file_content:read and file_comments:read provide enhanced security and stability by reducing the surface of access to your files.
+  flows: []
   scope: files:read
-- description: Read library analytics
-  flows:
-  - authorizationCode
+- description: Read metadata of folders. This is the folders-era equivalent of project_metadata:read and is used by the GET folder metadata endpoint .
+  flows: []
+  scope: folder_metadata:read
+- description: List folders and files in folders. This is the folders-era equivalent of projects:read and is used by the folders endpoints .
+  flows: []
+  scope: folders:read
+- description: Create folders. Available only to private OAuth apps in an Enterprise plan.
+  flows: []
+  scope: folders:write
+- description: 'Read your design system analytics. Note: Enterprise plan only.'
+  flows: []
   scope: library_analytics:read
-- description: Read organization activity logs
-  flows:
-  - authorizationCode
+- description: Read data of individual published components and styles.
+  flows: []
+  scope: library_assets:read
+- description: Read published components and styles of files.
+  flows: []
+  scope: library_content:read
+- description: 'Read organization activity logs . Note: Enterprise plan only. Must be an organization admin.'
+  flows: []
   scope: org:activity_log_read
-- description: Create and manage webhooks
-  flows:
-  - authorizationCode
+- description: 'Read organization AI usage . Note: Enterprise plan only. Must be an organization admin.'
+  flows: []
+  scope: org:ai_metering_usage_read
+- description: 'Read organization developer logs . Note: Enterprise plan with Governance+ only. Must be an organization admin.'
+  flows: []
+  scope: org:developer_log_read
+- description: 'Read text event data in the organization. Note: Enterprise plans with Governance+ only. Must be an organization admin.'
+  flows: []
+  scope: org:discovery_read
+- description: Deprecated in favor of folder_metadata:read . Read metadata of projects (now "folders"). Existing tokens continue to work.
+  flows: []
+  scope: project_metadata:read
+- description: Deprecated in favor of folders:read . List projects (now "folders") and files in projects. Existing tokens continue to work.
+  flows: []
+  scope: projects:read
+- description: Read most recent selection in files you can access.
+  flows: []
+  scope: selections:read
+- description: Read published components and styles of teams.
+  flows: []
+  scope: team_library_content:read
+- description: Invite members to teams. Available only to private OAuth apps in an Enterprise plan.
+  flows: []
+  scope: team_members:write
+- description: Read team metadata. Available only to private OAuth apps in Professional, Organization, and Enterprise plans.
+  flows: []
+  scope: teams:read
+- description: Create teams. Available only to private OAuth apps in an Enterprise plan.
+  flows: []
+  scope: teams:write
+- description: Read metadata of webhooks.
+  flows: []
+  scope: webhooks:read
+- description: Create and manage webhooks.
+  flows: []
   scope: webhooks:write
 slug: figma-scopes
 source_filename: figma-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/figma-activity-logs-api-openapi.yml, openapi/figma-analytics-api-openapi.yml,\n  openapi/figma-api-openapi.yml, openapi/figma-component-sets-api-openapi.yml, openapi/figma-dev-resources-api-openapi.yml,\n  openapi/figma-files-api-openapi.yml, openapi/figma-images-api-openapi.yml, openapi/figma-me-api-openapi.yml,\n  openapi/figma-projects-api-openapi.yml, openapi/figma-rest-api-openapi.yml, openapi/figma-styles-api-openapi.yml,\n  openapi/figma-teams-api-openapi.yml\nschemes:\n- name: OrgOAuth2\n  source: openapi/figma-activity-logs-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://api.figma.com/v1/oauth/token\n- name: OAuth2\n  source: openapi/figma-analytics-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://api.figma.com/v1/oauth/token\n- name: OAuth2\n  source:\
-  \ openapi/figma-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://api.figma.com/v1/oauth/token\n- name: OAuth2\n  source: openapi/figma-component-sets-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://api.figma.com/v1/oauth/token\n- name: OAuth2\n  source: openapi/figma-dev-resources-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://api.figma.com/v1/oauth/token\n- name: OAuth2\n  source: openapi/figma-files-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://api.figma.com/v1/oauth/token\n- name: OAuth2\n  source: openapi/figma-images-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://www.figma.com/api/oauth/token\n\
-  - name: OAuth2\n  source: openapi/figma-me-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://www.figma.com/api/oauth/token\n- name: OAuth2\n  source: openapi/figma-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://www.figma.com/api/oauth/token\n- name: OAuth2\n  source: openapi/figma-rest-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://api.figma.com/v1/oauth/token\n  description: OAuth 2.0 authorization code flow for Figma. Applications must be registered\n    on the Figma developer portal.\n- name: OAuth2\n  source: openapi/figma-styles-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://www.figma.com/api/oauth/token\n- name: OAuth2\n  source: openapi/figma-teams-api-openapi.yml\n\
-  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://www.figma.com/api/oauth/token\nscopes:\n- scope: file_comments:write\n  description: Post and delete comments on files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-rest-api-openapi.yml\n- scope: file_dev_resources:read\n  description: Read dev resources on files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-rest-api-openapi.yml\n- scope: file_dev_resources:write\n  description: Write dev resources to files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-dev-resources-api-openapi.yml\n  - openapi/figma-files-api-openapi.yml\n  - openapi/figma-rest-api-openapi.yml\n- scope: file_variables:read\n  description: Read access to variables in files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-rest-api-openapi.yml\n- scope: file_variables:write\n  description: Write access to variables in files\n  flows:\n  - authorizationCode\n\
-  \  sources:\n  - openapi/figma-rest-api-openapi.yml\n- scope: files:read\n  description: Read files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-api-openapi.yml\n  - openapi/figma-component-sets-api-openapi.yml\n  - openapi/figma-files-api-openapi.yml\n  - openapi/figma-images-api-openapi.yml\n  - openapi/figma-me-api-openapi.yml\n  - openapi/figma-projects-api-openapi.yml\n  - openapi/figma-rest-api-openapi.yml\n  - openapi/figma-styles-api-openapi.yml\n  - openapi/figma-teams-api-openapi.yml\n- scope: library_analytics:read\n  description: Read library analytics\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-analytics-api-openapi.yml\n- scope: org:activity_log_read\n  description: Read organization activity logs\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-activity-logs-api-openapi.yml\n- scope: webhooks:write\n  description: Create and manage webhooks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-rest-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-12'\nmethod: searched\nsource: https://developers.figma.com/docs/rest-api/scopes/\ndocs: https://developers.figma.com/docs/rest-api/scopes/\nnote: Scopes apply to personal access tokens and OAuth 2 tokens and do not supersede file/team/org permissions.\n  The file_read scope is deprecated for OAuth 2 tokens. The Figma MCP server handles its own OAuth flow\n  and does not use REST API scopes. in_spec marks scopes declared in the oauth2 securitySchemes of openapi/.\nspec_only_scopes: []\nscopes:\n- name: current_user:read\n  description: Read your name, email, and profile image.\n  deprecated: false\n  in_spec: true\n- name: file_comments:read\n  description: Read the comments for files.\n  deprecated: false\n  in_spec: true\n- name: file_comments:write\n  description: Post and delete comments and comment reactions in files.\n  deprecated: false\n  in_spec: true\n- name: file_content:read\n  description: Read the contents of files, such as nodes and the editor\
+  \ type.\n  deprecated: false\n  in_spec: true\n- name: file_duplicate:write\n  description: Duplicate files into folders. Available only to private OAuth apps in an Enterprise plan.\n  deprecated: false\n  in_spec: false\n- name: file_dev_resources:read\n  description: Read dev resources in files.\n  deprecated: false\n  in_spec: true\n- name: file_dev_resources:write\n  description: Write dev resources to files.\n  deprecated: false\n  in_spec: true\n- name: file_metadata:read\n  description: Read metadata of files.\n  deprecated: false\n  in_spec: true\n- name: file_variables:read\n  description: 'Read variables in files. Note: Enterprise plan only.'\n  deprecated: false\n  in_spec: true\n- name: file_variables:write\n  description: 'Write variables and collections in files. Note: Enterprise plan only.'\n  deprecated: false\n  in_spec: true\n- name: file_versions:read\n  description: Read the version history for files you can access.\n  deprecated: false\n  in_spec: true\n- name: files:read\n\
+  \  description: Deprecated . Read files, folders, users, versions, comments, components, styles, and webhooks.\n    While this scope will continue to work, it's highly recommended you use the granular scopes Figma\n    provides. Because files:read is extremely permissive, more limited scopes such as file_content:read\n    and file_comments:read provide enhanced security and stability by reducing the surface of access to\n    your files.\n  deprecated: true\n  in_spec: true\n- name: folder_metadata:read\n  description: Read metadata of folders. This is the folders-era equivalent of project_metadata:read and\n    is used by the GET folder metadata endpoint .\n  deprecated: false\n  in_spec: true\n- name: folders:read\n  description: List folders and files in folders. This is the folders-era equivalent of projects:read\n    and is used by the folders endpoints .\n  deprecated: false\n  in_spec: true\n- name: folders:write\n  description: Create folders. Available only to private OAuth apps\
+  \ in an Enterprise plan.\n  deprecated: false\n  in_spec: false\n- name: library_analytics:read\n  description: 'Read your design system analytics. Note: Enterprise plan only.'\n  deprecated: false\n  in_spec: true\n- name: library_assets:read\n  description: Read data of individual published components and styles.\n  deprecated: false\n  in_spec: true\n- name: library_content:read\n  description: Read published components and styles of files.\n  deprecated: false\n  in_spec: true\n- name: org:activity_log_read\n  description: 'Read organization activity logs . Note: Enterprise plan only. Must be an organization\n    admin.'\n  deprecated: false\n  in_spec: true\n- name: org:ai_metering_usage_read\n  description: 'Read organization AI usage . Note: Enterprise plan only. Must be an organization admin.'\n  deprecated: false\n  in_spec: false\n- name: org:developer_log_read\n  description: 'Read organization developer logs . Note: Enterprise plan with Governance+ only. Must be\n    an organization\
+  \ admin.'\n  deprecated: false\n  in_spec: false\n- name: org:discovery_read\n  description: 'Read text event data in the organization. Note: Enterprise plans with Governance+ only.\n    Must be an organization admin.'\n  deprecated: false\n  in_spec: false\n- name: project_metadata:read\n  description: Deprecated in favor of folder_metadata:read . Read metadata of projects (now \"folders\").\n    Existing tokens continue to work.\n  deprecated: true\n  in_spec: true\n- name: projects:read\n  description: Deprecated in favor of folders:read . List projects (now \"folders\") and files in projects.\n    Existing tokens continue to work.\n  deprecated: true\n  in_spec: true\n- name: selections:read\n  description: Read most recent selection in files you can access.\n  deprecated: false\n  in_spec: false\n- name: team_library_content:read\n  description: Read published components and styles of teams.\n  deprecated: false\n  in_spec: true\n- name: team_members:write\n  description: Invite members\
+  \ to teams. Available only to private OAuth apps in an Enterprise plan.\n  deprecated: false\n  in_spec: false\n- name: teams:read\n  description: Read team metadata. Available only to private OAuth apps in Professional, Organization,\n    and Enterprise plans.\n  deprecated: false\n  in_spec: false\n- name: teams:write\n  description: Create teams. Available only to private OAuth apps in an Enterprise plan.\n  deprecated: false\n  in_spec: false\n- name: webhooks:read\n  description: Read metadata of webhooks.\n  deprecated: false\n  in_spec: true\n- name: webhooks:write\n  description: Create and manage webhooks.\n  deprecated: false\n  in_spec: true\n"
 source_yaml_url: https://artifacts.apis.io/figma/scopes/figma-scopes.yml
-summary_line: 9 scopes · authorizationCode
+summary_line: 31 scopes
 tags:
 - Collaboration
 - Design
@@ -272,7 +280,5 @@ tags:
 - UI/UX
 - Figma
 token_bound: false
-token_urls:
-- https://api.figma.com/v1/oauth/token
-- https://www.figma.com/api/oauth/token
+token_urls: []
 ---

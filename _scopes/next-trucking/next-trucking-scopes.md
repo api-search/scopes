@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Next Trucking Scopes
+name: NEXT Trucking Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'NEXT Trucking publishes 14 OAuth 2.0 scopes via the authorization_code and client_credentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the NEXT Trucking API on a user''s behalf.

@@ -45,7 +45,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Asoskill Com Scopes
+name: asoskill-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'asoskill-com publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the asoskill-com API on a user''s behalf.

@@ -6,18 +6,6 @@ api_specs:
   slug: azure-web-pubsub-client-and-upstream-events
   spec_type: AsyncAPI
   url: https://artifacts.apis.io/microsoft-azure-web-pubsub/asyncapi/microsoft-azure-web-pubsub-asyncapi.yml
-- filename: microsoft-azure-web-pubsub-hub-api-openapi.yml
-  format: yaml
-  label: Azure Web PubSub Hub API
-  slug: microsoft-azure-web-pubsub-hub-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-hub-api-openapi.yml
-- filename: microsoft-azure-web-pubsub-permission-api-openapi.yml
-  format: yaml
-  label: Azure Web PubSub Permission API
-  slug: microsoft-azure-web-pubsub-permission-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-permission-api-openapi.yml
 - filename: microsoft-azure-web-pubsub-general-api-openapi.yml
   format: yaml
   label: Azure Web PubSub General API
@@ -30,12 +18,6 @@ api_specs:
   slug: microsoft-azure-web-pubsub-webpubsub-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-webpubsub-api-openapi.yml
-- filename: microsoft-azure-web-pubsub-client-token-api-openapi.yml
-  format: yaml
-  label: Azure Web PubSub Client Token API
-  slug: microsoft-azure-web-pubsub-client-token-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-client-token-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -45,7 +27,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Azure Web Pubsub Scopes
+name: Azure Web PubSub Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure Web PubSub publishes 2 OAuth 2.0 scopes via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Web PubSub API on a user''s behalf.

@@ -460,7 +460,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Appdirect Scopes
+name: AppDirect Scopes
 name_suffix: OAuth Scopes
 note: AppDirect OAuth 2.0 scopes correspond to marketplace user roles. Role scopes are used with the Authorization Code / Implicit / Password grant types (user-level); the ROLE_PARTNER_READ / ROLE_PARTNER scopes are used with the Client Credentials grant (system-level). openid/profile/email are OIDC scopes.
 overview: 'AppDirect publishes 15 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AppDirect API on a user''s behalf.

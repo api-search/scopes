@@ -7,7 +7,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: 4Screen Scopes
+name: 4.screen Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: '4.screen publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the 4.screen API on a user''s behalf.

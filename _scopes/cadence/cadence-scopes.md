@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Cadence Scopes
+name: Cadence Design Systems Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Cadence Design Systems publishes 36 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cadence Design Systems API on a user''s behalf.

@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: adobe-premiere-elements-api-openapi.yml
-  format: yaml
-  label: Adobe Premiere Pro Elements API
-  slug: adobe-premiere-elements-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-elements-api-openapi.yml
-- filename: adobe-premiere-libraries-api-openapi.yml
-  format: yaml
-  label: Adobe Premiere Pro Libraries API
-  slug: adobe-premiere-libraries-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-libraries-api-openapi.yml
-- filename: adobe-premiere-representations-api-openapi.yml
-  format: yaml
-  label: Adobe Premiere Pro Representations API
-  slug: adobe-premiere-representations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-representations-api-openapi.yml
 - filename: adobe-premiere-library-service-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service API
@@ -45,7 +27,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Adobe Premiere Scopes
+name: Adobe Premiere Pro Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Adobe Premiere Pro publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Adobe Premiere Pro API on a user''s behalf.

@@ -115,7 +115,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Tiktok Ads Scopes
+name: TikTok Marketing API Scopes
 name_suffix: OAuth Scopes
 note: 'TikTok''s Marketing API does not use string OAuth scopes. Permissions are NUMERIC scope IDs returned in the `scope` array of the /oauth2/access_token/ response, organised in a three-level hierarchy: granting a first-level ID implies every second- and third-level permission beneath it. The developer selects the permission set when creating the developer app; the advertiser approves it at authorization time, and the token carries only what the advertiser actually approved — not what the developer requested. This artifact is method: searched because derive-oauth-scopes.py found zero oauth2 securitySchemes in the first-party OpenAPI set (the specs declare only the Access-Token header), so the scope model exists only in the docs.'
 overview: 'TikTok Marketing API uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -168,7 +168,6 @@ tags:
 - Audience Management
 - Reporting
 - Product Catalog
-- Agent Ready
 token_bound: false
 token_urls: []
 ---

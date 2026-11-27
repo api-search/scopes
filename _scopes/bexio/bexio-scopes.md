@@ -61,7 +61,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Bexio Scopes
+name: bexio Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'bexio publishes 71 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the bexio API on a user''s behalf.

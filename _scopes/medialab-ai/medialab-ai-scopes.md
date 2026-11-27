@@ -16,7 +16,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Medialab Ai Scopes
+name: MediaLab.AI Scopes
 name_suffix: OAuth Scopes
 note: Captured verbatim from the Genius API "Available Scopes" table. Only the Genius API has an OAuth scope surface across the MediaLab.AI portfolio - Imgur's OAuth 2.0 implementation documents no scope parameter, so an authorized Imgur token carries full account access for the granting user and no scopes/ entries exist for it.
 overview: 'MediaLab.AI publishes 4 OAuth 2.0 scopes via the authorizationCode and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the MediaLab.AI API on a user''s behalf.

@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Horizon3Ai Scopes
+name: Horizon3.ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Horizon3.ai publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Horizon3.ai API on a user''s behalf.

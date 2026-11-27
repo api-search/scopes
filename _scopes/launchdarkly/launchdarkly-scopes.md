@@ -409,7 +409,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Launchdarkly Scopes
+name: LaunchDarkly Scopes
 name_suffix: OAuth Scopes
 note: These scopes come from LaunchDarkly's own RFC 8414 Authorization Server Metadata document, fetched anonymously — not from prose. The v2 REST OpenAPI declares only an ApiKey security scheme and no oauth2 securityScheme at all, so derive-oauth-scopes.py finds nothing in the spec; the OAuth surface is real but lives outside the contract, which is exactly the gap this artifact closes.
 overview: 'LaunchDarkly publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LaunchDarkly API on a user''s behalf.

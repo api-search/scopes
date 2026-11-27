@@ -307,7 +307,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Iit Bombay Scopes
+name: Indian Institute of Technology Bombay Scopes
 name_suffix: OAuth Scopes
 note: Two of IIT Bombay's three institution-operated auth surfaces declare scopes. The Gymkhana Profiles list below is transcribed verbatim from the institution's own published documentation (searched, not inferred); the IITB Central SSO list is read from its live OIDC discovery document (probed). The InstiApp API declares no scopes at all — its specification carries a single HTTP Basic scheme and no oauth2 flow — so no scope set is asserted for it.
 overview: 'Indian Institute of Technology Bombay uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

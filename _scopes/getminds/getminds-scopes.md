@@ -84,6 +84,42 @@ api_specs:
   slug: getminds-study-templates-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/getminds/openapi/getminds-study-templates-api-openapi.yml
+- filename: getminds-acp-api-openapi.yml
+  format: yaml
+  label: Minds ACP API
+  slug: getminds-acp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-acp-api-openapi.yml
+- filename: getminds-billing-api-openapi.yml
+  format: yaml
+  label: Minds Billing API
+  slug: getminds-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-billing-api-openapi.yml
+- filename: getminds-events-api-openapi.yml
+  format: yaml
+  label: Minds Events API
+  slug: getminds-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-events-api-openapi.yml
+- filename: getminds-integrations-api-openapi.yml
+  format: yaml
+  label: Minds Integrations API
+  slug: getminds-integrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-integrations-api-openapi.yml
+- filename: getminds-support-api-openapi.yml
+  format: yaml
+  label: Minds Support API
+  slug: getminds-support-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-support-api-openapi.yml
+- filename: getminds-uploads-api-openapi.yml
+  format: yaml
+  label: Minds Uploads API
+  slug: getminds-uploads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-uploads-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://getminds.ai/mcp/setup
@@ -91,7 +127,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Getminds Scopes
+name: Minds Scopes
 name_suffix: OAuth Scopes
 note: OAuth scopes apply to the Minds MCP server (protected resource https://getminds.ai/mcp). The REST v1 API authenticates with a personal API key and declares no oauth2 scopes. Scopes below are read verbatim from the provider's published authorization-server and protected-resource metadata.
 overview: 'Minds publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Minds API on a user''s behalf.

@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Allwork Scopes
+name: AllWork Scopes
 name_suffix: OAuth Scopes
 note: Scopes are taken verbatim from scopes_supported in AllWork's live OpenID Connect discovery document for Keycloak realm AWN1. These are the standard OIDC/Keycloak client scopes — AllWork publishes no application-specific (workforce, payroll, scheduling) scope vocabulary, and no scopes reference page exists on allworknow.com.
 overview: 'AllWork publishes 10 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the AllWork API on a user''s behalf.

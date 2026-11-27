@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Wand Ai Scopes
+name: Wand Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Wand publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Wand API on a user''s behalf.

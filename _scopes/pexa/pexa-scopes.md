@@ -119,7 +119,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Pexa Scopes
+name: PEXA Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'PEXA publishes 11 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the PEXA API on a user''s behalf.

@@ -55,7 +55,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Itau Unibanco Scopes
+name: Itaú Unibanco Scopes
 name_suffix: OAuth Scopes
 note: No OAuth scopes found in OpenAPI specifications. Open Finance APIs use API key authentication, not OAuth.
 overview: 'Itaú Unibanco uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

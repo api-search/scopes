@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Hni Scopes
+name: HNI Scopes
 name_suffix: OAuth Scopes
 note: Scopes are read verbatim from the scopes_supported array of the authorization server metadata served at hearthnhome.com. HNI publishes no scope reference page; the authorization server is operated by Shopify. No OpenAPI exists, so derive-oauth-scopes.py produced nothing and this file was written from the live discovery document instead.
 overview: 'HNI publishes 4 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the HNI API on a user''s behalf.

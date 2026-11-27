@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Tweetapi Scopes
+name: TweetAPI Scopes
 name_suffix: OAuth Scopes
 note: Read from live RFC 8414 / RFC 9728 discovery documents, not from an OpenAPI oauth2 securityScheme — TweetAPI publishes no OpenAPI. The REST API is API-key authenticated and has no scope surface at all; scopes exist only on the MCP OAuth boundary.
 overview: 'TweetAPI publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the TweetAPI API on a user''s behalf.

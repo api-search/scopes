@@ -94,7 +94,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Apollo Io Scopes
+name: Apollo.io Scopes
 name_suffix: OAuth Scopes
 note: Apollo's OpenAPI declares OAuth as an http/bearer scheme, so the scope set is not in the spec's securitySchemes. The authoritative anonymous source is the RFC 8414 authorization-server metadata Apollo serves at mcp.apollo.io, cross-referenced against the per-operation `OAuth scopes:` line published in every endpoint reference page. Partners select scopes at OAuth app registration; read_user_profile and app_scopes are added by Apollo automatically.
 overview: 'Apollo.io publishes 91 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Apollo.io API on a user''s behalf.

@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Leo Labs Scopes
+name: LeoLabs Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'LeoLabs publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LeoLabs API on a user''s behalf.

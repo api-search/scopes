@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Pbs Biotech Scopes
+name: PBS Biotech Scopes
 name_suffix: OAuth Scopes
 note: These are the Shopify customer-account scopes advertised by the discovery document served on PBS Biotech's own store hosts. There is no PBS Biotech-authored scope surface — the company publishes no API of its own. No scope reference page is published; the descriptions below are the standard meanings of the scope identifiers as advertised, not additional claims.
 overview: 'PBS Biotech publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the PBS Biotech API on a user''s behalf.

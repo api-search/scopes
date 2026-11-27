@@ -1,65 +1,4 @@
 ---
-api_specs:
-- filename: besot-com-artists-api-openapi.yml
-  format: yaml
-  label: besot Artists API
-  slug: besot-com-artists-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besot-com/openapi/besot-com-artists-api-openapi.yml
-- filename: besot-com-categories-api-openapi.yml
-  format: yaml
-  label: besot Categories API
-  slug: besot-com-categories-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besot-com/openapi/besot-com-categories-api-openapi.yml
-- filename: besot-com-collections-api-openapi.yml
-  format: yaml
-  label: besot Collections API
-  slug: besot-com-collections-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besot-com/openapi/besot-com-collections-api-openapi.yml
-- filename: besot-com-designers-api-openapi.yml
-  format: yaml
-  label: besot Designers API
-  slug: besot-com-designers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besot-com/openapi/besot-com-designers-api-openapi.yml
-- filename: besot-com-facets-api-openapi.yml
-  format: yaml
-  label: besot Facets API
-  slug: besot-com-facets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besot-com/openapi/besot-com-facets-api-openapi.yml
-- filename: besot-com-networks-api-openapi.yml
-  format: yaml
-  label: besot Networks API
-  slug: besot-com-networks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besot-com/openapi/besot-com-networks-api-openapi.yml
-- filename: besot-com-pieces-api-openapi.yml
-  format: yaml
-  label: besot Pieces API
-  slug: besot-com-pieces-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besot-com/openapi/besot-com-pieces-api-openapi.yml
-- filename: besot-com-programs-api-openapi.yml
-  format: yaml
-  label: besot Programs API
-  slug: besot-com-programs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besot-com/openapi/besot-com-programs-api-openapi.yml
-- filename: besot-com-search-api-openapi.yml
-  format: yaml
-  label: besot Search API
-  slug: besot-com-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besot-com/openapi/besot-com-search-api-openapi.yml
-- filename: besot-com-stats-api-openapi.yml
-  format: yaml
-  label: besot Stats API
-  slug: besot-com-stats-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besot-com/openapi/besot-com-stats-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -67,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Besot Com Scopes
+name: besot Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'besot uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

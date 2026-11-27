@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Cafepress Scopes
+name: CafePress Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CafePress uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -37,7 +37,7 @@ tags:
 - E-Commerce
 - Print on Demand
 - Custom Merchandise
-- online marketplace
+- Online Marketplace
 token_bound: false
 token_urls: []
 ---

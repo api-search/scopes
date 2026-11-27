@@ -291,7 +291,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Cms Gov Scopes
+name: CMS — Centers for Medicare & Medicaid Services Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CMS — Centers for Medicare & Medicaid Services publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CMS — Centers for Medicare & Medicaid Services API on a user''s behalf.

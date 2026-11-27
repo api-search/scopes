@@ -133,7 +133,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Natwest Scopes
+name: NatWest Group Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'NatWest Group publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the NatWest Group API on a user''s behalf.

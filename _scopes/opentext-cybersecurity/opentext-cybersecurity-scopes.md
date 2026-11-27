@@ -175,7 +175,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Opentext Cybersecurity Scopes
+name: OpenText Cybersecurity Scopes
 name_suffix: OAuth Scopes
 note: derive-oauth-scopes.py returns nothing for this provider because the Swagger document declares no oauth2 securityDefinition to read the scopes from (see authentication/). The scopes are nevertheless fully published — one per operation, in the operation's own description — so they are recovered here by parsing those descriptions. Counts are operation counts, not guesses.
 overview: 'OpenText Cybersecurity uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

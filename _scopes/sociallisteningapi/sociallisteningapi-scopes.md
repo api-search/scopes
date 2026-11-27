@@ -79,7 +79,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Sociallisteningapi Scopes
+name: SocialListeningAPI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'SocialListeningAPI publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the SocialListeningAPI API on a user''s behalf.

@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: google-cloud-dialogflow-cx-agents-api-openapi.yml
+- filename: google-cloud-dialogflow-cx-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Dialogflow CX Agents API
-  slug: google-cloud-dialogflow-cx-agents-api
+  label: Google Cloud Dialogflow CX Cloud Dialogflow Cx Projects API
+  slug: google-cloud-dialogflow-cx-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dialogflow-cx/openapi/google-cloud-dialogflow-cx-agents-api-openapi.yml
-- filename: google-cloud-dialogflow-cx-flows-api-openapi.yml
-  format: yaml
-  label: Google Cloud Dialogflow CX Flows API
-  slug: google-cloud-dialogflow-cx-flows-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dialogflow-cx/openapi/google-cloud-dialogflow-cx-flows-api-openapi.yml
-- filename: google-cloud-dialogflow-cx-intents-api-openapi.yml
-  format: yaml
-  label: Google Cloud Dialogflow CX Intents API
-  slug: google-cloud-dialogflow-cx-intents-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dialogflow-cx/openapi/google-cloud-dialogflow-cx-intents-api-openapi.yml
-- filename: google-cloud-dialogflow-cx-sessions-api-openapi.yml
-  format: yaml
-  label: Google Cloud Dialogflow CX Sessions API
-  slug: google-cloud-dialogflow-cx-sessions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dialogflow-cx/openapi/google-cloud-dialogflow-cx-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dialogflow-cx/openapi/google-cloud-dialogflow-cx-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -33,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Google Cloud Dialogflow Cx Scopes
+name: Google Cloud Dialogflow CX Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Google Cloud Dialogflow CX publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google Cloud Dialogflow CX API on a user''s behalf.
@@ -51,17 +33,17 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
-  source: openapi/openapi.yml
+  source: openapi/google-cloud-dialogflow-cx-projects-api-openapi.yml
 scope_count: 2
 scope_names:
 - https://www.googleapis.com/auth/cloud-platform
 - https://www.googleapis.com/auth/dialogflow
 scopes:
-- description: Full access to Google Cloud
+- description: See, edit, configure, and delete your Google Cloud data and see the email address for your Google Account.
   flows:
   - authorizationCode
   scope: https://www.googleapis.com/auth/cloud-platform
-- description: Manage Dialogflow agents
+- description: View, manage and query your Dialogflow agents
   flows:
   - authorizationCode
   scope: https://www.googleapis.com/auth/dialogflow
@@ -69,7 +51,7 @@ slug: google-cloud-dialogflow-cx-scopes
 source_filename: google-cloud-dialogflow-cx-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n- scope: https://www.googleapis.com/auth/dialogflow\n  description: Manage Dialogflow agents\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-cloud-dialogflow-cx-projects-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-cloud-dialogflow-cx-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: See, edit, configure, and delete your Google Cloud data and see the email address\n    for your Google Account.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-dialogflow-cx-projects-api-openapi.yml\n- scope: https://www.googleapis.com/auth/dialogflow\n  description: View, manage and query your Dialogflow agents\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-dialogflow-cx-projects-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-cloud-dialogflow-cx/scopes/google-cloud-dialogflow-cx-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:

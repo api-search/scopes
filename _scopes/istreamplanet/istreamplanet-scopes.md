@@ -70,7 +70,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Istreamplanet Scopes
+name: iStreamPlanet Scopes
 name_suffix: OAuth Scopes
 note: 'Both oauth2 securitySchemes declare `scopes: null`, and no scopes/permissions reference page was found in the API reference (https://api.istreamplanet.com/docs) or the iStreamPlanet Developer Portal (https://istreamlabs.github.io/docs/guide/). The only scope names in the contract are the two the spec''s x-cli-config extension tells Restish to request on the authorization-code flow; they are WBD Okta token scopes, not per-resource API permissions.'
 overview: 'iStreamPlanet publishes 2 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the iStreamPlanet API on a user''s behalf.

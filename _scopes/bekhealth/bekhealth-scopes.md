@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Bekhealth Scopes
+name: BEKHealth Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'BEKHealth publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the BEKHealth API on a user''s behalf.

@@ -618,6 +618,18 @@ api_specs:
   slug: conduyt-com-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-workflows-api-openapi.yml
+- filename: conduyt-com-activity-api-openapi.yml
+  format: yaml
+  label: Conduyt Activity API
+  slug: conduyt-com-activity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-activity-api-openapi.yml
+- filename: conduyt-com-tax-rates-api-openapi.yml
+  format: yaml
+  label: Conduyt Tax Rates API
+  slug: conduyt-com-tax-rates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-tax-rates-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -625,7 +637,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Conduyt Com Scopes
+name: Conduyt Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Conduyt uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

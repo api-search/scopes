@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Dispatchhealth Scopes
+name: DispatchHealth Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'DispatchHealth publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the DispatchHealth API on a user''s behalf.

@@ -80,7 +80,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Tender Agents Com Scopes
+name: tender-agents-com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'tender-agents-com publishes 4 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the tender-agents-com API on a user''s behalf.

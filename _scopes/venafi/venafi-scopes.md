@@ -398,8 +398,8 @@ scope_names:
 - agent
 - agent:delete
 - ssh
-- :manage
-- :approve
+- ':manage'
+- ':approve'
 scopes:
 - description: Implicitly granted alongside any other valid scope; covers read-only system, config-lookup, metadata, log and workflow-ticket endpoints.
   flows: []
@@ -496,10 +496,10 @@ scopes:
   scope: ssh
 - description: 'Published verbatim in the contract as "_Required scope: :manage_" with an empty scope prefix. The provider''s own scope map documents this as the "any" scope carrying the Manage privilege (POST Log, POST Metadata/Set). Recorded as published — a consumer reading only the OpenAPI cannot resolve it.'
   flows: []
-  scope: :manage
+  scope: ':manage'
 - description: 'Published verbatim as "_Required scope: :approve_"; the scope map documents it as the "any" scope carrying the Approve privilege (Flow/Tickets/Approve, Flow/Tickets/Reject, Workflow/Ticket/UpdateStatus).'
   flows: []
-  scope: :approve
+  scope: ':approve'
 slug: venafi-scopes
 source_filename: venafi-scopes.yml
 source_heading: OAuth Scopes

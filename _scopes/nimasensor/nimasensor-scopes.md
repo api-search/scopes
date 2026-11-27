@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Nimasensor Scopes
+name: NimaSensor Scopes
 name_suffix: OAuth Scopes
 note: OAuth2/OIDC scopes advertised by Shopify's Customer Account API for the NIMA storefront (scopes_supported in the store's OIDC discovery document). Platform-level, not a first-party NIMA developer API.
 overview: 'NimaSensor publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the NimaSensor API on a user''s behalf.

@@ -103,7 +103,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Klisten Co Kr Scopes
+name: klisten-co-kr Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'klisten-co-kr uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

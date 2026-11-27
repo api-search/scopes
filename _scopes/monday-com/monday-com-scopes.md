@@ -5,7 +5,7 @@ api_specs:
   label: Monday.com API
   slug: monday-com
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/asyncapi/monday-com-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/monday-com/asyncapi/monday-com-webhooks-asyncapi.yml
 - filename: monday-com-monday-com-platform-graphql-api-api-openapi.yml
   format: yaml
   label: Monday.com Platform GraphQL API
@@ -21,7 +21,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Monday Com Scopes
+name: Monday.com Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Monday.com publishes 7 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Monday.com API on a user''s behalf.

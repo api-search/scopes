@@ -74,7 +74,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Znanylekarz Scopes
+name: ZnanyLekarz Scopes
 name_suffix: OAuth Scopes
 note: 'The OAuth surface is deliberately flat: ONE scope, `integration`, requested at token exchange, granting the whole API. There is no read/write split, no per-resource scope and no least-privilege story — a token that can read a doctor''s calendar can also cancel their patients'' appointments. Authorization is instead enforced out-of-band, by which facilities the API client is provisioned for (403 outside that estate). Searched the docs for a scope or permissions reference page; none exists beyond the single scope named in the token example.'
 overview: 'ZnanyLekarz publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ZnanyLekarz API on a user''s behalf.

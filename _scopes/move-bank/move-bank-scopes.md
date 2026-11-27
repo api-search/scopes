@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Move Bank Scopes
+name: MOVE Bank Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'MOVE Bank publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the MOVE Bank API on a user''s behalf.

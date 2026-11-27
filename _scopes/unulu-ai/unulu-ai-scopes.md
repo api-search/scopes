@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Unulu Ai Scopes
+name: unulu-ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'unulu-ai uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
@@ -54,7 +54,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Artificial Intelligence
-- Link in Bio
+- Link-in-bio
 - MCP
 token_bound: false
 token_urls: []

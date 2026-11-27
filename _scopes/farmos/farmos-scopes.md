@@ -46,7 +46,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Farmos Scopes
+name: farmOS Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'farmOS publishes 3 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the farmOS API on a user''s behalf.

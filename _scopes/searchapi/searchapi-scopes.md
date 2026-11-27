@@ -25,7 +25,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Searchapi Scopes
+name: SearchApi Scopes
 name_suffix: OAuth Scopes
 note: 'SearchApi''s REST SERP API has no OAuth surface at all — it authenticates with a single API key (query `api_key` or `Authorization: Bearer`). The OAuth surface described here belongs exclusively to the hosted MCP server at https://www.searchapi.io/mcp, which SearchApi added alongside the legacy static `X-MCP-Token` header. The authorization server publishes exactly one scope. Scopes were read from the live RFC 8414 metadata document, not derived from a spec — `derive-oauth-scopes.py` finds no oauth2 securityScheme because the OpenAPI describes only the API-key REST surface.'
 overview: 'SearchApi publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the SearchApi API on a user''s behalf.

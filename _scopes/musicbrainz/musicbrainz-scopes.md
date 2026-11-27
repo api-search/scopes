@@ -105,7 +105,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Musicbrainz Scopes
+name: MusicBrainz Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'MusicBrainz publishes 7 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the MusicBrainz API on a user''s behalf.

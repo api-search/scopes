@@ -282,6 +282,12 @@ api_specs:
   slug: novopayment-usercreation-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/novopayment/openapi/novopayment-usercreation-api-openapi.yml
+- filename: novopayment-exchange-api-openapi.yml
+  format: yaml
+  label: NovoPayment Exchange API
+  slug: novopayment-exchange-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/novopayment/openapi/novopayment-exchange-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -290,7 +296,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: none
-name: Novopayment Scopes
+name: NovoPayment Scopes
 name_suffix: OAuth Scopes
 note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'NovoPayment uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

@@ -267,7 +267,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Modernizing Medicine Scopes
+name: ModMed Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ModMed publishes 76 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ModMed API on a user''s behalf.

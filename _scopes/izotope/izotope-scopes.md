@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Izotope Scopes
+name: iZotope Scopes
 name_suffix: OAuth Scopes
 note: Read from the live OIDC/RFC 8414 discovery documents iZotope serves; there is no OpenAPI to derive from and iZotope publishes no human-readable scope reference page of its own. The scope vocabulary is Shopify's customer-accounts vocabulary as exposed by iZotope's tenant.
 overview: 'iZotope publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the iZotope API on a user''s behalf.
@@ -68,7 +68,7 @@ tags:
 - Mastering
 - Audio Restoration
 - Audio Repair
-- Post-Production
+- Post‑Production
 - Plugins
 - VST
 - AudioUnit

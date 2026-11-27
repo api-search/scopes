@@ -325,7 +325,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Agriinfodesign Scopes
+name: Agri Info Design Scopes
 name_suffix: OAuth Scopes
 note: These scopes govern the 農機オープンAPI (Agricultural Machinery Open API) third-party integration surface - the Japanese cross-vendor machine-data standard coordinated by NARO. The "noki." prefix is 農機 (nouki, "agricultural machinery"). The catalogue names read/write pairs for five resource families plus an admin scope, but only two of the read scopes have a corresponding operation in any contract Agri Info Design publishes (see coverage below) - the rest are declared ahead of the surface that would honour them.
 overview: 'Agri Info Design publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Agri Info Design API on a user''s behalf.

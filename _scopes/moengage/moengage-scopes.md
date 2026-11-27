@@ -277,7 +277,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Moengage Scopes
+name: MoEngage Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'MoEngage publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the MoEngage API on a user''s behalf.

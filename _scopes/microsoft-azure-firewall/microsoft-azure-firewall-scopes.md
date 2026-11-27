@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: microsoft-azure-firewall-firewalls-api-openapi.yml
+- filename: microsoft-azure-firewall-firewallpolicies-api-openapi.yml
   format: yaml
-  label: Azure Firewall Firewalls API
-  slug: microsoft-azure-firewall-firewalls-api
+  label: Azure Firewall Firewall Policies API
+  slug: microsoft-azure-firewall-firewallpolicies-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-firewalls-api-openapi.yml
-- filename: microsoft-azure-firewall-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-firewallpolicies-api-openapi.yml
+- filename: microsoft-azure-firewall-firewallpolicykubeselectorgroups-api-openapi.yml
   format: yaml
-  label: Azure Firewall Operations API
-  slug: microsoft-azure-firewall-operations-api
+  label: Azure Firewall Firewall Policy Kube Selector Groups API
+  slug: microsoft-azure-firewall-firewallpolicykubeselectorgroups-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-firewallpolicykubeselectorgroups-api-openapi.yml
+- filename: microsoft-azure-firewall-firewallpolicyrulecollectiongroups-api-openapi.yml
+  format: yaml
+  label: Azure Firewall Firewall Policy Rule Collection Groups API
+  slug: microsoft-azure-firewall-firewallpolicyrulecollectiongroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-firewallpolicyrulecollectiongroups-api-openapi.yml
+- filename: microsoft-azure-firewall-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Firewall Subscriptions API
+  slug: microsoft-azure-firewall-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-subscriptions-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -21,7 +33,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Azure Firewall Scopes
+name: Azure Firewall Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure Firewall publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Firewall API on a user''s behalf.

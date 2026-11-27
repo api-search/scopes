@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: derived
-name: University Of Illinois Urbana Champaign Scopes
+name: University of Illinois Urbana-Champaign Scopes
 name_suffix: OAuth Scopes
 note: UIUC publishes NO enumerated scope list. The Core building block's OIDC discovery document returns only issuer and jwks_uri — there is no scopes_supported array to read — so nothing here is a scope string the institution has advertised. What IS published, in the Core OpenAPI that UIUC authors, is the scope GRAMMAR and the objects that carry scopes; that grammar and the worked examples in the spec are recorded below. Individual scope strings are per-deployment, minted when a service registers, and are NOT enumerable from outside. Do not read this file as a catalog of grantable scopes.
 overview: 'University of Illinois Urbana-Champaign uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

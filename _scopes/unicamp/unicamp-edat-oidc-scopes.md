@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Unicamp Edat Oidc Scopes
+name: University of Campinas Edat Oidc Scopes
 name_suffix: OAuth Scopes
 note: scopes_supported as advertised by Unicamp's EDAT Keycloak realm on 2026-09-01. Institution specific scopes (uecEmailAccount, department_number, minio-authorization) are Unicamp's own realm configuration, not Keycloak defaults. Scope semantics are not documented publicly; the descriptions below are read from the scope names and are marked as such.
 overview: 'University of Campinas publishes 13 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of Campinas API on a user''s behalf.

@@ -63,7 +63,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Us Bancorp Scopes
+name: US Bancorp Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'US Bancorp publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the US Bancorp API on a user''s behalf.

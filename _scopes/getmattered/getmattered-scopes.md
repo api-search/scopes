@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: getmattered-account-api-openapi.yml
-  format: yaml
-  label: GetMattered Account API
-  slug: getmattered-account-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/getmattered/openapi/getmattered-account-api-openapi.yml
 - filename: getmattered-achievements-api-openapi.yml
   format: yaml
   label: GetMattered Achievements API
@@ -289,7 +283,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Getmattered Scopes
+name: GetMattered Scopes
 name_suffix: OAuth Scopes
 note: Only OpenID Connect identity scopes are advertised; no product-level permission scopes are published.
 overview: 'GetMattered publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the GetMattered API on a user''s behalf.

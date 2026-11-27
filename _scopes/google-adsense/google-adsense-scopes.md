@@ -1,35 +1,17 @@
 ---
 api_specs:
-- filename: google-adsense-accounts-api-openapi.yml
+- filename: google-adsense-adsense-accounts-api-openapi.yml
   format: yaml
-  label: Google AdSense Management Accounts API
-  slug: google-adsense-accounts-api
+  label: Google AdSense Management Adsense Adsense Accounts API
+  slug: google-adsense-adsense-accounts-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-accounts-api-openapi.yml
-- filename: google-adsense-adclients-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-adsense-accounts-api-openapi.yml
+- filename: google-adsense-adsenseplatform-platforms-api-openapi.yml
   format: yaml
-  label: Google AdSense Management Adclients API
-  slug: google-adsense-adclients-api
+  label: Google AdSense Management Adsense Adsenseplatform Platforms API
+  slug: google-adsense-adsenseplatform-platforms-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-adclients-api-openapi.yml
-- filename: google-adsense-payments-api-openapi.yml
-  format: yaml
-  label: Google AdSense Management Payments API
-  slug: google-adsense-payments-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-payments-api-openapi.yml
-- filename: google-adsense-reports-generate-api-openapi.yml
-  format: yaml
-  label: Google AdSense Management Reports:generate API
-  slug: google-adsense-reports-generate-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-reports-generate-api-openapi.yml
-- filename: google-adsense-ad-units-api-openapi.yml
-  format: yaml
-  label: Google AdSense Management Ad Units API
-  slug: google-adsense-ad-units-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-adsenseplatform-platforms-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -39,7 +21,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Google Adsense Scopes
+name: Google AdSense Management Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Google AdSense Management publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google AdSense Management API on a user''s behalf.
@@ -57,7 +39,43 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
-  source: openapi/openapi.yml
+  source: openapi/_superseded/google-adsense-accounts-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/_superseded/google-adsense-ad-units-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/_superseded/google-adsense-adclients-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-adsense-adsense-accounts-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/google-adsense-adsenseplatform-platforms-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/_superseded/google-adsense-payments-api-openapi.yml
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/_superseded/google-adsense-reports-generate-api-openapi.yml
 scope_count: 2
 scope_names:
 - https://www.googleapis.com/auth/adsense
@@ -75,7 +93,10 @@ slug: google-adsense-scopes
 source_filename: google-adsense-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/adsense\n  description: View and manage AdSense data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n- scope: https://www.googleapis.com/auth/adsense.readonly\n  description: View AdSense data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/_superseded/google-adsense-accounts-api-openapi.yml, openapi/_superseded/google-adsense-ad-units-api-openapi.yml,\n  openapi/_superseded/google-adsense-adclients-api-openapi.yml, openapi/google-adsense-adsense-accounts-api-openapi.yml,\n  openapi/google-adsense-adsenseplatform-platforms-api-openapi.yml, openapi/_superseded/google-adsense-payments-api-openapi.yml,\n  openapi/_superseded/google-adsense-reports-generate-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/_superseded/google-adsense-accounts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/_superseded/google-adsense-ad-units-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n\
+  - name: oauth2\n  source: openapi/_superseded/google-adsense-adclients-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-adsense-adsense-accounts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/google-adsense-adsenseplatform-platforms-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/_superseded/google-adsense-payments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n- name: oauth2\n  source: openapi/_superseded/google-adsense-reports-generate-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/adsense\n  description: View and manage AdSense data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/_superseded/google-adsense-accounts-api-openapi.yml\n  - openapi/_superseded/google-adsense-ad-units-api-openapi.yml\n  - openapi/_superseded/google-adsense-adclients-api-openapi.yml\n  - openapi/google-adsense-adsense-accounts-api-openapi.yml\n  - openapi/google-adsense-adsenseplatform-platforms-api-openapi.yml\n  - openapi/_superseded/google-adsense-payments-api-openapi.yml\n  - openapi/_superseded/google-adsense-reports-generate-api-openapi.yml\n- scope: https://www.googleapis.com/auth/adsense.readonly\n  description: View AdSense data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/_superseded/google-adsense-accounts-api-openapi.yml\n  - openapi/_superseded/google-adsense-ad-units-api-openapi.yml\n\
+  \  - openapi/_superseded/google-adsense-adclients-api-openapi.yml\n  - openapi/google-adsense-adsense-accounts-api-openapi.yml\n  - openapi/google-adsense-adsenseplatform-platforms-api-openapi.yml\n  - openapi/_superseded/google-adsense-payments-api-openapi.yml\n  - openapi/_superseded/google-adsense-reports-generate-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-adsense/scopes/google-adsense-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:

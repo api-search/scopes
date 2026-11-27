@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Dejbox Scopes
+name: Dejbox (Refectory) Scopes
 name_suffix: OAuth Scopes
 note: Scopes advertised by the Refectory (Dejbox) OpenID Connect discovery document (scopes_supported). Only the standard OIDC/offline scopes are publicly advertised; no product/resource scope reference page is published.
 overview: 'Dejbox (Refectory) publishes 3 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Dejbox (Refectory) API on a user''s behalf.

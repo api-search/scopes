@@ -243,7 +243,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Aidelly Ai Scopes
+name: Aidelly AI Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Aidelly AI publishes 57 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Aidelly AI API on a user''s behalf.

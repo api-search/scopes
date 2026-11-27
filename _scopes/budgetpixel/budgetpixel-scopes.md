@@ -195,7 +195,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Budgetpixel Scopes
+name: BudgetPixel Scopes
 name_suffix: OAuth Scopes
 note: derive-oauth-scopes.py found no oauth2 securityScheme in the OpenAPI -- correctly, because the REST API is bearer-API-key only and has no scope surface at all. The OAuth surface belongs entirely to the MCP server, and these scopes were read from its live RFC 8414 metadata document rather than from a spec.
 overview: 'BudgetPixel publishes 2 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BudgetPixel API on a user''s behalf.

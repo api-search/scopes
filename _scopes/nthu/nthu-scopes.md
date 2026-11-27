@@ -21,7 +21,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Nthu Scopes
+name: National Tsing Hua University Scopes
 name_suffix: OAuth Scopes
 note: Scope strings are National Tsing Hua University's, transcribed verbatim from the scope parameter documented in the university's OAuth interface manual; the descriptions are ours. Scopes are requested space-separated on /authorize.php and echoed back space-separated in the token response. Which scopes a client may actually request is decided per application by the data-owning unit.
 overview: 'National Tsing Hua University publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the National Tsing Hua University API on a user''s behalf.

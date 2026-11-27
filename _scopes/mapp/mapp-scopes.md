@@ -230,7 +230,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mapp Scopes
+name: Mapp Marketing Cloud Scopes
 name_suffix: OAuth Scopes
 note: Mapp has almost no scope surface. The Analytics API OpenAPI declares a single scope, "mapp.intelligence-api", on its clientCredentials scheme — and the current documentation explicitly tells integrators NOT to send a scope parameter at all, because earlier versions required one and the current token endpoint rejects it. Treat the declared scope as vestigial. The only other scope published anywhere in the Mapp estate is "mcp", advertised by https://mapp.com/.well-known/oauth-authorization-server for the WordPress MCP endpoint. Engage (HTTP Basic) and Product Catalog (bearer JWT) have no scope model; authorisation there is by system-user role and per-account feature enablement.
 overview: 'Mapp Marketing Cloud publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Mapp Marketing Cloud API on a user''s behalf.

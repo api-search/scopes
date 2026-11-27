@@ -27,7 +27,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Seamless Ai Scopes
+name: Seamless.AI Scopes
 name_suffix: OAuth Scopes
 note: 'The derived pass found the oauth2 scheme but ZERO scopes, because the published OpenAPI declares `scopes: {}` on its authorizationCode flow — the scope vocabulary is absent from the machine- readable contract. Both real scopes below were recovered from the documentation and from the MCP authorization-server metadata, so this file is upgraded to `searched`. Seamless.AI operates two separate OAuth surfaces with two separate authorization servers and two disjoint scope vocabularies; they are not interchangeable.'
 overview: 'Seamless.AI publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Seamless.AI API on a user''s behalf.

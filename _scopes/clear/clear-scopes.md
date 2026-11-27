@@ -15,7 +15,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Clear Scopes
+name: CLEAR Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'CLEAR publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the CLEAR API on a user''s behalf.

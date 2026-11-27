@@ -153,7 +153,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Streamelements Scopes
+name: StreamElements Scopes
 name_suffix: OAuth Scopes
 note: Baseline scopes derived from the OpenAPI OAuth2 flow, upgraded from the SE developer docs (OAuth2 + WebSocket topic references). Some scopes (overlays:broadcast, stream-live:read, tips:moderation, session:read) are documented on the Astro WebSocket topic pages but not enumerated in the OpenAPI flow.
 overview: 'StreamElements publishes 20 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the StreamElements API on a user''s behalf.

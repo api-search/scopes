@@ -87,7 +87,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Aweber Scopes
+name: AWeber Scopes
 name_suffix: OAuth Scopes
 note: 'Nine scopes, all declared in the provider''s own OpenAPI securitySchemes and all documented with the exact endpoints each one unlocks — an unusually complete scope reference. Descriptions below are AWeber''s, with the inline HTML stripped and the endpoint lists split out as `required_for` so they are readable as data. Scopes are space-separated and URL-encoded on the authorize URL. Note the deprecation: subscriber.read-extended has been equivalent to subscriber.read since API 1.1.0 (2021-06-16) and should not be requested in new code.'
 overview: 'AWeber publishes 9 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the AWeber API on a user''s behalf.

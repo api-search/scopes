@@ -12,7 +12,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Nib Health Funds Scopes
+name: nib Scopes
 name_suffix: OAuth Scopes
 note: 'Not derived from an OpenAPI — nib publishes none. These are the scopes_supported values read verbatim from the anonymously-readable OpenID Connect discovery documents of nib''s Auth0 member identity tenants. Both the Australian (id.nib.com.au) and New Zealand (id.nib.co.nz) tenants advertise the identical set. Every scope below is a standard OIDC / Auth0 identity scope. nib publishes NO product scopes — nothing for policies, claims, quotes, members, providers, or partner data. That is the honest shape of this provider''s OAuth surface: a consumer sign-in tenant, not a partner API authorization server.'
 overview: 'nib publishes 14 OAuth 2.0 scopes via the authorizationCode, clientCredentials, implicit, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the nib API on a user''s behalf.

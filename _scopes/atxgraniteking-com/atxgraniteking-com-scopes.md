@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Atxgraniteking Com Scopes
+name: ATX Granite King Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ATX Granite King uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

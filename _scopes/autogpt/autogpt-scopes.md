@@ -255,7 +255,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Autogpt Scopes
+name: AutoGPT Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'AutoGPT publishes 10 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the AutoGPT API on a user''s behalf.

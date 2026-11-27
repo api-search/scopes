@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Andersons Scopes
+name: The Andersons Scopes
 name_suffix: OAuth Scopes
 note: Scopes read verbatim from `scopes_supported` in the OIDC discovery document The Andersons serves at portalauth.andersonsinc.com. These are the Microsoft ADFS built-in scopes for the company's portal federation service, not scopes of a business API — The Andersons publishes no API and no scope reference page. Descriptions below are the ADFS-defined meanings, marked as such; the provider does not document them itself.
 overview: 'The Andersons publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the The Andersons API on a user''s behalf.

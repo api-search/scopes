@@ -355,7 +355,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: The Things Network Scopes
+name: The Things Network / The Things Stack Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'The Things Network / The Things Stack publishes 70 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the The Things Network / The Things Stack API on a user''s behalf.

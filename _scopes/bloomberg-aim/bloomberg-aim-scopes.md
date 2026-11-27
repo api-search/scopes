@@ -110,7 +110,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Bloomberg Aim Scopes
+name: Bloomberg AIM Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Bloomberg AIM publishes 3 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bloomberg AIM API on a user''s behalf.

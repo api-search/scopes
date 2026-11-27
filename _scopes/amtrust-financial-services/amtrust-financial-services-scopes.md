@@ -205,7 +205,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Amtrust Financial Services Scopes
+name: AmTrust Financial Services Scopes
 name_suffix: OAuth Scopes
 note: 'These scopes come from AmTrust''s own OpenID Connect discovery document, not from any OpenAPI securityScheme — none of the nine harvested OpenAPI documents declares an oauth2 or openIdConnect scheme, so `derive-oauth-scopes.py` correctly found nothing to derive. The scope set is coarse: it authenticates the caller and carries legacy portal identity, and does NOT partition the API surface. There is no read/write split, no per-product scope (workers'' comp vs BOP vs claims vs reinsurance), and no per-operation scope. Authorization to a given API is enforced by the Azure API Management subscription (which product a subscriber_id is entitled to), not by the token.'
 overview: 'AmTrust Financial Services publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AmTrust Financial Services API on a user''s behalf.

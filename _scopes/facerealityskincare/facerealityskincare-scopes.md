@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Facerealityskincare Scopes
+name: Face Reality Skincare Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Face Reality Skincare publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Face Reality Skincare API on a user''s behalf.

@@ -114,7 +114,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Bbandt Corp Scopes
+name: BB&T Corp (Truist) Scopes
 name_suffix: OAuth Scopes
 note: Two scope vocabularies coexist. The retail (FDX) APIs use resource scopes — ACCOUNT_BASIC (account list), ACCOUNT_DETAILED (account detail), TRANSACTIONS, CUSTOMER_CONTACT, PAYMENT_SUPPORT — plus the standard OIDC scopes profile, email, phone and address. The commercial APIs use verb:resource scopes — read:accounts, read:payments, write:payments. Scope descriptions are taken verbatim from the specs; note that Truist swapped the descriptions of the email/phone/address OIDC scopes in retail-auth-oauth.yaml, which is a defect in their contract, not in this reading.
 overview: 'BB&T Corp (Truist) publishes 12 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BB&T Corp (Truist) API on a user''s behalf.

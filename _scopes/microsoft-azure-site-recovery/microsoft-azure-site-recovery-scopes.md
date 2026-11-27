@@ -186,12 +186,6 @@ api_specs:
   slug: microsoft-azure-site-recovery-replication-policies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replication-policies-api-openapi.yml
-- filename: microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
-  format: yaml
-  label: Azure Site Recovery Recovery Plans API
-  slug: microsoft-azure-site-recovery-recoveryplans-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -201,7 +195,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Microsoft Azure Site Recovery Scopes
+name: Azure Site Recovery Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Azure Site Recovery publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Site Recovery API on a user''s behalf.
@@ -228,7 +222,7 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
+  source: openapi/_superseded/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
 scope_count: 1
 scope_names:
 - user_impersonation
@@ -241,8 +235,8 @@ slug: microsoft-azure-site-recovery-scopes
 source_filename: microsoft-azure-site-recovery-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-site-recovery-openapi.yml, openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml,\n  openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-site-recovery-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth 2.0 bearer token\n- name: azure_auth\n  source: openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
-  \  description: Azure Active Directory OAuth 2.0 bearer token\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-site-recovery-openapi.yml\n  - openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml\n  - openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-site-recovery-openapi.yml, openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-site-recovery-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth 2.0 bearer token\n- name: azure_auth\n  source: openapi/_superseded/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
+  \  description: Azure Active Directory OAuth 2.0 bearer token\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-site-recovery-openapi.yml\n  - openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-site-recovery/scopes/microsoft-azure-site-recovery-scopes.yml
 summary_line: 1 scope · implicit
 tags:

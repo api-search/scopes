@@ -33,7 +33,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: University Of Warwick Oauth Scopes
+name: University of Warwick Oauth Scopes
 name_suffix: OAuth Scopes
 note: These scope strings are read verbatim from Warwick's own published OAuth scopes table. Warwick states the list is non-exhaustive and that not all APIs for each service are available through OAuth. The scope values are Warwick's; the descriptions are ours. The `scope` parameter is Warwick-specific and is NOT defined in the OAuth 1.0a standard. It cannot be sent in the Authorization header — it must go in the query string or the POST body. Multiple scopes are joined with a `+` and passed as a single parameter. There is no machine-readable discovery document for these scopes. They exist only as an HTML table on the documentation page, which is why this artifact is `searched` rather than `probed`.
 overview: 'University of Warwick publishes 9 OAuth 2.0 scopes via the threeLegged flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of Warwick API on a user''s behalf.

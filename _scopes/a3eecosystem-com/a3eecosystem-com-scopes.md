@@ -49,7 +49,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: A3Eecosystem Com Scopes
+name: A3E Ecosystem Inc. Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'A3E Ecosystem Inc. uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

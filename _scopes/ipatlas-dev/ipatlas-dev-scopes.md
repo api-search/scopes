@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Ipatlas Dev Scopes
+name: ipatlas-dev Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ipatlas-dev publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ipatlas-dev API on a user''s behalf.

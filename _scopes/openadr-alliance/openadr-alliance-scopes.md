@@ -62,7 +62,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Openadr Alliance Scopes
+name: OpenADR Alliance Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'OpenADR Alliance publishes 9 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the OpenADR Alliance API on a user''s behalf.

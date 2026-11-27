@@ -393,6 +393,8 @@ tags:
 - Diagramming
 - Software-as-a-Service
 - Collaboration
+- Online Whiteboard
+- Developer Platform
 token_bound: false
 token_urls:
 - https://api.miro.com/v1/oauth/token

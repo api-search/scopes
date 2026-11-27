@@ -111,7 +111,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cdr Energy Scopes
+name: Consumer Data Right (Energy) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Consumer Data Right (Energy) publishes 15 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Consumer Data Right (Energy) API on a user''s behalf.

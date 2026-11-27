@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Fusewp Scopes
+name: FuseWP Scopes
 name_suffix: OAuth Scopes
 note: 'READ THIS BEFORE USING THE ROWS BELOW. FuseWP does not issue OAuth scopes of its own — it has no OAuth-protected product API for third parties to call. The one exception is the single `mcp` scope its WordPress MCP server advertises, recorded separately at the bottom. Everything in delegated_scopes[] is the reverse direction: the scope set FuseWP REQUESTS FROM each partner platform when a site administrator connects an account. Each row was read verbatim from the Location header of a live 302 issued by https://auth.fusewp.com/{integration_id} on 2026-08-12 — this is the access FuseWP actually asks for over your CRM, observed rather than documented. The provider publishes no scopes reference page; nothing here comes from prose. Partner client_id values are omitted deliberately: they are public but secret-shaped, and they are not the finding.'
 overview: 'FuseWP uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

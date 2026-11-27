@@ -62,7 +62,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: none
-name: Api Dash Scopes
+name: API Dash Scopes
 name_suffix: OAuth Scopes
 note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'API Dash uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

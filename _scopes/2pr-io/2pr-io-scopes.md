@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: 2Pr Io Scopes
+name: 2pr Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: '2pr publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the 2pr API on a user''s behalf.

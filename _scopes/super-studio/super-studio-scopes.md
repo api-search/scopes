@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Super Studio Scopes
+name: SUPER STUDIO Scopes
 name_suffix: OAuth Scopes
 note: 'Read directly from the ecforce AI MCP authorization server''s RFC 8414 metadata, which is served anonymously. The server advertises exactly one scope. No scopes/permissions reference page is published — the ecforce v2 REST API uses a member-permission model configured per API connection user in the admin screens rather than OAuth scopes, and that configuration is behind the tenant login. derive-oauth-scopes.py was not applicable: there is no OpenAPI in this repo to derive from.'
 overview: 'SUPER STUDIO publishes 1 OAuth 2.0 scope via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SUPER STUDIO API on a user''s behalf.

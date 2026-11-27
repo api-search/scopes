@@ -7,7 +7,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Evolve Vacation Rental Network Scopes
+name: Evolve Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Evolve publishes 36 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Evolve API on a user''s behalf.

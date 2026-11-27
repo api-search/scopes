@@ -153,7 +153,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Tessa Tech Scopes
+name: TESSA Marketing & Technology Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares no oauth2 scheme, so 0-working/derive-oauth-scopes.py produced nothing; this file is built from the RFC 8414 / RFC 9728 documents TESSA publishes for its WordPress MCP server. Exactly one scope is advertised and no scope reference page exists, so descriptions are as thin as the source. The anonymous MCP server on aiagent.tessa.tech has no scopes at all.
 overview: 'TESSA Marketing & Technology publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the TESSA Marketing & Technology API on a user''s behalf.

@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Wuhan Scopes
+name: Wuhan University Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Wuhan University publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Wuhan University API on a user''s behalf.

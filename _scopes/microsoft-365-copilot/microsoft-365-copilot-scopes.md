@@ -24,6 +24,42 @@ api_specs:
   slug: microsoft-365-copilot-user-content-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-user-content-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-aiinteractionhistory-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.ai Interaction History API
+  slug: microsoft-365-copilot-copilot-aiinteractionhistory-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-aiinteractionhistory-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-aiuser-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.ai User API
+  slug: microsoft-365-copilot-copilot-aiuser-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-aiuser-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-copilotadmin-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.copilot Admin API
+  slug: microsoft-365-copilot-copilot-copilotadmin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-copilotadmin-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-copilotreportroot-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.copilot Report Root API
+  slug: microsoft-365-copilot-copilot-copilotreportroot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-copilotreportroot-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-copilotroot-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.copilot Root.Actions API
+  slug: microsoft-365-copilot-copilot-copilotroot-actions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-copilotroot-actions-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-copilotroot-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.copilot Root API
+  slug: microsoft-365-copilot-copilot-copilotroot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-copilotroot-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -55,7 +91,34 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: oauth2
-  source: openapi/microsoft-365-copilot-openapi.yml
+  source: openapi/microsoft-365-copilot-connectors-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-365-copilot-external-items-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-365-copilot-search-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-365-copilot-user-content-api-openapi.yml
 scope_count: 7
 scope_names:
 - Calendars.Read
@@ -98,8 +161,11 @@ slug: microsoft-365-copilot-scopes
 source_filename: microsoft-365-copilot-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-365-copilot-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-365-copilot-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\nscopes:\n- scope: Calendars.Read\n  description: Read user calendars\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-openapi.yml\n- scope: ExternalConnection.ReadWrite.OwnedBy\n  description: Manage owned Copilot connector connections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-openapi.yml\n- scope: ExternalItem.ReadWrite.OwnedBy\n  description: Manage owned external items\n  flows:\n  - authorizationCode\n\
-  \  sources:\n  - openapi/microsoft-365-copilot-openapi.yml\n- scope: Files.Read.All\n  description: Read all files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-openapi.yml\n- scope: Mail.Read\n  description: Read user mail\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-openapi.yml\n- scope: User.Read\n  description: Sign in and read user profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-openapi.yml\n- scope: https://graph.microsoft.com/.default\n  description: Use app-registered Graph permissions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microsoft-365-copilot-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-365-copilot-connectors-api-openapi.yml, openapi/microsoft-365-copilot-external-items-api-openapi.yml,\n  openapi/microsoft-365-copilot-search-api-openapi.yml, openapi/microsoft-365-copilot-user-content-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-365-copilot-connectors-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-365-copilot-external-items-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n\
+  \  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-365-copilot-search-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\n- name: oauth2\n  source: openapi/microsoft-365-copilot-user-content-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth\
+  \ 2.0\nscopes:\n- scope: Calendars.Read\n  description: Read user calendars\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-connectors-api-openapi.yml\n  - openapi/microsoft-365-copilot-external-items-api-openapi.yml\n  - openapi/microsoft-365-copilot-search-api-openapi.yml\n  - openapi/microsoft-365-copilot-user-content-api-openapi.yml\n- scope: ExternalConnection.ReadWrite.OwnedBy\n  description: Manage owned Copilot connector connections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-connectors-api-openapi.yml\n  - openapi/microsoft-365-copilot-external-items-api-openapi.yml\n  - openapi/microsoft-365-copilot-search-api-openapi.yml\n  - openapi/microsoft-365-copilot-user-content-api-openapi.yml\n- scope: ExternalItem.ReadWrite.OwnedBy\n  description: Manage owned external items\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-connectors-api-openapi.yml\n  - openapi/microsoft-365-copilot-external-items-api-openapi.yml\n\
+  \  - openapi/microsoft-365-copilot-search-api-openapi.yml\n  - openapi/microsoft-365-copilot-user-content-api-openapi.yml\n- scope: Files.Read.All\n  description: Read all files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-connectors-api-openapi.yml\n  - openapi/microsoft-365-copilot-external-items-api-openapi.yml\n  - openapi/microsoft-365-copilot-search-api-openapi.yml\n  - openapi/microsoft-365-copilot-user-content-api-openapi.yml\n- scope: Mail.Read\n  description: Read user mail\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-connectors-api-openapi.yml\n  - openapi/microsoft-365-copilot-external-items-api-openapi.yml\n  - openapi/microsoft-365-copilot-search-api-openapi.yml\n  - openapi/microsoft-365-copilot-user-content-api-openapi.yml\n- scope: User.Read\n  description: Sign in and read user profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-copilot-connectors-api-openapi.yml\n  - openapi/microsoft-365-copilot-external-items-api-openapi.yml\n\
+  \  - openapi/microsoft-365-copilot-search-api-openapi.yml\n  - openapi/microsoft-365-copilot-user-content-api-openapi.yml\n- scope: https://graph.microsoft.com/.default\n  description: Use app-registered Graph permissions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microsoft-365-copilot-connectors-api-openapi.yml\n  - openapi/microsoft-365-copilot-external-items-api-openapi.yml\n  - openapi/microsoft-365-copilot-search-api-openapi.yml\n  - openapi/microsoft-365-copilot-user-content-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-365-copilot/scopes/microsoft-365-copilot-scopes.yml
 summary_line: 7 scopes · authorizationCode/clientCredentials
 tags:

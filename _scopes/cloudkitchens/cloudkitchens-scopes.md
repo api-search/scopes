@@ -172,7 +172,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Cloudkitchens Scopes
+name: CloudKitchens Scopes
 name_suffix: OAuth Scopes
 note: The scope reference is published inside the Authentication section of the CloudKitchens API reference and mirrored into the OpenAPI oauth2 flows, which is what these entries were read from. Scopes must be enabled for an application by CloudKitchens' internal team before they can be requested; once enabled they are toggled on the Application Settings page in the Developer Portal. Each endpoint declares the single scope it requires.
 overview: 'CloudKitchens publishes 31 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the CloudKitchens API on a user''s behalf.

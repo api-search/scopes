@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: none
-name: Bureau National D Etudes Techniques Et De Developpement Bnetd Scopes
+name: Bureau National d'Etudes Techniques et de Developpement (BNETD) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Bureau National d''Etudes Techniques et de Developpement (BNETD) uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

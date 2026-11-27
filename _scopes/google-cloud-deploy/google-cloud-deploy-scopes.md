@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: google-cloud-deploy-deliverypipelines-api-openapi.yml
+- filename: google-cloud-deploy-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Deploy DeliveryPipelines API
-  slug: google-cloud-deploy-deliverypipelines-api
+  label: Google Cloud Deploy Cloud Deploy Projects API
+  slug: google-cloud-deploy-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-deliverypipelines-api-openapi.yml
-- filename: google-cloud-deploy-releases-api-openapi.yml
-  format: yaml
-  label: Google Cloud Deploy Releases API
-  slug: google-cloud-deploy-releases-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-releases-api-openapi.yml
-- filename: google-cloud-deploy-rollouts-api-openapi.yml
-  format: yaml
-  label: Google Cloud Deploy Rollouts API
-  slug: google-cloud-deploy-rollouts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-rollouts-api-openapi.yml
-- filename: google-cloud-deploy-targets-api-openapi.yml
-  format: yaml
-  label: Google Cloud Deploy Targets API
-  slug: google-cloud-deploy-targets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-targets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -51,12 +33,12 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
-  source: openapi/cloud-deploy-api-openapi.yml
+  source: openapi/google-cloud-deploy-projects-api-openapi.yml
 scope_count: 1
 scope_names:
 - https://www.googleapis.com/auth/cloud-platform
 scopes:
-- description: Full access to Google Cloud
+- description: See, edit, configure, and delete your Google Cloud data and see the email address for your Google Account.
   flows:
   - authorizationCode
   scope: https://www.googleapis.com/auth/cloud-platform
@@ -64,7 +46,7 @@ slug: google-cloud-deploy-scopes
 source_filename: google-cloud-deploy-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloud-deploy-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cloud-deploy-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-deploy-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-cloud-deploy-projects-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-cloud-deploy-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: See, edit, configure, and delete your Google Cloud data and see the email address\n    for your Google Account.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-deploy-projects-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-cloud-deploy/scopes/google-cloud-deploy-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:

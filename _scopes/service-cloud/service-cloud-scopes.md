@@ -28,7 +28,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Service Cloud Scopes
+name: Salesforce Service Cloud APIs Scopes
 name_suffix: OAuth Scopes
 note: 'The scope list is READ FROM THE PROVIDER''S OWN DISCOVERY DOCUMENTS, not from prose. Two documents disagree: login.salesforce.com/.well-known/openid-configuration advertises 37 scopes; the api.salesforce.com authorization-server document advertises only 4. Both are recorded.'
 overview: 'Salesforce Service Cloud APIs publishes 36 OAuth 2.0 scopes via the authorizationCode and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Salesforce Service Cloud APIs API on a user''s behalf.

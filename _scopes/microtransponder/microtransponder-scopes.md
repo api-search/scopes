@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Microtransponder Scopes
+name: MicroTransponder Scopes
 name_suffix: OAuth Scopes
 note: The full published scope surface. RFC 8414 metadata served by www.mobia.com declares exactly one scope. There is no scope reference page — the provider has no developer documentation — so this is the complete, verbatim set and nothing was inferred.
 overview: 'MicroTransponder publishes 1 OAuth 2.0 scope via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the MicroTransponder API on a user''s behalf.

@@ -19,7 +19,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Idrive Scopes
+name: IDrive Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'IDrive publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the IDrive API on a user''s behalf.

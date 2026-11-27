@@ -7,7 +7,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Newvoicemedia Scopes
+name: NewVoiceMedia Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'NewVoiceMedia publishes 10 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the NewVoiceMedia API on a user''s behalf.

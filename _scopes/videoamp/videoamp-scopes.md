@@ -94,7 +94,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Videoamp Scopes
+name: VideoAmp Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'VideoAmp publishes 4 OAuth 2.0 scopes via the authorizationCode and deviceAuthorization flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the VideoAmp API on a user''s behalf.

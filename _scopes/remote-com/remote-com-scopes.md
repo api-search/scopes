@@ -251,7 +251,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Remote Com Scopes
+name: Remote Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Remote publishes 74 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and urn:ietf:params:oauth:grant-type:jwt-bearer flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Remote API on a user''s behalf.

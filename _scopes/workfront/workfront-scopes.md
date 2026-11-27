@@ -45,7 +45,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Workfront Scopes
+name: Adobe Workfront Scopes
 name_suffix: OAuth Scopes
 note: Neither published Workfront Planning OpenAPI declares an oauth2 securityScheme, so derive-oauth-scopes.py found nothing. The scope list below is read verbatim from the two live OAuth discovery documents the Workfront MCP host serves (RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata), which advertise an identical scopes_supported array. These are Adobe IMS scopes, not Workfront-object scopes — Workfront itself does not publish a per-resource scope reference; object-level authorization is enforced by Workfront access levels and sharing (accessRules), not by OAuth scope.
 overview: 'Adobe Workfront publishes 18 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Adobe Workfront API on a user''s behalf.

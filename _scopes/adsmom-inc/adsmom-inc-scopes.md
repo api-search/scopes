@@ -92,7 +92,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Adsmom Inc Scopes
+name: Adsmom Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Adsmom publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Adsmom API on a user''s behalf.

@@ -102,6 +102,30 @@ api_specs:
   slug: infiniteaudience-ai-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-workflows-api-openapi.yml
+- filename: infiniteaudience-ai-a2a-api-openapi.yml
+  format: yaml
+  label: Infinite Audience A2A API
+  slug: infiniteaudience-ai-a2a-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-a2a-api-openapi.yml
+- filename: infiniteaudience-ai-account-api-openapi.yml
+  format: yaml
+  label: Infinite Audience Account API
+  slug: infiniteaudience-ai-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-account-api-openapi.yml
+- filename: infiniteaudience-ai-audiences-api-openapi.yml
+  format: yaml
+  label: Infinite Audience Audiences API
+  slug: infiniteaudience-ai-audiences-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-audiences-api-openapi.yml
+- filename: infiniteaudience-ai-auth-api-openapi.yml
+  format: yaml
+  label: Infinite Audience Auth API
+  slug: infiniteaudience-ai-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-auth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -109,7 +133,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Infiniteaudience Ai Scopes
+name: Infinite Audience Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Infinite Audience publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Infinite Audience API on a user''s behalf.

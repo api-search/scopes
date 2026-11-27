@@ -39,7 +39,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Qatar Scopes
+name: Qatar University Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Qatar University uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.

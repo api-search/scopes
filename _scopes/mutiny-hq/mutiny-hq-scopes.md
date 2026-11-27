@@ -8,7 +8,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Mutiny Hq Scopes
+name: Mutiny HQ Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Mutiny HQ publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Mutiny HQ API on a user''s behalf.

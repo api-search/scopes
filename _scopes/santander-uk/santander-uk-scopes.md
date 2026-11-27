@@ -214,7 +214,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Santander Uk Scopes
+name: Santander UK Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Santander UK publishes 3 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Santander UK API on a user''s behalf.

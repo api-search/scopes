@@ -836,7 +836,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Onetrust Scopes
+name: OneTrust Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'OneTrust publishes 51 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the OneTrust API on a user''s behalf.

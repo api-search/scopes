@@ -6,7 +6,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Innovusion Scopes
+name: Seyond Scopes
 name_suffix: OAuth Scopes
 note: derive-oauth-scopes.py found no OpenAPI oauth2 securityScheme for this provider (there is no OpenAPI at all). The scope list below is not derived — it is read verbatim from the RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata that seyond.com serves anonymously. Seyond publishes no scopes or permissions reference page; a docs URL is recorded as null rather than guessed.
 overview: 'Seyond publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Seyond API on a user''s behalf.

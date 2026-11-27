@@ -10,7 +10,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: probed
-name: Doubleverify Scopes
+name: DoubleVerify Scopes
 name_suffix: OAuth Scopes
 note: 'DoubleVerify publishes no scopes reference page — developer.doubleverify.com is behind a login. Every scope below is read verbatim from the `scopes_supported` array of the two discovery documents the provider serves anonymously. Descriptions marked `description_source: inferred` are our reading of the scope NAME and the realm it lives in, not text DoubleVerify published; they are labelled so they are never mistaken for a provider claim. No scope has been invented.'
 overview: 'DoubleVerify publishes 21 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and deviceCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the DoubleVerify API on a user''s behalf.

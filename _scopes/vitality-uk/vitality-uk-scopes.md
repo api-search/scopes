@@ -9,7 +9,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Vitality Uk Scopes
+name: Vitality Scopes
 name_suffix: OAuth Scopes
 note: Only the OpenID Connect standard scopes are advertised in Vitality's public discovery document. Any business scopes on the partner APIs behind the apis.vitality.co.uk gateway (WSO2 API Manager scopes are bound per-API in the publisher) are not published anonymously and cannot be enumerated without partner-issued credentials. The list below is exactly what the provider publishes — it is not a complete picture of the partner authorization surface.
 overview: 'Vitality publishes 5 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Vitality API on a user''s behalf.

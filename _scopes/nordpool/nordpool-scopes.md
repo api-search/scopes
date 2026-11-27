@@ -63,7 +63,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Nordpool Scopes
+name: Nord Pool Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Nord Pool publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Nord Pool API on a user''s behalf.

@@ -13,7 +13,7 @@ flows: []
 kind: oauth-scopes
 layout: scope
 method: searched
-name: Momo Scopes
+name: MoMo Scopes
 name_suffix: OAuth Scopes
 note: 'MoMo''s Mini App Open Platform is described in its own documentation as "based on the industry standard OAuth2.0 authorization mechanism", but it does NOT publish RFC 6749 scope strings. What it publishes instead is a consent-role vocabulary: a Mini App calls MiniApi.requestUserConsents with an array of permission roles, MoMo renders a bottom sheet, and the user grants or denies each role individually. The resulting authCode/accessToken carries whatever the user granted. These roles are the closest thing MoMo has to scopes and are recorded here verbatim from the Consents Request page. The dedicated "Permissions" page on the same site is published but EMPTY — its entire body reads "( to be updated )" — so there is no authoritative permission reference beyond this list.'
 overview: 'MoMo publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the MoMo API on a user''s behalf.

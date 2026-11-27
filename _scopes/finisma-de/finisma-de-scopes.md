@@ -45,7 +45,7 @@ flows:
 kind: oauth-scopes
 layout: scope
 method: derived
-name: Finisma De Scopes
+name: Paulibytes UG (haftungsbeschränkt) Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Paulibytes UG (haftungsbeschränkt) publishes 2 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Paulibytes UG (haftungsbeschränkt) API on a user''s behalf.
@@ -87,11 +87,10 @@ source_yaml_url: https://artifacts.apis.io/finisma-de/scopes/finisma-de-scopes.y
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company
-- FinTech
-- Invoice
+- Fintech
+- Invoices
 - PDF
 - ZUGFeRD
-- API
 token_bound: false
 token_urls:
 - https://finisma.de/api/oauth/token
